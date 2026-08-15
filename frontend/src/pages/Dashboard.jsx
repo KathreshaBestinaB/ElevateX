@@ -1,5 +1,5 @@
-﻿import { useEffect, useState } from "react"
-import { fetchHealth, fetchPopulationAnalytics, fetchSparkStatus, fetchEnrollmentTrend, fetchAuditLogs } from "../services/api.js"
+import { useEffect, useState } from "react"
+import { fetchHealth, fetchPopulationAnalytics, fetchSparkStatus, fetchEnrollmentTrend, fetchAuditLogs, fetchPipelineStatus } from "../services/api.js"
 import {
   AreaChart, Area, BarChart, Bar, XAxis, YAxis, Tooltip,
   ResponsiveContainer, CartesianGrid, Cell, PieChart, Pie, Legend
@@ -33,8 +33,7 @@ function Delta({ value, unit = "", positive = true }) {
 }
 
 /* ── System service indicator row ───────────────────────────── */
-function ServiceRow({ label, status, detail, latency }) {
-  const online = status === "online" || status === "running" || status === "active" || status === "Connected" || status === "Available"
+function ServiceRow({ label, online, detail, latency }) {
   return (
     <div style={{
       display: "flex", alignItems: "center", gap: 12,
@@ -103,6 +102,7 @@ export default function Dashboard({ onNavigate }) {
   const [health,          setHealth]          = useState(null)
   const [analytics,       setAnalytics]       = useState(null)
   const [spark,           setSpark]           = useState(null)
+  const [pipeline,        setPipeline]        = useState(null)
   const [enrollmentTrend, setEnrollmentTrend] = useState([])
   const [activityLogs,    setActivityLogs]    = useState([])
   const [loading,         setLoading]         = useState(true)
@@ -120,12 +120,14 @@ export default function Dashboard({ onNavigate }) {
       fetchSparkStatus(),
       fetchEnrollmentTrend(),
       fetchAuditLogs(),
-    ]).then(([h, a, s, e, l]) => {
+      fetchPipelineStatus(),
+    ]).then(([h, a, s, e, l, p]) => {
       if (h.status === "fulfilled") setHealth(h.value)
       if (a.status === "fulfilled") setAnalytics(a.value)
       if (s.status === "fulfilled") setSpark(s.value)
       if (e.status === "fulfilled" && e.value?.trend) setEnrollmentTrend(e.value.trend)
       if (l.status === "fulfilled") setActivityLogs(Array.isArray(l.value) ? l.value : [])
+      if (p.status === "fulfilled") setPipeline(p.value)
       setLoading(false)
     })
   }, [])
@@ -449,10 +451,30 @@ export default function Dashboard({ onNavigate }) {
           </div>
 
           <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem", marginBottom: "1rem" }}>
-            <ServiceRow label="FastAPI Gateway"     status={apiOk ? "online" : "offline"} detail={apiOk ? "Online" : "Offline"} latency="12ms" />
-            <ServiceRow label="Apache Kafka"        status={spark?.big_data_engine?.kafka?.status || "active"}   detail="Topics Defined"  latency="" />
-            <ServiceRow label="Apache Spark"        status={spark?.big_data_engine?.spark?.status || "running"}  detail="3.5.0 Batch"     latency="" />
-            <ServiceRow label="Airflow Orchestrator" status={spark?.big_data_engine?.airflow?.status || "active"} detail="DAGs Defined"    latency="" />
+            <ServiceRow
+              label="FastAPI Gateway"
+              online={apiOk}
+              detail={apiOk ? "Online" : "Offline"}
+              latency="~12ms"
+            />
+            <ServiceRow
+              label="Apache Kafka"
+              online={pipeline?.kafka_streaming?.broker_running === true}
+              detail={pipeline?.kafka_streaming?.broker_running ? "Connected" : "Not Running"}
+              latency=""
+            />
+            <ServiceRow
+              label="Apache Spark"
+              online={spark?.big_data_engine?.spark?.status === "Available"}
+              detail={spark?.big_data_engine?.spark?.status || "Checking…"}
+              latency=""
+            />
+            <ServiceRow
+              label="Airflow Orchestrator"
+              online={pipeline?.airflow_orchestration?.scheduler_running === true}
+              detail={pipeline?.airflow_orchestration?.scheduler_running ? "Running" : "Not Running"}
+              latency=""
+            />
           </div>
 
           {/* Data lake summary */}
