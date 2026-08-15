@@ -1,5 +1,6 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Sidebar from './components/Sidebar.jsx'
+import Header from './components/Header.jsx'
 import Dashboard from './pages/Dashboard.jsx'
 import PatientProfile from './pages/PatientProfile.jsx'
 import TrialMatching from './pages/TrialMatching.jsx'
@@ -31,21 +32,46 @@ const PAGES = {
 export default function App() {
   const [page, setPage] = useState('dashboard')
   const [patientId, setPatientId] = useState('P001024')
+  
+  // Theme state: dark (default) or light, with localStorage persistence
+  const [theme, setTheme] = useState(() => {
+    return localStorage.getItem('trialforge_theme') || 'dark'
+  })
 
-  const Page = PAGES[page] || Dashboard
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme)
+    localStorage.setItem('trialforge_theme', theme)
+  }, [theme])
+
+  function toggleTheme() {
+    setTheme(prev => (prev === 'dark' ? 'light' : 'dark'))
+  }
 
   function navigateTo(p, opts = {}) {
     if (opts.patientId) setPatientId(opts.patientId)
     setPage(p)
-    window.scrollTo({ top: 0, behavior: 'smooth' })
+    const content = document.querySelector('.main-content')
+    if (content) content.scrollTo({ top: 0, behavior: 'smooth' })
   }
+
+  const PageComponent = PAGES[page] || Dashboard
 
   return (
     <div className="app-shell">
       <Sidebar activePage={page} onNavigate={navigateTo} />
-      <main className="main-content">
-        <Page patientId={patientId} onNavigate={navigateTo} />
-      </main>
+      <div className="main-wrapper">
+        <Header 
+          activePage={page}
+          patientId={patientId}
+          onSelectPatient={setPatientId}
+          theme={theme}
+          onToggleTheme={toggleTheme}
+          onNavigate={navigateTo}
+        />
+        <main className="main-content">
+          <PageComponent patientId={patientId} onNavigate={navigateTo} />
+        </main>
+      </div>
     </div>
   )
 }
