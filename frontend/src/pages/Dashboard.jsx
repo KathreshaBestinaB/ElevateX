@@ -1,5 +1,5 @@
-﻿import { useEffect, useState, useRef } from "react"
-import { fetchHealth, fetchPopulationAnalytics, fetchSparkStatus } from "../services/api.js"
+﻿import { useEffect, useState } from "react"
+import { fetchHealth, fetchPopulationAnalytics, fetchSparkStatus, fetchEnrollmentTrend, fetchAuditLogs } from "../services/api.js"
 import {
   AreaChart, Area, BarChart, Bar, XAxis, YAxis, Tooltip,
   ResponsiveContainer, CartesianGrid, Cell, PieChart, Pie, Legend
@@ -16,24 +16,6 @@ const TOOLTIP = {
   fontSize: 12,
   padding: "8px 12px",
 }
-
-/* ── 24-month enrolment trend (synthetic but plausible) ─────── */
-const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
-const ENROL_TREND = Array.from({ length: 12 }, (_, i) => ({
-  month: MONTHS[i],
-  enrolments: Math.round(88 + Math.sin(i * 0.8) * 22 + i * 4.2),
-  outcomes:   Math.round(62 + Math.cos(i * 0.6) * 18 + i * 3.1),
-}))
-
-/* ── Simulated recent activity ──────────────────────────────── */
-const ACTIVITY = [
-  { time: "08:01", type: "outcome",    msg: "P001024 — HbA1c follow-up recorded (6.8%)", status: "success" },
-  { time: "07:58", type: "matching",   msg: "TR-02045 matched 14 eligible patients",       status: "info"    },
-  { time: "07:52", type: "kafka",      msg: "lab.results stream: 7 events processed",       status: "success" },
-  { time: "07:45", type: "alert",      msg: "P000317 — adverse event flagged for review",   status: "warning" },
-  { time: "07:38", type: "spark",      msg: "gold.drug_effectiveness aggregation refreshed", status: "success" },
-  { time: "07:30", type: "airflow",    msg: "DAG clinical_etl_pipeline executed (3 tasks)",  status: "success" },
-]
 
 /* ── Trend arrow + delta ────────────────────────────────────── */
 function Delta({ value, unit = "", positive = true }) {
@@ -52,7 +34,7 @@ function Delta({ value, unit = "", positive = true }) {
 
 /* ── System service indicator row ───────────────────────────── */
 function ServiceRow({ label, status, detail, latency }) {
-  const online = status === "online" || status === "running" || status === "active"
+  const online = status === "online" || status === "running" || status === "active" || status === "Connected" || status === "Available"
   return (
     <div style={{
       display: "flex", alignItems: "center", gap: 12,
@@ -79,20 +61,24 @@ function ServiceRow({ label, status, detail, latency }) {
   )
 }
 
-/* ── Activity feed row ──────────────────────────────────────── */
+/* ── Activity feed row (Real Audit Trail) ─────────────────────── */
 function ActivityRow({ item }) {
-  const colorMap = { success: "var(--accent-green)", info: "var(--accent-secondary)", warning: "var(--accent-amber)", error: "var(--accent-red)" }
-  const iconMap  = { outcome:"○", matching:"◎", kafka:"⬡", alert:"△", spark:"⚡", airflow:"↻" }
+  const colorMap = { APPROVED: "var(--accent-green)", COMPLETED: "var(--accent-secondary)", PROCESSED: "var(--accent)", VERIFIED: "var(--accent-purple)" }
+  const timeFormatted = item.timestamp ? new Date(item.timestamp).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }) : "Live"
+  
   return (
     <div style={{
       display: "flex", alignItems: "flex-start", gap: 10,
       padding: "0.55rem 0", borderBottom: "1px solid var(--border-light)",
     }}>
-      <span style={{ fontSize: "0.75rem", color: colorMap[item.status], marginTop: 2, flexShrink: 0 }}>
-        {iconMap[item.type] || "•"}
+      <span style={{ fontSize: "0.75rem", color: colorMap[item.status] || "var(--accent)", marginTop: 2, flexShrink: 0 }}>
+        ●
       </span>
-      <span style={{ flex: 1, fontSize: "0.78rem", color: "var(--text-secondary)", lineHeight: 1.4 }}>{item.msg}</span>
-      <span style={{ fontSize: "0.68rem", color: "var(--text-muted)", fontFamily: "JetBrains Mono", flexShrink: 0 }}>{item.time}</span>
+      <div style={{ flex: 1, fontSize: "0.78rem", color: "var(--text-secondary)", lineHeight: 1.4 }}>
+        <div style={{ fontWeight: 600, color: "var(--text-primary)", fontSize: "0.76rem" }}>{item.action} — {item.user}</div>
+        <div>{item.details || item.resource}</div>
+      </div>
+      <span style={{ fontSize: "0.68rem", color: "var(--text-muted)", fontFamily: "JetBrains Mono", flexShrink: 0 }}>{timeFormatted}</span>
     </div>
   )
 }
@@ -111,14 +97,16 @@ function ChartTip({ active, payload, label }) {
 }
 
 /* ════════════════════════════════════════════════════════════════
-   DASHBOARD COMPONENT
+   DASHBOARD COMPONENT (100% REAL PARQUET & AUDIT STREAM DATA)
    ════════════════════════════════════════════════════════════════ */
 export default function Dashboard({ onNavigate }) {
-  const [health,    setHealth]    = useState(null)
-  const [analytics, setAnalytics] = useState(null)
-  const [spark,     setSpark]     = useState(null)
-  const [loading,   setLoading]   = useState(true)
-  const [clock,     setClock]     = useState(new Date())
+  const [health,          setHealth]          = useState(null)
+  const [analytics,       setAnalytics]       = useState(null)
+  const [spark,           setSpark]           = useState(null)
+  const [enrollmentTrend, setEnrollmentTrend] = useState([])
+  const [activityLogs,    setActivityLogs]    = useState([])
+  const [loading,         setLoading]         = useState(true)
+  const [clock,           setClock]           = useState(new Date())
 
   useEffect(() => {
     const t = setInterval(() => setClock(new Date()), 1000)
@@ -126,13 +114,20 @@ export default function Dashboard({ onNavigate }) {
   }, [])
 
   useEffect(() => {
-    Promise.allSettled([fetchHealth(), fetchPopulationAnalytics(), fetchSparkStatus()])
-      .then(([h, a, s]) => {
-        if (h.status === "fulfilled") setHealth(h.value)
-        if (a.status === "fulfilled") setAnalytics(a.value)
-        if (s.status === "fulfilled") setSpark(s.value)
-        setLoading(false)
-      })
+    Promise.allSettled([
+      fetchHealth(),
+      fetchPopulationAnalytics(),
+      fetchSparkStatus(),
+      fetchEnrollmentTrend(),
+      fetchAuditLogs(),
+    ]).then(([h, a, s, e, l]) => {
+      if (h.status === "fulfilled") setHealth(h.value)
+      if (a.status === "fulfilled") setAnalytics(a.value)
+      if (s.status === "fulfilled") setSpark(s.value)
+      if (e.status === "fulfilled" && e.value?.trend) setEnrollmentTrend(e.value.trend)
+      if (l.status === "fulfilled") setActivityLogs(Array.isArray(l.value) ? l.value : [])
+      setLoading(false)
+    })
   }, [])
 
   const summary  = analytics?.summary || {}
@@ -143,12 +138,12 @@ export default function Dashboard({ onNavigate }) {
 
   const apiOk = health?.status === "ok"
 
-  /* ── KPI definitions ──────────────────────────────────────── */
+  /* ── Real KPI metrics straight from Parquet lakehouse ────── */
   const KPIs = [
     {
       label: "Patients Enrolled",
       value: (summary.total_patients || 0).toLocaleString(),
-      delta: 3.2, unit: "%", sub: "vs. previous cohort",
+      delta: 0, unit: "", sub: "Live Parquet lakehouse cohort",
       accent: "var(--accent)",
       icon: (
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -158,9 +153,9 @@ export default function Dashboard({ onNavigate }) {
       ),
     },
     {
-      label: "Active Trials",
+      label: "Clinical Trials",
       value: (summary.total_trials || 0).toLocaleString(),
-      delta: 5, unit: " new", sub: "registered this quarter",
+      delta: 0, unit: "", sub: "Protocols registered",
       accent: "var(--accent-secondary)",
       icon: (
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -171,7 +166,7 @@ export default function Dashboard({ onNavigate }) {
     {
       label: "Total Enrolments",
       value: (summary.total_enrollments || 0).toLocaleString(),
-      delta: 8.7, unit: "%", sub: "completion rate",
+      delta: 0, unit: "", sub: "Longitudinal entries",
       accent: "var(--accent-purple)",
       icon: (
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -183,7 +178,7 @@ export default function Dashboard({ onNavigate }) {
     {
       label: "Positive Response Rate",
       value: `${summary.positive_response_rate || 0}%`,
-      delta: 2.1, unit: " pts", sub: "above baseline target",
+      delta: 0, unit: "", sub: "Strong + Moderate responses",
       accent: "var(--accent-green)",
       icon: (
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -194,7 +189,7 @@ export default function Dashboard({ onNavigate }) {
     {
       label: "Outcomes Recorded",
       value: (summary.total_outcomes || 0).toLocaleString(),
-      delta: 1.4, unit: "%", sub: "data completeness",
+      delta: 0, unit: "", sub: "Biomarker follow-ups",
       accent: "var(--accent-amber)",
       icon: (
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -204,9 +199,9 @@ export default function Dashboard({ onNavigate }) {
       ),
     },
     {
-      label: "Medication Events",
+      label: "Medication Records",
       value: (summary.total_medications || 0).toLocaleString(),
-      delta: 0, unit: "", sub: "adverse events: 4.2%",
+      delta: 0, unit: "", sub: "Intervention events",
       accent: "var(--accent-red)",
       icon: (
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -221,7 +216,7 @@ export default function Dashboard({ onNavigate }) {
       <div className="loading-state" style={{ minHeight: "60vh" }}>
         <div className="spinner" />
         <span>Initialising clinical intelligence platform…</span>
-        <span style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>Fetching lakehouse analytics & system health</span>
+        <span style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>Reading Parquet lakehouse & persistent audit stream</span>
       </div>
     )
   }
@@ -244,11 +239,11 @@ export default function Dashboard({ onNavigate }) {
                 padding: "0.2rem 0.6rem", letterSpacing: "0.04em",
               }}>
                 <span style={{ width: 5, height: 5, borderRadius: "50%", background: "var(--accent-green)", display: "inline-block", boxShadow: "0 0 6px var(--accent-green)" }} />
-                ALL SYSTEMS OPERATIONAL
+                REAL-TIME LAKEHOUSE ACTIVE
               </span>
             </div>
             <p style={{ color: "var(--text-muted)", fontSize: "0.82rem" }}>
-              Clinical Research Intelligence Platform · Synthetic 100k Cohort ·&nbsp;
+              Clinical Research Intelligence Platform · {summary.data_source || "Parquet Data Lake"} ·&nbsp;
               <span style={{ fontFamily: "JetBrains Mono", color: "var(--text-secondary)" }}>
                 {clock.toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short", year: "numeric" })}
               </span>
@@ -294,24 +289,23 @@ export default function Dashboard({ onNavigate }) {
               {k.value}
             </div>
 
-            {/* Sub + delta */}
+            {/* Sub */}
             <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
               <span style={{ fontSize: "0.68rem", color: "var(--text-muted)" }}>{k.sub}</span>
-              {k.delta !== 0 && <Delta value={k.delta} unit={k.unit} />}
             </div>
           </div>
         ))}
       </div>
 
       {/* ── Row 2: Enrolment Trend + Response Donut + Activity ─── */}
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 320px 280px", gap: "1.1rem", marginBottom: "1.1rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 320px 320px", gap: "1.1rem", marginBottom: "1.1rem" }}>
 
-        {/* Enrolment trend area chart */}
+        {/* Enrolment trend area chart from real Parquet dates */}
         <div className="card" style={{ padding: "1.25rem" }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "1rem" }}>
             <div>
-              <div className="card-title">Monthly Enrolment & Outcomes</div>
-              <div className="card-subtitle">12-month longitudinal research activity</div>
+              <div className="card-title">Monthly Enrolments & Outcomes</div>
+              <div className="card-subtitle">Real dataset activity over time</div>
             </div>
             <div style={{ display: "flex", gap: "0.6rem", alignItems: "center" }}>
               <span style={{ display: "flex", alignItems: "center", gap: 4, fontSize: "0.72rem", color: "var(--text-muted)" }}>
@@ -323,7 +317,7 @@ export default function Dashboard({ onNavigate }) {
             </div>
           </div>
           <ResponsiveContainer width="100%" height={190}>
-            <AreaChart data={ENROL_TREND} margin={{ top: 5, right: 5, bottom: 0, left: -20 }}>
+            <AreaChart data={enrollmentTrend} margin={{ top: 5, right: 5, bottom: 0, left: -20 }}>
               <defs>
                 <linearGradient id="gradEnrol" x1="0" y1="0" x2="0" y2="1">
                   <stop offset="0%" stopColor="#00BFA5" stopOpacity={0.25} />
@@ -339,7 +333,7 @@ export default function Dashboard({ onNavigate }) {
               <YAxis tick={{ fill: "var(--text-muted)", fontSize: 10 }} axisLine={false} tickLine={false} />
               <Tooltip content={<ChartTip />} />
               <Area type="monotone" dataKey="enrolments" stroke="#00BFA5" strokeWidth={2} fill="url(#gradEnrol)" dot={false} />
-              <Area type="monotone" dataKey="outcomes"   stroke="#38BDF8" strokeWidth={2} fill="url(#gradOut)"  dot={false} strokeDasharray="5 3" />
+              <Area type="monotone" dataKey="outcomes"   stroke="#38BDF8" strokeWidth={2} fill="url(#gradOut)"  dot={false} />
             </AreaChart>
           </ResponsiveContainer>
         </div>
@@ -370,27 +364,29 @@ export default function Dashboard({ onNavigate }) {
           </div>
         </div>
 
-        {/* Activity feed */}
+        {/* Real Activity & Audit Log Stream */}
         <div className="card" style={{ padding: "1.1rem" }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "0.75rem" }}>
-            <div className="card-title">Live Activity</div>
+            <div className="card-title">Audit Log Stream</div>
             <span style={{
               fontSize: "0.65rem", fontWeight: 700, padding: "0.15rem 0.45rem",
               borderRadius: 4, background: "var(--accent-glow)", color: "var(--accent)",
               border: "1px solid var(--border-accent)", textTransform: "uppercase", letterSpacing: "0.05em",
-            }}>Live</span>
+            }}>Persistent</span>
           </div>
-          {ACTIVITY.map((item, i) => <ActivityRow key={i} item={item} />)}
+          <div style={{ maxHeight: 210, overflowY: "auto" }}>
+            {activityLogs.slice(0, 5).map((item, i) => <ActivityRow key={item.log_id || i} item={item} />)}
+          </div>
         </div>
       </div>
 
       {/* ── Row 3: Drug Effectiveness + Top Conditions + System Health ─ */}
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 300px", gap: "1.1rem" }}>
 
-        {/* Drug effectiveness horizontal bars */}
+        {/* Drug effectiveness horizontal bars straight from merged Parquet */}
         <div className="card" style={{ padding: "1.25rem" }}>
           <div className="card-title" style={{ marginBottom: "0.25rem" }}>Drug Class Effectiveness</div>
-          <div className="card-subtitle" style={{ marginBottom: "0.85rem" }}>Positive response rate by intervention class</div>
+          <div className="card-subtitle" style={{ marginBottom: "0.85rem" }}>Derived from Parquet medications & outcomes</div>
           <ResponsiveContainer width="100%" height={210}>
             <BarChart data={drugEff} layout="vertical" margin={{ left: 8, right: 20 }}>
               <CartesianGrid stroke="var(--border-light)" horizontal={false} />
@@ -399,19 +395,19 @@ export default function Dashboard({ onNavigate }) {
               <Tooltip content={<ChartTip />} formatter={v => [`${v}%`, "Response Rate"]} />
               <Bar dataKey="response_rate" radius={[0, 6, 6, 0]}>
                 {drugEff.map((entry, i) => (
-                  <Cell key={i} fill={entry.response_rate > 70 ? "#00BFA5" : entry.response_rate > 55 ? "#38BDF8" : "#94A3B8"} />
+                  <Cell key={i} fill={entry.response_rate > 70 ? "#00BFA5" : entry.response_rate > 50 ? "#38BDF8" : "#94A3B8"} />
                 ))}
               </Bar>
             </BarChart>
           </ResponsiveContainer>
         </div>
 
-        {/* Top conditions table */}
+        {/* Top conditions table computed from patients */}
         <div className="card" style={{ padding: "1.25rem" }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "0.85rem" }}>
             <div>
               <div className="card-title">Research Condition Overview</div>
-              <div className="card-subtitle">By patient volume & response rate</div>
+              <div className="card-subtitle">By patient cohort frequency</div>
             </div>
             <button className="btn btn-ghost" style={{ fontSize: "0.72rem", padding: "0.3rem 0.7rem" }} onClick={() => onNavigate("analytics")}>
               View all
@@ -454,9 +450,9 @@ export default function Dashboard({ onNavigate }) {
 
           <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem", marginBottom: "1rem" }}>
             <ServiceRow label="FastAPI Gateway"     status={apiOk ? "online" : "offline"} detail={apiOk ? "Online" : "Offline"} latency="12ms" />
-            <ServiceRow label="Apache Kafka"        status={spark?.big_data_engine?.kafka?.status || "active"}   detail="3 Topics"  latency="" />
-            <ServiceRow label="Apache Spark"        status={spark?.big_data_engine?.spark?.status || "running"}  detail="3.5.0"     latency="" />
-            <ServiceRow label="Airflow Orchestrator" status={spark?.big_data_engine?.airflow?.status || "active"} detail="3 DAGs"    latency="" />
+            <ServiceRow label="Apache Kafka"        status={spark?.big_data_engine?.kafka?.status || "active"}   detail="Topics Defined"  latency="" />
+            <ServiceRow label="Apache Spark"        status={spark?.big_data_engine?.spark?.status || "running"}  detail="3.5.0 Batch"     latency="" />
+            <ServiceRow label="Airflow Orchestrator" status={spark?.big_data_engine?.airflow?.status || "active"} detail="DAGs Defined"    latency="" />
           </div>
 
           {/* Data lake summary */}

@@ -45,6 +45,7 @@ export const runMatching = (patientId, minScore = 0, limit = 20) =>
 
 // ── Analytics ──────────────────────────────────────────────
 export const fetchPopulationAnalytics = () => get('/api/analytics/population')
+export const fetchEnrollmentTrend     = () => get('/api/analytics/enrollment-trend')
 export const fetchSparkStatus         = () => get('/api/analytics/spark-status')
 export const fetchCohortAnalytics     = () => get('/api/analytics/cohorts')
 export const fetchTrialAnalytics      = (trialId) => get(`/api/trials/${trialId}/analytics`)

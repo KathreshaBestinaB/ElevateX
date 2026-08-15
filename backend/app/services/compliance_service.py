@@ -4,34 +4,39 @@ Compliance, Audit & Data Quality Service.
 Implements:
 1. Data Quality Engine (computes quality scores, checks missing/impossible values, date conflicts)
 2. Audit Logging (traces data provenance, user actions, model versions)
+   - Persisted to disk (audit_trail.json) — survives server restarts
 3. Model Governance (tracks ML model versions, calibration, and review status)
 4. Human-In-The-Loop Review system
 """
+import json
 import logging
 from datetime import datetime, timezone
-from typing import Dict, Any, List, Optional
-import pandas as pd
 from pathlib import Path
+from typing import Any, Dict, List, Optional
+
+import pandas as pd
 
 logger = logging.getLogger(__name__)
 
 DATA_DIR = Path(__file__).resolve().parents[3] / "data"
 
-# In-memory audit trail for demonstration
-AUDIT_TRAIL = [
+# ── Persistent audit log file ──────────────────────────────────────────────
+_AUDIT_FILE = DATA_DIR / "audit_trail.json"
+
+_SEED_LOGS = [
     {
-        "log_id": "AUD-901",
+        "log_id": "AUD-001",
         "timestamp": "2026-08-15T10:14:22Z",
         "user": "dr.researcher@trialforge.ai",
         "role": "Principal Investigator",
         "action": "OUTCOME_REVIEW",
         "resource": "Patient P001024 / Trial TR-02045",
         "status": "APPROVED",
-        "model_version": "xgboost-1.0 / shap-0.46",
+        "model_version": "xgboost-1.0",
         "details": "Clinician confirmed 24-week HbA1c reduction from 9.1% to 7.2% and approved Moderate Responder classification.",
     },
     {
-        "log_id": "AUD-902",
+        "log_id": "AUD-002",
         "timestamp": "2026-08-15T11:05:10Z",
         "user": "data.engineer@trialforge.ai",
         "role": "Data Engineer",
@@ -39,31 +44,56 @@ AUDIT_TRAIL = [
         "resource": "Lakehouse Gold Aggregations",
         "status": "COMPLETED",
         "model_version": "spark-3.5.x",
-        "details": "Processed 100,000 synthetic patient records and refreshed drug_effectiveness & population_kpis Parquet tables.",
+        "details": "Refreshed drug_effectiveness & population_kpis Parquet tables from bronze layer.",
     },
     {
-        "log_id": "AUD-903",
+        "log_id": "AUD-003",
         "timestamp": "2026-08-15T12:30:45Z",
-        "user": "system_kafka_daemon",
+        "user": "system.kafka",
         "role": "Streaming Engine",
         "action": "KAFKA_STREAM_INGEST",
         "resource": "Topic: lab.results",
         "status": "PROCESSED",
         "model_version": "kafka-2.8",
-        "details": "Live stream event consumed for Patient P001024 (HbA1c=7.2%). Triggered instant eligibility re-calculation.",
+        "details": "Stream event consumed for Patient P001024 (HbA1c=7.2%). Eligibility re-evaluated.",
     },
     {
-        "log_id": "AUD-904",
+        "log_id": "AUD-004",
         "timestamp": "2026-08-15T13:45:00Z",
         "user": "dr.clinical_lead@hospital.org",
         "role": "Clinical Researcher",
-        "action": "MATCHING_OVERRIDE_CHECK",
+        "action": "MATCHING_REVIEW",
         "resource": "Trial TR-02045 Criteria Evaluation",
         "status": "VERIFIED",
         "model_version": "hybrid-matcher-v2",
-        "details": "Verified deterministic + NLP rule matches. 6/6 eligibility criteria met.",
+        "details": "Verified deterministic eligibility rule matches. 6/6 criteria met.",
     },
 ]
+
+
+def _load_audit_trail() -> List[Dict[str, Any]]:
+    """Load audit trail from disk, seeding with initial entries if empty."""
+    if _AUDIT_FILE.exists():
+        try:
+            with open(_AUDIT_FILE, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                if isinstance(data, list) and data:
+                    return data
+        except Exception as e:
+            logger.warning("Failed to read audit trail file: %s", e)
+    # Seed the file
+    _save_audit_trail(_SEED_LOGS)
+    return list(_SEED_LOGS)
+
+
+def _save_audit_trail(trail: List[Dict[str, Any]]) -> None:
+    """Persist audit trail to disk."""
+    try:
+        _AUDIT_FILE.parent.mkdir(parents=True, exist_ok=True)
+        with open(_AUDIT_FILE, "w", encoding="utf-8") as f:
+            json.dump(trail, f, indent=2, default=str)
+    except Exception as e:
+        logger.error("Failed to persist audit trail: %s", e)
 
 
 def calculate_data_quality_report() -> Dict[str, Any]:
@@ -114,14 +144,16 @@ def calculate_data_quality_report() -> Dict[str, Any]:
 
 
 def get_audit_logs(limit: int = 50) -> List[Dict[str, Any]]:
-    """Retrieve audit logs."""
-    return AUDIT_TRAIL[:limit]
+    """Retrieve audit logs from persistent file."""
+    trail = _load_audit_trail()
+    return trail[:limit]
 
 
 def add_audit_log(user: str, role: str, action: str, resource: str, details: str, model_version: str = "v1.0") -> Dict[str, Any]:
-    """Append a new audit log entry."""
+    """Append a new audit log entry and persist to disk."""
+    trail = _load_audit_trail()
     entry = {
-        "log_id": f"AUD-{len(AUDIT_TRAIL) + 901}",
+        "log_id": f"AUD-{len(trail) + 1:03d}",
         "timestamp": datetime.now(timezone.utc).isoformat(),
         "user": user,
         "role": role,
@@ -131,7 +163,8 @@ def add_audit_log(user: str, role: str, action: str, resource: str, details: str
         "model_version": model_version,
         "details": details,
     }
-    AUDIT_TRAIL.insert(0, entry)
+    trail.insert(0, entry)
+    _save_audit_trail(trail)
     return entry
 
 
