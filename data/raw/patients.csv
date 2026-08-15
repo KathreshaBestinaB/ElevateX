@@ -1,0 +1,1001 @@
+patient_id,external_id,gender,birth_date,age,conditions,medications,source
+P001024,P001024,Male,1959-01-24,65,COPD|Rheumatoid Arthritis|Obesity,Lisinopril|Levothyroxine|Albuterol,synthetic
+P100001,P100001,Male,1965-10-14,59,Type 2 Diabetes,Omeprazole,synthetic
+P100002,P100002,Male,1985-09-07,39,COPD|Heart Failure|Depression|Chronic Kidney Disease,Atorvastatin,synthetic
+P100003,P100003,Female,1955-06-09,69,COPD|Asthma,Lisinopril,synthetic
+P100004,P100004,Male,1975-06-28,49,Rheumatoid Arthritis|Depression|Type 2 Diabetes,Furosemide|Amlodipine|Metformin,synthetic
+P100005,P100005,Male,1975-09-10,49,Rheumatoid Arthritis|COPD|Hypertension,Omeprazole,synthetic
+P100006,P100006,Female,1950-02-28,74,Hypertension|Chronic Kidney Disease,Furosemide|Levothyroxine,synthetic
+P100007,P100007,Female,1946-03-12,78,COPD|Depression|Hypertension,Atorvastatin|Amlodipine|Levothyroxine,synthetic
+P100008,P100008,Male,1984-08-13,40,Atrial Fibrillation|COPD|Asthma,Omeprazole,synthetic
+P100009,P100009,Male,1947-06-13,77,Hypertension|COPD|Asthma,Furosemide,synthetic
+P100010,P100010,Female,1974-03-09,50,COPD|Atrial Fibrillation,Amlodipine|Levothyroxine|Furosemide,synthetic
+P100011,P100011,Female,1972-06-08,52,Atrial Fibrillation|Heart Failure,Metformin,synthetic
+P100012,P100012,Male,1944-03-21,80,Chronic Kidney Disease|Hypertension,Albuterol|Amlodipine,synthetic
+P100013,P100013,Female,1970-09-28,54,Hypertension,Amlodipine|Albuterol|Levothyroxine,synthetic
+P100014,P100014,Male,1978-05-14,46,Heart Failure|Type 2 Diabetes,Amlodipine|Furosemide|Lisinopril,synthetic
+P100015,P100015,Male,1967-11-10,57,Obesity|Asthma,Metformin,synthetic
+P100016,P100016,Female,1961-08-01,63,Asthma,Omeprazole|Metformin,synthetic
+P100017,P100017,Male,1984-02-24,40,Hypertension|Atrial Fibrillation|Obesity|Rheumatoid Arthritis,Furosemide|Amlodipine|Lisinopril,synthetic
+P100018,P100018,Female,1983-04-18,41,Depression|Chronic Kidney Disease,Levothyroxine|Omeprazole|Amlodipine,synthetic
+P100019,P100019,Male,1971-04-08,53,Asthma,Omeprazole,synthetic
+P100020,P100020,Male,1962-01-03,62,COPD,Metformin,synthetic
+P100021,P100021,Female,1944-02-17,80,Depression|Heart Failure,Atorvastatin,synthetic
+P100022,P100022,Female,1953-04-26,71,Chronic Kidney Disease|COPD|Hypertension|Type 2 Diabetes,Albuterol|Atorvastatin|Omeprazole,synthetic
+P100023,P100023,Female,1973-12-02,51,Type 2 Diabetes,Levothyroxine|Albuterol,synthetic
+P100024,P100024,Male,1944-04-07,80,Atrial Fibrillation|Heart Failure,Albuterol,synthetic
+P100025,P100025,Female,1988-08-08,36,Heart Failure,Lisinopril|Metformin|Levothyroxine,synthetic
+P100026,P100026,Male,1965-02-25,59,Obesity|Chronic Kidney Disease,Furosemide|Lisinopril,synthetic
+P100027,P100027,Female,1944-01-06,80,Type 2 Diabetes|Chronic Kidney Disease|Depression|Atrial Fibrillation,Amlodipine|Omeprazole,synthetic
+P100028,P100028,Female,1955-03-07,69,COPD|Type 2 Diabetes|Atrial Fibrillation,Levothyroxine|Metformin|Albuterol,synthetic
+P100029,P100029,Female,1962-09-28,62,Type 2 Diabetes|Atrial Fibrillation,Atorvastatin,synthetic
+P100030,P100030,Male,1995-11-28,29,Chronic Kidney Disease|Hypertension,Omeprazole|Amlodipine|Albuterol,synthetic
+P100031,P100031,Male,1997-07-22,27,Depression|COPD|Asthma,Amlodipine,synthetic
+P100032,P100032,Male,1974-11-21,50,Heart Failure|Asthma|Hypertension,Furosemide,synthetic
+P100033,P100033,Male,1960-02-18,64,Atrial Fibrillation|Depression,Levothyroxine,synthetic
+P100034,P100034,Male,1995-06-10,29,Heart Failure|Atrial Fibrillation,Amlodipine|Furosemide|Levothyroxine,synthetic
+P100035,P100035,Male,1966-11-27,58,Hypertension|Obesity|Depression,Lisinopril,synthetic
+P100036,P100036,Male,1952-05-10,72,Asthma|COPD,Amlodipine|Furosemide|Omeprazole,synthetic
+P100037,P100037,Male,1983-02-21,41,Depression|Type 2 Diabetes|Atrial Fibrillation|Obesity,Amlodipine,synthetic
+P100038,P100038,Female,1989-09-23,35,Atrial Fibrillation|Type 2 Diabetes|Hypertension|Rheumatoid Arthritis,Atorvastatin|Amlodipine|Metformin,synthetic
+P100039,P100039,Female,1946-10-18,78,Chronic Kidney Disease|Obesity,Amlodipine,synthetic
+P100040,P100040,Male,1976-06-07,48,Hypertension|Asthma,Albuterol|Amlodipine|Levothyroxine,synthetic
+P100041,P100041,Male,1990-03-26,34,Chronic Kidney Disease|Type 2 Diabetes,Levothyroxine,synthetic
+P100042,P100042,Female,1949-11-28,75,Depression|Obesity,Lisinopril|Omeprazole|Metformin,synthetic
+P100043,P100043,Female,1945-04-07,79,Asthma|Depression|COPD|Hypertension,Omeprazole,synthetic
+P100044,P100044,Female,1974-05-28,50,Depression,Albuterol|Levothyroxine,synthetic
+P100045,P100045,Female,1946-01-04,78,Obesity|Depression|Type 2 Diabetes,Albuterol,synthetic
+P100046,P100046,Female,1977-07-20,47,Chronic Kidney Disease,Omeprazole|Atorvastatin|Metformin,synthetic
+P100047,P100047,Female,1954-01-17,70,Asthma|Chronic Kidney Disease,Levothyroxine,synthetic
+P100048,P100048,Female,1960-11-28,64,Depression,Amlodipine|Levothyroxine|Omeprazole,synthetic
+P100049,P100049,Female,1979-12-10,45,COPD|Chronic Kidney Disease,Albuterol|Levothyroxine|Furosemide,synthetic
+P100050,P100050,Female,1988-07-18,36,Depression,Omeprazole|Furosemide,synthetic
+P100051,P100051,Female,1949-08-15,75,COPD|Atrial Fibrillation|Heart Failure|Chronic Kidney Disease,Atorvastatin|Levothyroxine|Metformin,synthetic
+P100052,P100052,Female,1981-02-27,43,Depression|COPD,Atorvastatin,synthetic
+P100053,P100053,Male,1998-04-16,26,Heart Failure,Omeprazole|Levothyroxine,synthetic
+P100054,P100054,Female,1955-08-13,69,Obesity|Type 2 Diabetes,Albuterol,synthetic
+P100055,P100055,Male,1985-12-17,39,Type 2 Diabetes|Atrial Fibrillation|COPD|Chronic Kidney Disease,Furosemide,synthetic
+P100056,P100056,Female,1991-11-17,33,Heart Failure|Atrial Fibrillation|Chronic Kidney Disease,Furosemide|Lisinopril|Levothyroxine,synthetic
+P100057,P100057,Female,1944-08-09,80,Depression|Atrial Fibrillation,Omeprazole|Atorvastatin,synthetic
+P100058,P100058,Male,1971-12-10,53,Depression|Asthma,Lisinopril|Furosemide,synthetic
+P100059,P100059,Male,1990-07-23,34,COPD|Hypertension,Albuterol|Atorvastatin,synthetic
+P100060,P100060,Female,1965-07-02,59,Chronic Kidney Disease|Rheumatoid Arthritis,Metformin|Albuterol|Amlodipine,synthetic
+P100061,P100061,Female,1975-01-12,49,Chronic Kidney Disease|Rheumatoid Arthritis|COPD,Omeprazole|Atorvastatin,synthetic
+P100062,P100062,Female,1972-01-13,52,Chronic Kidney Disease|Obesity|Heart Failure,Metformin,synthetic
+P100063,P100063,Male,1974-02-21,50,Obesity|Heart Failure|Rheumatoid Arthritis|Type 2 Diabetes,Albuterol|Atorvastatin,synthetic
+P100064,P100064,Female,1986-06-11,38,Depression|Chronic Kidney Disease|Rheumatoid Arthritis|Atrial Fibrillation,Furosemide,synthetic
+P100065,P100065,Male,1998-06-08,26,Type 2 Diabetes,Omeprazole,synthetic
+P100066,P100066,Male,1987-10-05,37,Obesity|Heart Failure,Lisinopril|Amlodipine|Furosemide,synthetic
+P100067,P100067,Female,1970-06-06,54,Obesity,Lisinopril|Amlodipine,synthetic
+P100068,P100068,Female,1998-10-22,26,Chronic Kidney Disease|COPD|Hypertension|Depression,Omeprazole|Metformin|Levothyroxine,synthetic
+P100069,P100069,Female,1950-11-20,74,Rheumatoid Arthritis,Levothyroxine,synthetic
+P100070,P100070,Female,1965-11-12,59,Atrial Fibrillation,Levothyroxine|Metformin|Omeprazole,synthetic
+P100071,P100071,Female,1947-02-14,77,Heart Failure|Obesity|Chronic Kidney Disease,Amlodipine,synthetic
+P100072,P100072,Female,1960-08-14,64,Asthma|COPD|Hypertension,Furosemide|Lisinopril,synthetic
+P100073,P100073,Female,1951-10-20,73,Asthma|Type 2 Diabetes|Heart Failure|Chronic Kidney Disease,Atorvastatin|Omeprazole,synthetic
+P100074,P100074,Female,1986-05-11,38,Rheumatoid Arthritis|Depression|Type 2 Diabetes,Omeprazole|Metformin|Lisinopril,synthetic
+P100075,P100075,Female,1953-08-18,71,Heart Failure|Rheumatoid Arthritis,Metformin|Furosemide,synthetic
+P100076,P100076,Male,1981-07-23,43,Depression|Asthma,Levothyroxine|Omeprazole,synthetic
+P100077,P100077,Female,1952-06-23,72,Depression|Rheumatoid Arthritis|Atrial Fibrillation|Hypertension,Omeprazole,synthetic
+P100078,P100078,Male,1979-12-18,45,COPD|Rheumatoid Arthritis,Furosemide|Atorvastatin|Levothyroxine,synthetic
+P100079,P100079,Female,1962-02-27,62,Depression|COPD,Atorvastatin|Furosemide,synthetic
+P100080,P100080,Male,1999-05-02,25,Atrial Fibrillation,Atorvastatin|Levothyroxine,synthetic
+P100081,P100081,Female,1944-02-28,80,Rheumatoid Arthritis,Furosemide|Omeprazole,synthetic
+P100082,P100082,Female,1971-03-02,53,Heart Failure|Hypertension|Atrial Fibrillation,Furosemide|Metformin,synthetic
+P100083,P100083,Male,1963-03-05,61,Hypertension|COPD|Rheumatoid Arthritis,Albuterol|Amlodipine|Furosemide,synthetic
+P100084,P100084,Male,1949-09-13,75,Heart Failure|Depression|Chronic Kidney Disease|Obesity,Metformin|Amlodipine|Levothyroxine,synthetic
+P100085,P100085,Male,1993-11-07,31,Hypertension|Obesity|COPD,Lisinopril,synthetic
+P100086,P100086,Male,1989-07-15,35,Depression|Type 2 Diabetes|COPD|Obesity,Amlodipine|Levothyroxine|Omeprazole,synthetic
+P100087,P100087,Male,1995-05-26,29,Chronic Kidney Disease|Hypertension,Omeprazole|Levothyroxine|Lisinopril,synthetic
+P100088,P100088,Male,1982-02-02,42,Depression|Rheumatoid Arthritis,Lisinopril|Omeprazole,synthetic
+P100089,P100089,Female,1955-12-13,69,Atrial Fibrillation|Rheumatoid Arthritis|Heart Failure,Lisinopril|Amlodipine,synthetic
+P100090,P100090,Female,1997-12-11,27,Type 2 Diabetes|Hypertension|COPD,Metformin|Albuterol|Levothyroxine,synthetic
+P100091,P100091,Female,1947-10-02,77,Heart Failure|Atrial Fibrillation,Furosemide|Atorvastatin|Lisinopril,synthetic
+P100092,P100092,Female,1962-11-27,62,Hypertension|Heart Failure|Asthma|COPD,Levothyroxine|Furosemide,synthetic
+P100093,P100093,Male,1993-06-14,31,Depression|Chronic Kidney Disease|Type 2 Diabetes|COPD,Levothyroxine,synthetic
+P100094,P100094,Female,1983-02-25,41,Atrial Fibrillation|Type 2 Diabetes|Heart Failure|COPD,Omeprazole,synthetic
+P100095,P100095,Female,1966-10-25,58,Heart Failure|Type 2 Diabetes|COPD|Obesity,Atorvastatin|Furosemide|Omeprazole,synthetic
+P100096,P100096,Female,1955-02-01,69,Obesity|Depression,Metformin|Amlodipine|Omeprazole,synthetic
+P100097,P100097,Male,1994-02-15,30,Obesity,Amlodipine|Furosemide,synthetic
+P100098,P100098,Female,1954-07-27,70,Heart Failure|COPD|Rheumatoid Arthritis|Depression,Albuterol,synthetic
+P100099,P100099,Male,1987-02-09,37,Asthma|Atrial Fibrillation|Depression|Chronic Kidney Disease,Amlodipine,synthetic
+P100100,P100100,Female,1953-10-19,71,Obesity|Heart Failure|Atrial Fibrillation|Rheumatoid Arthritis,Albuterol|Omeprazole,synthetic
+P100101,P100101,Male,1979-12-08,45,COPD|Chronic Kidney Disease|Type 2 Diabetes|Obesity,Furosemide|Levothyroxine|Omeprazole,synthetic
+P100102,P100102,Male,1975-08-02,49,Atrial Fibrillation|Asthma,Furosemide,synthetic
+P100103,P100103,Female,1993-01-24,31,Chronic Kidney Disease|Obesity,Furosemide,synthetic
+P100104,P100104,Female,1949-06-20,75,Hypertension|Asthma|Chronic Kidney Disease|Obesity,Furosemide|Albuterol|Amlodipine,synthetic
+P100105,P100105,Male,1997-04-21,27,COPD|Hypertension|Chronic Kidney Disease,Lisinopril,synthetic
+P100106,P100106,Male,1971-12-10,53,Type 2 Diabetes,Metformin|Atorvastatin,synthetic
+P100107,P100107,Female,1977-07-05,47,Atrial Fibrillation|Chronic Kidney Disease,Atorvastatin|Lisinopril|Albuterol,synthetic
+P100108,P100108,Female,1994-10-22,30,Heart Failure|Obesity,Furosemide,synthetic
+P100109,P100109,Female,1959-08-09,65,Heart Failure,Atorvastatin|Metformin,synthetic
+P100110,P100110,Female,1971-10-10,53,Depression|Heart Failure|Rheumatoid Arthritis|Hypertension,Furosemide|Metformin,synthetic
+P100111,P100111,Female,1984-10-12,40,Depression|Type 2 Diabetes|Chronic Kidney Disease,Metformin|Amlodipine,synthetic
+P100112,P100112,Male,1944-10-24,80,Depression|COPD|Asthma|Hypertension,Omeprazole|Amlodipine|Atorvastatin,synthetic
+P100113,P100113,Male,1956-11-04,68,Depression,Metformin|Amlodipine,synthetic
+P100114,P100114,Male,1976-02-10,48,Chronic Kidney Disease|Obesity|COPD,Levothyroxine,synthetic
+P100115,P100115,Female,1966-03-09,58,Depression|Asthma|Hypertension|COPD,Atorvastatin,synthetic
+P100116,P100116,Male,1951-11-24,73,Atrial Fibrillation|Asthma|Hypertension|Chronic Kidney Disease,Metformin|Atorvastatin,synthetic
+P100117,P100117,Male,1965-08-12,59,Rheumatoid Arthritis|Chronic Kidney Disease|Asthma,Omeprazole,synthetic
+P100118,P100118,Male,1969-10-18,55,Rheumatoid Arthritis|COPD|Hypertension,Furosemide|Levothyroxine|Atorvastatin,synthetic
+P100119,P100119,Female,1958-02-05,66,Type 2 Diabetes,Furosemide|Metformin,synthetic
+P100120,P100120,Male,1993-09-05,31,Heart Failure|Asthma|Chronic Kidney Disease|Depression,Atorvastatin|Omeprazole|Levothyroxine,synthetic
+P100121,P100121,Female,1993-10-14,31,Type 2 Diabetes|Asthma|COPD,Furosemide|Lisinopril,synthetic
+P100122,P100122,Female,1945-02-22,79,Atrial Fibrillation|Asthma|Type 2 Diabetes,Amlodipine|Lisinopril,synthetic
+P100123,P100123,Female,1992-02-22,32,Rheumatoid Arthritis|Type 2 Diabetes,Levothyroxine,synthetic
+P100124,P100124,Male,1984-10-07,40,Atrial Fibrillation,Omeprazole,synthetic
+P100125,P100125,Male,1947-06-25,77,Rheumatoid Arthritis|Type 2 Diabetes,Atorvastatin|Lisinopril,synthetic
+P100126,P100126,Female,1965-03-04,59,Obesity,Levothyroxine,synthetic
+P100127,P100127,Male,1949-10-11,75,Obesity,Metformin|Lisinopril,synthetic
+P100128,P100128,Female,1952-09-04,72,Heart Failure,Levothyroxine|Amlodipine,synthetic
+P100129,P100129,Male,1962-08-17,62,Rheumatoid Arthritis|Type 2 Diabetes,Amlodipine|Omeprazole|Levothyroxine,synthetic
+P100130,P100130,Male,1998-08-28,26,Chronic Kidney Disease|Hypertension|Heart Failure|Asthma,Lisinopril|Metformin,synthetic
+P100131,P100131,Male,1979-02-05,45,Rheumatoid Arthritis|Atrial Fibrillation|Asthma,Amlodipine|Omeprazole,synthetic
+P100132,P100132,Female,1967-02-26,57,Atrial Fibrillation,Omeprazole|Furosemide|Albuterol,synthetic
+P100133,P100133,Female,1985-06-27,39,Chronic Kidney Disease|Rheumatoid Arthritis|Hypertension|Obesity,Levothyroxine|Furosemide,synthetic
+P100134,P100134,Female,1983-03-22,41,Hypertension|Rheumatoid Arthritis|Atrial Fibrillation|Type 2 Diabetes,Lisinopril|Levothyroxine,synthetic
+P100135,P100135,Female,1952-03-18,72,Rheumatoid Arthritis,Levothyroxine|Furosemide|Metformin,synthetic
+P100136,P100136,Female,1973-11-25,51,Type 2 Diabetes|Depression|Atrial Fibrillation|Obesity,Omeprazole,synthetic
+P100137,P100137,Female,1990-04-28,34,Asthma,Levothyroxine|Metformin|Atorvastatin,synthetic
+P100138,P100138,Male,1963-07-28,61,Rheumatoid Arthritis,Amlodipine|Metformin|Lisinopril,synthetic
+P100139,P100139,Female,1982-06-12,42,Obesity,Albuterol,synthetic
+P100140,P100140,Male,1995-12-21,29,Hypertension,Omeprazole|Furosemide|Albuterol,synthetic
+P100141,P100141,Female,1970-03-12,54,Asthma|Hypertension|Type 2 Diabetes,Atorvastatin,synthetic
+P100142,P100142,Male,1951-11-03,73,Heart Failure|Chronic Kidney Disease|Rheumatoid Arthritis,Furosemide|Omeprazole|Atorvastatin,synthetic
+P100143,P100143,Male,1986-06-14,38,Depression,Furosemide|Amlodipine|Levothyroxine,synthetic
+P100144,P100144,Male,1980-04-13,44,Type 2 Diabetes,Amlodipine,synthetic
+P100145,P100145,Male,1986-05-10,38,Hypertension|Type 2 Diabetes|Heart Failure,Albuterol|Lisinopril|Furosemide,synthetic
+P100146,P100146,Male,1975-09-18,49,Hypertension|Chronic Kidney Disease|Type 2 Diabetes,Metformin|Omeprazole,synthetic
+P100147,P100147,Female,1995-10-14,29,Chronic Kidney Disease|Depression|Hypertension|COPD,Levothyroxine,synthetic
+P100148,P100148,Female,1989-12-12,35,Chronic Kidney Disease,Omeprazole,synthetic
+P100149,P100149,Female,1972-09-03,52,Depression|Asthma|COPD|Obesity,Lisinopril,synthetic
+P100150,P100150,Male,1967-09-17,57,Asthma|Rheumatoid Arthritis,Atorvastatin|Lisinopril|Metformin,synthetic
+P100151,P100151,Female,1990-04-06,34,Hypertension|Obesity,Furosemide|Omeprazole|Amlodipine,synthetic
+P100152,P100152,Female,1951-11-19,73,Asthma|Obesity|Heart Failure,Furosemide,synthetic
+P100153,P100153,Female,1971-05-19,53,Asthma,Lisinopril|Atorvastatin|Omeprazole,synthetic
+P100154,P100154,Male,1971-01-12,53,Hypertension|Rheumatoid Arthritis|Chronic Kidney Disease,Metformin|Omeprazole,synthetic
+P100155,P100155,Male,1948-06-20,76,Atrial Fibrillation|Obesity|Type 2 Diabetes|COPD,Levothyroxine,synthetic
+P100156,P100156,Male,1954-09-21,70,Type 2 Diabetes|COPD,Furosemide|Omeprazole|Amlodipine,synthetic
+P100157,P100157,Male,1966-06-12,58,Chronic Kidney Disease|Rheumatoid Arthritis|Asthma,Metformin|Albuterol|Levothyroxine,synthetic
+P100158,P100158,Female,1958-02-11,66,Atrial Fibrillation,Albuterol|Atorvastatin|Furosemide,synthetic
+P100159,P100159,Male,1953-06-03,71,Asthma|Depression,Albuterol|Lisinopril|Amlodipine,synthetic
+P100160,P100160,Male,1954-05-18,70,Asthma|Obesity|Hypertension|Rheumatoid Arthritis,Albuterol|Amlodipine|Atorvastatin,synthetic
+P100161,P100161,Female,1998-05-06,26,Asthma|Heart Failure,Omeprazole,synthetic
+P100162,P100162,Male,1991-02-10,33,Atrial Fibrillation,Metformin|Levothyroxine|Atorvastatin,synthetic
+P100163,P100163,Male,1950-10-13,74,Obesity|Rheumatoid Arthritis,Atorvastatin|Levothyroxine|Omeprazole,synthetic
+P100164,P100164,Female,1997-06-22,27,Heart Failure|Depression,Furosemide|Lisinopril|Amlodipine,synthetic
+P100165,P100165,Female,1984-08-27,40,Asthma|Heart Failure,Amlodipine|Albuterol,synthetic
+P100166,P100166,Female,1975-03-27,49,Rheumatoid Arthritis|Obesity,Metformin|Levothyroxine,synthetic
+P100167,P100167,Female,1969-09-04,55,Depression,Atorvastatin,synthetic
+P100168,P100168,Female,1982-09-05,42,Hypertension|COPD|Heart Failure|Obesity,Albuterol,synthetic
+P100169,P100169,Female,1996-09-12,28,Chronic Kidney Disease|Hypertension,Omeprazole|Metformin,synthetic
+P100170,P100170,Male,1979-12-21,45,Obesity|Rheumatoid Arthritis|Type 2 Diabetes,Furosemide|Levothyroxine,synthetic
+P100171,P100171,Male,1946-12-16,78,Rheumatoid Arthritis|Type 2 Diabetes|Hypertension|Atrial Fibrillation,Omeprazole|Albuterol,synthetic
+P100172,P100172,Female,1990-02-25,34,COPD|Depression|Hypertension,Omeprazole,synthetic
+P100173,P100173,Female,1973-02-04,51,Rheumatoid Arthritis|Atrial Fibrillation|Type 2 Diabetes|Asthma,Omeprazole|Levothyroxine|Lisinopril,synthetic
+P100174,P100174,Female,1981-01-20,43,COPD|Chronic Kidney Disease|Obesity,Lisinopril|Amlodipine|Atorvastatin,synthetic
+P100175,P100175,Male,1995-07-28,29,Type 2 Diabetes|Chronic Kidney Disease|Asthma|Obesity,Metformin|Atorvastatin|Furosemide,synthetic
+P100176,P100176,Male,1977-12-22,47,Rheumatoid Arthritis,Levothyroxine|Lisinopril|Metformin,synthetic
+P100177,P100177,Female,1977-11-06,47,Heart Failure|Obesity|Atrial Fibrillation|Type 2 Diabetes,Furosemide|Metformin|Atorvastatin,synthetic
+P100178,P100178,Male,1987-04-02,37,Depression|Atrial Fibrillation|Chronic Kidney Disease,Furosemide|Atorvastatin|Metformin,synthetic
+P100179,P100179,Male,1951-05-12,73,Asthma,Lisinopril|Albuterol,synthetic
+P100180,P100180,Female,1976-07-24,48,Chronic Kidney Disease|Asthma|Obesity|COPD,Furosemide|Atorvastatin|Amlodipine,synthetic
+P100181,P100181,Male,1982-12-14,42,Chronic Kidney Disease,Atorvastatin|Amlodipine|Furosemide,synthetic
+P100182,P100182,Male,1979-02-11,45,Depression|Heart Failure|Chronic Kidney Disease,Furosemide,synthetic
+P100183,P100183,Female,1977-01-24,47,Rheumatoid Arthritis|Chronic Kidney Disease|Depression,Metformin|Furosemide|Levothyroxine,synthetic
+P100184,P100184,Female,1959-06-17,65,Type 2 Diabetes|Obesity,Furosemide|Metformin|Lisinopril,synthetic
+P100185,P100185,Male,1995-11-12,29,Chronic Kidney Disease|Type 2 Diabetes|Obesity,Furosemide|Atorvastatin|Albuterol,synthetic
+P100186,P100186,Male,1971-10-05,53,Chronic Kidney Disease|Asthma|Depression,Lisinopril,synthetic
+P100187,P100187,Male,1998-08-17,26,Atrial Fibrillation|Hypertension|Depression|Chronic Kidney Disease,Furosemide|Lisinopril,synthetic
+P100188,P100188,Female,1960-12-16,64,Hypertension|Obesity,Furosemide,synthetic
+P100189,P100189,Female,1988-02-26,36,Asthma|Hypertension|Depression,Atorvastatin|Levothyroxine,synthetic
+P100190,P100190,Male,1954-06-17,70,Hypertension|COPD,Omeprazole,synthetic
+P100191,P100191,Female,1949-01-12,75,Heart Failure|Atrial Fibrillation|Obesity,Lisinopril|Metformin|Atorvastatin,synthetic
+P100192,P100192,Female,1974-09-14,50,Rheumatoid Arthritis|Hypertension|Obesity|Heart Failure,Lisinopril|Omeprazole|Albuterol,synthetic
+P100193,P100193,Female,1956-03-27,68,Obesity|Chronic Kidney Disease,Metformin|Albuterol|Furosemide,synthetic
+P100194,P100194,Male,1966-05-06,58,Asthma|COPD,Amlodipine|Albuterol,synthetic
+P100195,P100195,Female,1994-04-21,30,Obesity|Depression|Hypertension,Atorvastatin|Amlodipine|Albuterol,synthetic
+P100196,P100196,Male,1990-11-20,34,Rheumatoid Arthritis|Type 2 Diabetes|Atrial Fibrillation,Metformin,synthetic
+P100197,P100197,Female,1958-11-07,66,Rheumatoid Arthritis|Type 2 Diabetes|Heart Failure|Asthma,Amlodipine|Levothyroxine|Atorvastatin,synthetic
+P100198,P100198,Male,1969-11-13,55,Heart Failure|Hypertension|Type 2 Diabetes,Furosemide,synthetic
+P100199,P100199,Female,1973-08-07,51,Rheumatoid Arthritis|Obesity|Asthma,Levothyroxine|Furosemide|Atorvastatin,synthetic
+P100200,P100200,Male,1974-06-17,50,Asthma,Furosemide,synthetic
+P100201,P100201,Female,1992-08-08,32,Hypertension|Type 2 Diabetes,Albuterol|Furosemide,synthetic
+P100202,P100202,Female,1960-04-28,64,Asthma|Rheumatoid Arthritis,Atorvastatin,synthetic
+P100203,P100203,Female,1968-08-10,56,Type 2 Diabetes|Hypertension|Chronic Kidney Disease|Depression,Omeprazole|Lisinopril,synthetic
+P100204,P100204,Female,1962-01-02,62,Heart Failure|Rheumatoid Arthritis|Depression,Metformin|Albuterol|Furosemide,synthetic
+P100205,P100205,Male,1972-05-24,52,Chronic Kidney Disease|Asthma|Type 2 Diabetes,Metformin|Amlodipine,synthetic
+P100206,P100206,Male,1964-06-18,60,Hypertension|Chronic Kidney Disease|Heart Failure,Amlodipine|Albuterol|Furosemide,synthetic
+P100207,P100207,Male,1956-03-04,68,Asthma|Rheumatoid Arthritis|Atrial Fibrillation|Chronic Kidney Disease,Omeprazole,synthetic
+P100208,P100208,Female,1961-09-02,63,Type 2 Diabetes,Levothyroxine,synthetic
+P100209,P100209,Female,1948-09-15,76,Rheumatoid Arthritis|Atrial Fibrillation,Levothyroxine,synthetic
+P100210,P100210,Female,1960-03-13,64,Rheumatoid Arthritis|Asthma|Heart Failure,Amlodipine|Omeprazole|Metformin,synthetic
+P100211,P100211,Female,1976-11-04,48,Rheumatoid Arthritis|Depression|Type 2 Diabetes|Atrial Fibrillation,Amlodipine|Levothyroxine,synthetic
+P100212,P100212,Male,1949-12-02,75,Obesity|Atrial Fibrillation|Chronic Kidney Disease|Hypertension,Omeprazole|Metformin|Amlodipine,synthetic
+P100213,P100213,Male,1955-04-01,69,Asthma|Chronic Kidney Disease|Obesity|COPD,Omeprazole|Furosemide|Amlodipine,synthetic
+P100214,P100214,Female,1950-12-24,74,Obesity,Omeprazole|Amlodipine|Atorvastatin,synthetic
+P100215,P100215,Female,1957-09-13,67,Obesity|Heart Failure|Asthma,Levothyroxine|Furosemide|Albuterol,synthetic
+P100216,P100216,Female,1956-10-16,68,COPD|Depression,Amlodipine|Lisinopril|Atorvastatin,synthetic
+P100217,P100217,Female,1950-12-07,74,Asthma|Heart Failure|Rheumatoid Arthritis|Depression,Amlodipine|Atorvastatin|Metformin,synthetic
+P100218,P100218,Female,1963-07-27,61,Obesity|Depression|Type 2 Diabetes,Lisinopril|Atorvastatin,synthetic
+P100219,P100219,Female,1971-12-16,53,COPD|Atrial Fibrillation,Amlodipine|Lisinopril,synthetic
+P100220,P100220,Male,1993-04-02,31,COPD|Type 2 Diabetes,Albuterol,synthetic
+P100221,P100221,Female,1978-02-22,46,Type 2 Diabetes|Atrial Fibrillation,Albuterol,synthetic
+P100222,P100222,Female,1958-08-21,66,Depression|Asthma,Metformin|Albuterol,synthetic
+P100223,P100223,Male,1994-09-24,30,Obesity,Atorvastatin|Metformin,synthetic
+P100224,P100224,Female,1946-08-06,78,Type 2 Diabetes|Rheumatoid Arthritis|Depression,Lisinopril|Atorvastatin|Albuterol,synthetic
+P100225,P100225,Female,1970-03-28,54,Depression|COPD|Hypertension|Obesity,Furosemide,synthetic
+P100226,P100226,Female,1958-12-06,66,Asthma,Omeprazole|Lisinopril,synthetic
+P100227,P100227,Female,1960-07-17,64,Hypertension|Chronic Kidney Disease|Rheumatoid Arthritis,Atorvastatin,synthetic
+P100228,P100228,Female,1969-04-01,55,Chronic Kidney Disease|COPD|Heart Failure,Levothyroxine|Atorvastatin,synthetic
+P100229,P100229,Male,1962-05-21,62,COPD|Type 2 Diabetes|Hypertension,Amlodipine|Lisinopril,synthetic
+P100230,P100230,Female,1974-12-04,50,Asthma|COPD|Atrial Fibrillation,Furosemide,synthetic
+P100231,P100231,Female,1990-12-20,34,Chronic Kidney Disease|Atrial Fibrillation|Heart Failure,Omeprazole|Albuterol|Lisinopril,synthetic
+P100232,P100232,Male,1956-09-15,68,Hypertension|Rheumatoid Arthritis|Type 2 Diabetes,Omeprazole|Amlodipine|Albuterol,synthetic
+P100233,P100233,Male,1990-06-28,34,Hypertension|COPD|Heart Failure|Type 2 Diabetes,Furosemide|Albuterol|Metformin,synthetic
+P100234,P100234,Male,1970-09-14,54,Rheumatoid Arthritis|Type 2 Diabetes|Heart Failure|Asthma,Metformin|Omeprazole,synthetic
+P100235,P100235,Male,1983-12-07,41,Type 2 Diabetes,Levothyroxine|Furosemide,synthetic
+P100236,P100236,Male,1995-02-16,29,Depression,Atorvastatin|Albuterol,synthetic
+P100237,P100237,Female,1991-06-13,33,Chronic Kidney Disease|Rheumatoid Arthritis|Hypertension|Asthma,Atorvastatin|Levothyroxine|Furosemide,synthetic
+P100238,P100238,Male,1992-09-13,32,COPD|Type 2 Diabetes,Amlodipine,synthetic
+P100239,P100239,Female,1970-09-13,54,COPD|Heart Failure,Atorvastatin|Furosemide,synthetic
+P100240,P100240,Male,1987-01-26,37,Rheumatoid Arthritis|Type 2 Diabetes|COPD|Hypertension,Lisinopril,synthetic
+P100241,P100241,Male,1961-08-20,63,COPD,Metformin|Omeprazole|Albuterol,synthetic
+P100242,P100242,Male,1985-01-05,39,COPD|Asthma|Atrial Fibrillation,Amlodipine,synthetic
+P100243,P100243,Male,1990-07-10,34,Type 2 Diabetes|Atrial Fibrillation|Obesity,Albuterol|Amlodipine|Omeprazole,synthetic
+P100244,P100244,Female,1996-11-22,28,Atrial Fibrillation|Asthma|Chronic Kidney Disease|COPD,Amlodipine,synthetic
+P100245,P100245,Male,1975-09-16,49,COPD|Depression,Atorvastatin|Albuterol|Omeprazole,synthetic
+P100246,P100246,Female,1996-07-18,28,Chronic Kidney Disease|COPD,Omeprazole|Atorvastatin,synthetic
+P100247,P100247,Male,1958-08-28,66,Hypertension|Atrial Fibrillation|COPD,Amlodipine,synthetic
+P100248,P100248,Male,1975-02-07,49,Heart Failure|COPD,Amlodipine|Metformin,synthetic
+P100249,P100249,Male,1986-12-04,38,COPD|Rheumatoid Arthritis|Chronic Kidney Disease|Hypertension,Levothyroxine|Albuterol|Atorvastatin,synthetic
+P100250,P100250,Female,1975-09-21,49,Depression|Rheumatoid Arthritis|Asthma,Furosemide|Omeprazole|Metformin,synthetic
+P100251,P100251,Female,1948-06-07,76,Asthma|Chronic Kidney Disease|Type 2 Diabetes,Omeprazole|Levothyroxine|Lisinopril,synthetic
+P100252,P100252,Female,1998-09-19,26,Depression|Obesity|COPD|Atrial Fibrillation,Albuterol,synthetic
+P100253,P100253,Male,1963-08-18,61,Depression|Heart Failure|Atrial Fibrillation,Atorvastatin|Levothyroxine,synthetic
+P100254,P100254,Female,1949-03-05,75,Obesity|Atrial Fibrillation|Type 2 Diabetes|Depression,Lisinopril,synthetic
+P100255,P100255,Male,1947-01-14,77,COPD|Hypertension,Atorvastatin|Metformin|Lisinopril,synthetic
+P100256,P100256,Female,1967-06-02,57,Heart Failure|Type 2 Diabetes|Atrial Fibrillation|Depression,Albuterol|Metformin|Furosemide,synthetic
+P100257,P100257,Female,1966-09-10,58,Atrial Fibrillation,Albuterol|Furosemide|Lisinopril,synthetic
+P100258,P100258,Male,1993-09-05,31,COPD|Atrial Fibrillation,Levothyroxine|Atorvastatin,synthetic
+P100259,P100259,Female,1949-02-12,75,Heart Failure|COPD|Atrial Fibrillation|Obesity,Lisinopril|Levothyroxine|Albuterol,synthetic
+P100260,P100260,Male,1951-02-13,73,Chronic Kidney Disease|Atrial Fibrillation|Heart Failure|Type 2 Diabetes,Metformin|Levothyroxine|Lisinopril,synthetic
+P100261,P100261,Female,1994-07-21,30,Rheumatoid Arthritis|Hypertension|Type 2 Diabetes,Omeprazole,synthetic
+P100262,P100262,Female,1944-05-02,80,Depression,Metformin|Lisinopril|Atorvastatin,synthetic
+P100263,P100263,Male,1998-10-05,26,Hypertension|Depression|Obesity|Atrial Fibrillation,Albuterol,synthetic
+P100264,P100264,Female,1956-07-25,68,Hypertension|Atrial Fibrillation,Levothyroxine|Metformin|Albuterol,synthetic
+P100265,P100265,Male,1972-02-11,52,Asthma|Type 2 Diabetes|Depression|Chronic Kidney Disease,Furosemide|Lisinopril,synthetic
+P100266,P100266,Female,1977-07-06,47,Hypertension|Depression|COPD|Asthma,Lisinopril,synthetic
+P100267,P100267,Male,1982-07-23,42,Chronic Kidney Disease|Asthma,Lisinopril|Metformin,synthetic
+P100268,P100268,Female,1999-08-12,25,Hypertension|Obesity|Rheumatoid Arthritis,Albuterol,synthetic
+P100269,P100269,Female,1971-02-01,53,Asthma,Lisinopril|Amlodipine|Albuterol,synthetic
+P100270,P100270,Female,1949-07-01,75,Chronic Kidney Disease|Rheumatoid Arthritis|Hypertension,Omeprazole|Amlodipine|Albuterol,synthetic
+P100271,P100271,Female,1989-03-05,35,Depression|Rheumatoid Arthritis|Heart Failure,Lisinopril,synthetic
+P100272,P100272,Female,1989-05-14,35,Heart Failure|Hypertension|Asthma,Omeprazole|Levothyroxine,synthetic
+P100273,P100273,Female,1959-10-20,65,Heart Failure|Hypertension,Amlodipine,synthetic
+P100274,P100274,Female,1999-06-27,25,Asthma|Heart Failure|Rheumatoid Arthritis|COPD,Atorvastatin|Furosemide|Albuterol,synthetic
+P100275,P100275,Male,1961-08-11,63,Chronic Kidney Disease|Asthma,Furosemide|Amlodipine,synthetic
+P100276,P100276,Male,1949-06-13,75,Chronic Kidney Disease|Asthma|Hypertension,Omeprazole|Amlodipine|Albuterol,synthetic
+P100277,P100277,Male,1988-12-15,36,Heart Failure|Depression,Lisinopril|Albuterol|Omeprazole,synthetic
+P100278,P100278,Female,1956-03-21,68,COPD|Depression|Obesity,Albuterol|Furosemide|Omeprazole,synthetic
+P100279,P100279,Female,1995-10-16,29,Atrial Fibrillation|Rheumatoid Arthritis|Chronic Kidney Disease|Depression,Levothyroxine,synthetic
+P100280,P100280,Male,1955-02-25,69,Asthma|Obesity,Metformin|Amlodipine|Levothyroxine,synthetic
+P100281,P100281,Female,1956-06-26,68,Hypertension|Type 2 Diabetes|Rheumatoid Arthritis|Obesity,Omeprazole,synthetic
+P100282,P100282,Female,1971-07-15,53,Asthma|Type 2 Diabetes,Lisinopril|Atorvastatin,synthetic
+P100283,P100283,Male,1973-02-27,51,Asthma|Depression,Furosemide|Albuterol,synthetic
+P100284,P100284,Female,1986-06-16,38,Heart Failure,Furosemide|Atorvastatin|Metformin,synthetic
+P100285,P100285,Male,1980-12-04,44,Asthma,Lisinopril|Levothyroxine|Furosemide,synthetic
+P100286,P100286,Male,1952-09-06,72,Asthma|Atrial Fibrillation,Furosemide|Lisinopril,synthetic
+P100287,P100287,Female,1948-11-06,76,Chronic Kidney Disease|Rheumatoid Arthritis,Omeprazole,synthetic
+P100288,P100288,Female,1971-07-01,53,COPD|Depression,Lisinopril|Amlodipine|Metformin,synthetic
+P100289,P100289,Male,1948-06-11,76,Heart Failure|Hypertension,Furosemide|Amlodipine,synthetic
+P100290,P100290,Female,1959-10-13,65,Rheumatoid Arthritis|Hypertension|Asthma|Obesity,Atorvastatin|Albuterol,synthetic
+P100291,P100291,Female,1956-10-19,68,Obesity,Lisinopril|Furosemide,synthetic
+P100292,P100292,Male,1980-03-12,44,Atrial Fibrillation|Chronic Kidney Disease,Atorvastatin|Amlodipine,synthetic
+P100293,P100293,Female,1975-03-16,49,Atrial Fibrillation|Obesity,Amlodipine|Lisinopril,synthetic
+P100294,P100294,Female,1988-08-20,36,Asthma,Furosemide,synthetic
+P100295,P100295,Male,1991-07-18,33,Chronic Kidney Disease|Heart Failure|Rheumatoid Arthritis|Asthma,Furosemide|Lisinopril,synthetic
+P100296,P100296,Male,1994-04-10,30,Depression,Amlodipine,synthetic
+P100297,P100297,Female,1989-10-24,35,Atrial Fibrillation|Rheumatoid Arthritis|Hypertension|Depression,Amlodipine,synthetic
+P100298,P100298,Female,1950-09-27,74,Heart Failure,Omeprazole|Furosemide|Metformin,synthetic
+P100299,P100299,Male,1952-05-28,72,Heart Failure,Levothyroxine|Albuterol,synthetic
+P100300,P100300,Male,1947-08-28,77,COPD,Levothyroxine,synthetic
+P100301,P100301,Female,1944-03-20,80,COPD|Rheumatoid Arthritis,Levothyroxine,synthetic
+P100302,P100302,Female,1965-10-18,59,Asthma|Depression,Amlodipine|Albuterol,synthetic
+P100303,P100303,Male,1967-03-25,57,Type 2 Diabetes|Depression|Obesity|Asthma,Omeprazole,synthetic
+P100304,P100304,Female,1990-04-25,34,Heart Failure|Obesity|Depression|Asthma,Albuterol|Omeprazole,synthetic
+P100305,P100305,Male,1995-07-17,29,Asthma|Heart Failure|Atrial Fibrillation,Metformin|Albuterol,synthetic
+P100306,P100306,Male,1950-12-15,74,Hypertension|Atrial Fibrillation|Chronic Kidney Disease,Albuterol,synthetic
+P100307,P100307,Male,1947-08-09,77,Depression|Asthma|Obesity,Furosemide|Albuterol|Atorvastatin,synthetic
+P100308,P100308,Male,1956-01-04,68,Type 2 Diabetes|Hypertension|Obesity|COPD,Metformin|Omeprazole,synthetic
+P100309,P100309,Male,1987-11-10,37,Depression|Hypertension,Levothyroxine|Atorvastatin|Metformin,synthetic
+P100310,P100310,Male,1976-01-13,48,COPD|Chronic Kidney Disease|Hypertension,Lisinopril|Metformin|Furosemide,synthetic
+P100311,P100311,Male,1969-03-19,55,Atrial Fibrillation|Heart Failure,Metformin,synthetic
+P100312,P100312,Female,1955-02-28,69,Obesity|Heart Failure|Hypertension|Atrial Fibrillation,Lisinopril|Levothyroxine,synthetic
+P100313,P100313,Male,1948-02-11,76,Depression|Obesity|Chronic Kidney Disease,Atorvastatin,synthetic
+P100314,P100314,Male,1995-10-21,29,Heart Failure|Asthma,Omeprazole|Levothyroxine|Albuterol,synthetic
+P100315,P100315,Female,1990-10-22,34,COPD|Hypertension|Atrial Fibrillation|Heart Failure,Albuterol,synthetic
+P100316,P100316,Female,1977-06-26,47,COPD|Depression,Lisinopril|Furosemide|Amlodipine,synthetic
+P100317,P100317,Female,1961-12-01,63,COPD|Atrial Fibrillation|Rheumatoid Arthritis,Albuterol|Atorvastatin|Levothyroxine,synthetic
+P100318,P100318,Male,1996-08-13,28,COPD,Lisinopril|Amlodipine,synthetic
+P100319,P100319,Female,1999-06-05,25,Rheumatoid Arthritis|Chronic Kidney Disease|Asthma|Depression,Atorvastatin|Albuterol|Omeprazole,synthetic
+P100320,P100320,Male,1950-01-19,74,Type 2 Diabetes,Omeprazole|Metformin,synthetic
+P100321,P100321,Female,1996-09-10,28,Chronic Kidney Disease|Rheumatoid Arthritis|Hypertension|Asthma,Atorvastatin|Furosemide|Metformin,synthetic
+P100322,P100322,Male,1980-09-07,44,Atrial Fibrillation|Asthma,Lisinopril|Atorvastatin,synthetic
+P100323,P100323,Female,1955-12-28,69,Type 2 Diabetes|COPD,Albuterol,synthetic
+P100324,P100324,Female,1992-10-20,32,Depression,Atorvastatin|Metformin|Albuterol,synthetic
+P100325,P100325,Male,1954-12-01,70,Heart Failure|Asthma,Amlodipine|Lisinopril|Atorvastatin,synthetic
+P100326,P100326,Female,1991-12-04,33,Asthma,Amlodipine|Furosemide,synthetic
+P100327,P100327,Female,1995-12-19,29,Heart Failure,Levothyroxine|Metformin,synthetic
+P100328,P100328,Male,1968-06-06,56,Hypertension|Rheumatoid Arthritis|COPD,Metformin|Furosemide|Albuterol,synthetic
+P100329,P100329,Male,1984-08-12,40,Obesity|Rheumatoid Arthritis|Type 2 Diabetes|Depression,Albuterol|Lisinopril|Atorvastatin,synthetic
+P100330,P100330,Female,1984-12-11,40,Hypertension|Asthma|Rheumatoid Arthritis,Metformin|Lisinopril|Albuterol,synthetic
+P100331,P100331,Male,1948-07-03,76,Depression|Rheumatoid Arthritis|Asthma|Type 2 Diabetes,Furosemide|Metformin|Atorvastatin,synthetic
+P100332,P100332,Female,1987-10-26,37,Rheumatoid Arthritis|COPD|Heart Failure,Furosemide|Albuterol,synthetic
+P100333,P100333,Male,1950-12-18,74,Obesity|Type 2 Diabetes,Metformin|Lisinopril,synthetic
+P100334,P100334,Female,1965-11-27,59,Asthma,Albuterol,synthetic
+P100335,P100335,Female,1945-02-07,79,Chronic Kidney Disease|Heart Failure,Atorvastatin,synthetic
+P100336,P100336,Female,1954-02-02,70,Atrial Fibrillation|Chronic Kidney Disease,Levothyroxine|Omeprazole|Furosemide,synthetic
+P100337,P100337,Male,1994-09-05,30,Hypertension|Type 2 Diabetes|Chronic Kidney Disease|Asthma,Omeprazole,synthetic
+P100338,P100338,Female,1981-06-26,43,Asthma|Rheumatoid Arthritis|Heart Failure|Obesity,Lisinopril,synthetic
+P100339,P100339,Male,1987-10-04,37,Hypertension|Obesity,Furosemide|Atorvastatin,synthetic
+P100340,P100340,Male,1973-09-12,51,Heart Failure|Depression,Amlodipine|Albuterol,synthetic
+P100341,P100341,Male,1992-03-26,32,Rheumatoid Arthritis|Type 2 Diabetes|COPD,Atorvastatin|Metformin,synthetic
+P100342,P100342,Male,1954-06-13,70,Depression,Atorvastatin|Metformin,synthetic
+P100343,P100343,Female,1974-09-24,50,Hypertension|Heart Failure,Atorvastatin,synthetic
+P100344,P100344,Male,1992-01-27,32,Obesity|COPD,Levothyroxine|Furosemide,synthetic
+P100345,P100345,Male,1959-10-19,65,Hypertension|Type 2 Diabetes|Rheumatoid Arthritis,Furosemide,synthetic
+P100346,P100346,Male,1948-02-28,76,Hypertension|Type 2 Diabetes|Heart Failure,Atorvastatin,synthetic
+P100347,P100347,Female,1963-12-13,61,Type 2 Diabetes|Chronic Kidney Disease|Atrial Fibrillation|Hypertension,Omeprazole|Lisinopril,synthetic
+P100348,P100348,Female,1982-08-05,42,Rheumatoid Arthritis,Omeprazole|Levothyroxine|Atorvastatin,synthetic
+P100349,P100349,Female,1968-09-16,56,Hypertension,Albuterol|Lisinopril,synthetic
+P100350,P100350,Male,1973-11-26,51,Atrial Fibrillation|Type 2 Diabetes,Levothyroxine|Omeprazole,synthetic
+P100351,P100351,Female,1965-06-19,59,Chronic Kidney Disease|Depression|Obesity,Levothyroxine,synthetic
+P100352,P100352,Male,1961-01-26,63,Type 2 Diabetes|Heart Failure|Asthma,Omeprazole|Lisinopril|Metformin,synthetic
+P100353,P100353,Male,1984-05-18,40,COPD,Albuterol|Atorvastatin|Lisinopril,synthetic
+P100354,P100354,Male,1988-10-11,36,Rheumatoid Arthritis|Type 2 Diabetes|Asthma,Atorvastatin|Amlodipine|Lisinopril,synthetic
+P100355,P100355,Female,1946-09-10,78,Heart Failure|Type 2 Diabetes,Metformin,synthetic
+P100356,P100356,Male,1985-01-17,39,Type 2 Diabetes|Asthma|COPD|Chronic Kidney Disease,Levothyroxine,synthetic
+P100357,P100357,Male,1954-06-02,70,Obesity,Atorvastatin|Albuterol|Metformin,synthetic
+P100358,P100358,Female,1945-02-12,79,Rheumatoid Arthritis|Hypertension|Asthma|Obesity,Atorvastatin|Lisinopril,synthetic
+P100359,P100359,Female,1953-11-16,71,Obesity|Atrial Fibrillation|Asthma,Atorvastatin,synthetic
+P100360,P100360,Female,1975-12-23,49,Obesity|Rheumatoid Arthritis|Type 2 Diabetes,Albuterol|Furosemide|Amlodipine,synthetic
+P100361,P100361,Male,1997-10-11,27,Rheumatoid Arthritis|Hypertension,Atorvastatin|Furosemide,synthetic
+P100362,P100362,Male,1952-04-12,72,Obesity|Hypertension|Asthma,Metformin|Atorvastatin,synthetic
+P100363,P100363,Male,1986-12-03,38,Depression|Hypertension|Type 2 Diabetes,Albuterol,synthetic
+P100364,P100364,Female,1971-03-14,53,Chronic Kidney Disease|Asthma|Rheumatoid Arthritis|Type 2 Diabetes,Omeprazole|Lisinopril,synthetic
+P100365,P100365,Male,1971-01-10,53,Asthma,Lisinopril|Metformin,synthetic
+P100366,P100366,Male,1978-07-06,46,Atrial Fibrillation,Levothyroxine,synthetic
+P100367,P100367,Female,1961-12-01,63,Obesity|Chronic Kidney Disease|Rheumatoid Arthritis|Type 2 Diabetes,Levothyroxine,synthetic
+P100368,P100368,Male,1986-07-23,38,Depression|Rheumatoid Arthritis|COPD,Metformin,synthetic
+P100369,P100369,Female,1974-03-02,50,Type 2 Diabetes|Chronic Kidney Disease|Hypertension,Furosemide|Lisinopril,synthetic
+P100370,P100370,Male,1993-04-06,31,Hypertension|Heart Failure|Rheumatoid Arthritis,Albuterol|Omeprazole,synthetic
+P100371,P100371,Female,1968-02-21,56,Obesity|Asthma|Chronic Kidney Disease|Rheumatoid Arthritis,Furosemide,synthetic
+P100372,P100372,Female,1997-08-15,27,COPD|Depression|Type 2 Diabetes,Lisinopril,synthetic
+P100373,P100373,Female,1994-09-14,30,Atrial Fibrillation|Type 2 Diabetes,Albuterol|Amlodipine,synthetic
+P100374,P100374,Female,1956-10-08,68,Depression|Hypertension|Chronic Kidney Disease|Heart Failure,Metformin|Amlodipine|Albuterol,synthetic
+P100375,P100375,Male,1966-02-25,58,Obesity|Rheumatoid Arthritis|COPD|Chronic Kidney Disease,Atorvastatin,synthetic
+P100376,P100376,Female,1997-02-22,27,COPD|Obesity|Depression|Atrial Fibrillation,Lisinopril|Metformin|Omeprazole,synthetic
+P100377,P100377,Female,1964-09-11,60,Atrial Fibrillation|Heart Failure|Type 2 Diabetes,Albuterol|Metformin|Omeprazole,synthetic
+P100378,P100378,Male,1990-10-19,34,Hypertension,Lisinopril|Albuterol|Atorvastatin,synthetic
+P100379,P100379,Female,1944-07-09,80,Heart Failure|Rheumatoid Arthritis|Type 2 Diabetes|Hypertension,Albuterol|Lisinopril,synthetic
+P100380,P100380,Female,1960-01-13,64,COPD|Type 2 Diabetes|Heart Failure,Levothyroxine|Metformin,synthetic
+P100381,P100381,Female,1978-05-09,46,Hypertension|COPD|Obesity|Heart Failure,Furosemide|Albuterol|Atorvastatin,synthetic
+P100382,P100382,Female,1982-10-21,42,COPD,Omeprazole|Albuterol,synthetic
+P100383,P100383,Female,1973-09-28,51,Type 2 Diabetes|Atrial Fibrillation|Obesity,Amlodipine,synthetic
+P100384,P100384,Female,1954-03-25,70,Obesity,Omeprazole,synthetic
+P100385,P100385,Male,1946-04-02,78,Type 2 Diabetes|Asthma|COPD|Obesity,Furosemide|Amlodipine,synthetic
+P100386,P100386,Male,1974-11-01,50,Asthma|Heart Failure,Furosemide|Lisinopril|Omeprazole,synthetic
+P100387,P100387,Female,1962-06-06,62,Hypertension|Depression|Type 2 Diabetes,Metformin|Lisinopril,synthetic
+P100388,P100388,Male,1945-04-21,79,COPD|Depression,Albuterol|Amlodipine|Metformin,synthetic
+P100389,P100389,Male,1944-08-05,80,Rheumatoid Arthritis|Type 2 Diabetes,Amlodipine,synthetic
+P100390,P100390,Female,1961-12-23,63,Chronic Kidney Disease|Rheumatoid Arthritis|Asthma,Amlodipine|Lisinopril,synthetic
+P100391,P100391,Female,1970-11-17,54,Rheumatoid Arthritis|Hypertension|Type 2 Diabetes|Depression,Levothyroxine|Amlodipine|Furosemide,synthetic
+P100392,P100392,Female,1961-05-22,63,Heart Failure,Levothyroxine,synthetic
+P100393,P100393,Female,1982-05-09,42,COPD|Obesity|Rheumatoid Arthritis,Albuterol,synthetic
+P100394,P100394,Female,1957-11-05,67,Heart Failure,Amlodipine|Omeprazole,synthetic
+P100395,P100395,Female,1974-12-02,50,Asthma|COPD,Furosemide|Levothyroxine|Atorvastatin,synthetic
+P100396,P100396,Female,1967-03-27,57,Depression|Hypertension,Atorvastatin|Levothyroxine,synthetic
+P100397,P100397,Male,1983-11-11,41,COPD,Omeprazole|Levothyroxine,synthetic
+P100398,P100398,Female,1944-07-26,80,Asthma|Depression|Atrial Fibrillation,Lisinopril|Omeprazole,synthetic
+P100399,P100399,Male,1996-08-07,28,Chronic Kidney Disease,Amlodipine|Omeprazole|Metformin,synthetic
+P100400,P100400,Male,1944-03-07,80,Chronic Kidney Disease|Heart Failure|Obesity,Atorvastatin|Albuterol,synthetic
+P100401,P100401,Female,1994-06-21,30,Asthma|Type 2 Diabetes,Furosemide,synthetic
+P100402,P100402,Male,1982-03-19,42,Heart Failure|Hypertension,Albuterol,synthetic
+P100403,P100403,Female,1959-07-14,65,Chronic Kidney Disease|Type 2 Diabetes|Atrial Fibrillation|Depression,Levothyroxine,synthetic
+P100404,P100404,Female,1999-09-07,25,Type 2 Diabetes,Omeprazole|Lisinopril|Levothyroxine,synthetic
+P100405,P100405,Female,1977-03-04,47,Atrial Fibrillation|Depression|Obesity|Type 2 Diabetes,Amlodipine,synthetic
+P100406,P100406,Female,1981-12-17,43,Chronic Kidney Disease|Obesity|Asthma,Levothyroxine|Albuterol,synthetic
+P100407,P100407,Male,1987-07-01,37,COPD|Obesity,Metformin,synthetic
+P100408,P100408,Male,1962-02-12,62,Chronic Kidney Disease,Amlodipine|Albuterol|Furosemide,synthetic
+P100409,P100409,Male,1960-10-02,64,Type 2 Diabetes,Lisinopril,synthetic
+P100410,P100410,Female,1973-07-04,51,Heart Failure|Obesity|COPD,Metformin|Atorvastatin|Omeprazole,synthetic
+P100411,P100411,Male,1957-11-17,67,Rheumatoid Arthritis|Obesity|Chronic Kidney Disease,Lisinopril,synthetic
+P100412,P100412,Male,1981-02-16,43,Rheumatoid Arthritis|COPD,Omeprazole|Atorvastatin,synthetic
+P100413,P100413,Female,1954-05-06,70,Atrial Fibrillation,Omeprazole|Levothyroxine,synthetic
+P100414,P100414,Female,1969-04-01,55,Hypertension,Furosemide,synthetic
+P100415,P100415,Male,1990-09-03,34,Depression,Omeprazole|Furosemide|Atorvastatin,synthetic
+P100416,P100416,Female,1983-01-04,41,Type 2 Diabetes|Depression,Levothyroxine|Omeprazole,synthetic
+P100417,P100417,Male,1952-02-28,72,Type 2 Diabetes,Atorvastatin,synthetic
+P100418,P100418,Female,1978-08-20,46,Hypertension|Asthma|Atrial Fibrillation,Lisinopril,synthetic
+P100419,P100419,Female,1974-08-09,50,Heart Failure|Chronic Kidney Disease|Obesity|Type 2 Diabetes,Metformin,synthetic
+P100420,P100420,Male,1945-02-14,79,Rheumatoid Arthritis|Heart Failure|Obesity|Depression,Levothyroxine|Amlodipine,synthetic
+P100421,P100421,Male,1998-08-16,26,Chronic Kidney Disease,Metformin|Furosemide,synthetic
+P100422,P100422,Female,1983-01-23,41,Asthma|Atrial Fibrillation,Lisinopril|Omeprazole|Levothyroxine,synthetic
+P100423,P100423,Male,1953-08-12,71,Obesity|Atrial Fibrillation|Type 2 Diabetes|Heart Failure,Atorvastatin|Amlodipine|Omeprazole,synthetic
+P100424,P100424,Female,1945-03-03,79,Asthma|COPD|Rheumatoid Arthritis|Obesity,Omeprazole,synthetic
+P100425,P100425,Female,1964-07-27,60,Hypertension|Heart Failure,Furosemide|Metformin,synthetic
+P100426,P100426,Female,1945-08-11,79,Heart Failure,Metformin|Furosemide|Omeprazole,synthetic
+P100427,P100427,Male,1973-09-18,51,Hypertension,Amlodipine|Furosemide|Albuterol,synthetic
+P100428,P100428,Female,1986-06-12,38,COPD,Levothyroxine|Amlodipine,synthetic
+P100429,P100429,Female,1950-12-22,74,Heart Failure|Hypertension|Atrial Fibrillation,Omeprazole|Metformin|Atorvastatin,synthetic
+P100430,P100430,Female,1977-09-17,47,Hypertension|Type 2 Diabetes|Obesity,Atorvastatin|Albuterol,synthetic
+P100431,P100431,Female,1954-02-09,70,COPD|Hypertension,Omeprazole|Furosemide,synthetic
+P100432,P100432,Male,1947-12-11,77,Chronic Kidney Disease,Lisinopril,synthetic
+P100433,P100433,Female,1950-08-22,74,Heart Failure|Type 2 Diabetes,Metformin|Amlodipine|Omeprazole,synthetic
+P100434,P100434,Female,1946-09-25,78,Rheumatoid Arthritis|Obesity,Atorvastatin|Metformin|Omeprazole,synthetic
+P100435,P100435,Female,1957-09-13,67,Rheumatoid Arthritis|COPD|Depression|Atrial Fibrillation,Amlodipine|Omeprazole,synthetic
+P100436,P100436,Male,1948-03-14,76,Atrial Fibrillation|Asthma|COPD,Omeprazole,synthetic
+P100437,P100437,Female,1960-11-12,64,Obesity|Atrial Fibrillation,Levothyroxine|Furosemide|Metformin,synthetic
+P100438,P100438,Female,1951-09-16,73,Atrial Fibrillation|Depression|Chronic Kidney Disease|Heart Failure,Lisinopril,synthetic
+P100439,P100439,Female,1998-03-02,26,COPD,Atorvastatin|Furosemide,synthetic
+P100440,P100440,Female,1956-03-27,68,Depression,Metformin,synthetic
+P100441,P100441,Female,1977-02-20,47,Atrial Fibrillation|Chronic Kidney Disease,Amlodipine,synthetic
+P100442,P100442,Male,1955-07-13,69,Asthma|Atrial Fibrillation|Type 2 Diabetes|Heart Failure,Amlodipine|Lisinopril|Furosemide,synthetic
+P100443,P100443,Female,1944-04-21,80,Rheumatoid Arthritis|Atrial Fibrillation|COPD,Omeprazole|Atorvastatin|Furosemide,synthetic
+P100444,P100444,Male,1988-03-06,36,Chronic Kidney Disease,Albuterol,synthetic
+P100445,P100445,Female,1982-03-06,42,Type 2 Diabetes|Asthma|Heart Failure,Atorvastatin|Metformin|Lisinopril,synthetic
+P100446,P100446,Male,1979-11-20,45,Heart Failure|Atrial Fibrillation|Asthma,Levothyroxine,synthetic
+P100447,P100447,Male,1966-03-17,58,Atrial Fibrillation,Albuterol,synthetic
+P100448,P100448,Female,1965-02-12,59,COPD|Asthma,Levothyroxine|Atorvastatin,synthetic
+P100449,P100449,Female,1986-09-27,38,Hypertension,Levothyroxine|Omeprazole|Lisinopril,synthetic
+P100450,P100450,Male,1958-01-22,66,Chronic Kidney Disease|Hypertension|Rheumatoid Arthritis,Amlodipine|Metformin,synthetic
+P100451,P100451,Female,1966-09-26,58,Heart Failure|Type 2 Diabetes|Depression|Asthma,Levothyroxine,synthetic
+P100452,P100452,Male,1967-02-06,57,Hypertension,Omeprazole,synthetic
+P100453,P100453,Female,1944-02-07,80,Hypertension|Obesity|Type 2 Diabetes|COPD,Levothyroxine|Metformin|Albuterol,synthetic
+P100454,P100454,Male,1995-03-26,29,Atrial Fibrillation|Hypertension|COPD,Albuterol|Omeprazole,synthetic
+P100455,P100455,Female,1971-07-11,53,Chronic Kidney Disease,Lisinopril|Amlodipine|Metformin,synthetic
+P100456,P100456,Male,1958-12-19,66,Hypertension,Lisinopril|Atorvastatin,synthetic
+P100457,P100457,Female,1949-10-03,75,Heart Failure|Chronic Kidney Disease|Atrial Fibrillation,Metformin|Omeprazole|Lisinopril,synthetic
+P100458,P100458,Male,1965-03-24,59,Atrial Fibrillation|Depression|Obesity|Heart Failure,Levothyroxine|Metformin|Amlodipine,synthetic
+P100459,P100459,Male,1944-02-02,80,Rheumatoid Arthritis,Albuterol|Amlodipine|Furosemide,synthetic
+P100460,P100460,Female,1994-04-24,30,COPD|Chronic Kidney Disease|Obesity,Atorvastatin,synthetic
+P100461,P100461,Female,1985-04-04,39,Rheumatoid Arthritis|Type 2 Diabetes,Furosemide|Levothyroxine|Amlodipine,synthetic
+P100462,P100462,Female,1995-11-03,29,Hypertension|COPD|Heart Failure,Levothyroxine|Lisinopril,synthetic
+P100463,P100463,Male,1957-02-10,67,COPD,Furosemide|Omeprazole,synthetic
+P100464,P100464,Female,1978-12-19,46,Rheumatoid Arthritis|Asthma,Albuterol|Lisinopril,synthetic
+P100465,P100465,Female,1999-04-26,25,Chronic Kidney Disease|Depression,Atorvastatin|Levothyroxine,synthetic
+P100466,P100466,Female,1953-08-15,71,Asthma|Depression|Heart Failure|Atrial Fibrillation,Atorvastatin,synthetic
+P100467,P100467,Male,1958-05-28,66,Atrial Fibrillation|COPD,Lisinopril|Levothyroxine,synthetic
+P100468,P100468,Male,1995-09-21,29,Rheumatoid Arthritis,Albuterol|Furosemide|Amlodipine,synthetic
+P100469,P100469,Male,1986-09-09,38,Obesity|Asthma|Chronic Kidney Disease|Hypertension,Amlodipine|Lisinopril|Omeprazole,synthetic
+P100470,P100470,Male,1967-07-12,57,COPD,Atorvastatin|Albuterol|Amlodipine,synthetic
+P100471,P100471,Female,1991-03-06,33,Heart Failure|Asthma,Omeprazole,synthetic
+P100472,P100472,Female,1951-04-03,73,Asthma|COPD|Type 2 Diabetes,Omeprazole|Amlodipine|Atorvastatin,synthetic
+P100473,P100473,Female,1975-08-02,49,Asthma,Amlodipine,synthetic
+P100474,P100474,Female,1946-10-18,78,Chronic Kidney Disease|Rheumatoid Arthritis,Lisinopril|Amlodipine,synthetic
+P100475,P100475,Female,1983-04-17,41,Asthma|Rheumatoid Arthritis|Heart Failure|Chronic Kidney Disease,Metformin|Amlodipine,synthetic
+P100476,P100476,Female,1991-03-08,33,Atrial Fibrillation,Amlodipine|Lisinopril|Albuterol,synthetic
+P100477,P100477,Male,1988-06-20,36,COPD,Levothyroxine|Furosemide,synthetic
+P100478,P100478,Female,1992-11-16,32,COPD|Obesity|Chronic Kidney Disease|Type 2 Diabetes,Metformin,synthetic
+P100479,P100479,Male,1991-03-21,33,Rheumatoid Arthritis,Metformin,synthetic
+P100480,P100480,Female,1989-03-17,35,Rheumatoid Arthritis|Type 2 Diabetes|Depression|Atrial Fibrillation,Furosemide,synthetic
+P100481,P100481,Female,1961-08-06,63,Chronic Kidney Disease|Obesity,Atorvastatin|Amlodipine|Levothyroxine,synthetic
+P100482,P100482,Female,1967-03-24,57,Heart Failure|Hypertension|COPD,Albuterol|Lisinopril,synthetic
+P100483,P100483,Male,1993-04-17,31,Obesity|Hypertension|Rheumatoid Arthritis|COPD,Metformin|Albuterol|Amlodipine,synthetic
+P100484,P100484,Male,1967-02-16,57,Rheumatoid Arthritis|Atrial Fibrillation,Albuterol,synthetic
+P100485,P100485,Female,1966-06-28,58,Atrial Fibrillation,Omeprazole|Albuterol,synthetic
+P100486,P100486,Female,1969-06-19,55,Chronic Kidney Disease,Amlodipine,synthetic
+P100487,P100487,Male,1969-02-10,55,Depression|COPD|Type 2 Diabetes|Asthma,Metformin|Amlodipine|Albuterol,synthetic
+P100488,P100488,Male,1992-07-21,32,Asthma|Chronic Kidney Disease,Lisinopril|Furosemide,synthetic
+P100489,P100489,Female,1972-05-28,52,Rheumatoid Arthritis|Asthma|Depression|Atrial Fibrillation,Omeprazole|Furosemide,synthetic
+P100490,P100490,Female,1964-03-12,60,Depression|Rheumatoid Arthritis|Asthma|Chronic Kidney Disease,Albuterol|Levothyroxine|Lisinopril,synthetic
+P100491,P100491,Male,1945-12-08,79,Obesity|Hypertension|COPD|Depression,Levothyroxine|Albuterol,synthetic
+P100492,P100492,Male,1964-03-13,60,Hypertension,Furosemide,synthetic
+P100493,P100493,Female,1961-02-03,63,COPD|Asthma|Hypertension,Metformin|Levothyroxine|Omeprazole,synthetic
+P100494,P100494,Female,1974-12-20,50,Obesity,Furosemide|Omeprazole|Metformin,synthetic
+P100495,P100495,Female,1987-04-02,37,Rheumatoid Arthritis|Obesity,Metformin|Atorvastatin|Lisinopril,synthetic
+P100496,P100496,Male,1958-03-03,66,Chronic Kidney Disease|Asthma|Rheumatoid Arthritis,Omeprazole|Amlodipine,synthetic
+P100497,P100497,Male,1999-02-18,25,Atrial Fibrillation|Asthma|Rheumatoid Arthritis,Omeprazole|Amlodipine,synthetic
+P100498,P100498,Female,1987-07-19,37,Depression,Albuterol,synthetic
+P100499,P100499,Male,1967-09-03,57,Asthma|Hypertension|Depression,Amlodipine|Levothyroxine|Omeprazole,synthetic
+P100500,P100500,Female,1975-04-25,49,Heart Failure|Rheumatoid Arthritis|Type 2 Diabetes,Lisinopril|Atorvastatin,synthetic
+P100501,P100501,Female,1995-11-26,29,COPD|Asthma,Levothyroxine|Amlodipine,synthetic
+P100502,P100502,Male,1965-12-27,59,COPD|Depression|Hypertension,Levothyroxine|Metformin,synthetic
+P100503,P100503,Male,1964-08-11,60,COPD|Depression|Obesity,Omeprazole|Furosemide|Levothyroxine,synthetic
+P100504,P100504,Male,1987-12-08,37,COPD|Rheumatoid Arthritis|Atrial Fibrillation,Levothyroxine,synthetic
+P100505,P100505,Male,1990-02-03,34,Rheumatoid Arthritis|Type 2 Diabetes|Atrial Fibrillation|Chronic Kidney Disease,Levothyroxine|Amlodipine,synthetic
+P100506,P100506,Female,1979-10-28,45,Heart Failure|Obesity|Depression,Omeprazole|Albuterol,synthetic
+P100507,P100507,Male,1963-01-17,61,Heart Failure|Atrial Fibrillation|Type 2 Diabetes|Depression,Albuterol|Furosemide,synthetic
+P100508,P100508,Male,1956-08-04,68,Asthma|Type 2 Diabetes|Atrial Fibrillation|Rheumatoid Arthritis,Albuterol,synthetic
+P100509,P100509,Male,1962-06-12,62,Obesity|Atrial Fibrillation|Depression,Amlodipine,synthetic
+P100510,P100510,Female,1969-06-06,55,Chronic Kidney Disease|COPD|Rheumatoid Arthritis|Asthma,Levothyroxine|Albuterol,synthetic
+P100511,P100511,Female,1974-08-06,50,Rheumatoid Arthritis|COPD,Amlodipine,synthetic
+P100512,P100512,Male,1948-09-14,76,COPD|Obesity|Atrial Fibrillation|Rheumatoid Arthritis,Atorvastatin,synthetic
+P100513,P100513,Female,1973-03-28,51,Heart Failure|Depression|Atrial Fibrillation,Metformin|Omeprazole|Furosemide,synthetic
+P100514,P100514,Male,1955-01-07,69,Heart Failure|Hypertension|Rheumatoid Arthritis,Levothyroxine|Atorvastatin|Albuterol,synthetic
+P100515,P100515,Female,1976-06-01,48,Hypertension|Asthma|COPD|Depression,Atorvastatin|Albuterol|Furosemide,synthetic
+P100516,P100516,Female,1977-11-17,47,Heart Failure|Hypertension|Chronic Kidney Disease|Depression,Furosemide|Levothyroxine,synthetic
+P100517,P100517,Male,1990-11-26,34,Chronic Kidney Disease|Rheumatoid Arthritis|Hypertension,Atorvastatin,synthetic
+P100518,P100518,Male,1978-06-11,46,Depression|Chronic Kidney Disease|Rheumatoid Arthritis,Levothyroxine|Furosemide,synthetic
+P100519,P100519,Female,1962-07-06,62,Type 2 Diabetes|Obesity,Omeprazole|Levothyroxine|Atorvastatin,synthetic
+P100520,P100520,Male,1952-04-06,72,Hypertension|Rheumatoid Arthritis|Atrial Fibrillation|COPD,Metformin|Furosemide|Omeprazole,synthetic
+P100521,P100521,Male,1966-02-09,58,Hypertension|Chronic Kidney Disease,Omeprazole|Lisinopril,synthetic
+P100522,P100522,Female,1952-08-21,72,Obesity|Atrial Fibrillation,Metformin,synthetic
+P100523,P100523,Female,1997-06-28,27,Heart Failure|Atrial Fibrillation|Depression|Rheumatoid Arthritis,Atorvastatin|Levothyroxine,synthetic
+P100524,P100524,Male,1965-10-20,59,Rheumatoid Arthritis|Chronic Kidney Disease|Depression|Obesity,Omeprazole|Albuterol,synthetic
+P100525,P100525,Female,1994-05-12,30,Depression|Obesity|Rheumatoid Arthritis|Type 2 Diabetes,Atorvastatin,synthetic
+P100526,P100526,Female,1977-08-18,47,Heart Failure,Amlodipine|Metformin,synthetic
+P100527,P100527,Female,1950-05-20,74,Type 2 Diabetes|Atrial Fibrillation,Omeprazole|Furosemide,synthetic
+P100528,P100528,Female,1964-07-08,60,Chronic Kidney Disease|Rheumatoid Arthritis,Amlodipine,synthetic
+P100529,P100529,Female,1994-11-08,30,Depression|Atrial Fibrillation|Rheumatoid Arthritis,Omeprazole|Albuterol,synthetic
+P100530,P100530,Male,1995-03-10,29,Heart Failure,Furosemide|Atorvastatin|Levothyroxine,synthetic
+P100531,P100531,Female,1960-04-11,64,Obesity,Metformin,synthetic
+P100532,P100532,Male,1988-05-09,36,Heart Failure|Type 2 Diabetes,Lisinopril,synthetic
+P100533,P100533,Male,1990-08-07,34,Chronic Kidney Disease|Depression|Heart Failure,Furosemide|Levothyroxine,synthetic
+P100534,P100534,Male,1949-06-03,75,Type 2 Diabetes|Depression,Lisinopril|Amlodipine,synthetic
+P100535,P100535,Male,1969-04-27,55,Chronic Kidney Disease|Type 2 Diabetes|Hypertension,Omeprazole|Furosemide|Albuterol,synthetic
+P100536,P100536,Male,1984-04-15,40,Atrial Fibrillation,Omeprazole|Furosemide|Albuterol,synthetic
+P100537,P100537,Female,1956-06-06,68,Atrial Fibrillation,Lisinopril|Atorvastatin|Omeprazole,synthetic
+P100538,P100538,Female,1959-04-12,65,COPD,Omeprazole,synthetic
+P100539,P100539,Female,1959-06-01,65,Depression|Hypertension,Omeprazole|Metformin,synthetic
+P100540,P100540,Female,1997-12-20,27,Asthma|Hypertension,Atorvastatin,synthetic
+P100541,P100541,Male,1968-11-20,56,Type 2 Diabetes|Rheumatoid Arthritis|Asthma,Atorvastatin|Levothyroxine|Amlodipine,synthetic
+P100542,P100542,Male,1949-03-16,75,Asthma|Atrial Fibrillation,Levothyroxine|Albuterol|Omeprazole,synthetic
+P100543,P100543,Male,1953-01-23,71,Asthma|Obesity|Depression|Type 2 Diabetes,Furosemide|Amlodipine,synthetic
+P100544,P100544,Female,1981-04-19,43,Atrial Fibrillation|Asthma,Furosemide|Atorvastatin,synthetic
+P100545,P100545,Male,1944-02-17,80,Heart Failure|Depression,Levothyroxine|Omeprazole,synthetic
+P100546,P100546,Female,1999-12-06,25,Rheumatoid Arthritis,Omeprazole|Atorvastatin,synthetic
+P100547,P100547,Male,1953-11-18,71,COPD|Atrial Fibrillation|Heart Failure|Chronic Kidney Disease,Atorvastatin|Amlodipine|Furosemide,synthetic
+P100548,P100548,Female,1979-11-11,45,Hypertension,Lisinopril|Metformin|Furosemide,synthetic
+P100549,P100549,Male,1988-04-04,36,COPD|Hypertension|Type 2 Diabetes|Depression,Albuterol|Levothyroxine|Omeprazole,synthetic
+P100550,P100550,Female,1966-01-12,58,Rheumatoid Arthritis|Hypertension,Omeprazole,synthetic
+P100551,P100551,Female,1958-02-15,66,Asthma,Albuterol|Furosemide|Atorvastatin,synthetic
+P100552,P100552,Male,1949-10-09,75,Hypertension,Lisinopril|Furosemide,synthetic
+P100553,P100553,Male,1966-02-24,58,Atrial Fibrillation|Chronic Kidney Disease,Omeprazole,synthetic
+P100554,P100554,Male,1966-10-21,58,Atrial Fibrillation|Rheumatoid Arthritis,Lisinopril|Albuterol,synthetic
+P100555,P100555,Female,1959-11-15,65,Hypertension|Obesity|Atrial Fibrillation|Depression,Levothyroxine|Furosemide,synthetic
+P100556,P100556,Female,1989-06-11,35,Asthma|Chronic Kidney Disease|Atrial Fibrillation,Levothyroxine|Amlodipine|Lisinopril,synthetic
+P100557,P100557,Male,1963-07-25,61,Asthma|Heart Failure|Atrial Fibrillation,Metformin|Levothyroxine,synthetic
+P100558,P100558,Female,1997-10-01,27,Depression|Type 2 Diabetes,Omeprazole|Lisinopril,synthetic
+P100559,P100559,Female,1945-01-25,79,Atrial Fibrillation|Rheumatoid Arthritis|Obesity,Metformin,synthetic
+P100560,P100560,Female,1970-03-05,54,Asthma|COPD|Atrial Fibrillation,Amlodipine|Metformin,synthetic
+P100561,P100561,Female,1963-10-07,61,Asthma,Atorvastatin|Omeprazole,synthetic
+P100562,P100562,Male,1947-10-21,77,Type 2 Diabetes|Chronic Kidney Disease|Hypertension,Levothyroxine,synthetic
+P100563,P100563,Female,1977-07-28,47,COPD,Metformin|Levothyroxine|Albuterol,synthetic
+P100564,P100564,Male,1975-05-17,49,Asthma,Atorvastatin|Furosemide|Amlodipine,synthetic
+P100565,P100565,Male,1955-03-02,69,Heart Failure|Atrial Fibrillation|Hypertension|Rheumatoid Arthritis,Amlodipine|Albuterol,synthetic
+P100566,P100566,Male,1974-03-11,50,Heart Failure,Metformin|Amlodipine|Omeprazole,synthetic
+P100567,P100567,Male,1983-07-17,41,Obesity|Rheumatoid Arthritis|Heart Failure|Depression,Furosemide,synthetic
+P100568,P100568,Male,1974-09-20,50,COPD|Hypertension,Albuterol|Atorvastatin,synthetic
+P100569,P100569,Male,1956-02-22,68,Chronic Kidney Disease|Asthma|Atrial Fibrillation|Hypertension,Levothyroxine|Amlodipine,synthetic
+P100570,P100570,Male,1958-05-06,66,Rheumatoid Arthritis|Heart Failure|Obesity,Metformin|Albuterol,synthetic
+P100571,P100571,Male,1985-11-12,39,Hypertension|Rheumatoid Arthritis,Metformin|Lisinopril|Amlodipine,synthetic
+P100572,P100572,Female,1990-01-11,34,Depression,Furosemide|Metformin,synthetic
+P100573,P100573,Male,1978-12-18,46,COPD|Atrial Fibrillation,Amlodipine|Furosemide|Omeprazole,synthetic
+P100574,P100574,Male,1960-12-23,64,Chronic Kidney Disease,Metformin|Atorvastatin|Lisinopril,synthetic
+P100575,P100575,Female,1996-04-26,28,Type 2 Diabetes|Heart Failure|Rheumatoid Arthritis,Albuterol,synthetic
+P100576,P100576,Female,1957-11-28,67,Hypertension|Type 2 Diabetes|Depression,Albuterol|Lisinopril|Omeprazole,synthetic
+P100577,P100577,Male,1967-06-16,57,Obesity,Furosemide,synthetic
+P100578,P100578,Male,1964-01-08,60,Asthma|Heart Failure|Chronic Kidney Disease,Atorvastatin|Metformin|Furosemide,synthetic
+P100579,P100579,Female,1956-06-21,68,COPD|Atrial Fibrillation|Depression,Amlodipine,synthetic
+P100580,P100580,Male,1975-09-09,49,Obesity|Asthma,Atorvastatin|Metformin,synthetic
+P100581,P100581,Female,1953-09-22,71,Chronic Kidney Disease|COPD,Atorvastatin|Omeprazole|Furosemide,synthetic
+P100582,P100582,Female,1961-08-18,63,COPD|Obesity,Omeprazole|Albuterol|Lisinopril,synthetic
+P100583,P100583,Male,1980-07-25,44,Rheumatoid Arthritis|Obesity,Lisinopril|Amlodipine,synthetic
+P100584,P100584,Male,1965-03-11,59,Type 2 Diabetes|Asthma,Albuterol|Atorvastatin,synthetic
+P100585,P100585,Female,1971-03-25,53,Hypertension|Obesity,Metformin,synthetic
+P100586,P100586,Female,1951-10-19,73,Rheumatoid Arthritis|COPD,Metformin,synthetic
+P100587,P100587,Male,1977-12-25,47,Obesity|Atrial Fibrillation|Heart Failure|Asthma,Levothyroxine|Lisinopril|Omeprazole,synthetic
+P100588,P100588,Female,1968-03-06,56,COPD|Type 2 Diabetes,Metformin|Atorvastatin,synthetic
+P100589,P100589,Male,1973-12-22,51,COPD|Hypertension,Furosemide,synthetic
+P100590,P100590,Female,1944-12-11,80,COPD|Chronic Kidney Disease|Atrial Fibrillation|Heart Failure,Albuterol,synthetic
+P100591,P100591,Female,1953-07-20,71,Atrial Fibrillation,Furosemide,synthetic
+P100592,P100592,Male,1970-04-17,54,Type 2 Diabetes|Atrial Fibrillation|Chronic Kidney Disease|Depression,Metformin|Lisinopril|Atorvastatin,synthetic
+P100593,P100593,Female,1971-05-25,53,Heart Failure|Obesity|Chronic Kidney Disease,Metformin|Levothyroxine,synthetic
+P100594,P100594,Male,1966-08-27,58,Hypertension|Atrial Fibrillation|Rheumatoid Arthritis|Heart Failure,Atorvastatin|Omeprazole|Albuterol,synthetic
+P100595,P100595,Female,1979-01-06,45,Rheumatoid Arthritis|COPD|Heart Failure|Type 2 Diabetes,Levothyroxine|Furosemide,synthetic
+P100596,P100596,Male,1958-12-24,66,Hypertension,Furosemide,synthetic
+P100597,P100597,Female,1959-02-17,65,Atrial Fibrillation|Obesity|Chronic Kidney Disease|Depression,Metformin|Albuterol,synthetic
+P100598,P100598,Female,1989-10-28,35,Obesity|Rheumatoid Arthritis,Metformin,synthetic
+P100599,P100599,Female,1973-05-24,51,Depression|Obesity|Hypertension|Heart Failure,Metformin,synthetic
+P100600,P100600,Female,1960-01-15,64,Heart Failure|Atrial Fibrillation|Type 2 Diabetes|Depression,Omeprazole|Lisinopril,synthetic
+P100601,P100601,Female,1962-08-14,62,Hypertension|Type 2 Diabetes|COPD|Depression,Omeprazole|Metformin,synthetic
+P100602,P100602,Male,1988-01-21,36,Type 2 Diabetes|Obesity|Rheumatoid Arthritis,Amlodipine|Atorvastatin|Metformin,synthetic
+P100603,P100603,Male,1996-07-06,28,Depression|Atrial Fibrillation,Furosemide,synthetic
+P100604,P100604,Female,1952-01-03,72,Asthma|Rheumatoid Arthritis|Chronic Kidney Disease,Albuterol,synthetic
+P100605,P100605,Male,1946-05-16,78,Hypertension|Depression,Albuterol|Amlodipine,synthetic
+P100606,P100606,Male,1986-10-02,38,Rheumatoid Arthritis,Lisinopril|Omeprazole|Levothyroxine,synthetic
+P100607,P100607,Female,1955-07-20,69,Depression|Atrial Fibrillation|Asthma,Furosemide,synthetic
+P100608,P100608,Female,1966-08-26,58,Rheumatoid Arthritis|COPD,Amlodipine|Lisinopril|Metformin,synthetic
+P100609,P100609,Male,1992-08-21,32,COPD,Albuterol|Omeprazole|Metformin,synthetic
+P100610,P100610,Female,1978-09-26,46,Type 2 Diabetes|COPD,Amlodipine|Atorvastatin|Metformin,synthetic
+P100611,P100611,Female,1980-09-18,44,Type 2 Diabetes|Hypertension|Asthma,Albuterol|Levothyroxine,synthetic
+P100612,P100612,Male,1963-03-07,61,Asthma|Heart Failure|Atrial Fibrillation,Atorvastatin,synthetic
+P100613,P100613,Male,1969-11-15,55,Heart Failure|Chronic Kidney Disease|Type 2 Diabetes,Amlodipine|Furosemide|Levothyroxine,synthetic
+P100614,P100614,Female,1956-09-18,68,COPD,Levothyroxine|Albuterol|Atorvastatin,synthetic
+P100615,P100615,Male,1995-05-27,29,Asthma,Atorvastatin|Amlodipine,synthetic
+P100616,P100616,Female,1961-03-20,63,Depression,Levothyroxine|Furosemide|Metformin,synthetic
+P100617,P100617,Female,1982-02-16,42,Asthma|Heart Failure,Omeprazole|Amlodipine,synthetic
+P100618,P100618,Male,1980-02-12,44,COPD,Furosemide,synthetic
+P100619,P100619,Male,1967-08-17,57,COPD|Asthma,Amlodipine|Albuterol,synthetic
+P100620,P100620,Male,1979-02-27,45,COPD|Type 2 Diabetes,Albuterol|Levothyroxine,synthetic
+P100621,P100621,Male,1944-01-10,80,Rheumatoid Arthritis,Levothyroxine,synthetic
+P100622,P100622,Male,1970-02-17,54,Type 2 Diabetes|Depression|COPD,Omeprazole|Lisinopril,synthetic
+P100623,P100623,Female,1981-09-11,43,Hypertension|Depression|Obesity|Rheumatoid Arthritis,Lisinopril|Metformin,synthetic
+P100624,P100624,Male,1960-04-18,64,Atrial Fibrillation|Asthma|Depression,Amlodipine,synthetic
+P100625,P100625,Male,1963-03-03,61,Rheumatoid Arthritis|Asthma|Heart Failure,Atorvastatin,synthetic
+P100626,P100626,Female,1998-11-02,26,Chronic Kidney Disease,Lisinopril,synthetic
+P100627,P100627,Female,1972-03-23,52,Rheumatoid Arthritis|Asthma|Depression|Obesity,Lisinopril,synthetic
+P100628,P100628,Female,1951-10-05,73,Heart Failure,Furosemide,synthetic
+P100629,P100629,Female,1980-08-08,44,Obesity|Depression,Albuterol|Lisinopril,synthetic
+P100630,P100630,Female,1955-06-15,69,Type 2 Diabetes|Hypertension|Heart Failure|Rheumatoid Arthritis,Furosemide|Omeprazole,synthetic
+P100631,P100631,Male,1945-05-25,79,Rheumatoid Arthritis|Obesity|Hypertension,Lisinopril|Atorvastatin,synthetic
+P100632,P100632,Male,1964-05-18,60,Chronic Kidney Disease|Rheumatoid Arthritis|COPD|Depression,Atorvastatin,synthetic
+P100633,P100633,Female,1969-02-11,55,Rheumatoid Arthritis|Chronic Kidney Disease,Levothyroxine|Amlodipine,synthetic
+P100634,P100634,Male,1955-03-22,69,Rheumatoid Arthritis,Lisinopril|Amlodipine,synthetic
+P100635,P100635,Female,1961-06-18,63,Heart Failure,Amlodipine,synthetic
+P100636,P100636,Male,1974-10-04,50,Asthma|Heart Failure|Type 2 Diabetes|Atrial Fibrillation,Atorvastatin,synthetic
+P100637,P100637,Male,1962-03-22,62,Heart Failure|Atrial Fibrillation,Albuterol|Amlodipine,synthetic
+P100638,P100638,Female,1963-04-07,61,Depression|Rheumatoid Arthritis|Chronic Kidney Disease,Levothyroxine|Metformin|Amlodipine,synthetic
+P100639,P100639,Female,1999-03-28,25,Type 2 Diabetes|Asthma|Rheumatoid Arthritis,Levothyroxine,synthetic
+P100640,P100640,Female,1992-01-08,32,Rheumatoid Arthritis|Chronic Kidney Disease|Asthma|Heart Failure,Albuterol|Omeprazole,synthetic
+P100641,P100641,Male,1972-11-06,52,Obesity|COPD|Chronic Kidney Disease|Heart Failure,Albuterol|Lisinopril,synthetic
+P100642,P100642,Male,1981-03-01,43,Type 2 Diabetes,Furosemide,synthetic
+P100643,P100643,Female,1957-03-03,67,Chronic Kidney Disease|Heart Failure,Albuterol|Amlodipine|Lisinopril,synthetic
+P100644,P100644,Female,1970-09-27,54,Chronic Kidney Disease|Asthma|COPD|Hypertension,Metformin|Amlodipine,synthetic
+P100645,P100645,Male,1968-12-17,56,Chronic Kidney Disease|Atrial Fibrillation|Asthma,Metformin,synthetic
+P100646,P100646,Female,1963-12-12,61,Rheumatoid Arthritis,Lisinopril|Furosemide,synthetic
+P100647,P100647,Female,1953-08-17,71,Atrial Fibrillation,Lisinopril|Furosemide|Omeprazole,synthetic
+P100648,P100648,Male,1959-11-21,65,Rheumatoid Arthritis|Type 2 Diabetes|Asthma,Metformin|Omeprazole|Albuterol,synthetic
+P100649,P100649,Female,1967-10-24,57,Chronic Kidney Disease|Asthma|Depression,Atorvastatin|Metformin,synthetic
+P100650,P100650,Female,1955-12-26,69,Type 2 Diabetes|Heart Failure|Obesity,Metformin|Levothyroxine|Atorvastatin,synthetic
+P100651,P100651,Male,1948-05-16,76,Obesity,Lisinopril|Albuterol|Atorvastatin,synthetic
+P100652,P100652,Male,1983-10-09,41,Depression|Type 2 Diabetes|Hypertension,Atorvastatin|Amlodipine|Levothyroxine,synthetic
+P100653,P100653,Female,1990-06-26,34,Depression|COPD,Atorvastatin|Albuterol,synthetic
+P100654,P100654,Male,1966-06-03,58,Rheumatoid Arthritis|Obesity,Albuterol|Furosemide,synthetic
+P100655,P100655,Male,1975-11-15,49,COPD|Asthma,Amlodipine,synthetic
+P100656,P100656,Male,1951-01-06,73,Chronic Kidney Disease|Heart Failure|Depression|COPD,Omeprazole|Furosemide|Levothyroxine,synthetic
+P100657,P100657,Female,1954-08-09,70,Atrial Fibrillation|Chronic Kidney Disease,Amlodipine,synthetic
+P100658,P100658,Female,1948-07-22,76,Atrial Fibrillation|Type 2 Diabetes|Hypertension,Levothyroxine|Albuterol|Omeprazole,synthetic
+P100659,P100659,Female,1960-06-09,64,Hypertension|Depression|Chronic Kidney Disease,Omeprazole|Levothyroxine,synthetic
+P100660,P100660,Male,1956-09-11,68,Asthma|Atrial Fibrillation,Metformin,synthetic
+P100661,P100661,Male,1946-01-14,78,Atrial Fibrillation,Furosemide,synthetic
+P100662,P100662,Male,1977-12-10,47,COPD|Type 2 Diabetes|Atrial Fibrillation,Lisinopril|Metformin|Amlodipine,synthetic
+P100663,P100663,Male,1957-10-21,67,Hypertension,Atorvastatin,synthetic
+P100664,P100664,Male,1975-02-23,49,Depression|Rheumatoid Arthritis,Lisinopril|Levothyroxine,synthetic
+P100665,P100665,Female,1970-07-23,54,Depression|Obesity|Hypertension,Metformin|Omeprazole,synthetic
+P100666,P100666,Female,1975-01-09,49,Obesity|Heart Failure|Hypertension,Omeprazole|Amlodipine,synthetic
+P100667,P100667,Male,1974-11-16,50,Obesity,Albuterol|Lisinopril|Amlodipine,synthetic
+P100668,P100668,Male,1958-08-23,66,Hypertension|Type 2 Diabetes|Rheumatoid Arthritis,Amlodipine,synthetic
+P100669,P100669,Female,1950-01-16,74,Type 2 Diabetes|Rheumatoid Arthritis,Albuterol|Atorvastatin|Lisinopril,synthetic
+P100670,P100670,Female,1955-07-19,69,Atrial Fibrillation,Furosemide|Omeprazole|Albuterol,synthetic
+P100671,P100671,Male,1974-09-08,50,Chronic Kidney Disease,Furosemide|Metformin|Amlodipine,synthetic
+P100672,P100672,Female,1965-06-22,59,Chronic Kidney Disease|Type 2 Diabetes|Hypertension,Levothyroxine|Metformin,synthetic
+P100673,P100673,Female,1946-05-21,78,Obesity|Atrial Fibrillation,Albuterol,synthetic
+P100674,P100674,Male,1957-05-23,67,Hypertension|Asthma|Heart Failure|Type 2 Diabetes,Furosemide|Levothyroxine|Lisinopril,synthetic
+P100675,P100675,Male,1991-04-01,33,Heart Failure|Chronic Kidney Disease,Amlodipine,synthetic
+P100676,P100676,Female,1968-01-02,56,Type 2 Diabetes|Asthma|Rheumatoid Arthritis,Lisinopril|Furosemide,synthetic
+P100677,P100677,Female,1948-11-28,76,Rheumatoid Arthritis|COPD,Metformin,synthetic
+P100678,P100678,Male,1952-08-21,72,Heart Failure,Metformin|Lisinopril|Levothyroxine,synthetic
+P100679,P100679,Male,1958-01-06,66,Depression,Furosemide,synthetic
+P100680,P100680,Male,1960-10-03,64,Hypertension,Omeprazole|Metformin,synthetic
+P100681,P100681,Male,1948-07-11,76,Asthma|Hypertension|Obesity|Heart Failure,Metformin,synthetic
+P100682,P100682,Male,1962-06-03,62,Depression,Albuterol,synthetic
+P100683,P100683,Female,1989-09-06,35,COPD|Type 2 Diabetes|Obesity|Atrial Fibrillation,Albuterol|Furosemide|Lisinopril,synthetic
+P100684,P100684,Female,1998-02-01,26,Obesity,Amlodipine,synthetic
+P100685,P100685,Female,1973-12-05,51,Obesity|Depression,Furosemide|Omeprazole|Lisinopril,synthetic
+P100686,P100686,Male,1988-10-06,36,Rheumatoid Arthritis|Hypertension|Depression|Obesity,Metformin|Amlodipine,synthetic
+P100687,P100687,Male,1984-02-17,40,Rheumatoid Arthritis,Omeprazole|Furosemide,synthetic
+P100688,P100688,Male,1950-05-02,74,Hypertension|Obesity,Furosemide|Omeprazole|Lisinopril,synthetic
+P100689,P100689,Male,1989-01-21,35,Depression|COPD|Chronic Kidney Disease,Levothyroxine|Amlodipine,synthetic
+P100690,P100690,Female,1948-01-04,76,Atrial Fibrillation,Atorvastatin,synthetic
+P100691,P100691,Male,1949-08-17,75,Hypertension,Furosemide,synthetic
+P100692,P100692,Female,1962-07-07,62,COPD|Hypertension|Asthma,Lisinopril,synthetic
+P100693,P100693,Female,1984-04-13,40,Hypertension|Heart Failure,Furosemide|Metformin|Omeprazole,synthetic
+P100694,P100694,Male,1990-10-15,34,Chronic Kidney Disease|Asthma,Furosemide,synthetic
+P100695,P100695,Male,1953-11-12,71,COPD|Asthma|Obesity,Metformin,synthetic
+P100696,P100696,Male,1982-02-28,42,Heart Failure|Chronic Kidney Disease|Obesity|Atrial Fibrillation,Omeprazole|Atorvastatin,synthetic
+P100697,P100697,Male,1961-11-20,63,Rheumatoid Arthritis|Atrial Fibrillation,Lisinopril,synthetic
+P100698,P100698,Female,1973-04-19,51,Heart Failure|Depression|Type 2 Diabetes|Asthma,Omeprazole|Lisinopril,synthetic
+P100699,P100699,Female,1979-10-08,45,Rheumatoid Arthritis|Type 2 Diabetes,Metformin|Furosemide,synthetic
+P100700,P100700,Male,1969-07-17,55,Heart Failure|Hypertension|Rheumatoid Arthritis|COPD,Lisinopril,synthetic
+P100701,P100701,Male,1964-12-24,60,COPD|Obesity|Asthma|Atrial Fibrillation,Lisinopril,synthetic
+P100702,P100702,Female,1998-11-10,26,Heart Failure|Type 2 Diabetes,Furosemide|Albuterol,synthetic
+P100703,P100703,Female,1991-03-26,33,Heart Failure|Type 2 Diabetes|Hypertension,Levothyroxine|Amlodipine,synthetic
+P100704,P100704,Female,1997-07-25,27,Rheumatoid Arthritis|Atrial Fibrillation|COPD,Lisinopril|Amlodipine|Atorvastatin,synthetic
+P100705,P100705,Male,1952-09-22,72,Type 2 Diabetes|Hypertension|Chronic Kidney Disease,Furosemide|Amlodipine,synthetic
+P100706,P100706,Female,1997-06-06,27,Atrial Fibrillation,Omeprazole|Lisinopril|Atorvastatin,synthetic
+P100707,P100707,Male,1984-11-16,40,COPD|Asthma,Amlodipine|Furosemide,synthetic
+P100708,P100708,Female,1956-05-02,68,Asthma,Furosemide|Omeprazole,synthetic
+P100709,P100709,Male,1967-08-23,57,Heart Failure|Asthma|Hypertension,Furosemide,synthetic
+P100710,P100710,Male,1994-07-06,30,Hypertension|Rheumatoid Arthritis|Obesity,Lisinopril|Levothyroxine,synthetic
+P100711,P100711,Female,1990-03-28,34,Atrial Fibrillation|Type 2 Diabetes,Albuterol|Levothyroxine,synthetic
+P100712,P100712,Male,1965-08-12,59,Heart Failure|Type 2 Diabetes|Depression|Hypertension,Metformin,synthetic
+P100713,P100713,Male,1944-09-21,80,Chronic Kidney Disease|Asthma|Atrial Fibrillation,Furosemide|Omeprazole,synthetic
+P100714,P100714,Male,1980-05-06,44,COPD|Heart Failure|Asthma,Metformin|Lisinopril,synthetic
+P100715,P100715,Female,1977-08-06,47,Atrial Fibrillation|Depression,Atorvastatin,synthetic
+P100716,P100716,Male,1946-03-08,78,Type 2 Diabetes,Atorvastatin|Omeprazole,synthetic
+P100717,P100717,Female,1983-03-07,41,Asthma,Atorvastatin|Furosemide,synthetic
+P100718,P100718,Male,1971-09-10,53,Type 2 Diabetes,Furosemide|Albuterol,synthetic
+P100719,P100719,Female,1990-06-05,34,Atrial Fibrillation,Levothyroxine|Furosemide|Albuterol,synthetic
+P100720,P100720,Female,1981-05-25,43,Rheumatoid Arthritis|Heart Failure,Lisinopril|Levothyroxine,synthetic
+P100721,P100721,Male,1969-03-22,55,Depression,Albuterol,synthetic
+P100722,P100722,Male,1960-08-12,64,Asthma,Omeprazole,synthetic
+P100723,P100723,Male,1962-05-07,62,Hypertension,Furosemide|Levothyroxine|Albuterol,synthetic
+P100724,P100724,Female,1994-04-16,30,Rheumatoid Arthritis|Atrial Fibrillation|Type 2 Diabetes,Levothyroxine|Omeprazole|Lisinopril,synthetic
+P100725,P100725,Female,1954-06-13,70,Type 2 Diabetes|Depression|Asthma,Amlodipine|Omeprazole,synthetic
+P100726,P100726,Male,1944-04-24,80,Chronic Kidney Disease|Heart Failure|Depression|Hypertension,Albuterol|Levothyroxine|Omeprazole,synthetic
+P100727,P100727,Male,1991-03-07,33,Heart Failure|Atrial Fibrillation|Asthma,Albuterol,synthetic
+P100728,P100728,Male,1994-07-21,30,Chronic Kidney Disease|Obesity|Heart Failure,Atorvastatin|Lisinopril|Albuterol,synthetic
+P100729,P100729,Female,1946-05-18,78,Type 2 Diabetes|Depression|Atrial Fibrillation|COPD,Furosemide|Lisinopril|Metformin,synthetic
+P100730,P100730,Male,1949-03-09,75,Heart Failure|Hypertension|Depression,Atorvastatin|Omeprazole,synthetic
+P100731,P100731,Male,1955-01-04,69,Heart Failure|Hypertension|Asthma,Furosemide|Amlodipine|Omeprazole,synthetic
+P100732,P100732,Female,1944-11-22,80,Hypertension|Asthma|Type 2 Diabetes|Chronic Kidney Disease,Atorvastatin|Amlodipine,synthetic
+P100733,P100733,Male,1996-06-15,28,Asthma|Obesity,Amlodipine,synthetic
+P100734,P100734,Female,1976-11-12,48,Depression,Lisinopril|Amlodipine,synthetic
+P100735,P100735,Male,1987-02-20,37,Atrial Fibrillation|Asthma,Amlodipine|Atorvastatin,synthetic
+P100736,P100736,Female,1956-02-18,68,Obesity|Type 2 Diabetes|Rheumatoid Arthritis,Amlodipine|Atorvastatin|Omeprazole,synthetic
+P100737,P100737,Female,1973-03-04,51,Obesity|Atrial Fibrillation,Omeprazole,synthetic
+P100738,P100738,Male,1949-07-15,75,Hypertension,Metformin,synthetic
+P100739,P100739,Female,1969-05-23,55,Obesity|Heart Failure|Asthma,Amlodipine,synthetic
+P100740,P100740,Male,1998-04-05,26,COPD|Depression,Omeprazole,synthetic
+P100741,P100741,Male,1991-07-23,33,Hypertension,Furosemide,synthetic
+P100742,P100742,Female,1951-01-07,73,Type 2 Diabetes,Metformin|Omeprazole|Furosemide,synthetic
+P100743,P100743,Male,1983-02-10,41,Hypertension,Omeprazole,synthetic
+P100744,P100744,Male,1962-03-22,62,Type 2 Diabetes|Hypertension|Obesity,Amlodipine|Furosemide|Atorvastatin,synthetic
+P100745,P100745,Male,1977-09-25,47,Atrial Fibrillation|Hypertension,Metformin,synthetic
+P100746,P100746,Male,1966-12-07,58,Obesity|Atrial Fibrillation|Type 2 Diabetes,Lisinopril|Furosemide|Amlodipine,synthetic
+P100747,P100747,Female,1945-06-23,79,Heart Failure|Hypertension,Levothyroxine,synthetic
+P100748,P100748,Female,1975-04-17,49,Chronic Kidney Disease|Hypertension,Lisinopril|Omeprazole,synthetic
+P100749,P100749,Male,1992-08-25,32,Depression|Atrial Fibrillation|Type 2 Diabetes,Levothyroxine,synthetic
+P100750,P100750,Male,1968-07-10,56,Rheumatoid Arthritis|Depression|Heart Failure|Hypertension,Albuterol|Atorvastatin|Omeprazole,synthetic
+P100751,P100751,Male,1987-08-22,37,Obesity|Type 2 Diabetes|Heart Failure,Lisinopril|Omeprazole|Albuterol,synthetic
+P100752,P100752,Male,1966-02-05,58,Chronic Kidney Disease|Hypertension|Obesity|Type 2 Diabetes,Omeprazole|Atorvastatin,synthetic
+P100753,P100753,Female,1987-02-08,37,Heart Failure|Depression|Atrial Fibrillation|Chronic Kidney Disease,Albuterol|Atorvastatin|Omeprazole,synthetic
+P100754,P100754,Female,1957-08-17,67,Obesity|Heart Failure|Hypertension,Amlodipine,synthetic
+P100755,P100755,Female,1968-04-21,56,Type 2 Diabetes|Hypertension,Metformin|Albuterol|Furosemide,synthetic
+P100756,P100756,Male,1968-03-13,56,Obesity|Depression|Hypertension,Furosemide,synthetic
+P100757,P100757,Female,1949-04-10,75,Heart Failure|Atrial Fibrillation|Depression|Rheumatoid Arthritis,Metformin|Albuterol,synthetic
+P100758,P100758,Female,1997-02-13,27,Asthma|Chronic Kidney Disease|Heart Failure|COPD,Metformin,synthetic
+P100759,P100759,Female,1988-12-06,36,Chronic Kidney Disease|Obesity|Depression|Asthma,Furosemide|Albuterol,synthetic
+P100760,P100760,Female,1992-11-18,32,Heart Failure|Atrial Fibrillation|Obesity|Depression,Albuterol,synthetic
+P100761,P100761,Female,1983-10-13,41,Depression|Asthma|Type 2 Diabetes,Metformin,synthetic
+P100762,P100762,Female,1991-06-26,33,Asthma,Lisinopril|Omeprazole,synthetic
+P100763,P100763,Female,1977-07-12,47,COPD,Omeprazole,synthetic
+P100764,P100764,Female,1958-10-03,66,Depression,Levothyroxine,synthetic
+P100765,P100765,Male,1989-09-11,35,Heart Failure,Albuterol|Amlodipine|Furosemide,synthetic
+P100766,P100766,Female,1973-01-23,51,Rheumatoid Arthritis|Type 2 Diabetes|Asthma|COPD,Albuterol|Atorvastatin|Amlodipine,synthetic
+P100767,P100767,Female,1993-02-23,31,Asthma|Heart Failure,Levothyroxine|Lisinopril|Amlodipine,synthetic
+P100768,P100768,Female,1980-07-07,44,Hypertension|Atrial Fibrillation|COPD|Obesity,Metformin|Atorvastatin,synthetic
+P100769,P100769,Female,1963-04-20,61,Rheumatoid Arthritis,Levothyroxine,synthetic
+P100770,P100770,Male,1982-10-26,42,Chronic Kidney Disease|COPD|Asthma|Rheumatoid Arthritis,Amlodipine,synthetic
+P100771,P100771,Female,1967-07-22,57,COPD|Chronic Kidney Disease|Atrial Fibrillation,Furosemide|Levothyroxine,synthetic
+P100772,P100772,Male,1951-01-21,73,Rheumatoid Arthritis|Heart Failure,Furosemide,synthetic
+P100773,P100773,Female,1982-10-24,42,Atrial Fibrillation,Levothyroxine,synthetic
+P100774,P100774,Male,1970-04-05,54,Chronic Kidney Disease|Rheumatoid Arthritis|Asthma,Omeprazole,synthetic
+P100775,P100775,Female,1945-05-27,79,Obesity|Depression|COPD,Omeprazole|Metformin,synthetic
+P100776,P100776,Male,1990-01-08,34,Heart Failure|Rheumatoid Arthritis|Chronic Kidney Disease,Metformin|Lisinopril,synthetic
+P100777,P100777,Female,1989-03-01,35,Depression|Atrial Fibrillation|Obesity,Metformin|Levothyroxine|Omeprazole,synthetic
+P100778,P100778,Male,1949-01-28,75,Asthma,Amlodipine|Albuterol|Metformin,synthetic
+P100779,P100779,Female,1973-11-22,51,Chronic Kidney Disease,Atorvastatin|Lisinopril|Metformin,synthetic
+P100780,P100780,Male,1963-09-22,61,Heart Failure|Hypertension|COPD,Lisinopril|Albuterol|Atorvastatin,synthetic
+P100781,P100781,Female,1978-12-24,46,Chronic Kidney Disease|COPD,Lisinopril,synthetic
+P100782,P100782,Male,1988-05-15,36,Depression|Type 2 Diabetes|Heart Failure|Rheumatoid Arthritis,Lisinopril|Atorvastatin,synthetic
+P100783,P100783,Female,1965-08-22,59,Depression|Obesity,Furosemide|Levothyroxine,synthetic
+P100784,P100784,Female,1976-01-21,48,Type 2 Diabetes,Omeprazole|Atorvastatin|Amlodipine,synthetic
+P100785,P100785,Female,1975-11-23,49,Hypertension|Atrial Fibrillation|COPD,Albuterol|Metformin,synthetic
+P100786,P100786,Female,1974-05-03,50,Depression|COPD,Furosemide,synthetic
+P100787,P100787,Female,1959-11-14,65,Depression,Furosemide,synthetic
+P100788,P100788,Female,1969-06-23,55,Hypertension|Obesity|Depression|Heart Failure,Levothyroxine,synthetic
+P100789,P100789,Female,1973-08-23,51,Type 2 Diabetes,Atorvastatin|Levothyroxine|Omeprazole,synthetic
+P100790,P100790,Male,1949-01-13,75,Depression|Asthma,Lisinopril|Metformin|Furosemide,synthetic
+P100791,P100791,Male,1984-10-22,40,Asthma|Heart Failure|Atrial Fibrillation|Chronic Kidney Disease,Atorvastatin|Furosemide|Lisinopril,synthetic
+P100792,P100792,Female,1956-05-07,68,Chronic Kidney Disease,Atorvastatin|Omeprazole,synthetic
+P100793,P100793,Male,1975-01-01,49,Hypertension|Heart Failure,Amlodipine,synthetic
+P100794,P100794,Male,1955-01-13,69,Rheumatoid Arthritis|Depression|Obesity|Type 2 Diabetes,Atorvastatin|Amlodipine,synthetic
+P100795,P100795,Male,1992-12-17,32,Heart Failure|Rheumatoid Arthritis|Hypertension|Atrial Fibrillation,Omeprazole|Lisinopril|Atorvastatin,synthetic
+P100796,P100796,Female,1981-07-05,43,COPD|Rheumatoid Arthritis|Depression|Asthma,Omeprazole|Furosemide|Lisinopril,synthetic
+P100797,P100797,Male,1973-01-10,51,COPD|Heart Failure|Rheumatoid Arthritis,Furosemide|Metformin,synthetic
+P100798,P100798,Female,1999-03-28,25,Chronic Kidney Disease|COPD|Rheumatoid Arthritis,Albuterol|Levothyroxine|Amlodipine,synthetic
+P100799,P100799,Male,1983-02-18,41,Type 2 Diabetes,Omeprazole|Furosemide,synthetic
+P100800,P100800,Male,1977-01-09,47,Depression|Chronic Kidney Disease|Asthma|Hypertension,Metformin|Amlodipine|Lisinopril,synthetic
+P100801,P100801,Male,1983-09-16,41,Heart Failure|Obesity|Hypertension,Albuterol|Lisinopril,synthetic
+P100802,P100802,Male,1983-06-02,41,Heart Failure|Depression,Levothyroxine|Omeprazole|Atorvastatin,synthetic
+P100803,P100803,Female,1983-09-11,41,Obesity|Asthma|Heart Failure|Chronic Kidney Disease,Furosemide,synthetic
+P100804,P100804,Male,1996-03-02,28,Obesity|Type 2 Diabetes,Amlodipine|Lisinopril,synthetic
+P100805,P100805,Female,1954-07-04,70,Type 2 Diabetes|Heart Failure|Asthma|Atrial Fibrillation,Furosemide|Omeprazole|Albuterol,synthetic
+P100806,P100806,Male,1992-02-12,32,COPD,Atorvastatin|Albuterol,synthetic
+P100807,P100807,Female,1989-10-22,35,Rheumatoid Arthritis|Type 2 Diabetes,Atorvastatin|Omeprazole|Metformin,synthetic
+P100808,P100808,Female,1984-11-04,40,Type 2 Diabetes|Depression|Hypertension,Levothyroxine|Amlodipine,synthetic
+P100809,P100809,Female,1993-03-01,31,Heart Failure,Furosemide|Omeprazole|Levothyroxine,synthetic
+P100810,P100810,Male,1982-06-02,42,Asthma|Obesity|COPD|Chronic Kidney Disease,Amlodipine,synthetic
+P100811,P100811,Male,1979-12-03,45,Hypertension|Chronic Kidney Disease|Depression|Rheumatoid Arthritis,Albuterol,synthetic
+P100812,P100812,Male,1994-04-06,30,Chronic Kidney Disease|Depression|Obesity|Type 2 Diabetes,Furosemide|Albuterol,synthetic
+P100813,P100813,Female,1972-11-20,52,Asthma|Hypertension,Omeprazole|Furosemide,synthetic
+P100814,P100814,Female,1971-08-09,53,Hypertension|Chronic Kidney Disease|Asthma|Depression,Albuterol,synthetic
+P100815,P100815,Female,1959-02-02,65,Heart Failure|COPD|Obesity,Lisinopril|Atorvastatin,synthetic
+P100816,P100816,Female,1970-02-26,54,Depression|Obesity|Atrial Fibrillation|Asthma,Omeprazole|Amlodipine,synthetic
+P100817,P100817,Female,1972-10-02,52,Type 2 Diabetes,Lisinopril|Amlodipine|Omeprazole,synthetic
+P100818,P100818,Male,1973-08-22,51,Asthma|Depression|Hypertension,Metformin|Furosemide|Levothyroxine,synthetic
+P100819,P100819,Female,1957-03-26,67,Chronic Kidney Disease|Type 2 Diabetes,Albuterol,synthetic
+P100820,P100820,Female,1954-06-19,70,Heart Failure|Depression|Asthma|Chronic Kidney Disease,Omeprazole,synthetic
+P100821,P100821,Male,1988-12-20,36,Hypertension|Chronic Kidney Disease|Type 2 Diabetes,Albuterol,synthetic
+P100822,P100822,Male,1992-03-21,32,Heart Failure|Chronic Kidney Disease|Rheumatoid Arthritis|Obesity,Levothyroxine|Furosemide|Albuterol,synthetic
+P100823,P100823,Female,1955-05-03,69,Obesity|Type 2 Diabetes,Lisinopril,synthetic
+P100824,P100824,Male,1947-12-07,77,COPD,Atorvastatin|Levothyroxine,synthetic
+P100825,P100825,Female,1984-11-28,40,Hypertension|Depression,Atorvastatin|Omeprazole,synthetic
+P100826,P100826,Male,1972-02-06,52,Heart Failure|Rheumatoid Arthritis,Metformin|Albuterol,synthetic
+P100827,P100827,Male,1971-04-10,53,Type 2 Diabetes|Asthma|Rheumatoid Arthritis|Heart Failure,Albuterol|Omeprazole|Furosemide,synthetic
+P100828,P100828,Female,1952-01-16,72,Heart Failure|Atrial Fibrillation|Rheumatoid Arthritis|Hypertension,Metformin|Amlodipine|Furosemide,synthetic
+P100829,P100829,Female,1972-09-03,52,Chronic Kidney Disease|Heart Failure|Hypertension,Levothyroxine|Omeprazole,synthetic
+P100830,P100830,Female,1955-01-06,69,COPD|Heart Failure|Asthma,Omeprazole|Amlodipine,synthetic
+P100831,P100831,Female,1985-10-28,39,Obesity|Depression|Chronic Kidney Disease|COPD,Levothyroxine|Albuterol|Omeprazole,synthetic
+P100832,P100832,Male,1948-10-07,76,Hypertension|Heart Failure|Obesity,Omeprazole,synthetic
+P100833,P100833,Female,1989-02-26,35,Heart Failure|Depression|COPD|Hypertension,Metformin|Furosemide|Atorvastatin,synthetic
+P100834,P100834,Female,1983-11-06,41,Atrial Fibrillation|Type 2 Diabetes,Levothyroxine,synthetic
+P100835,P100835,Male,1972-10-08,52,Atrial Fibrillation,Furosemide,synthetic
+P100836,P100836,Female,1983-06-25,41,Atrial Fibrillation,Atorvastatin|Albuterol,synthetic
+P100837,P100837,Male,1955-12-02,69,Heart Failure|Hypertension|Atrial Fibrillation|Chronic Kidney Disease,Lisinopril|Albuterol|Amlodipine,synthetic
+P100838,P100838,Male,1997-03-21,27,COPD,Atorvastatin|Levothyroxine,synthetic
+P100839,P100839,Female,1981-09-16,43,Obesity,Levothyroxine|Atorvastatin|Lisinopril,synthetic
+P100840,P100840,Male,1992-08-14,32,COPD,Levothyroxine|Atorvastatin,synthetic
+P100841,P100841,Male,1967-02-09,57,Chronic Kidney Disease|Asthma|COPD,Albuterol,synthetic
+P100842,P100842,Male,1949-03-26,75,Chronic Kidney Disease|Rheumatoid Arthritis|Heart Failure|Atrial Fibrillation,Levothyroxine|Metformin|Omeprazole,synthetic
+P100843,P100843,Male,1990-12-26,34,Hypertension,Levothyroxine|Omeprazole,synthetic
+P100844,P100844,Male,1950-07-02,74,Type 2 Diabetes|Obesity|Rheumatoid Arthritis|Asthma,Amlodipine|Omeprazole|Albuterol,synthetic
+P100845,P100845,Female,1956-12-24,68,Asthma|Type 2 Diabetes|Depression,Atorvastatin|Levothyroxine|Omeprazole,synthetic
+P100846,P100846,Male,1971-09-20,53,Asthma|Chronic Kidney Disease|COPD|Obesity,Metformin,synthetic
+P100847,P100847,Female,1965-07-24,59,Atrial Fibrillation|Rheumatoid Arthritis,Omeprazole|Metformin,synthetic
+P100848,P100848,Female,1967-09-11,57,Type 2 Diabetes|Rheumatoid Arthritis,Amlodipine|Lisinopril|Atorvastatin,synthetic
+P100849,P100849,Female,1953-09-04,71,Asthma,Levothyroxine|Metformin,synthetic
+P100850,P100850,Male,1996-08-10,28,Heart Failure,Omeprazole|Albuterol,synthetic
+P100851,P100851,Male,1952-06-10,72,Rheumatoid Arthritis|Obesity|Chronic Kidney Disease,Omeprazole|Metformin|Atorvastatin,synthetic
+P100852,P100852,Male,1966-06-15,58,Obesity,Albuterol|Furosemide|Omeprazole,synthetic
+P100853,P100853,Male,1994-01-14,30,Heart Failure|COPD,Lisinopril|Atorvastatin,synthetic
+P100854,P100854,Female,1956-10-18,68,Depression|Heart Failure|Chronic Kidney Disease|COPD,Furosemide|Levothyroxine|Omeprazole,synthetic
+P100855,P100855,Male,1947-03-17,77,Heart Failure|Rheumatoid Arthritis,Lisinopril,synthetic
+P100856,P100856,Male,1955-08-16,69,Obesity,Levothyroxine|Metformin|Amlodipine,synthetic
+P100857,P100857,Female,1945-02-04,79,Rheumatoid Arthritis|Depression|Type 2 Diabetes,Atorvastatin|Metformin|Furosemide,synthetic
+P100858,P100858,Female,1980-05-10,44,Type 2 Diabetes|Obesity|Atrial Fibrillation|Chronic Kidney Disease,Albuterol|Metformin|Atorvastatin,synthetic
+P100859,P100859,Male,1981-03-27,43,Type 2 Diabetes|Hypertension|Asthma|Rheumatoid Arthritis,Albuterol,synthetic
+P100860,P100860,Female,1969-10-15,55,Chronic Kidney Disease|Heart Failure|Obesity,Furosemide,synthetic
+P100861,P100861,Female,1951-11-15,73,Asthma|Hypertension,Albuterol|Omeprazole|Lisinopril,synthetic
+P100862,P100862,Female,1974-09-02,50,Depression|Hypertension|Obesity|Asthma,Amlodipine,synthetic
+P100863,P100863,Male,1964-11-18,60,COPD,Metformin|Amlodipine|Albuterol,synthetic
+P100864,P100864,Female,1987-09-01,37,Atrial Fibrillation,Metformin,synthetic
+P100865,P100865,Male,1982-04-27,42,Hypertension|Atrial Fibrillation|Asthma|COPD,Metformin|Omeprazole|Furosemide,synthetic
+P100866,P100866,Female,1978-03-14,46,Atrial Fibrillation,Albuterol|Atorvastatin,synthetic
+P100867,P100867,Male,1994-02-18,30,Depression|Obesity,Amlodipine,synthetic
+P100868,P100868,Male,1950-03-10,74,Obesity|Type 2 Diabetes|Asthma|Hypertension,Metformin,synthetic
+P100869,P100869,Female,1980-02-11,44,Chronic Kidney Disease|Asthma,Albuterol|Furosemide,synthetic
+P100870,P100870,Male,1992-04-08,32,Heart Failure|Atrial Fibrillation,Albuterol|Metformin|Atorvastatin,synthetic
+P100871,P100871,Female,1996-08-18,28,Hypertension|Heart Failure|Type 2 Diabetes|COPD,Omeprazole|Metformin|Atorvastatin,synthetic
+P100872,P100872,Male,1964-04-25,60,Depression|Chronic Kidney Disease,Lisinopril|Albuterol,synthetic
+P100873,P100873,Male,1959-03-12,65,COPD|Atrial Fibrillation,Furosemide|Metformin,synthetic
+P100874,P100874,Female,1999-10-10,25,Type 2 Diabetes|Rheumatoid Arthritis,Amlodipine|Furosemide,synthetic
+P100875,P100875,Female,1983-06-27,41,Rheumatoid Arthritis|Atrial Fibrillation,Metformin|Lisinopril,synthetic
+P100876,P100876,Male,1952-05-03,72,Hypertension|Obesity|Depression|COPD,Levothyroxine,synthetic
+P100877,P100877,Female,1956-11-09,68,Depression|COPD|Asthma|Obesity,Furosemide,synthetic
+P100878,P100878,Female,1961-01-23,63,Type 2 Diabetes|Heart Failure,Metformin,synthetic
+P100879,P100879,Male,1956-07-18,68,Chronic Kidney Disease|Atrial Fibrillation|Hypertension|Rheumatoid Arthritis,Lisinopril|Amlodipine|Metformin,synthetic
+P100880,P100880,Female,1946-11-04,78,Chronic Kidney Disease|Asthma|Rheumatoid Arthritis,Metformin,synthetic
+P100881,P100881,Female,1992-06-07,32,Type 2 Diabetes|COPD|Rheumatoid Arthritis|Chronic Kidney Disease,Levothyroxine|Lisinopril,synthetic
+P100882,P100882,Female,1994-12-08,30,Heart Failure|Asthma,Amlodipine,synthetic
+P100883,P100883,Male,1968-01-07,56,Hypertension|Depression|Heart Failure|Rheumatoid Arthritis,Omeprazole|Levothyroxine|Albuterol,synthetic
+P100884,P100884,Male,1963-02-19,61,Hypertension|Obesity,Omeprazole|Amlodipine,synthetic
+P100885,P100885,Female,1953-04-28,71,Atrial Fibrillation,Amlodipine|Levothyroxine|Furosemide,synthetic
+P100886,P100886,Male,1970-07-21,54,Asthma,Albuterol|Atorvastatin,synthetic
+P100887,P100887,Female,1992-08-12,32,COPD,Amlodipine,synthetic
+P100888,P100888,Female,1973-06-01,51,COPD|Asthma|Hypertension|Depression,Omeprazole,synthetic
+P100889,P100889,Female,1955-02-08,69,Obesity|Asthma,Lisinopril|Levothyroxine,synthetic
+P100890,P100890,Male,1959-01-16,65,Type 2 Diabetes|Asthma|Depression|Hypertension,Furosemide,synthetic
+P100891,P100891,Female,1984-01-27,40,Atrial Fibrillation|COPD|Hypertension,Furosemide|Albuterol|Metformin,synthetic
+P100892,P100892,Female,1959-10-04,65,Type 2 Diabetes,Albuterol,synthetic
+P100893,P100893,Male,1979-03-02,45,Type 2 Diabetes|Depression|Chronic Kidney Disease|Rheumatoid Arthritis,Metformin,synthetic
+P100894,P100894,Male,1964-05-28,60,Chronic Kidney Disease|Hypertension|Rheumatoid Arthritis|Atrial Fibrillation,Metformin|Omeprazole|Albuterol,synthetic
+P100895,P100895,Female,1970-10-20,54,Asthma,Metformin|Omeprazole|Amlodipine,synthetic
+P100896,P100896,Male,1978-02-04,46,Rheumatoid Arthritis,Lisinopril|Amlodipine|Furosemide,synthetic
+P100897,P100897,Male,1963-11-17,61,Asthma|Chronic Kidney Disease|Heart Failure,Furosemide|Lisinopril|Albuterol,synthetic
+P100898,P100898,Male,1991-01-05,33,Rheumatoid Arthritis|Chronic Kidney Disease|Asthma,Atorvastatin|Lisinopril,synthetic
+P100899,P100899,Female,1969-10-11,55,Asthma|Type 2 Diabetes|Obesity,Omeprazole,synthetic
+P100900,P100900,Male,1967-07-12,57,COPD|Rheumatoid Arthritis,Levothyroxine,synthetic
+P100901,P100901,Female,1987-12-23,37,Rheumatoid Arthritis|Asthma|Atrial Fibrillation|Depression,Albuterol|Atorvastatin,synthetic
+P100902,P100902,Male,1989-08-26,35,Heart Failure,Metformin,synthetic
+P100903,P100903,Male,1959-12-08,65,Rheumatoid Arthritis|COPD|Atrial Fibrillation|Heart Failure,Levothyroxine|Albuterol|Furosemide,synthetic
+P100904,P100904,Male,1975-07-06,49,Asthma,Lisinopril,synthetic
+P100905,P100905,Male,1977-09-04,47,Depression|Heart Failure,Levothyroxine,synthetic
+P100906,P100906,Male,1997-04-07,27,Obesity|COPD|Depression,Atorvastatin|Furosemide|Amlodipine,synthetic
+P100907,P100907,Male,1984-04-01,40,Depression|Hypertension,Atorvastatin,synthetic
+P100908,P100908,Male,1975-06-07,49,Heart Failure|COPD|Asthma,Atorvastatin|Amlodipine,synthetic
+P100909,P100909,Female,1948-12-03,76,Obesity,Omeprazole,synthetic
+P100910,P100910,Female,1987-12-12,37,Rheumatoid Arthritis|Chronic Kidney Disease|COPD,Omeprazole,synthetic
+P100911,P100911,Female,1945-03-11,79,Type 2 Diabetes|Depression,Furosemide,synthetic
+P100912,P100912,Male,1986-08-26,38,Obesity,Albuterol|Furosemide|Levothyroxine,synthetic
+P100913,P100913,Female,1951-08-17,73,Obesity|Asthma|Atrial Fibrillation|Depression,Furosemide|Levothyroxine|Omeprazole,synthetic
+P100914,P100914,Female,1969-10-13,55,COPD,Omeprazole,synthetic
+P100915,P100915,Male,1971-07-07,53,Chronic Kidney Disease|Rheumatoid Arthritis|Obesity,Amlodipine|Furosemide,synthetic
+P100916,P100916,Male,1994-02-10,30,Atrial Fibrillation|Asthma|COPD|Depression,Furosemide,synthetic
+P100917,P100917,Female,1967-07-15,57,Chronic Kidney Disease|Rheumatoid Arthritis|Asthma|Atrial Fibrillation,Levothyroxine|Atorvastatin,synthetic
+P100918,P100918,Male,1975-03-15,49,Depression|Hypertension,Lisinopril|Atorvastatin,synthetic
+P100919,P100919,Male,1946-05-08,78,Hypertension,Levothyroxine,synthetic
+P100920,P100920,Male,1997-06-07,27,Depression|Rheumatoid Arthritis|Atrial Fibrillation,Atorvastatin,synthetic
+P100921,P100921,Female,1945-01-25,79,Depression|Asthma|Chronic Kidney Disease,Metformin|Omeprazole,synthetic
+P100922,P100922,Male,1958-07-08,66,COPD|Heart Failure,Furosemide,synthetic
+P100923,P100923,Female,1953-06-26,71,Asthma,Albuterol,synthetic
+P100924,P100924,Female,1950-04-15,74,Atrial Fibrillation|Type 2 Diabetes|Asthma|Hypertension,Atorvastatin|Furosemide|Levothyroxine,synthetic
+P100925,P100925,Female,1999-11-27,25,Asthma|COPD|Chronic Kidney Disease,Albuterol|Furosemide,synthetic
+P100926,P100926,Female,1950-06-19,74,Rheumatoid Arthritis,Atorvastatin,synthetic
+P100927,P100927,Female,1990-10-21,34,Chronic Kidney Disease|COPD|Rheumatoid Arthritis|Type 2 Diabetes,Albuterol|Lisinopril|Omeprazole,synthetic
+P100928,P100928,Female,1993-10-15,31,Hypertension|Obesity|Rheumatoid Arthritis,Atorvastatin|Metformin|Levothyroxine,synthetic
+P100929,P100929,Female,1961-01-06,63,Hypertension|Chronic Kidney Disease,Omeprazole|Lisinopril,synthetic
+P100930,P100930,Male,1981-08-02,43,Atrial Fibrillation|Type 2 Diabetes|Obesity,Albuterol|Omeprazole,synthetic
+P100931,P100931,Male,1989-03-18,35,Heart Failure|Hypertension|Chronic Kidney Disease|Rheumatoid Arthritis,Atorvastatin,synthetic
+P100932,P100932,Male,1944-05-14,80,Obesity|Depression|COPD|Atrial Fibrillation,Furosemide|Atorvastatin|Lisinopril,synthetic
+P100933,P100933,Male,1999-08-03,25,Rheumatoid Arthritis|COPD|Asthma|Depression,Furosemide|Omeprazole,synthetic
+P100934,P100934,Male,1963-12-03,61,Heart Failure|Asthma|Depression,Atorvastatin|Omeprazole,synthetic
+P100935,P100935,Male,1984-10-24,40,Heart Failure|Chronic Kidney Disease|Obesity|Asthma,Lisinopril|Omeprazole|Levothyroxine,synthetic
+P100936,P100936,Male,1997-03-09,27,Hypertension|COPD|Heart Failure,Lisinopril|Atorvastatin,synthetic
+P100937,P100937,Male,1995-09-25,29,Chronic Kidney Disease|Heart Failure|Obesity,Omeprazole|Amlodipine,synthetic
+P100938,P100938,Female,1997-01-03,27,Chronic Kidney Disease|Asthma|Rheumatoid Arthritis|Heart Failure,Albuterol,synthetic
+P100939,P100939,Male,1997-05-04,27,Asthma|Heart Failure,Furosemide|Metformin,synthetic
+P100940,P100940,Male,1994-12-15,30,Heart Failure|Depression,Atorvastatin,synthetic
+P100941,P100941,Male,1946-10-04,78,Depression|Hypertension,Albuterol|Lisinopril|Metformin,synthetic
+P100942,P100942,Male,1957-11-09,67,Heart Failure|Asthma,Omeprazole,synthetic
+P100943,P100943,Male,1954-11-18,70,Heart Failure|Type 2 Diabetes,Lisinopril|Omeprazole|Levothyroxine,synthetic
+P100944,P100944,Female,1980-01-20,44,Type 2 Diabetes,Omeprazole|Lisinopril,synthetic
+P100945,P100945,Male,1976-04-03,48,Chronic Kidney Disease,Metformin,synthetic
+P100946,P100946,Male,1978-11-22,46,COPD,Atorvastatin,synthetic
+P100947,P100947,Male,1953-01-14,71,Asthma,Omeprazole|Amlodipine,synthetic
+P100948,P100948,Female,1986-07-04,38,COPD|Hypertension,Levothyroxine|Lisinopril,synthetic
+P100949,P100949,Female,1999-11-11,25,Chronic Kidney Disease,Furosemide,synthetic
+P100950,P100950,Male,1985-11-27,39,Rheumatoid Arthritis|Asthma|Type 2 Diabetes,Omeprazole,synthetic
+P100951,P100951,Female,1973-10-16,51,Atrial Fibrillation,Atorvastatin|Furosemide|Metformin,synthetic
+P100952,P100952,Female,1961-11-23,63,Obesity|Asthma|Rheumatoid Arthritis|Atrial Fibrillation,Levothyroxine|Albuterol|Furosemide,synthetic
+P100953,P100953,Male,1969-06-01,55,Chronic Kidney Disease|Atrial Fibrillation|COPD|Depression,Metformin|Lisinopril|Furosemide,synthetic
+P100954,P100954,Male,1960-05-08,64,COPD|Hypertension|Type 2 Diabetes|Atrial Fibrillation,Furosemide|Atorvastatin,synthetic
+P100955,P100955,Male,1987-07-07,37,COPD,Furosemide|Levothyroxine|Atorvastatin,synthetic
+P100956,P100956,Female,1991-06-21,33,Atrial Fibrillation,Amlodipine|Albuterol,synthetic
+P100957,P100957,Male,1998-12-11,26,COPD|Rheumatoid Arthritis|Type 2 Diabetes,Omeprazole|Albuterol|Levothyroxine,synthetic
+P100958,P100958,Male,1955-10-28,69,Atrial Fibrillation|Asthma|Obesity|COPD,Metformin|Furosemide|Omeprazole,synthetic
+P100959,P100959,Male,1995-01-21,29,COPD|Obesity,Atorvastatin,synthetic
+P100960,P100960,Male,1962-04-17,62,Chronic Kidney Disease,Furosemide|Atorvastatin|Lisinopril,synthetic
+P100961,P100961,Male,1953-04-14,71,Rheumatoid Arthritis|COPD,Amlodipine|Furosemide,synthetic
+P100962,P100962,Male,1971-05-28,53,Hypertension|Asthma|Chronic Kidney Disease|COPD,Furosemide,synthetic
+P100963,P100963,Female,1971-09-20,53,Obesity|Heart Failure|Type 2 Diabetes|Chronic Kidney Disease,Albuterol|Furosemide,synthetic
+P100964,P100964,Female,1994-10-18,30,Atrial Fibrillation|Obesity,Albuterol|Omeprazole,synthetic
+P100965,P100965,Female,1980-05-13,44,Hypertension|Asthma|Obesity|Atrial Fibrillation,Omeprazole|Lisinopril,synthetic
+P100966,P100966,Male,1987-01-28,37,Heart Failure|Chronic Kidney Disease|Atrial Fibrillation,Levothyroxine|Omeprazole,synthetic
+P100967,P100967,Female,1968-11-19,56,Chronic Kidney Disease,Lisinopril,synthetic
+P100968,P100968,Male,1975-04-25,49,Depression|Asthma|Heart Failure|Atrial Fibrillation,Levothyroxine|Furosemide|Metformin,synthetic
+P100969,P100969,Female,1958-07-24,66,COPD|Heart Failure,Levothyroxine,synthetic
+P100970,P100970,Male,1959-12-22,65,Depression|Heart Failure,Atorvastatin|Furosemide|Lisinopril,synthetic
+P100971,P100971,Male,1961-01-04,63,Chronic Kidney Disease,Lisinopril|Amlodipine,synthetic
+P100972,P100972,Female,1987-03-27,37,Depression|Rheumatoid Arthritis|Chronic Kidney Disease|Atrial Fibrillation,Albuterol|Furosemide,synthetic
+P100973,P100973,Male,1953-02-21,71,Obesity|Depression|COPD,Albuterol|Levothyroxine|Atorvastatin,synthetic
+P100974,P100974,Male,1999-08-01,25,Hypertension,Albuterol|Amlodipine|Omeprazole,synthetic
+P100975,P100975,Female,1958-12-14,66,Obesity|Asthma,Atorvastatin,synthetic
+P100976,P100976,Female,1987-03-17,37,Heart Failure,Omeprazole|Lisinopril|Albuterol,synthetic
+P100977,P100977,Male,1996-04-09,28,Heart Failure|Hypertension|Obesity|Type 2 Diabetes,Lisinopril|Omeprazole,synthetic
+P100978,P100978,Female,1992-02-11,32,Rheumatoid Arthritis,Furosemide,synthetic
+P100979,P100979,Male,1968-01-02,56,Type 2 Diabetes|Rheumatoid Arthritis|Hypertension,Metformin,synthetic
+P100980,P100980,Female,1975-08-16,49,Rheumatoid Arthritis|Chronic Kidney Disease|Asthma,Levothyroxine|Atorvastatin,synthetic
+P100981,P100981,Male,1947-06-22,77,Chronic Kidney Disease|Type 2 Diabetes|Asthma|Rheumatoid Arthritis,Lisinopril|Metformin,synthetic
+P100982,P100982,Female,1970-12-27,54,Type 2 Diabetes|Hypertension,Amlodipine|Levothyroxine|Lisinopril,synthetic
+P100983,P100983,Female,1976-10-22,48,Atrial Fibrillation|Chronic Kidney Disease|COPD|Type 2 Diabetes,Levothyroxine|Metformin|Furosemide,synthetic
+P100984,P100984,Male,1976-12-11,48,COPD|Heart Failure|Chronic Kidney Disease|Asthma,Lisinopril|Atorvastatin|Omeprazole,synthetic
+P100985,P100985,Male,1969-12-13,55,Rheumatoid Arthritis|COPD|Obesity,Metformin|Lisinopril|Omeprazole,synthetic
+P100986,P100986,Male,1949-05-27,75,Obesity|Heart Failure|Hypertension|COPD,Omeprazole|Lisinopril|Albuterol,synthetic
+P100987,P100987,Male,1989-02-14,35,Obesity,Albuterol|Furosemide,synthetic
+P100988,P100988,Male,1982-12-09,42,Hypertension|Obesity|Heart Failure|Type 2 Diabetes,Levothyroxine|Albuterol|Lisinopril,synthetic
+P100989,P100989,Male,1963-11-11,61,Chronic Kidney Disease|Atrial Fibrillation|Rheumatoid Arthritis|Heart Failure,Omeprazole,synthetic
+P100990,P100990,Male,1983-05-03,41,Hypertension,Omeprazole|Levothyroxine,synthetic
+P100991,P100991,Female,1992-03-28,32,Chronic Kidney Disease|Type 2 Diabetes|Depression,Omeprazole,synthetic
+P100992,P100992,Female,1945-07-11,79,Obesity|Atrial Fibrillation|COPD,Albuterol,synthetic
+P100993,P100993,Female,1999-06-05,25,COPD|Heart Failure|Atrial Fibrillation,Amlodipine,synthetic
+P100994,P100994,Male,1990-10-11,34,Atrial Fibrillation|Hypertension|Depression,Furosemide|Levothyroxine|Lisinopril,synthetic
+P100995,P100995,Female,1968-12-13,56,Asthma,Omeprazole,synthetic
+P100996,P100996,Male,1945-12-24,79,Obesity,Albuterol|Atorvastatin,synthetic
+P100997,P100997,Male,1947-01-18,77,Asthma|Chronic Kidney Disease|Heart Failure|Obesity,Albuterol|Metformin,synthetic
+P100998,P100998,Female,1966-05-23,58,Atrial Fibrillation|Chronic Kidney Disease,Atorvastatin,synthetic
+P100999,P100999,Male,1979-12-10,45,Obesity|Rheumatoid Arthritis|Heart Failure|Asthma,Amlodipine|Lisinopril,synthetic

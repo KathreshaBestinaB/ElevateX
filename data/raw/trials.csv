@@ -1,0 +1,201 @@
+trial_id,nct_id,title,phase,condition,drug_class,status,enrollment_target,sponsor
+TR-02045,NCT20240000,ACE Inhibitor Study in COPD - Phase 2,Phase 2,COPD,DPP-4 Inhibitor,Completed,11944,Pharma Corp A
+TR-20001,NCT20240001,Investigational DPP-4 Inhibitor Analog Study in Obesity - Phase 4,Phase 4,Obesity,SGLT-2 Inhibitor,Recruiting,1623,MedResearch LLC
+TR-20002,NCT20240002,DPP-4 Inhibitor Study in Heart Failure - Phase 2,Phase 2,Heart Failure,GLP-1 Agonist,Completed,10701,MedResearch LLC
+TR-20003,NCT20240003,SGLT-2 Inhibitor Study in Rheumatoid Arthritis - Phase 4,Phase 4,Rheumatoid Arthritis,Investigational DPP-4 Inhibitor Analog,Active,606,Pharma Corp A
+TR-20004,NCT20240004,Dual-Agent Protocol Study in COPD - Phase 4,Phase 4,COPD,Beta Blocker,Completed,2876,University Hospital
+TR-20005,NCT20240005,Investigational DPP-4 Inhibitor Analog Study in Hypertension - Phase 4,Phase 4,Hypertension,Beta Blocker,Completed,6068,Pharma Corp A
+TR-20006,NCT20240006,GLP-1 Agonist Study in Hypertension - Phase 1,Phase 1,Hypertension,GLP-1 Agonist,Completed,10558,BioTech Inc
+TR-20007,NCT20240007,Beta Blocker Study in Type 2 Diabetes - Phase 4,Phase 4,Type 2 Diabetes,GLP-1 Agonist,Completed,3017,University Hospital
+TR-20008,NCT20240008,Beta Blocker Study in Heart Failure - Phase 4,Phase 4,Heart Failure,SGLT-2 Inhibitor,Recruiting,5378,Pharma Corp A
+TR-20009,NCT20240009,Investigational DPP-4 Inhibitor Analog Study in Atrial Fibrillation - Phase 2,Phase 2,Atrial Fibrillation,DPP-4 Inhibitor,Completed,9160,University Hospital
+TR-20010,NCT20240010,ACE Inhibitor Study in Hypertension - Phase 1,Phase 1,Hypertension,GLP-1 Agonist,Active,14173,BioTech Inc
+TR-20011,NCT20240011,Immunotherapy (PD-1) Study in Type 2 Diabetes - Phase 4,Phase 4,Type 2 Diabetes,GLP-1 Agonist,Recruiting,2160,BioTech Inc
+TR-20012,NCT20240012,Beta Blocker Study in Obesity - Phase 1,Phase 1,Obesity,DPP-4 Inhibitor,Recruiting,2093,MedResearch LLC
+TR-20013,NCT20240013,Investigational DPP-4 Inhibitor Analog Study in Asthma - Phase 2,Phase 2,Asthma,DPP-4 Inhibitor,Active,4975,Pharma Corp A
+TR-20014,NCT20240014,Dual-Agent Protocol Study in Atrial Fibrillation - Phase 3,Phase 3,Atrial Fibrillation,SGLT-2 Inhibitor,Completed,8085,MedResearch LLC
+TR-20015,NCT20240015,ACE Inhibitor Study in Atrial Fibrillation - Phase 3,Phase 3,Atrial Fibrillation,GLP-1 Agonist,Recruiting,3934,Pharma Corp A
+TR-20016,NCT20240016,Beta Blocker Study in COPD - Phase 2,Phase 2,COPD,ACE Inhibitor,Active,9915,BioTech Inc
+TR-20017,NCT20240017,Beta Blocker Study in Rheumatoid Arthritis - Phase 3,Phase 3,Rheumatoid Arthritis,SGLT-2 Inhibitor,Completed,6964,Pharma Corp A
+TR-20018,NCT20240018,Beta Blocker Study in Atrial Fibrillation - Phase 3,Phase 3,Atrial Fibrillation,Investigational DPP-4 Inhibitor Analog,Active,6604,University Hospital
+TR-20019,NCT20240019,Investigational DPP-4 Inhibitor Analog Study in Hypertension - Phase 3,Phase 3,Hypertension,SGLT-2 Inhibitor,Completed,3388,Pharma Corp A
+TR-20020,NCT20240020,Immunotherapy (PD-1) Study in Depression - Phase 2,Phase 2,Depression,SGLT-2 Inhibitor,Completed,13510,BioTech Inc
+TR-20021,NCT20240021,Investigational DPP-4 Inhibitor Analog Study in Asthma - Phase 4,Phase 4,Asthma,DPP-4 Inhibitor,Completed,4105,Pharma Corp A
+TR-20022,NCT20240022,GLP-1 Agonist Study in Depression - Phase 1,Phase 1,Depression,Investigational DPP-4 Inhibitor Analog,Recruiting,5446,Pharma Corp A
+TR-20023,NCT20240023,Beta Blocker Study in Asthma - Phase 3,Phase 3,Asthma,SGLT-2 Inhibitor,Active,4533,Pharma Corp A
+TR-20024,NCT20240024,ACE Inhibitor Study in Hypertension - Phase 4,Phase 4,Hypertension,Investigational DPP-4 Inhibitor Analog,Recruiting,12874,Pharma Corp A
+TR-20025,NCT20240025,Dual-Agent Protocol Study in Obesity - Phase 3,Phase 3,Obesity,GLP-1 Agonist,Completed,5766,MedResearch LLC
+TR-20026,NCT20240026,GLP-1 Agonist Study in Atrial Fibrillation - Phase 3,Phase 3,Atrial Fibrillation,DPP-4 Inhibitor,Active,5260,University Hospital
+TR-20027,NCT20240027,Investigational DPP-4 Inhibitor Analog Study in Obesity - Phase 3,Phase 3,Obesity,Dual-Agent Protocol,Completed,2140,MedResearch LLC
+TR-20028,NCT20240028,SGLT-2 Inhibitor Study in Type 2 Diabetes - Phase 2,Phase 2,Type 2 Diabetes,SGLT-2 Inhibitor,Completed,9348,MedResearch LLC
+TR-20029,NCT20240029,ACE Inhibitor Study in Type 2 Diabetes - Phase 3,Phase 3,Type 2 Diabetes,Investigational DPP-4 Inhibitor Analog,Completed,3049,University Hospital
+TR-20030,NCT20240030,Beta Blocker Study in Asthma - Phase 4,Phase 4,Asthma,Beta Blocker,Completed,8579,BioTech Inc
+TR-20031,NCT20240031,Beta Blocker Study in Depression - Phase 1,Phase 1,Depression,Investigational DPP-4 Inhibitor Analog,Completed,13898,Pharma Corp A
+TR-20032,NCT20240032,ACE Inhibitor Study in Hypertension - Phase 1,Phase 1,Hypertension,GLP-1 Agonist,Active,9475,Pharma Corp A
+TR-20033,NCT20240033,Dual-Agent Protocol Study in Hypertension - Phase 3,Phase 3,Hypertension,DPP-4 Inhibitor,Completed,11142,BioTech Inc
+TR-20034,NCT20240034,GLP-1 Agonist Study in Heart Failure - Phase 4,Phase 4,Heart Failure,Investigational DPP-4 Inhibitor Analog,Recruiting,10147,BioTech Inc
+TR-20035,NCT20240035,Immunotherapy (PD-1) Study in Type 2 Diabetes - Phase 4,Phase 4,Type 2 Diabetes,ACE Inhibitor,Completed,11257,Pharma Corp A
+TR-20036,NCT20240036,SGLT-2 Inhibitor Study in Rheumatoid Arthritis - Phase 4,Phase 4,Rheumatoid Arthritis,ACE Inhibitor,Active,1280,MedResearch LLC
+TR-20037,NCT20240037,DPP-4 Inhibitor Study in Obesity - Phase 3,Phase 3,Obesity,Investigational DPP-4 Inhibitor Analog,Completed,6261,BioTech Inc
+TR-20038,NCT20240038,Immunotherapy (PD-1) Study in Asthma - Phase 1,Phase 1,Asthma,ACE Inhibitor,Completed,13989,Pharma Corp A
+TR-20039,NCT20240039,Dual-Agent Protocol Study in Depression - Phase 3,Phase 3,Depression,Beta Blocker,Completed,3540,Pharma Corp A
+TR-20040,NCT20240040,ACE Inhibitor Study in Rheumatoid Arthritis - Phase 4,Phase 4,Rheumatoid Arthritis,Beta Blocker,Completed,13578,Pharma Corp A
+TR-20041,NCT20240041,DPP-4 Inhibitor Study in Heart Failure - Phase 4,Phase 4,Heart Failure,Immunotherapy (PD-1),Recruiting,10134,University Hospital
+TR-20042,NCT20240042,Immunotherapy (PD-1) Study in Asthma - Phase 3,Phase 3,Asthma,GLP-1 Agonist,Recruiting,5779,BioTech Inc
+TR-20043,NCT20240043,DPP-4 Inhibitor Study in Chronic Kidney Disease - Phase 3,Phase 3,Chronic Kidney Disease,GLP-1 Agonist,Completed,8111,BioTech Inc
+TR-20044,NCT20240044,Investigational DPP-4 Inhibitor Analog Study in Hypertension - Phase 2,Phase 2,Hypertension,GLP-1 Agonist,Completed,163,BioTech Inc
+TR-20045,NCT20240045,Dual-Agent Protocol Study in Depression - Phase 2,Phase 2,Depression,Investigational DPP-4 Inhibitor Analog,Completed,4953,MedResearch LLC
+TR-20046,NCT20240046,Beta Blocker Study in Chronic Kidney Disease - Phase 2,Phase 2,Chronic Kidney Disease,GLP-1 Agonist,Completed,10802,University Hospital
+TR-20047,NCT20240047,Immunotherapy (PD-1) Study in Obesity - Phase 2,Phase 2,Obesity,Investigational DPP-4 Inhibitor Analog,Recruiting,5935,BioTech Inc
+TR-20048,NCT20240048,Beta Blocker Study in Hypertension - Phase 2,Phase 2,Hypertension,DPP-4 Inhibitor,Active,6514,University Hospital
+TR-20049,NCT20240049,SGLT-2 Inhibitor Study in Asthma - Phase 1,Phase 1,Asthma,ACE Inhibitor,Completed,10949,MedResearch LLC
+TR-20050,NCT20240050,Dual-Agent Protocol Study in Hypertension - Phase 4,Phase 4,Hypertension,Dual-Agent Protocol,Active,5372,University Hospital
+TR-20051,NCT20240051,SGLT-2 Inhibitor Study in Atrial Fibrillation - Phase 4,Phase 4,Atrial Fibrillation,GLP-1 Agonist,Recruiting,13037,Pharma Corp A
+TR-20052,NCT20240052,Immunotherapy (PD-1) Study in Obesity - Phase 2,Phase 2,Obesity,DPP-4 Inhibitor,Active,902,MedResearch LLC
+TR-20053,NCT20240053,Investigational DPP-4 Inhibitor Analog Study in Chronic Kidney Disease - Phase 1,Phase 1,Chronic Kidney Disease,Dual-Agent Protocol,Completed,4673,University Hospital
+TR-20054,NCT20240054,ACE Inhibitor Study in Hypertension - Phase 4,Phase 4,Hypertension,SGLT-2 Inhibitor,Completed,3111,BioTech Inc
+TR-20055,NCT20240055,Beta Blocker Study in Depression - Phase 1,Phase 1,Depression,ACE Inhibitor,Completed,3300,University Hospital
+TR-20056,NCT20240056,ACE Inhibitor Study in Hypertension - Phase 2,Phase 2,Hypertension,SGLT-2 Inhibitor,Active,2023,BioTech Inc
+TR-20057,NCT20240057,Beta Blocker Study in Chronic Kidney Disease - Phase 1,Phase 1,Chronic Kidney Disease,ACE Inhibitor,Active,7034,Pharma Corp A
+TR-20058,NCT20240058,GLP-1 Agonist Study in Rheumatoid Arthritis - Phase 2,Phase 2,Rheumatoid Arthritis,DPP-4 Inhibitor,Completed,6723,MedResearch LLC
+TR-20059,NCT20240059,Immunotherapy (PD-1) Study in COPD - Phase 2,Phase 2,COPD,Investigational DPP-4 Inhibitor Analog,Completed,1055,University Hospital
+TR-20060,NCT20240060,GLP-1 Agonist Study in Type 2 Diabetes - Phase 3,Phase 3,Type 2 Diabetes,Beta Blocker,Completed,4646,MedResearch LLC
+TR-20061,NCT20240061,Immunotherapy (PD-1) Study in Chronic Kidney Disease - Phase 2,Phase 2,Chronic Kidney Disease,DPP-4 Inhibitor,Active,719,Pharma Corp A
+TR-20062,NCT20240062,ACE Inhibitor Study in Type 2 Diabetes - Phase 3,Phase 3,Type 2 Diabetes,Beta Blocker,Completed,4640,Pharma Corp A
+TR-20063,NCT20240063,Beta Blocker Study in Chronic Kidney Disease - Phase 2,Phase 2,Chronic Kidney Disease,Dual-Agent Protocol,Completed,5526,MedResearch LLC
+TR-20064,NCT20240064,DPP-4 Inhibitor Study in Hypertension - Phase 1,Phase 1,Hypertension,SGLT-2 Inhibitor,Completed,5957,MedResearch LLC
+TR-20065,NCT20240065,ACE Inhibitor Study in Rheumatoid Arthritis - Phase 3,Phase 3,Rheumatoid Arthritis,Beta Blocker,Active,9623,University Hospital
+TR-20066,NCT20240066,SGLT-2 Inhibitor Study in Hypertension - Phase 1,Phase 1,Hypertension,GLP-1 Agonist,Recruiting,9660,BioTech Inc
+TR-20067,NCT20240067,GLP-1 Agonist Study in COPD - Phase 4,Phase 4,COPD,GLP-1 Agonist,Completed,10191,MedResearch LLC
+TR-20068,NCT20240068,ACE Inhibitor Study in Depression - Phase 4,Phase 4,Depression,SGLT-2 Inhibitor,Recruiting,2144,BioTech Inc
+TR-20069,NCT20240069,Immunotherapy (PD-1) Study in Chronic Kidney Disease - Phase 3,Phase 3,Chronic Kidney Disease,Immunotherapy (PD-1),Completed,10369,Pharma Corp A
+TR-20070,NCT20240070,Dual-Agent Protocol Study in Chronic Kidney Disease - Phase 1,Phase 1,Chronic Kidney Disease,Investigational DPP-4 Inhibitor Analog,Completed,8305,Pharma Corp A
+TR-20071,NCT20240071,SGLT-2 Inhibitor Study in Obesity - Phase 3,Phase 3,Obesity,Beta Blocker,Recruiting,9326,Pharma Corp A
+TR-20072,NCT20240072,Dual-Agent Protocol Study in COPD - Phase 4,Phase 4,COPD,GLP-1 Agonist,Active,7222,University Hospital
+TR-20073,NCT20240073,Investigational DPP-4 Inhibitor Analog Study in Atrial Fibrillation - Phase 4,Phase 4,Atrial Fibrillation,Beta Blocker,Active,3065,Pharma Corp A
+TR-20074,NCT20240074,DPP-4 Inhibitor Study in Obesity - Phase 2,Phase 2,Obesity,Dual-Agent Protocol,Completed,11645,MedResearch LLC
+TR-20075,NCT20240075,Beta Blocker Study in Depression - Phase 2,Phase 2,Depression,Beta Blocker,Completed,2001,BioTech Inc
+TR-20076,NCT20240076,ACE Inhibitor Study in COPD - Phase 1,Phase 1,COPD,Beta Blocker,Recruiting,10529,BioTech Inc
+TR-20077,NCT20240077,Beta Blocker Study in Depression - Phase 2,Phase 2,Depression,DPP-4 Inhibitor,Active,13540,BioTech Inc
+TR-20078,NCT20240078,DPP-4 Inhibitor Study in Atrial Fibrillation - Phase 1,Phase 1,Atrial Fibrillation,Immunotherapy (PD-1),Completed,6097,MedResearch LLC
+TR-20079,NCT20240079,SGLT-2 Inhibitor Study in Hypertension - Phase 3,Phase 3,Hypertension,Investigational DPP-4 Inhibitor Analog,Completed,4881,MedResearch LLC
+TR-20080,NCT20240080,Immunotherapy (PD-1) Study in Type 2 Diabetes - Phase 1,Phase 1,Type 2 Diabetes,ACE Inhibitor,Completed,2945,MedResearch LLC
+TR-20081,NCT20240081,Investigational DPP-4 Inhibitor Analog Study in Type 2 Diabetes - Phase 1,Phase 1,Type 2 Diabetes,Beta Blocker,Completed,9075,BioTech Inc
+TR-20082,NCT20240082,Immunotherapy (PD-1) Study in Heart Failure - Phase 2,Phase 2,Heart Failure,Beta Blocker,Active,9579,University Hospital
+TR-20083,NCT20240083,ACE Inhibitor Study in Obesity - Phase 4,Phase 4,Obesity,Investigational DPP-4 Inhibitor Analog,Completed,2480,University Hospital
+TR-20084,NCT20240084,SGLT-2 Inhibitor Study in Hypertension - Phase 4,Phase 4,Hypertension,Dual-Agent Protocol,Active,13412,BioTech Inc
+TR-20085,NCT20240085,SGLT-2 Inhibitor Study in COPD - Phase 4,Phase 4,COPD,Beta Blocker,Recruiting,5131,BioTech Inc
+TR-20086,NCT20240086,ACE Inhibitor Study in Obesity - Phase 4,Phase 4,Obesity,GLP-1 Agonist,Active,1230,University Hospital
+TR-20087,NCT20240087,Investigational DPP-4 Inhibitor Analog Study in COPD - Phase 4,Phase 4,COPD,GLP-1 Agonist,Completed,2299,Pharma Corp A
+TR-20088,NCT20240088,Investigational DPP-4 Inhibitor Analog Study in Rheumatoid Arthritis - Phase 1,Phase 1,Rheumatoid Arthritis,Investigational DPP-4 Inhibitor Analog,Recruiting,1852,Pharma Corp A
+TR-20089,NCT20240089,ACE Inhibitor Study in Type 2 Diabetes - Phase 2,Phase 2,Type 2 Diabetes,GLP-1 Agonist,Completed,2386,Pharma Corp A
+TR-20090,NCT20240090,Immunotherapy (PD-1) Study in Type 2 Diabetes - Phase 1,Phase 1,Type 2 Diabetes,GLP-1 Agonist,Active,2331,University Hospital
+TR-20091,NCT20240091,SGLT-2 Inhibitor Study in Rheumatoid Arthritis - Phase 4,Phase 4,Rheumatoid Arthritis,Beta Blocker,Completed,7896,BioTech Inc
+TR-20092,NCT20240092,Beta Blocker Study in COPD - Phase 1,Phase 1,COPD,GLP-1 Agonist,Recruiting,13565,Pharma Corp A
+TR-20093,NCT20240093,GLP-1 Agonist Study in Hypertension - Phase 3,Phase 3,Hypertension,Investigational DPP-4 Inhibitor Analog,Active,69,BioTech Inc
+TR-20094,NCT20240094,Investigational DPP-4 Inhibitor Analog Study in Type 2 Diabetes - Phase 2,Phase 2,Type 2 Diabetes,Investigational DPP-4 Inhibitor Analog,Active,5838,MedResearch LLC
+TR-20095,NCT20240095,GLP-1 Agonist Study in COPD - Phase 4,Phase 4,COPD,Dual-Agent Protocol,Active,1854,BioTech Inc
+TR-20096,NCT20240096,Immunotherapy (PD-1) Study in Hypertension - Phase 3,Phase 3,Hypertension,GLP-1 Agonist,Completed,5517,Pharma Corp A
+TR-20097,NCT20240097,DPP-4 Inhibitor Study in Asthma - Phase 1,Phase 1,Asthma,SGLT-2 Inhibitor,Active,7072,MedResearch LLC
+TR-20098,NCT20240098,Investigational DPP-4 Inhibitor Analog Study in Rheumatoid Arthritis - Phase 2,Phase 2,Rheumatoid Arthritis,SGLT-2 Inhibitor,Completed,10286,MedResearch LLC
+TR-20099,NCT20240099,Beta Blocker Study in Asthma - Phase 1,Phase 1,Asthma,Dual-Agent Protocol,Completed,4398,Pharma Corp A
+TR-20100,NCT20240100,SGLT-2 Inhibitor Study in Type 2 Diabetes - Phase 2,Phase 2,Type 2 Diabetes,Immunotherapy (PD-1),Active,6449,University Hospital
+TR-20101,NCT20240101,GLP-1 Agonist Study in Heart Failure - Phase 1,Phase 1,Heart Failure,Investigational DPP-4 Inhibitor Analog,Completed,2420,Pharma Corp A
+TR-20102,NCT20240102,SGLT-2 Inhibitor Study in Asthma - Phase 2,Phase 2,Asthma,Investigational DPP-4 Inhibitor Analog,Completed,5281,University Hospital
+TR-20103,NCT20240103,Investigational DPP-4 Inhibitor Analog Study in Chronic Kidney Disease - Phase 4,Phase 4,Chronic Kidney Disease,Immunotherapy (PD-1),Active,13192,BioTech Inc
+TR-20104,NCT20240104,Dual-Agent Protocol Study in Chronic Kidney Disease - Phase 4,Phase 4,Chronic Kidney Disease,Dual-Agent Protocol,Completed,8835,BioTech Inc
+TR-20105,NCT20240105,Investigational DPP-4 Inhibitor Analog Study in Chronic Kidney Disease - Phase 1,Phase 1,Chronic Kidney Disease,ACE Inhibitor,Recruiting,3903,MedResearch LLC
+TR-20106,NCT20240106,DPP-4 Inhibitor Study in Type 2 Diabetes - Phase 2,Phase 2,Type 2 Diabetes,Immunotherapy (PD-1),Completed,7814,BioTech Inc
+TR-20107,NCT20240107,Immunotherapy (PD-1) Study in Hypertension - Phase 1,Phase 1,Hypertension,Immunotherapy (PD-1),Active,4878,University Hospital
+TR-20108,NCT20240108,ACE Inhibitor Study in Obesity - Phase 4,Phase 4,Obesity,ACE Inhibitor,Active,965,BioTech Inc
+TR-20109,NCT20240109,Investigational DPP-4 Inhibitor Analog Study in Hypertension - Phase 2,Phase 2,Hypertension,DPP-4 Inhibitor,Completed,6139,Pharma Corp A
+TR-20110,NCT20240110,Dual-Agent Protocol Study in Hypertension - Phase 1,Phase 1,Hypertension,SGLT-2 Inhibitor,Recruiting,2456,MedResearch LLC
+TR-20111,NCT20240111,ACE Inhibitor Study in Obesity - Phase 1,Phase 1,Obesity,GLP-1 Agonist,Recruiting,9375,University Hospital
+TR-20112,NCT20240112,Dual-Agent Protocol Study in Obesity - Phase 2,Phase 2,Obesity,SGLT-2 Inhibitor,Completed,11495,MedResearch LLC
+TR-20113,NCT20240113,Immunotherapy (PD-1) Study in Heart Failure - Phase 4,Phase 4,Heart Failure,Dual-Agent Protocol,Recruiting,4748,Pharma Corp A
+TR-20114,NCT20240114,DPP-4 Inhibitor Study in Obesity - Phase 1,Phase 1,Obesity,SGLT-2 Inhibitor,Completed,2677,Pharma Corp A
+TR-20115,NCT20240115,Dual-Agent Protocol Study in Chronic Kidney Disease - Phase 4,Phase 4,Chronic Kidney Disease,Beta Blocker,Completed,8272,MedResearch LLC
+TR-20116,NCT20240116,SGLT-2 Inhibitor Study in COPD - Phase 4,Phase 4,COPD,Beta Blocker,Recruiting,8594,University Hospital
+TR-20117,NCT20240117,Investigational DPP-4 Inhibitor Analog Study in Obesity - Phase 2,Phase 2,Obesity,DPP-4 Inhibitor,Active,6477,BioTech Inc
+TR-20118,NCT20240118,Dual-Agent Protocol Study in Atrial Fibrillation - Phase 1,Phase 1,Atrial Fibrillation,Dual-Agent Protocol,Completed,10743,University Hospital
+TR-20119,NCT20240119,DPP-4 Inhibitor Study in Chronic Kidney Disease - Phase 2,Phase 2,Chronic Kidney Disease,Immunotherapy (PD-1),Completed,3240,MedResearch LLC
+TR-20120,NCT20240120,GLP-1 Agonist Study in Hypertension - Phase 1,Phase 1,Hypertension,Immunotherapy (PD-1),Completed,12809,MedResearch LLC
+TR-20121,NCT20240121,Beta Blocker Study in Type 2 Diabetes - Phase 2,Phase 2,Type 2 Diabetes,SGLT-2 Inhibitor,Completed,1794,Pharma Corp A
+TR-20122,NCT20240122,Beta Blocker Study in COPD - Phase 1,Phase 1,COPD,ACE Inhibitor,Completed,3355,Pharma Corp A
+TR-20123,NCT20240123,GLP-1 Agonist Study in COPD - Phase 3,Phase 3,COPD,DPP-4 Inhibitor,Completed,12997,University Hospital
+TR-20124,NCT20240124,Immunotherapy (PD-1) Study in Type 2 Diabetes - Phase 1,Phase 1,Type 2 Diabetes,GLP-1 Agonist,Completed,188,MedResearch LLC
+TR-20125,NCT20240125,ACE Inhibitor Study in Depression - Phase 4,Phase 4,Depression,Immunotherapy (PD-1),Completed,11939,MedResearch LLC
+TR-20126,NCT20240126,Immunotherapy (PD-1) Study in Obesity - Phase 1,Phase 1,Obesity,Investigational DPP-4 Inhibitor Analog,Completed,1704,BioTech Inc
+TR-20127,NCT20240127,Dual-Agent Protocol Study in Type 2 Diabetes - Phase 4,Phase 4,Type 2 Diabetes,DPP-4 Inhibitor,Completed,2691,BioTech Inc
+TR-20128,NCT20240128,GLP-1 Agonist Study in Heart Failure - Phase 1,Phase 1,Heart Failure,ACE Inhibitor,Active,13279,BioTech Inc
+TR-20129,NCT20240129,Dual-Agent Protocol Study in Obesity - Phase 3,Phase 3,Obesity,SGLT-2 Inhibitor,Completed,4815,MedResearch LLC
+TR-20130,NCT20240130,DPP-4 Inhibitor Study in Rheumatoid Arthritis - Phase 4,Phase 4,Rheumatoid Arthritis,Investigational DPP-4 Inhibitor Analog,Active,3471,Pharma Corp A
+TR-20131,NCT20240131,GLP-1 Agonist Study in Obesity - Phase 4,Phase 4,Obesity,DPP-4 Inhibitor,Active,12605,MedResearch LLC
+TR-20132,NCT20240132,Dual-Agent Protocol Study in Atrial Fibrillation - Phase 1,Phase 1,Atrial Fibrillation,GLP-1 Agonist,Completed,5189,BioTech Inc
+TR-20133,NCT20240133,GLP-1 Agonist Study in Depression - Phase 2,Phase 2,Depression,Beta Blocker,Completed,6002,MedResearch LLC
+TR-20134,NCT20240134,SGLT-2 Inhibitor Study in Hypertension - Phase 1,Phase 1,Hypertension,Dual-Agent Protocol,Completed,7803,MedResearch LLC
+TR-20135,NCT20240135,GLP-1 Agonist Study in Heart Failure - Phase 2,Phase 2,Heart Failure,Dual-Agent Protocol,Recruiting,6005,MedResearch LLC
+TR-20136,NCT20240136,SGLT-2 Inhibitor Study in Chronic Kidney Disease - Phase 4,Phase 4,Chronic Kidney Disease,Dual-Agent Protocol,Completed,8446,MedResearch LLC
+TR-20137,NCT20240137,Investigational DPP-4 Inhibitor Analog Study in Asthma - Phase 1,Phase 1,Asthma,Dual-Agent Protocol,Completed,14425,Pharma Corp A
+TR-20138,NCT20240138,ACE Inhibitor Study in Rheumatoid Arthritis - Phase 1,Phase 1,Rheumatoid Arthritis,DPP-4 Inhibitor,Active,14026,Pharma Corp A
+TR-20139,NCT20240139,SGLT-2 Inhibitor Study in Depression - Phase 4,Phase 4,Depression,Investigational DPP-4 Inhibitor Analog,Recruiting,3704,University Hospital
+TR-20140,NCT20240140,Immunotherapy (PD-1) Study in Heart Failure - Phase 1,Phase 1,Heart Failure,Dual-Agent Protocol,Completed,10576,University Hospital
+TR-20141,NCT20240141,SGLT-2 Inhibitor Study in Hypertension - Phase 1,Phase 1,Hypertension,GLP-1 Agonist,Completed,12636,University Hospital
+TR-20142,NCT20240142,Immunotherapy (PD-1) Study in COPD - Phase 4,Phase 4,COPD,GLP-1 Agonist,Completed,5660,University Hospital
+TR-20143,NCT20240143,GLP-1 Agonist Study in COPD - Phase 4,Phase 4,COPD,Beta Blocker,Completed,677,BioTech Inc
+TR-20144,NCT20240144,ACE Inhibitor Study in Heart Failure - Phase 2,Phase 2,Heart Failure,Immunotherapy (PD-1),Completed,563,University Hospital
+TR-20145,NCT20240145,Investigational DPP-4 Inhibitor Analog Study in Type 2 Diabetes - Phase 3,Phase 3,Type 2 Diabetes,Dual-Agent Protocol,Active,936,BioTech Inc
+TR-20146,NCT20240146,Beta Blocker Study in Type 2 Diabetes - Phase 4,Phase 4,Type 2 Diabetes,Beta Blocker,Active,1419,BioTech Inc
+TR-20147,NCT20240147,Investigational DPP-4 Inhibitor Analog Study in Hypertension - Phase 3,Phase 3,Hypertension,GLP-1 Agonist,Completed,14365,University Hospital
+TR-20148,NCT20240148,Beta Blocker Study in Chronic Kidney Disease - Phase 2,Phase 2,Chronic Kidney Disease,SGLT-2 Inhibitor,Recruiting,1564,University Hospital
+TR-20149,NCT20240149,SGLT-2 Inhibitor Study in Asthma - Phase 3,Phase 3,Asthma,ACE Inhibitor,Completed,6916,University Hospital
+TR-20150,NCT20240150,Investigational DPP-4 Inhibitor Analog Study in Heart Failure - Phase 2,Phase 2,Heart Failure,Immunotherapy (PD-1),Completed,6425,Pharma Corp A
+TR-20151,NCT20240151,GLP-1 Agonist Study in Atrial Fibrillation - Phase 2,Phase 2,Atrial Fibrillation,SGLT-2 Inhibitor,Completed,10930,MedResearch LLC
+TR-20152,NCT20240152,Dual-Agent Protocol Study in Type 2 Diabetes - Phase 2,Phase 2,Type 2 Diabetes,SGLT-2 Inhibitor,Completed,14210,MedResearch LLC
+TR-20153,NCT20240153,Beta Blocker Study in Hypertension - Phase 4,Phase 4,Hypertension,DPP-4 Inhibitor,Completed,13689,BioTech Inc
+TR-20154,NCT20240154,DPP-4 Inhibitor Study in Heart Failure - Phase 1,Phase 1,Heart Failure,ACE Inhibitor,Active,6934,BioTech Inc
+TR-20155,NCT20240155,ACE Inhibitor Study in Rheumatoid Arthritis - Phase 4,Phase 4,Rheumatoid Arthritis,Immunotherapy (PD-1),Active,3181,Pharma Corp A
+TR-20156,NCT20240156,DPP-4 Inhibitor Study in Asthma - Phase 3,Phase 3,Asthma,Beta Blocker,Completed,8276,Pharma Corp A
+TR-20157,NCT20240157,Investigational DPP-4 Inhibitor Analog Study in Heart Failure - Phase 4,Phase 4,Heart Failure,Investigational DPP-4 Inhibitor Analog,Completed,5820,University Hospital
+TR-20158,NCT20240158,GLP-1 Agonist Study in Atrial Fibrillation - Phase 3,Phase 3,Atrial Fibrillation,SGLT-2 Inhibitor,Completed,7068,MedResearch LLC
+TR-20159,NCT20240159,Investigational DPP-4 Inhibitor Analog Study in Obesity - Phase 2,Phase 2,Obesity,Investigational DPP-4 Inhibitor Analog,Completed,13895,University Hospital
+TR-20160,NCT20240160,GLP-1 Agonist Study in Depression - Phase 1,Phase 1,Depression,GLP-1 Agonist,Recruiting,10693,Pharma Corp A
+TR-20161,NCT20240161,GLP-1 Agonist Study in Rheumatoid Arthritis - Phase 4,Phase 4,Rheumatoid Arthritis,Dual-Agent Protocol,Completed,8974,Pharma Corp A
+TR-20162,NCT20240162,Beta Blocker Study in Heart Failure - Phase 1,Phase 1,Heart Failure,Investigational DPP-4 Inhibitor Analog,Active,3701,University Hospital
+TR-20163,NCT20240163,GLP-1 Agonist Study in Atrial Fibrillation - Phase 4,Phase 4,Atrial Fibrillation,ACE Inhibitor,Completed,2088,MedResearch LLC
+TR-20164,NCT20240164,Investigational DPP-4 Inhibitor Analog Study in Heart Failure - Phase 4,Phase 4,Heart Failure,DPP-4 Inhibitor,Completed,12865,BioTech Inc
+TR-20165,NCT20240165,Beta Blocker Study in Atrial Fibrillation - Phase 3,Phase 3,Atrial Fibrillation,Beta Blocker,Completed,13787,University Hospital
+TR-20166,NCT20240166,Investigational DPP-4 Inhibitor Analog Study in COPD - Phase 1,Phase 1,COPD,DPP-4 Inhibitor,Recruiting,480,BioTech Inc
+TR-20167,NCT20240167,Immunotherapy (PD-1) Study in Asthma - Phase 3,Phase 3,Asthma,SGLT-2 Inhibitor,Completed,7095,BioTech Inc
+TR-20168,NCT20240168,ACE Inhibitor Study in Atrial Fibrillation - Phase 4,Phase 4,Atrial Fibrillation,Investigational DPP-4 Inhibitor Analog,Recruiting,13179,University Hospital
+TR-20169,NCT20240169,SGLT-2 Inhibitor Study in Obesity - Phase 4,Phase 4,Obesity,Investigational DPP-4 Inhibitor Analog,Completed,8525,BioTech Inc
+TR-20170,NCT20240170,GLP-1 Agonist Study in Chronic Kidney Disease - Phase 2,Phase 2,Chronic Kidney Disease,SGLT-2 Inhibitor,Completed,1989,University Hospital
+TR-20171,NCT20240171,Immunotherapy (PD-1) Study in Depression - Phase 2,Phase 2,Depression,ACE Inhibitor,Recruiting,1578,Pharma Corp A
+TR-20172,NCT20240172,SGLT-2 Inhibitor Study in Chronic Kidney Disease - Phase 1,Phase 1,Chronic Kidney Disease,DPP-4 Inhibitor,Completed,11642,Pharma Corp A
+TR-20173,NCT20240173,DPP-4 Inhibitor Study in Rheumatoid Arthritis - Phase 4,Phase 4,Rheumatoid Arthritis,SGLT-2 Inhibitor,Completed,10445,MedResearch LLC
+TR-20174,NCT20240174,ACE Inhibitor Study in Obesity - Phase 2,Phase 2,Obesity,Beta Blocker,Active,8822,BioTech Inc
+TR-20175,NCT20240175,DPP-4 Inhibitor Study in Chronic Kidney Disease - Phase 3,Phase 3,Chronic Kidney Disease,Beta Blocker,Recruiting,2405,Pharma Corp A
+TR-20176,NCT20240176,GLP-1 Agonist Study in Rheumatoid Arthritis - Phase 1,Phase 1,Rheumatoid Arthritis,Dual-Agent Protocol,Completed,2060,Pharma Corp A
+TR-20177,NCT20240177,Beta Blocker Study in Obesity - Phase 3,Phase 3,Obesity,SGLT-2 Inhibitor,Recruiting,1317,University Hospital
+TR-20178,NCT20240178,Investigational DPP-4 Inhibitor Analog Study in Asthma - Phase 2,Phase 2,Asthma,GLP-1 Agonist,Completed,13082,Pharma Corp A
+TR-20179,NCT20240179,Dual-Agent Protocol Study in Chronic Kidney Disease - Phase 1,Phase 1,Chronic Kidney Disease,GLP-1 Agonist,Active,11311,University Hospital
+TR-20180,NCT20240180,Dual-Agent Protocol Study in Chronic Kidney Disease - Phase 3,Phase 3,Chronic Kidney Disease,SGLT-2 Inhibitor,Active,4944,Pharma Corp A
+TR-20181,NCT20240181,GLP-1 Agonist Study in Obesity - Phase 1,Phase 1,Obesity,Immunotherapy (PD-1),Completed,7978,Pharma Corp A
+TR-20182,NCT20240182,GLP-1 Agonist Study in Obesity - Phase 3,Phase 3,Obesity,ACE Inhibitor,Completed,534,Pharma Corp A
+TR-20183,NCT20240183,ACE Inhibitor Study in Atrial Fibrillation - Phase 2,Phase 2,Atrial Fibrillation,Immunotherapy (PD-1),Recruiting,14772,BioTech Inc
+TR-20184,NCT20240184,SGLT-2 Inhibitor Study in Type 2 Diabetes - Phase 3,Phase 3,Type 2 Diabetes,ACE Inhibitor,Recruiting,11973,BioTech Inc
+TR-20185,NCT20240185,Dual-Agent Protocol Study in Depression - Phase 3,Phase 3,Depression,ACE Inhibitor,Recruiting,5760,MedResearch LLC
+TR-20186,NCT20240186,Investigational DPP-4 Inhibitor Analog Study in Heart Failure - Phase 4,Phase 4,Heart Failure,Investigational DPP-4 Inhibitor Analog,Active,4147,BioTech Inc
+TR-20187,NCT20240187,Investigational DPP-4 Inhibitor Analog Study in COPD - Phase 3,Phase 3,COPD,GLP-1 Agonist,Completed,13045,MedResearch LLC
+TR-20188,NCT20240188,Dual-Agent Protocol Study in Obesity - Phase 2,Phase 2,Obesity,Investigational DPP-4 Inhibitor Analog,Completed,6992,MedResearch LLC
+TR-20189,NCT20240189,Investigational DPP-4 Inhibitor Analog Study in Asthma - Phase 1,Phase 1,Asthma,Investigational DPP-4 Inhibitor Analog,Active,9342,MedResearch LLC
+TR-20190,NCT20240190,Dual-Agent Protocol Study in Asthma - Phase 1,Phase 1,Asthma,SGLT-2 Inhibitor,Recruiting,8428,MedResearch LLC
+TR-20191,NCT20240191,Beta Blocker Study in Rheumatoid Arthritis - Phase 4,Phase 4,Rheumatoid Arthritis,Immunotherapy (PD-1),Completed,540,Pharma Corp A
+TR-20192,NCT20240192,Investigational DPP-4 Inhibitor Analog Study in Obesity - Phase 3,Phase 3,Obesity,SGLT-2 Inhibitor,Completed,4069,Pharma Corp A
+TR-20193,NCT20240193,Immunotherapy (PD-1) Study in COPD - Phase 3,Phase 3,COPD,SGLT-2 Inhibitor,Completed,2053,Pharma Corp A
+TR-20194,NCT20240194,Immunotherapy (PD-1) Study in Asthma - Phase 1,Phase 1,Asthma,ACE Inhibitor,Completed,9347,MedResearch LLC
+TR-20195,NCT20240195,Investigational DPP-4 Inhibitor Analog Study in COPD - Phase 1,Phase 1,COPD,Beta Blocker,Completed,3526,BioTech Inc
+TR-20196,NCT20240196,GLP-1 Agonist Study in Hypertension - Phase 3,Phase 3,Hypertension,Investigational DPP-4 Inhibitor Analog,Completed,5256,MedResearch LLC
+TR-20197,NCT20240197,DPP-4 Inhibitor Study in COPD - Phase 2,Phase 2,COPD,Dual-Agent Protocol,Completed,816,MedResearch LLC
+TR-20198,NCT20240198,GLP-1 Agonist Study in Chronic Kidney Disease - Phase 1,Phase 1,Chronic Kidney Disease,Dual-Agent Protocol,Active,9903,MedResearch LLC
+TR-20199,NCT20240199,ACE Inhibitor Study in Rheumatoid Arthritis - Phase 4,Phase 4,Rheumatoid Arthritis,DPP-4 Inhibitor,Completed,342,Pharma Corp A

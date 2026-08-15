@@ -1,0 +1,8 @@
+START,STOP,PATIENT,ENCOUNTER,CODE,DESCRIPTION
+2015-03-01,,p-001,enc-001,44054006,Type 2 Diabetes Mellitus
+2018-06-01,,p-002,enc-002,44054006,Type 2 Diabetes Mellitus
+2012-01-10,,p-003,enc-003,44054006,Type 2 Diabetes Mellitus
+2010-04-01,,p-004,enc-004,38341003,Essential Hypertension
+2020-02-14,,p-006,enc-006,363346000,Malignant neoplastic disease
+2016-08-01,,p-008,enc-008,44054006,Type 2 Diabetes Mellitus
+2016-08-01,,p-008,enc-008,431855005,Chronic kidney disease stage 3

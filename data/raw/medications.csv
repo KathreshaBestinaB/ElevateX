@@ -1,0 +1,915 @@
+medication_id,patient_id,trial_id,medication_name,drug_class,dose,route,frequency,start_date,end_date,duration_weeks,is_investigational,combination_with
+MED-P1024-001,P001024,TR-02045,Drug-X-001,Investigational DPP-4 Inhibitor Analog,50 mg,Oral,Once daily,2024-01-15,2024-07-15,24,True,Metformin
+MED-F528D68F,P100934,TR-20102,Drug-B-200,SGLT-2 Inhibitor,50 mg,Oral,Once daily,2021-11-18,2022-03-10,16,True,Metformin
+MED-5257850E,P100473,TR-20140,Drug-B-200,SGLT-2 Inhibitor,25 mg,IV,Once daily,2021-12-10,2022-03-04,12,True,None
+MED-CA65FF93,P100292,TR-20114,Drug-B-200,SGLT-2 Inhibitor,50 mg,Oral,Once daily,2022-11-10,2023-04-27,24,True,Metformin
+MED-CC265B5B,P100135,TR-20069,Drug-C-300,DPP-4 Inhibitor,10 mg,Oral,Twice daily,2022-11-04,2023-04-21,24,True,Lisinopril
+MED-EFC7ABAB,P100413,TR-20142,Drug-F-600,ACE Inhibitor Variant,25 mg,Oral,Once daily,2022-02-01,2022-05-24,16,True,Lisinopril
+MED-6FC39837,P100038,TR-20061,Drug-B-200,SGLT-2 Inhibitor,200 mg,IV,Once daily,2021-12-01,2022-08-10,36,True,None
+MED-80A6A713,P100918,TR-20006,Drug-E-500,Dual-Agent Protocol,200 mg,Subcutaneous,Weekly,2022-12-12,2023-03-06,12,True,Metformin
+MED-B24C2181,P100918,TR-20128,Drug-A-100,GLP-1 Agonist Analog,50 mg,Oral,Once daily,2022-07-06,2022-10-26,16,True,None
+MED-63DE0E39,P100918,TR-20009,Drug-D-400,PD-1 Immunotherapy,50 mg,Subcutaneous,Weekly,2023-03-16,2023-08-31,24,True,Metformin
+MED-B8460929,P100547,TR-20098,Drug-A-100,GLP-1 Agonist Analog,25 mg,IV,Twice daily,2021-10-20,2022-01-12,12,True,Metformin
+MED-71F75D78,P100941,TR-20048,Drug-A-100,GLP-1 Agonist Analog,50 mg,Subcutaneous,Twice daily,2023-07-31,2024-04-08,36,True,Lisinopril
+MED-3547D4BF,P100661,TR-20185,Drug-B-200,SGLT-2 Inhibitor,100 mg,Oral,Weekly,2021-01-31,2021-04-25,12,True,Lisinopril
+MED-97343621,P100017,TR-20098,Drug-F-600,ACE Inhibitor Variant,100 mg,IV,Weekly,2022-02-21,2022-05-16,12,True,None
+MED-3C51751A,P100072,TR-20072,Drug-E-500,Dual-Agent Protocol,100 mg,IV,Once daily,2022-01-06,2022-04-28,16,True,Metformin
+MED-1112B0DC,P100072,TR-20175,Drug-A-100,GLP-1 Agonist Analog,25 mg,Subcutaneous,Twice daily,2023-02-02,2023-10-12,36,True,Metformin
+MED-32ACCE44,P100072,TR-20071,Drug-D-400,PD-1 Immunotherapy,50 mg,Oral,Weekly,2023-08-28,2024-02-12,24,True,Atorvastatin
+MED-E32950AB,P100098,TR-20146,Drug-C-300,DPP-4 Inhibitor,25 mg,Subcutaneous,Once daily,2021-07-30,2022-04-08,36,True,Atorvastatin
+MED-6EA7D3CF,P100850,TR-20005,Drug-A-100,GLP-1 Agonist Analog,10 mg,Oral,Weekly,2022-04-14,2022-12-22,36,True,Metformin
+MED-3ECD7650,P100822,TR-20123,Drug-F-600,ACE Inhibitor Variant,50 mg,Oral,Twice daily,2022-07-05,2023-07-04,52,True,None
+MED-43818DEC,P100822,TR-20143,Drug-B-200,SGLT-2 Inhibitor,10 mg,IV,Weekly,2021-08-05,2021-11-25,16,True,Metformin
+MED-25E74102,P100741,TR-20162,Drug-C-300,DPP-4 Inhibitor,50 mg,Oral,Twice daily,2021-01-21,2021-07-08,24,True,Metformin
+MED-8E44E477,P100309,TR-20168,Drug-F-600,ACE Inhibitor Variant,200 mg,Subcutaneous,Once daily,2021-07-25,2021-11-14,16,True,Lisinopril
+MED-D2C305F9,P100282,TR-20149,Drug-B-200,SGLT-2 Inhibitor,100 mg,IV,Weekly,2023-11-26,2024-02-18,12,True,Atorvastatin
+MED-354CBD25,P100282,TR-20082,Drug-F-600,ACE Inhibitor Variant,100 mg,Subcutaneous,Once daily,2022-06-19,2022-10-09,16,True,Lisinopril
+MED-B67AE9CF,P100325,TR-20005,Drug-F-600,ACE Inhibitor Variant,25 mg,Oral,Weekly,2021-09-26,2022-03-13,24,True,Metformin
+MED-6A2ACB7A,P100325,TR-20174,Drug-F-600,ACE Inhibitor Variant,200 mg,Oral,Weekly,2022-10-21,2023-04-07,24,True,Metformin
+MED-CCA303F0,P100325,TR-20091,Drug-F-600,ACE Inhibitor Variant,200 mg,IV,Twice daily,2022-09-12,2022-12-05,12,True,None
+MED-93BBDC92,P100772,TR-20053,Drug-D-400,PD-1 Immunotherapy,200 mg,Oral,Once daily,2023-02-22,2023-11-01,36,True,Metformin
+MED-EAE51C5B,P100410,TR-20093,Drug-B-200,SGLT-2 Inhibitor,50 mg,Oral,Twice daily,2023-05-31,2024-05-29,52,True,None
+MED-0E132597,P100082,TR-20076,Drug-B-200,SGLT-2 Inhibitor,200 mg,Subcutaneous,Twice daily,2023-08-15,2024-01-30,24,True,Atorvastatin
+MED-7FC0FB5F,P100794,TR-20081,Drug-C-300,DPP-4 Inhibitor,50 mg,Subcutaneous,Weekly,2023-12-01,2024-02-23,12,True,Lisinopril
+MED-F9CBFD90,P100321,TR-20089,Drug-F-600,ACE Inhibitor Variant,25 mg,Subcutaneous,Weekly,2023-12-23,2024-12-21,52,True,Metformin
+MED-A39DB2D7,P100506,TR-20167,Drug-C-300,DPP-4 Inhibitor,25 mg,IV,Once daily,2023-09-06,2024-05-15,36,True,None
+MED-24E8A441,P100628,TR-20148,Drug-F-600,ACE Inhibitor Variant,100 mg,IV,Once daily,2022-06-30,2023-06-29,52,True,Metformin
+MED-40B6BBE3,P100403,TR-20169,Drug-C-300,DPP-4 Inhibitor,50 mg,Subcutaneous,Twice daily,2022-03-20,2022-09-04,24,True,None
+MED-500C248B,P100306,TR-20148,Drug-E-500,Dual-Agent Protocol,200 mg,Oral,Once daily,2021-12-12,2022-08-21,36,True,Metformin
+MED-25A2178C,P100466,TR-20030,Drug-C-300,DPP-4 Inhibitor,200 mg,Oral,Twice daily,2021-08-06,2021-10-29,12,True,Atorvastatin
+MED-925C36CC,P100966,TR-20091,Drug-B-200,SGLT-2 Inhibitor,25 mg,Subcutaneous,Twice daily,2023-07-05,2023-12-20,24,True,Metformin
+MED-C17A931B,P100870,TR-20155,Drug-E-500,Dual-Agent Protocol,10 mg,Oral,Once daily,2022-01-05,2022-06-22,24,True,Metformin
+MED-3FFB621E,P100870,TR-20059,Drug-B-200,SGLT-2 Inhibitor,50 mg,Subcutaneous,Weekly,2021-06-28,2021-12-13,24,True,Metformin
+MED-2D125293,P100657,TR-20105,Drug-E-500,Dual-Agent Protocol,200 mg,Subcutaneous,Weekly,2021-01-28,2021-04-22,12,True,Atorvastatin
+MED-3724EE4A,P100933,TR-20074,Drug-D-400,PD-1 Immunotherapy,10 mg,Oral,Twice daily,2023-06-28,2023-10-18,16,True,Atorvastatin
+MED-675744A6,P100864,TR-20198,Drug-A-100,GLP-1 Agonist Analog,10 mg,Subcutaneous,Twice daily,2022-12-03,2023-05-20,24,True,Atorvastatin
+MED-23184B63,P100383,TR-20031,Drug-B-200,SGLT-2 Inhibitor,100 mg,IV,Weekly,2021-05-17,2021-09-06,16,True,None
+MED-8142917A,P100106,TR-20100,Drug-A-100,GLP-1 Agonist Analog,10 mg,Subcutaneous,Once daily,2021-06-03,2021-09-23,16,True,Metformin
+MED-C1D829CD,P100106,TR-20109,Drug-B-200,SGLT-2 Inhibitor,200 mg,Subcutaneous,Once daily,2022-02-16,2022-08-03,24,True,Metformin
+MED-4DEA9308,P100030,TR-20087,Drug-B-200,SGLT-2 Inhibitor,10 mg,Oral,Weekly,2023-08-08,2024-01-23,24,True,Metformin
+MED-E78EB5F4,P100230,TR-20019,Drug-D-400,PD-1 Immunotherapy,100 mg,Oral,Weekly,2021-04-06,2021-06-29,12,True,Metformin
+MED-CD2C465D,P100230,TR-20190,Drug-D-400,PD-1 Immunotherapy,50 mg,IV,Twice daily,2021-03-18,2021-11-25,36,True,Atorvastatin
+MED-9529A8C8,P100964,TR-20186,Drug-A-100,GLP-1 Agonist Analog,100 mg,IV,Once daily,2021-04-23,2021-12-31,36,True,Atorvastatin
+MED-B1374338,P100964,TR-20197,Drug-C-300,DPP-4 Inhibitor,50 mg,Oral,Once daily,2023-12-13,2024-04-03,16,True,Lisinopril
+MED-8662D6BA,P100846,TR-20173,Drug-B-200,SGLT-2 Inhibitor,25 mg,IV,Twice daily,2021-12-22,2022-08-31,36,True,None
+MED-88F202D5,P100143,TR-20127,Drug-D-400,PD-1 Immunotherapy,25 mg,Subcutaneous,Once daily,2021-10-28,2022-07-07,36,True,Metformin
+MED-3A5224CB,P100108,TR-20131,Drug-B-200,SGLT-2 Inhibitor,10 mg,Subcutaneous,Weekly,2021-08-23,2022-05-02,36,True,Lisinopril
+MED-C09DB67B,P100331,TR-20011,Drug-C-300,DPP-4 Inhibitor,50 mg,Oral,Once daily,2023-06-11,2023-09-03,12,True,None
+MED-3F2F7C21,P100331,TR-20189,Drug-D-400,PD-1 Immunotherapy,50 mg,Oral,Weekly,2022-07-20,2023-01-04,24,True,Metformin
+MED-0D7455A1,P100331,TR-20188,Drug-D-400,PD-1 Immunotherapy,100 mg,Subcutaneous,Twice daily,2023-08-09,2023-11-29,16,True,Lisinopril
+MED-15416A78,P100883,TR-20071,Drug-D-400,PD-1 Immunotherapy,100 mg,Subcutaneous,Once daily,2021-03-06,2021-11-13,36,True,Lisinopril
+MED-81CFBDA0,P100742,TR-20037,Drug-E-500,Dual-Agent Protocol,200 mg,Oral,Twice daily,2022-01-04,2022-06-21,24,True,Atorvastatin
+MED-8B366B49,P100742,TR-20025,Drug-A-100,GLP-1 Agonist Analog,50 mg,Oral,Weekly,2022-11-03,2023-07-13,36,True,Atorvastatin
+MED-B9F84DCB,P100447,TR-20050,Drug-A-100,GLP-1 Agonist Analog,200 mg,Subcutaneous,Weekly,2023-10-10,2024-01-02,12,True,Metformin
+MED-B5720D83,P100232,TR-20147,Drug-B-200,SGLT-2 Inhibitor,10 mg,Oral,Twice daily,2022-01-10,2022-06-27,24,True,Metformin
+MED-D4CA6F47,P100175,TR-20117,Drug-D-400,PD-1 Immunotherapy,50 mg,Oral,Twice daily,2022-07-01,2022-12-16,24,True,Metformin
+MED-56E041C8,P100091,TR-20111,Drug-B-200,SGLT-2 Inhibitor,100 mg,IV,Once daily,2022-12-09,2023-05-26,24,True,Atorvastatin
+MED-6FA020A1,P100196,TR-20030,Drug-E-500,Dual-Agent Protocol,200 mg,Oral,Once daily,2023-07-08,2023-12-23,24,True,Lisinopril
+MED-5006174B,P100940,TR-20132,Drug-C-300,DPP-4 Inhibitor,25 mg,IV,Once daily,2023-01-28,2024-01-27,52,True,Atorvastatin
+MED-6313D2EA,P100924,TR-20010,Drug-E-500,Dual-Agent Protocol,50 mg,Subcutaneous,Twice daily,2021-03-26,2022-03-25,52,True,Metformin
+MED-A47334D4,P100924,TR-20111,Drug-B-200,SGLT-2 Inhibitor,50 mg,Oral,Weekly,2023-06-08,2024-06-06,52,True,None
+MED-9411B863,P100832,TR-20161,Drug-A-100,GLP-1 Agonist Analog,25 mg,Subcutaneous,Twice daily,2022-11-26,2023-11-25,52,True,Lisinopril
+MED-BCEB6ACB,P100832,TR-20003,Drug-D-400,PD-1 Immunotherapy,10 mg,IV,Weekly,2021-12-24,2022-06-10,24,True,Lisinopril
+MED-5B1D6654,P100832,TR-20063,Drug-B-200,SGLT-2 Inhibitor,10 mg,Subcutaneous,Once daily,2021-02-02,2021-07-20,24,True,Atorvastatin
+MED-C47639EA,P100378,TR-20051,Drug-E-500,Dual-Agent Protocol,100 mg,Oral,Twice daily,2022-06-21,2022-09-13,12,True,Atorvastatin
+MED-FC024B8F,P100836,TR-20192,Drug-F-600,ACE Inhibitor Variant,50 mg,Oral,Twice daily,2021-07-12,2022-03-21,36,True,Lisinopril
+MED-1E6C10B0,P100836,TR-20055,Drug-C-300,DPP-4 Inhibitor,10 mg,IV,Weekly,2023-07-26,2023-11-15,16,True,Atorvastatin
+MED-A201F32C,P100925,TR-20177,Drug-A-100,GLP-1 Agonist Analog,50 mg,IV,Twice daily,2023-07-14,2024-07-12,52,True,Atorvastatin
+MED-5BF03988,P100551,TR-20090,Drug-D-400,PD-1 Immunotherapy,25 mg,IV,Weekly,2023-03-06,2023-06-26,16,True,None
+MED-6999BF0D,P100006,TR-20060,Drug-C-300,DPP-4 Inhibitor,200 mg,IV,Weekly,2021-06-28,2021-12-13,24,True,None
+MED-9647DC10,P100006,TR-20075,Drug-A-100,GLP-1 Agonist Analog,100 mg,Subcutaneous,Once daily,2023-07-17,2023-11-06,16,True,None
+MED-BB761F86,P100989,TR-20057,Drug-A-100,GLP-1 Agonist Analog,50 mg,Oral,Weekly,2022-09-23,2023-09-22,52,True,Atorvastatin
+MED-218C6E9B,P100889,TR-20084,Drug-F-600,ACE Inhibitor Variant,10 mg,IV,Once daily,2023-02-28,2024-02-27,52,True,Lisinopril
+MED-BA61854D,P100889,TR-20170,Drug-D-400,PD-1 Immunotherapy,50 mg,Oral,Once daily,2021-03-10,2021-11-17,36,True,Metformin
+MED-A286D709,P100054,TR-20124,Drug-D-400,PD-1 Immunotherapy,200 mg,Subcutaneous,Once daily,2023-05-21,2023-11-05,24,True,Metformin
+MED-117CFB1B,P100054,TR-20126,Drug-A-100,GLP-1 Agonist Analog,100 mg,Subcutaneous,Once daily,2023-09-17,2024-05-26,36,True,None
+MED-992FD75C,P100266,TR-20105,Drug-D-400,PD-1 Immunotherapy,200 mg,Oral,Once daily,2021-09-04,2022-05-14,36,True,Metformin
+MED-38508CD3,P100905,TR-20101,Drug-D-400,PD-1 Immunotherapy,200 mg,Subcutaneous,Twice daily,2023-09-01,2024-05-10,36,True,None
+MED-6D910C7B,P100804,TR-20057,Drug-E-500,Dual-Agent Protocol,100 mg,Subcutaneous,Weekly,2023-11-15,2024-02-07,12,True,Atorvastatin
+MED-DC00DD91,P100045,TR-20057,Drug-C-300,DPP-4 Inhibitor,50 mg,Subcutaneous,Weekly,2023-10-26,2024-02-15,16,True,None
+MED-F772AE19,P100114,TR-20161,Drug-D-400,PD-1 Immunotherapy,200 mg,IV,Once daily,2022-02-25,2022-11-04,36,True,Lisinopril
+MED-44C752F3,P100050,TR-20139,Drug-F-600,ACE Inhibitor Variant,200 mg,Subcutaneous,Twice daily,2023-11-21,2024-03-12,16,True,Atorvastatin
+MED-D349068C,P100312,TR-20024,Drug-A-100,GLP-1 Agonist Analog,10 mg,Subcutaneous,Weekly,2022-10-23,2023-04-09,24,True,Lisinopril
+MED-76906D5F,P100312,TR-20181,Drug-E-500,Dual-Agent Protocol,10 mg,Subcutaneous,Twice daily,2021-10-12,2022-02-01,16,True,None
+MED-491F1C7E,P100077,TR-20138,Drug-C-300,DPP-4 Inhibitor,10 mg,Subcutaneous,Twice daily,2023-05-16,2024-05-14,52,True,Atorvastatin
+MED-E57335BC,P100271,TR-20184,Drug-A-100,GLP-1 Agonist Analog,25 mg,Oral,Once daily,2023-03-12,2023-11-19,36,True,None
+MED-C9065154,P100338,TR-20056,Drug-D-400,PD-1 Immunotherapy,100 mg,Oral,Weekly,2021-01-31,2021-05-23,16,True,Metformin
+MED-BB169978,P100965,TR-20125,Drug-E-500,Dual-Agent Protocol,200 mg,Subcutaneous,Once daily,2021-06-14,2022-06-13,52,True,Atorvastatin
+MED-AB2403FC,P100142,TR-20083,Drug-A-100,GLP-1 Agonist Analog,100 mg,Subcutaneous,Twice daily,2021-11-12,2022-11-11,52,True,Metformin
+MED-97028F9B,P100142,TR-20109,Drug-B-200,SGLT-2 Inhibitor,100 mg,Subcutaneous,Once daily,2021-07-05,2022-03-14,36,True,Atorvastatin
+MED-B3833CDA,P100598,TR-20168,Drug-C-300,DPP-4 Inhibitor,25 mg,IV,Weekly,2022-06-22,2023-06-21,52,True,Lisinopril
+MED-EFE7A6E9,P100123,TR-20180,Drug-B-200,SGLT-2 Inhibitor,200 mg,Subcutaneous,Weekly,2022-02-27,2022-05-22,12,True,Metformin
+MED-440F5EF6,P100327,TR-20116,Drug-A-100,GLP-1 Agonist Analog,50 mg,Subcutaneous,Weekly,2022-11-01,2023-02-21,16,True,None
+MED-03D72E26,P100942,TR-20028,Drug-A-100,GLP-1 Agonist Analog,200 mg,Subcutaneous,Twice daily,2023-01-05,2023-06-22,24,True,Atorvastatin
+MED-0502139C,P100152,TR-20022,Drug-A-100,GLP-1 Agonist Analog,10 mg,Subcutaneous,Twice daily,2022-01-03,2022-09-12,36,True,Atorvastatin
+MED-32A7241B,P100152,TR-20025,Drug-B-200,SGLT-2 Inhibitor,50 mg,Subcutaneous,Weekly,2023-01-24,2023-04-18,12,True,Metformin
+MED-8017ED87,P100973,TR-20122,Drug-C-300,DPP-4 Inhibitor,50 mg,Subcutaneous,Once daily,2023-11-16,2024-03-07,16,True,None
+MED-3F56BF25,P100599,TR-20127,Drug-F-600,ACE Inhibitor Variant,100 mg,Subcutaneous,Weekly,2021-06-04,2021-09-24,16,True,None
+MED-333F4627,P100871,TR-20010,Drug-D-400,PD-1 Immunotherapy,10 mg,IV,Weekly,2023-10-26,2024-07-04,36,True,Atorvastatin
+MED-ED7833BA,P100424,TR-20126,Drug-F-600,ACE Inhibitor Variant,10 mg,IV,Weekly,2022-03-31,2022-09-15,24,True,None
+MED-56F832BF,P100424,TR-20140,Drug-A-100,GLP-1 Agonist Analog,200 mg,Subcutaneous,Weekly,2022-06-02,2023-02-09,36,True,Metformin
+MED-68BF4CAA,P100458,TR-20020,Drug-F-600,ACE Inhibitor Variant,50 mg,Oral,Once daily,2021-07-10,2022-07-09,52,True,Atorvastatin
+MED-8FBB70FC,P100685,TR-20032,Drug-A-100,GLP-1 Agonist Analog,10 mg,Subcutaneous,Once daily,2023-09-02,2023-11-25,12,True,Atorvastatin
+MED-219F0255,P100126,TR-20109,Drug-F-600,ACE Inhibitor Variant,100 mg,Oral,Once daily,2021-03-29,2021-09-13,24,True,None
+MED-CBD7CEC3,P100988,TR-20031,Drug-E-500,Dual-Agent Protocol,200 mg,Subcutaneous,Once daily,2021-03-06,2022-03-05,52,True,Atorvastatin
+MED-9A9D329F,P100592,TR-20134,Drug-B-200,SGLT-2 Inhibitor,200 mg,Oral,Weekly,2021-11-04,2022-07-14,36,True,Atorvastatin
+MED-F6464C30,P100490,TR-20065,Drug-E-500,Dual-Agent Protocol,50 mg,Subcutaneous,Twice daily,2022-08-30,2022-12-20,16,True,None
+MED-788A0647,P100678,TR-20185,Drug-F-600,ACE Inhibitor Variant,25 mg,Subcutaneous,Weekly,2023-07-27,2023-10-19,12,True,Lisinopril
+MED-35C8E2EA,P100678,TR-20035,Drug-E-500,Dual-Agent Protocol,50 mg,Oral,Once daily,2023-08-15,2023-12-05,16,True,Atorvastatin
+MED-00CCAC9C,P100678,TR-20043,Drug-E-500,Dual-Agent Protocol,200 mg,Subcutaneous,Once daily,2023-05-17,2023-08-09,12,True,Atorvastatin
+MED-54200A93,P100502,TR-20052,Drug-A-100,GLP-1 Agonist Analog,100 mg,IV,Once daily,2023-08-26,2023-12-16,16,True,None
+MED-7BAB673A,P100502,TR-20178,Drug-E-500,Dual-Agent Protocol,25 mg,Oral,Once daily,2023-12-23,2024-03-16,12,True,None
+MED-2426A3E5,P100288,TR-20018,Drug-D-400,PD-1 Immunotherapy,100 mg,Oral,Weekly,2021-12-25,2022-03-19,12,True,Lisinopril
+MED-783E43CB,P100749,TR-20052,Drug-C-300,DPP-4 Inhibitor,50 mg,Subcutaneous,Twice daily,2022-03-24,2022-09-08,24,True,Metformin
+MED-7AA0D658,P100495,TR-20072,Drug-F-600,ACE Inhibitor Variant,200 mg,Subcutaneous,Twice daily,2022-11-16,2023-05-03,24,True,None
+MED-8005E336,P100095,TR-20158,Drug-A-100,GLP-1 Agonist Analog,50 mg,Subcutaneous,Weekly,2021-01-23,2021-05-15,16,True,Metformin
+MED-6D3D2D9C,P100095,TR-20172,Drug-C-300,DPP-4 Inhibitor,25 mg,IV,Weekly,2023-02-05,2023-05-28,16,True,None
+MED-588EDCB7,P100785,TR-20014,Drug-E-500,Dual-Agent Protocol,25 mg,IV,Twice daily,2021-11-16,2022-02-08,12,True,Metformin
+MED-E3E4B989,P100785,TR-20036,Drug-A-100,GLP-1 Agonist Analog,200 mg,IV,Twice daily,2022-06-30,2022-10-20,16,True,None
+MED-59C4E327,P100304,TR-20031,Drug-B-200,SGLT-2 Inhibitor,100 mg,Oral,Once daily,2023-02-11,2024-02-10,52,True,Lisinopril
+MED-F310D3AB,P100729,TR-20181,Drug-B-200,SGLT-2 Inhibitor,25 mg,Subcutaneous,Twice daily,2022-10-14,2023-06-23,36,True,None
+MED-2262EC65,P100729,TR-20122,Drug-C-300,DPP-4 Inhibitor,100 mg,IV,Weekly,2022-04-01,2022-09-16,24,True,None
+MED-276B72FD,P100085,TR-20163,Drug-F-600,ACE Inhibitor Variant,50 mg,IV,Weekly,2023-06-20,2024-06-18,52,True,None
+MED-E8DB8A27,P100085,TR-20072,Drug-B-200,SGLT-2 Inhibitor,200 mg,Subcutaneous,Once daily,2022-07-12,2023-03-21,36,True,None
+MED-9A847CA8,P100085,TR-20183,Drug-C-300,DPP-4 Inhibitor,100 mg,Oral,Weekly,2023-07-15,2024-07-13,52,True,Lisinopril
+MED-909D74C9,P100572,TR-20049,Drug-C-300,DPP-4 Inhibitor,25 mg,Oral,Once daily,2023-04-22,2023-12-30,36,True,Metformin
+MED-53B5DC6F,P100572,TR-20098,Drug-D-400,PD-1 Immunotherapy,100 mg,IV,Weekly,2023-02-20,2023-05-15,12,True,Atorvastatin
+MED-8D034721,P100856,TR-20151,Drug-C-300,DPP-4 Inhibitor,25 mg,IV,Weekly,2021-05-31,2022-05-30,52,True,Lisinopril
+MED-A6F3535E,P100249,TR-20129,Drug-E-500,Dual-Agent Protocol,25 mg,Subcutaneous,Once daily,2021-12-23,2022-09-01,36,True,Lisinopril
+MED-8097191E,P100249,TR-20004,Drug-B-200,SGLT-2 Inhibitor,100 mg,Oral,Once daily,2023-12-11,2024-12-09,52,True,Atorvastatin
+MED-60D9C2B1,P100663,TR-20162,Drug-E-500,Dual-Agent Protocol,10 mg,IV,Twice daily,2021-09-21,2022-09-20,52,True,Atorvastatin
+MED-51158CBE,P100663,TR-20126,Drug-A-100,GLP-1 Agonist Analog,25 mg,Oral,Twice daily,2023-04-16,2023-12-24,36,True,Atorvastatin
+MED-266F9EC1,P100753,TR-20046,Drug-E-500,Dual-Agent Protocol,200 mg,Subcutaneous,Weekly,2021-11-13,2022-11-12,52,True,Metformin
+MED-4976EE45,P100753,TR-20034,Drug-B-200,SGLT-2 Inhibitor,100 mg,Subcutaneous,Weekly,2023-09-05,2024-02-20,24,True,Atorvastatin
+MED-B05233A8,P100211,TR-20140,Drug-F-600,ACE Inhibitor Variant,200 mg,Oral,Twice daily,2023-07-13,2024-03-21,36,True,Atorvastatin
+MED-FE3EC03F,P100080,TR-20151,Drug-A-100,GLP-1 Agonist Analog,25 mg,IV,Weekly,2021-09-06,2022-02-21,24,True,Metformin
+MED-A90F63ED,P100080,TR-20185,Drug-A-100,GLP-1 Agonist Analog,200 mg,Oral,Once daily,2022-05-31,2023-05-30,52,True,Lisinopril
+MED-A567C504,P100080,TR-20094,Drug-B-200,SGLT-2 Inhibitor,25 mg,Subcutaneous,Once daily,2023-12-18,2024-12-16,52,True,Metformin
+MED-04AC785E,P100916,TR-20022,Drug-B-200,SGLT-2 Inhibitor,10 mg,Oral,Once daily,2021-01-21,2021-09-30,36,True,Lisinopril
+MED-B12DCF97,P100916,TR-20045,Drug-C-300,DPP-4 Inhibitor,100 mg,Oral,Weekly,2023-08-14,2023-11-06,12,True,None
+MED-B72A91FF,P100062,TR-20090,Drug-C-300,DPP-4 Inhibitor,50 mg,Subcutaneous,Weekly,2021-03-11,2021-07-01,16,True,None
+MED-077D5944,P100014,TR-20152,Drug-B-200,SGLT-2 Inhibitor,10 mg,Oral,Weekly,2021-08-31,2022-02-15,24,True,Atorvastatin
+MED-F7017B5D,P100687,TR-20056,Drug-C-300,DPP-4 Inhibitor,25 mg,Oral,Weekly,2023-08-21,2023-12-11,16,True,Atorvastatin
+MED-8AE19DDC,P100687,TR-20164,Drug-F-600,ACE Inhibitor Variant,50 mg,Oral,Weekly,2023-02-25,2023-08-12,24,True,Metformin
+MED-6F033FAB,P100222,TR-20189,Drug-C-300,DPP-4 Inhibitor,200 mg,Subcutaneous,Weekly,2022-11-06,2023-01-29,12,True,Metformin
+MED-D48275C8,P100222,TR-20034,Drug-A-100,GLP-1 Agonist Analog,25 mg,IV,Once daily,2022-01-10,2023-01-09,52,True,None
+MED-878096BB,P100839,TR-20076,Drug-E-500,Dual-Agent Protocol,100 mg,Subcutaneous,Once daily,2023-05-24,2024-01-31,36,True,Lisinopril
+MED-88194487,P100395,TR-20091,Drug-E-500,Dual-Agent Protocol,25 mg,Subcutaneous,Weekly,2023-04-01,2024-03-30,52,True,None
+MED-C233A8BD,P100193,TR-20162,Drug-F-600,ACE Inhibitor Variant,200 mg,Oral,Once daily,2023-04-04,2023-09-19,24,True,None
+MED-5BDBC48E,P100500,TR-20150,Drug-D-400,PD-1 Immunotherapy,10 mg,IV,Weekly,2022-05-19,2022-11-03,24,True,Atorvastatin
+MED-690BEE70,P100500,TR-20099,Drug-D-400,PD-1 Immunotherapy,100 mg,Subcutaneous,Twice daily,2023-12-14,2024-03-07,12,True,Atorvastatin
+MED-6301F353,P100500,TR-20040,Drug-B-200,SGLT-2 Inhibitor,50 mg,Oral,Twice daily,2021-01-14,2021-07-01,24,True,Atorvastatin
+MED-C85C74F3,P100349,TR-20067,Drug-C-300,DPP-4 Inhibitor,50 mg,Oral,Once daily,2021-12-01,2022-02-23,12,True,Metformin
+MED-24979CB2,P100349,TR-20056,Drug-D-400,PD-1 Immunotherapy,100 mg,Oral,Once daily,2022-10-09,2023-10-08,52,True,None
+MED-28571BB5,P100214,TR-20120,Drug-D-400,PD-1 Immunotherapy,25 mg,Subcutaneous,Once daily,2023-10-13,2024-06-21,36,True,None
+MED-5103F9E2,P100605,TR-20003,Drug-D-400,PD-1 Immunotherapy,25 mg,IV,Once daily,2021-05-08,2021-10-23,24,True,Metformin
+MED-22DEAE98,P100780,TR-20026,Drug-A-100,GLP-1 Agonist Analog,200 mg,Subcutaneous,Weekly,2022-11-15,2023-03-07,16,True,None
+MED-B9D90476,P100888,TR-20140,Drug-E-500,Dual-Agent Protocol,100 mg,Oral,Once daily,2023-11-23,2024-03-14,16,True,Atorvastatin
+MED-FE045FCA,P100527,TR-20117,Drug-A-100,GLP-1 Agonist Analog,25 mg,IV,Twice daily,2022-09-03,2022-12-24,16,True,Lisinopril
+MED-66252C25,P100527,TR-20152,Drug-D-400,PD-1 Immunotherapy,50 mg,IV,Twice daily,2021-01-01,2021-06-18,24,True,None
+MED-4F28856C,P100967,TR-20154,Drug-D-400,PD-1 Immunotherapy,25 mg,Oral,Twice daily,2023-05-02,2024-04-30,52,True,None
+MED-EEDBC051,P100967,TR-20087,Drug-A-100,GLP-1 Agonist Analog,50 mg,Oral,Weekly,2023-04-27,2024-01-04,36,True,None
+MED-636B9E76,P100320,TR-20042,Drug-D-400,PD-1 Immunotherapy,10 mg,IV,Weekly,2023-01-02,2023-03-27,12,True,Metformin
+MED-A0A650AD,P100726,TR-20146,Drug-F-600,ACE Inhibitor Variant,10 mg,IV,Twice daily,2022-12-12,2023-04-03,16,True,Atorvastatin
+MED-FD970A11,P100465,TR-20043,Drug-B-200,SGLT-2 Inhibitor,200 mg,Oral,Weekly,2021-03-17,2021-09-01,24,True,Lisinopril
+MED-F5A3FD96,P100672,TR-20045,Drug-E-500,Dual-Agent Protocol,50 mg,Subcutaneous,Weekly,2022-12-07,2023-03-01,12,True,None
+MED-8FDE8533,P100158,TR-20053,Drug-F-600,ACE Inhibitor Variant,100 mg,IV,Twice daily,2022-10-20,2023-01-12,12,True,Atorvastatin
+MED-4A17429C,P100109,TR-20089,Drug-F-600,ACE Inhibitor Variant,200 mg,Subcutaneous,Once daily,2022-05-25,2022-11-09,24,True,Atorvastatin
+MED-F953ACF1,P100134,TR-20121,Drug-A-100,GLP-1 Agonist Analog,10 mg,Oral,Twice daily,2023-08-27,2024-05-05,36,True,None
+MED-7A26F1DD,P100373,TR-20187,Drug-E-500,Dual-Agent Protocol,50 mg,IV,Twice daily,2021-01-26,2021-05-18,16,True,None
+MED-1A235502,P100851,TR-20151,Drug-E-500,Dual-Agent Protocol,25 mg,Subcutaneous,Weekly,2021-02-07,2021-07-25,24,True,Metformin
+MED-6B976F04,P100464,TR-20001,Drug-B-200,SGLT-2 Inhibitor,25 mg,Subcutaneous,Twice daily,2021-02-19,2021-05-14,12,True,Atorvastatin
+MED-A8189B2C,P100636,TR-20036,Drug-B-200,SGLT-2 Inhibitor,200 mg,IV,Weekly,2022-05-04,2022-07-27,12,True,Atorvastatin
+MED-ADD48BB6,P100526,TR-20024,Drug-F-600,ACE Inhibitor Variant,100 mg,Subcutaneous,Weekly,2021-02-13,2021-07-31,24,True,None
+MED-7C8D4514,P100208,TR-20073,Drug-B-200,SGLT-2 Inhibitor,25 mg,Subcutaneous,Weekly,2022-10-21,2023-06-30,36,True,Lisinopril
+MED-C9FC9FAC,P100799,TR-20108,Drug-A-100,GLP-1 Agonist Analog,100 mg,Subcutaneous,Weekly,2022-08-02,2023-04-11,36,True,Metformin
+MED-7A563509,P100971,TR-20120,Drug-B-200,SGLT-2 Inhibitor,100 mg,Oral,Once daily,2022-12-03,2023-03-25,16,True,None
+MED-9C0A0E73,P100971,TR-20022,Drug-B-200,SGLT-2 Inhibitor,50 mg,IV,Once daily,2023-08-18,2024-08-16,52,True,None
+MED-C727A5B9,P100980,TR-20033,Drug-D-400,PD-1 Immunotherapy,200 mg,Subcutaneous,Weekly,2021-03-29,2021-12-06,36,True,Atorvastatin
+MED-0356CD64,P100285,TR-20078,Drug-A-100,GLP-1 Agonist Analog,10 mg,Subcutaneous,Weekly,2021-12-11,2022-12-10,52,True,None
+MED-4AF3AFE3,P100285,TR-20109,Drug-E-500,Dual-Agent Protocol,200 mg,Subcutaneous,Weekly,2021-07-09,2022-07-08,52,True,Lisinopril
+MED-FC956757,P100703,TR-20021,Drug-B-200,SGLT-2 Inhibitor,25 mg,Subcutaneous,Once daily,2021-07-08,2021-09-30,12,True,Atorvastatin
+MED-B3094BD8,P100703,TR-20039,Drug-D-400,PD-1 Immunotherapy,50 mg,Subcutaneous,Twice daily,2021-07-17,2021-10-09,12,True,Lisinopril
+MED-21727326,P100315,TR-20119,Drug-E-500,Dual-Agent Protocol,25 mg,IV,Once daily,2022-12-04,2023-02-26,12,True,Metformin
+MED-F85DD815,P100664,TR-20087,Drug-F-600,ACE Inhibitor Variant,200 mg,Subcutaneous,Twice daily,2021-08-17,2021-11-09,12,True,None
+MED-36B67E2C,P100105,TR-20076,Drug-C-300,DPP-4 Inhibitor,25 mg,Oral,Twice daily,2021-11-22,2022-08-01,36,True,Metformin
+MED-C9E4454D,P100151,TR-20163,Drug-E-500,Dual-Agent Protocol,100 mg,IV,Twice daily,2021-01-15,2021-09-24,36,True,Lisinopril
+MED-C73595B4,P100998,TR-20137,Drug-F-600,ACE Inhibitor Variant,100 mg,Subcutaneous,Weekly,2022-08-30,2023-02-14,24,True,None
+MED-4D9256DD,P100998,TR-20190,Drug-E-500,Dual-Agent Protocol,10 mg,IV,Once daily,2022-02-07,2022-05-30,16,True,Lisinopril
+MED-F3646FB7,P100763,TR-20188,Drug-D-400,PD-1 Immunotherapy,25 mg,Subcutaneous,Twice daily,2022-11-26,2023-02-18,12,True,Atorvastatin
+MED-65060E18,P100887,TR-20186,Drug-D-400,PD-1 Immunotherapy,25 mg,IV,Once daily,2023-04-16,2023-12-24,36,True,Metformin
+MED-7BED206B,P100984,TR-20006,Drug-C-300,DPP-4 Inhibitor,10 mg,IV,Once daily,2023-02-09,2024-02-08,52,True,None
+MED-A2069183,P100192,TR-20132,Drug-B-200,SGLT-2 Inhibitor,200 mg,IV,Once daily,2021-05-31,2022-02-07,36,True,Metformin
+MED-D8ACF5D6,P100274,TR-20048,Drug-C-300,DPP-4 Inhibitor,10 mg,Oral,Twice daily,2023-07-08,2024-03-16,36,True,Atorvastatin
+MED-8AD8929F,P100274,TR-20071,Drug-A-100,GLP-1 Agonist Analog,100 mg,Oral,Once daily,2021-04-17,2021-10-02,24,True,Atorvastatin
+MED-3785EEAA,P100950,TR-20105,Drug-D-400,PD-1 Immunotherapy,10 mg,IV,Once daily,2023-06-08,2023-09-28,16,True,Metformin
+MED-A5B34A3D,P100488,TR-20119,Drug-F-600,ACE Inhibitor Variant,100 mg,IV,Once daily,2021-06-29,2022-06-28,52,True,None
+MED-34D9EA6D,P100884,TR-20058,Drug-A-100,GLP-1 Agonist Analog,200 mg,Oral,Once daily,2021-03-31,2021-07-21,16,True,None
+MED-79B1C9D3,P100827,TR-20163,Drug-F-600,ACE Inhibitor Variant,25 mg,IV,Once daily,2021-03-01,2021-06-21,16,True,None
+MED-BCB6544D,P100361,TR-20143,Drug-E-500,Dual-Agent Protocol,25 mg,Subcutaneous,Once daily,2022-11-26,2023-05-13,24,True,Atorvastatin
+MED-73EA3164,P100272,TR-20114,Drug-C-300,DPP-4 Inhibitor,200 mg,IV,Once daily,2023-08-16,2024-08-14,52,True,None
+MED-1FAFE0C2,P100122,TR-20179,Drug-E-500,Dual-Agent Protocol,10 mg,Oral,Weekly,2023-03-15,2023-07-05,16,True,Atorvastatin
+MED-D4973FB4,P100087,TR-20089,Drug-A-100,GLP-1 Agonist Analog,50 mg,IV,Twice daily,2023-08-08,2023-11-28,16,True,Lisinopril
+MED-8AD1FE58,P100442,TR-20160,Drug-C-300,DPP-4 Inhibitor,10 mg,IV,Twice daily,2021-10-08,2022-03-25,24,True,Lisinopril
+MED-94DCFA32,P100342,TR-20198,Drug-F-600,ACE Inhibitor Variant,25 mg,Subcutaneous,Once daily,2022-11-06,2023-04-23,24,True,None
+MED-BB02C097,P100055,TR-20137,Drug-E-500,Dual-Agent Protocol,200 mg,Subcutaneous,Twice daily,2021-09-05,2021-11-28,12,True,Lisinopril
+MED-2F8656C8,P100452,TR-20074,Drug-F-600,ACE Inhibitor Variant,25 mg,IV,Twice daily,2023-12-21,2024-06-06,24,True,Lisinopril
+MED-C3BE3DE2,P100452,TR-20116,Drug-D-400,PD-1 Immunotherapy,25 mg,Subcutaneous,Weekly,2021-11-18,2022-07-28,36,True,Lisinopril
+MED-D667EF97,P100280,TR-20168,Drug-B-200,SGLT-2 Inhibitor,200 mg,IV,Once daily,2023-10-08,2023-12-31,12,True,Lisinopril
+MED-644230AB,P100280,TR-20045,Drug-F-600,ACE Inhibitor Variant,10 mg,Oral,Twice daily,2023-02-18,2023-10-28,36,True,None
+MED-909B2CF6,P100379,TR-20163,Drug-D-400,PD-1 Immunotherapy,200 mg,IV,Once daily,2022-09-27,2023-01-17,16,True,Atorvastatin
+MED-A780EB3D,P100051,TR-20006,Drug-A-100,GLP-1 Agonist Analog,25 mg,IV,Twice daily,2023-07-09,2023-12-24,24,True,None
+MED-2AFB7493,P100051,TR-20084,Drug-B-200,SGLT-2 Inhibitor,10 mg,IV,Weekly,2022-12-25,2023-04-16,16,True,Lisinopril
+MED-F30F43AC,P100665,TR-20191,Drug-A-100,GLP-1 Agonist Analog,25 mg,Subcutaneous,Once daily,2023-02-06,2023-05-01,12,True,None
+MED-10A9CCF7,P100665,TR-20154,Drug-D-400,PD-1 Immunotherapy,100 mg,IV,Once daily,2021-07-04,2021-10-24,16,True,Lisinopril
+MED-4EB54CC6,P100750,TR-20008,Drug-D-400,PD-1 Immunotherapy,200 mg,IV,Weekly,2022-12-12,2023-03-06,12,True,None
+MED-7B104684,P100433,TR-20155,Drug-C-300,DPP-4 Inhibitor,50 mg,IV,Once daily,2022-01-03,2022-04-25,16,True,Metformin
+MED-6D4BEC75,P100199,TR-20165,Drug-B-200,SGLT-2 Inhibitor,50 mg,IV,Weekly,2022-10-31,2023-10-30,52,True,Lisinopril
+MED-7699C047,P100199,TR-20029,Drug-A-100,GLP-1 Agonist Analog,50 mg,Oral,Once daily,2022-06-26,2023-03-05,36,True,Lisinopril
+MED-3613536C,P100302,TR-20121,Drug-F-600,ACE Inhibitor Variant,50 mg,Subcutaneous,Twice daily,2021-04-22,2021-12-30,36,True,None
+MED-DFA7D392,P100194,TR-20166,Drug-E-500,Dual-Agent Protocol,200 mg,Subcutaneous,Twice daily,2023-12-11,2024-03-04,12,True,Atorvastatin
+MED-0C7F23F1,P100609,TR-20032,Drug-F-600,ACE Inhibitor Variant,200 mg,Oral,Twice daily,2023-04-09,2023-09-24,24,True,Lisinopril
+MED-1CE7A280,P100283,TR-20029,Drug-D-400,PD-1 Immunotherapy,25 mg,IV,Weekly,2022-04-27,2022-07-20,12,True,Atorvastatin
+MED-A165820A,P100283,TR-20185,Drug-C-300,DPP-4 Inhibitor,100 mg,Subcutaneous,Once daily,2023-08-01,2024-07-30,52,True,Lisinopril
+MED-8B9C1CF8,P100543,TR-20025,Drug-F-600,ACE Inhibitor Variant,25 mg,Oral,Weekly,2021-04-11,2021-12-19,36,True,Atorvastatin
+MED-6F655F81,P100623,TR-20182,Drug-D-400,PD-1 Immunotherapy,25 mg,Oral,Weekly,2022-06-28,2022-09-20,12,True,None
+MED-7F1E3872,P100959,TR-20177,Drug-E-500,Dual-Agent Protocol,10 mg,Subcutaneous,Twice daily,2021-12-02,2022-03-24,16,True,Atorvastatin
+MED-E4134507,P100532,TR-20153,Drug-D-400,PD-1 Immunotherapy,25 mg,Oral,Weekly,2022-03-21,2022-07-11,16,True,Atorvastatin
+MED-2F4BC2D9,P100444,TR-20007,Drug-B-200,SGLT-2 Inhibitor,200 mg,IV,Twice daily,2022-03-07,2022-06-27,16,True,Lisinopril
+MED-D98E68A1,P100112,TR-20075,Drug-A-100,GLP-1 Agonist Analog,50 mg,Oral,Once daily,2021-10-01,2022-01-21,16,True,Atorvastatin
+MED-1A46B383,P100698,TR-20079,Drug-D-400,PD-1 Immunotherapy,50 mg,Oral,Twice daily,2022-01-18,2022-09-27,36,True,Atorvastatin
+MED-81F5156B,P100052,TR-20178,Drug-B-200,SGLT-2 Inhibitor,25 mg,Subcutaneous,Weekly,2021-11-23,2022-11-22,52,True,Lisinopril
+MED-E3088558,P100662,TR-20066,Drug-F-600,ACE Inhibitor Variant,25 mg,Oral,Weekly,2021-04-06,2021-07-27,16,True,Metformin
+MED-474732C1,P100662,TR-20164,Drug-A-100,GLP-1 Agonist Analog,50 mg,Subcutaneous,Once daily,2021-07-12,2022-07-11,52,True,None
+MED-04DC8352,P100255,TR-20185,Drug-D-400,PD-1 Immunotherapy,25 mg,Oral,Weekly,2022-01-22,2023-01-21,52,True,Lisinopril
+MED-3643293A,P100830,TR-20129,Drug-C-300,DPP-4 Inhibitor,50 mg,IV,Weekly,2022-03-12,2022-07-02,16,True,None
+MED-F1BCE936,P100118,TR-20125,Drug-E-500,Dual-Agent Protocol,25 mg,Subcutaneous,Once daily,2023-12-12,2024-12-10,52,True,Atorvastatin
+MED-A4BB85F2,P100118,TR-20166,Drug-C-300,DPP-4 Inhibitor,50 mg,IV,Weekly,2021-06-22,2021-12-07,24,True,Lisinopril
+MED-609758B4,P100782,TR-20017,Drug-B-200,SGLT-2 Inhibitor,100 mg,IV,Twice daily,2021-04-28,2022-01-05,36,True,None
+MED-FAB81A8C,P100782,TR-20088,Drug-B-200,SGLT-2 Inhibitor,10 mg,Oral,Once daily,2022-03-29,2023-03-28,52,True,Atorvastatin
+MED-11D2D24F,P100037,TR-20092,Drug-C-300,DPP-4 Inhibitor,25 mg,Oral,Twice daily,2022-03-14,2022-07-04,16,True,Metformin
+MED-B7345D81,P100590,TR-20059,Drug-B-200,SGLT-2 Inhibitor,100 mg,IV,Once daily,2023-07-10,2024-03-18,36,True,Metformin
+MED-D8FE1708,P100273,TR-20070,Drug-A-100,GLP-1 Agonist Analog,10 mg,IV,Twice daily,2023-11-03,2024-07-12,36,True,Lisinopril
+MED-CC58F6A7,P100245,TR-20015,Drug-F-600,ACE Inhibitor Variant,100 mg,Oral,Once daily,2021-02-27,2021-11-06,36,True,Lisinopril
+MED-E93B4436,P100245,TR-20115,Drug-A-100,GLP-1 Agonist Analog,10 mg,IV,Weekly,2023-02-15,2023-06-07,16,True,Lisinopril
+MED-8BFEAFEF,P100068,TR-20167,Drug-B-200,SGLT-2 Inhibitor,50 mg,Oral,Weekly,2023-10-29,2024-10-27,52,True,Lisinopril
+MED-6E8E8E55,P100068,TR-20063,Drug-A-100,GLP-1 Agonist Analog,50 mg,Subcutaneous,Once daily,2023-08-27,2023-11-19,12,True,Metformin
+MED-B3E41ACD,P100104,TR-20034,Drug-D-400,PD-1 Immunotherapy,100 mg,IV,Twice daily,2021-02-07,2021-07-25,24,True,Metformin
+MED-757A4041,P100104,TR-20134,Drug-D-400,PD-1 Immunotherapy,25 mg,IV,Weekly,2023-05-11,2024-01-18,36,True,None
+MED-549ACADC,P100104,TR-20078,Drug-D-400,PD-1 Immunotherapy,10 mg,Oral,Weekly,2021-01-29,2021-05-21,16,True,Atorvastatin
+MED-01047B94,P100766,TR-20163,Drug-B-200,SGLT-2 Inhibitor,100 mg,IV,Twice daily,2023-01-01,2023-12-31,52,True,None
+MED-CAD4F068,P100877,TR-20122,Drug-C-300,DPP-4 Inhibitor,50 mg,IV,Weekly,2023-07-07,2024-07-05,52,True,Atorvastatin
+MED-BA8B8E27,P100826,TR-20125,Drug-F-600,ACE Inhibitor Variant,10 mg,Subcutaneous,Once daily,2022-03-04,2023-03-03,52,True,Atorvastatin
+MED-CC144024,P100734,TR-20163,Drug-F-600,ACE Inhibitor Variant,200 mg,Oral,Twice daily,2022-07-23,2023-07-22,52,True,Atorvastatin
+MED-68216F06,P100415,TR-20105,Drug-A-100,GLP-1 Agonist Analog,50 mg,Oral,Twice daily,2022-10-08,2023-10-07,52,True,Metformin
+MED-73D7B0BB,P100402,TR-20124,Drug-B-200,SGLT-2 Inhibitor,50 mg,Oral,Once daily,2023-06-13,2024-02-20,36,True,Metformin
+MED-889A19F2,P100963,TR-20137,Drug-F-600,ACE Inhibitor Variant,100 mg,Oral,Once daily,2022-06-11,2022-10-01,16,True,None
+MED-732E48C6,P100745,TR-20161,Drug-B-200,SGLT-2 Inhibitor,10 mg,Subcutaneous,Once daily,2023-12-29,2024-12-27,52,True,Lisinopril
+MED-CEF9213E,P100226,TR-20131,Drug-E-500,Dual-Agent Protocol,25 mg,IV,Once daily,2022-11-27,2023-05-14,24,True,None
+MED-EE0504C7,P100709,TR-20111,Drug-F-600,ACE Inhibitor Variant,100 mg,IV,Weekly,2022-01-09,2022-04-03,12,True,Metformin
+MED-4FCFEC46,P100275,TR-20176,Drug-B-200,SGLT-2 Inhibitor,50 mg,IV,Twice daily,2023-12-24,2024-04-14,16,True,Metformin
+MED-5D345096,P100508,TR-20196,Drug-F-600,ACE Inhibitor Variant,100 mg,Subcutaneous,Twice daily,2022-11-30,2023-03-22,16,True,Atorvastatin
+MED-FE90D517,P100508,TR-20060,Drug-A-100,GLP-1 Agonist Analog,200 mg,Oral,Once daily,2023-10-24,2024-10-22,52,True,Metformin
+MED-614A53DE,P100176,TR-20083,Drug-D-400,PD-1 Immunotherapy,10 mg,IV,Weekly,2023-09-17,2024-09-15,52,True,Lisinopril
+MED-1E8285C2,P100356,TR-20186,Drug-A-100,GLP-1 Agonist Analog,10 mg,IV,Weekly,2023-12-06,2024-08-14,36,True,None
+MED-EE8BF824,P100295,TR-20109,Drug-F-600,ACE Inhibitor Variant,200 mg,Subcutaneous,Twice daily,2022-06-08,2022-09-28,16,True,Atorvastatin
+MED-F2F7AE36,P100611,TR-20052,Drug-C-300,DPP-4 Inhibitor,100 mg,Oral,Weekly,2022-07-10,2023-03-19,36,True,Lisinopril
+MED-FBBBD589,P100837,TR-20098,Drug-E-500,Dual-Agent Protocol,200 mg,IV,Weekly,2023-06-28,2024-03-06,36,True,Atorvastatin
+MED-FF977B90,P100004,TR-20159,Drug-B-200,SGLT-2 Inhibitor,10 mg,Subcutaneous,Twice daily,2022-05-10,2023-05-09,52,True,Metformin
+MED-D2888AC7,P100004,TR-20129,Drug-B-200,SGLT-2 Inhibitor,10 mg,Subcutaneous,Once daily,2021-09-02,2022-05-12,36,True,Metformin
+MED-7B7971F6,P100097,TR-20185,Drug-D-400,PD-1 Immunotherapy,100 mg,Oral,Once daily,2023-02-26,2023-05-21,12,True,None
+MED-12D8D9A9,P100097,TR-20152,Drug-D-400,PD-1 Immunotherapy,50 mg,Subcutaneous,Twice daily,2022-12-31,2023-06-17,24,True,Atorvastatin
+MED-506E6641,P100190,TR-20156,Drug-C-300,DPP-4 Inhibitor,200 mg,IV,Twice daily,2023-10-20,2024-04-05,24,True,Lisinopril
+MED-8EBC0562,P100516,TR-20088,Drug-C-300,DPP-4 Inhibitor,10 mg,Oral,Twice daily,2022-12-23,2023-09-01,36,True,Atorvastatin
+MED-79E68936,P100638,TR-20052,Drug-D-400,PD-1 Immunotherapy,10 mg,Oral,Twice daily,2021-01-12,2021-06-29,24,True,Atorvastatin
+MED-AB113562,P100313,TR-20075,Drug-C-300,DPP-4 Inhibitor,200 mg,Oral,Twice daily,2023-04-30,2024-04-28,52,True,None
+MED-93B9204A,P100748,TR-20059,Drug-C-300,DPP-4 Inhibitor,100 mg,IV,Twice daily,2023-04-30,2023-07-23,12,True,Lisinopril
+MED-333E63F7,P100906,TR-20181,Drug-A-100,GLP-1 Agonist Analog,50 mg,IV,Twice daily,2021-12-25,2022-04-16,16,True,None
+MED-C0D8EAC8,P100906,TR-20067,Drug-E-500,Dual-Agent Protocol,50 mg,Oral,Once daily,2023-08-26,2024-08-24,52,True,Metformin
+MED-3830DAEE,P100759,TR-20132,Drug-B-200,SGLT-2 Inhibitor,200 mg,IV,Once daily,2023-04-13,2024-04-11,52,True,Metformin
+MED-79185A3C,P100759,TR-20005,Drug-C-300,DPP-4 Inhibitor,10 mg,IV,Once daily,2021-03-27,2021-12-04,36,True,Metformin
+MED-D5974656,P100983,TR-20189,Drug-D-400,PD-1 Immunotherapy,200 mg,IV,Twice daily,2021-04-04,2021-07-25,16,True,Metformin
+MED-2C5B9C00,P100803,TR-20197,Drug-B-200,SGLT-2 Inhibitor,10 mg,Oral,Once daily,2023-04-23,2024-04-21,52,True,Lisinopril
+MED-62B7D7C8,P100803,TR-20176,Drug-F-600,ACE Inhibitor Variant,25 mg,Oral,Weekly,2024-01-01,2024-03-25,12,True,Lisinopril
+MED-5D92F1D5,P100341,TR-20019,Drug-F-600,ACE Inhibitor Variant,50 mg,Subcutaneous,Weekly,2022-03-12,2022-06-04,12,True,None
+MED-02334021,P100341,TR-20047,Drug-E-500,Dual-Agent Protocol,200 mg,IV,Weekly,2021-05-16,2022-01-23,36,True,Atorvastatin
+MED-AEA436D9,P100467,TR-20103,Drug-E-500,Dual-Agent Protocol,50 mg,IV,Once daily,2021-10-04,2022-06-13,36,True,Lisinopril
+MED-70C74F57,P100467,TR-20148,Drug-A-100,GLP-1 Agonist Analog,100 mg,Subcutaneous,Twice daily,2023-01-13,2023-05-05,16,True,None
+MED-197FA21D,P100868,TR-20168,Drug-C-300,DPP-4 Inhibitor,100 mg,Oral,Twice daily,2021-03-28,2021-09-12,24,True,Atorvastatin
+MED-234111C0,P100683,TR-20184,Drug-F-600,ACE Inhibitor Variant,200 mg,Oral,Weekly,2022-09-05,2023-05-15,36,True,Lisinopril
+MED-CBAB1F83,P100683,TR-20148,Drug-D-400,PD-1 Immunotherapy,10 mg,IV,Weekly,2022-05-30,2022-09-19,16,True,None
+MED-D434D869,P100439,TR-20084,Drug-B-200,SGLT-2 Inhibitor,25 mg,Subcutaneous,Weekly,2021-01-03,2021-09-12,36,True,Lisinopril
+MED-BF5F89AD,P100439,TR-20081,Drug-C-300,DPP-4 Inhibitor,25 mg,Oral,Twice daily,2021-04-01,2021-07-22,16,True,Metformin
+MED-5C0FA4A8,P100343,TR-20113,Drug-C-300,DPP-4 Inhibitor,200 mg,Oral,Twice daily,2022-07-29,2023-07-28,52,True,Metformin
+MED-810BA6BC,P100182,TR-20113,Drug-C-300,DPP-4 Inhibitor,25 mg,Oral,Weekly,2021-03-25,2021-07-15,16,True,Atorvastatin
+MED-77D7C0F7,P100875,TR-20032,Drug-F-600,ACE Inhibitor Variant,50 mg,Subcutaneous,Twice daily,2023-08-23,2024-05-01,36,True,Atorvastatin
+MED-A9E6FC87,P100079,TR-20186,Drug-C-300,DPP-4 Inhibitor,10 mg,Subcutaneous,Twice daily,2023-01-19,2024-01-18,52,True,None
+MED-47756A90,P100079,TR-20032,Drug-E-500,Dual-Agent Protocol,200 mg,Subcutaneous,Once daily,2022-07-02,2023-03-11,36,True,Metformin
+MED-7A719BFC,P100767,TR-20108,Drug-A-100,GLP-1 Agonist Analog,25 mg,Subcutaneous,Twice daily,2023-12-06,2024-12-04,52,True,Atorvastatin
+MED-BA1F7E50,P100701,TR-20180,Drug-F-600,ACE Inhibitor Variant,10 mg,Subcutaneous,Twice daily,2022-07-21,2023-07-20,52,True,Metformin
+MED-04BF86CE,P100904,TR-20071,Drug-B-200,SGLT-2 Inhibitor,100 mg,Oral,Weekly,2021-12-11,2022-04-02,16,True,Lisinopril
+MED-C361BAB3,P100002,TR-20033,Drug-F-600,ACE Inhibitor Variant,200 mg,IV,Once daily,2023-02-11,2024-02-10,52,True,Atorvastatin
+MED-F5A8C87A,P100501,TR-20153,Drug-D-400,PD-1 Immunotherapy,200 mg,Oral,Once daily,2022-08-23,2023-05-02,36,True,Atorvastatin
+MED-D33AB195,P100807,TR-20104,Drug-B-200,SGLT-2 Inhibitor,100 mg,Oral,Weekly,2023-02-26,2023-05-21,12,True,Metformin
+MED-CFC7A0A9,P100047,TR-20007,Drug-F-600,ACE Inhibitor Variant,10 mg,Subcutaneous,Once daily,2023-01-31,2023-04-25,12,True,Atorvastatin
+MED-4193FF8C,P100018,TR-20037,Drug-E-500,Dual-Agent Protocol,50 mg,Oral,Twice daily,2021-11-03,2022-11-02,52,True,Lisinopril
+MED-9ACE0985,P100298,TR-20122,Drug-C-300,DPP-4 Inhibitor,100 mg,Subcutaneous,Weekly,2022-10-02,2023-10-01,52,True,None
+MED-7F80BC46,P100298,TR-20119,Drug-D-400,PD-1 Immunotherapy,25 mg,IV,Weekly,2022-04-28,2022-08-18,16,True,Metformin
+MED-9AFDFB09,P100234,TR-20169,Drug-B-200,SGLT-2 Inhibitor,100 mg,Subcutaneous,Weekly,2021-09-01,2022-05-11,36,True,None
+MED-78ECCC82,P100719,TR-20132,Drug-B-200,SGLT-2 Inhibitor,100 mg,Subcutaneous,Weekly,2022-04-12,2022-08-02,16,True,None
+MED-B9EC5EB5,P100172,TR-20025,Drug-A-100,GLP-1 Agonist Analog,50 mg,Subcutaneous,Weekly,2022-10-10,2023-06-19,36,True,Atorvastatin
+MED-1E324A52,P100911,TR-20085,Drug-A-100,GLP-1 Agonist Analog,100 mg,IV,Weekly,2022-07-29,2023-07-28,52,True,Lisinopril
+MED-EC307514,P100721,TR-20034,Drug-F-600,ACE Inhibitor Variant,100 mg,IV,Twice daily,2021-05-25,2021-11-09,24,True,Lisinopril
+MED-7D219296,P100721,TR-20084,Drug-C-300,DPP-4 Inhibitor,10 mg,Subcutaneous,Weekly,2023-12-11,2024-04-01,16,True,None
+MED-433ECF47,P100917,TR-20061,Drug-D-400,PD-1 Immunotherapy,200 mg,Oral,Twice daily,2023-08-06,2023-11-26,16,True,None
+MED-D5B7F7F9,P100797,TR-20055,Drug-C-300,DPP-4 Inhibitor,200 mg,Subcutaneous,Twice daily,2021-04-29,2022-01-06,36,True,Lisinopril
+MED-40547865,P100503,TR-20191,Drug-E-500,Dual-Agent Protocol,25 mg,IV,Weekly,2023-03-11,2024-03-09,52,True,Metformin
+MED-5D480CC0,P100360,TR-20048,Drug-E-500,Dual-Agent Protocol,100 mg,IV,Once daily,2023-11-15,2024-05-01,24,True,None
+MED-869B49D6,P100559,TR-20025,Drug-B-200,SGLT-2 Inhibitor,100 mg,Oral,Once daily,2023-09-08,2023-12-01,12,True,Metformin
+MED-72FF00F8,P100264,TR-20094,Drug-E-500,Dual-Agent Protocol,25 mg,Oral,Weekly,2021-08-11,2022-04-20,36,True,None
+MED-2BA02F47,P100260,TR-20076,Drug-F-600,ACE Inhibitor Variant,200 mg,Subcutaneous,Once daily,2021-06-30,2021-12-15,24,True,Metformin
+MED-2FA6839D,P100470,TR-20131,Drug-E-500,Dual-Agent Protocol,100 mg,Subcutaneous,Once daily,2023-12-08,2024-12-06,52,True,Metformin
+MED-F3204C79,P100958,TR-20137,Drug-A-100,GLP-1 Agonist Analog,100 mg,IV,Weekly,2021-01-15,2021-09-24,36,True,None
+MED-AA3BD419,P100976,TR-20041,Drug-A-100,GLP-1 Agonist Analog,200 mg,Oral,Once daily,2023-07-21,2023-10-13,12,True,Atorvastatin
+MED-3F601F38,P100783,TR-20193,Drug-B-200,SGLT-2 Inhibitor,100 mg,Subcutaneous,Weekly,2021-10-22,2022-10-21,52,True,Metformin
+MED-33219275,P100531,TR-20076,Drug-B-200,SGLT-2 Inhibitor,100 mg,Subcutaneous,Twice daily,2023-11-14,2024-04-30,24,True,Atorvastatin
+MED-C7DAE430,P100531,TR-20100,Drug-A-100,GLP-1 Agonist Analog,10 mg,IV,Twice daily,2022-10-10,2023-01-30,16,True,Lisinopril
+MED-EE2D2DD3,P100724,TR-20054,Drug-D-400,PD-1 Immunotherapy,200 mg,Subcutaneous,Once daily,2023-04-28,2024-04-26,52,True,Metformin
+MED-FE5FD363,P100116,TR-20166,Drug-C-300,DPP-4 Inhibitor,10 mg,IV,Twice daily,2023-07-03,2023-12-18,24,True,Metformin
+MED-14A7C912,P100908,TR-20071,Drug-F-600,ACE Inhibitor Variant,25 mg,Oral,Twice daily,2021-12-16,2022-03-10,12,True,Lisinopril
+MED-80E999A6,P100908,TR-20103,Drug-C-300,DPP-4 Inhibitor,100 mg,Subcutaneous,Once daily,2022-10-14,2023-01-06,12,True,Lisinopril
+MED-36407D7A,P100762,TR-20003,Drug-B-200,SGLT-2 Inhibitor,100 mg,Subcutaneous,Weekly,2023-12-11,2024-03-04,12,True,Metformin
+MED-1AAEE58D,P100762,TR-20164,Drug-E-500,Dual-Agent Protocol,50 mg,Oral,Twice daily,2022-07-28,2023-01-12,24,True,Lisinopril
+MED-B6F64981,P100710,TR-20170,Drug-E-500,Dual-Agent Protocol,10 mg,Oral,Twice daily,2022-03-05,2023-03-04,52,True,None
+MED-E9D8A7BB,P100898,TR-20117,Drug-C-300,DPP-4 Inhibitor,10 mg,Oral,Once daily,2021-04-16,2021-12-24,36,True,Lisinopril
+MED-71992332,P100421,TR-20066,Drug-A-100,GLP-1 Agonist Analog,200 mg,IV,Once daily,2023-04-01,2023-07-22,16,True,Lisinopril
+MED-D98DAA4F,P100421,TR-20029,Drug-F-600,ACE Inhibitor Variant,200 mg,Oral,Weekly,2023-12-30,2024-09-07,36,True,None
+MED-E64A24AB,P100735,TR-20058,Drug-E-500,Dual-Agent Protocol,200 mg,IV,Weekly,2023-07-12,2024-03-20,36,True,None
+MED-046FA57C,P100704,TR-20127,Drug-B-200,SGLT-2 Inhibitor,50 mg,IV,Twice daily,2022-09-12,2023-01-02,16,True,Lisinopril
+MED-8B49B26A,P100366,TR-20071,Drug-C-300,DPP-4 Inhibitor,200 mg,IV,Once daily,2023-08-27,2024-05-05,36,True,Metformin
+MED-5A1CD0C1,P100510,TR-20004,Drug-D-400,PD-1 Immunotherapy,10 mg,Oral,Twice daily,2022-09-03,2023-05-13,36,True,Metformin
+MED-2E279B61,P100510,TR-20026,Drug-B-200,SGLT-2 Inhibitor,100 mg,Oral,Twice daily,2022-10-16,2023-10-15,52,True,Metformin
+MED-28B71BE6,P100032,TR-20182,Drug-A-100,GLP-1 Agonist Analog,50 mg,IV,Weekly,2023-10-18,2024-04-03,24,True,Metformin
+MED-75C548AD,P100032,TR-20125,Drug-E-500,Dual-Agent Protocol,25 mg,Oral,Weekly,2023-06-19,2023-10-09,16,True,Atorvastatin
+MED-3799BD1C,P100032,TR-20144,Drug-E-500,Dual-Agent Protocol,25 mg,Subcutaneous,Once daily,2021-03-19,2021-07-09,16,True,Lisinopril
+MED-2BABFFA5,P100251,TR-20165,Drug-E-500,Dual-Agent Protocol,25 mg,Oral,Once daily,2022-09-16,2023-03-03,24,True,Metformin
+MED-BEBD4B1C,P100251,TR-20026,Drug-C-300,DPP-4 Inhibitor,50 mg,Oral,Weekly,2023-02-09,2023-05-04,12,True,Lisinopril
+MED-39D942D2,P100212,TR-20007,Drug-F-600,ACE Inhibitor Variant,200 mg,IV,Twice daily,2022-05-22,2022-11-06,24,True,None
+MED-1280A49C,P100212,TR-20056,Drug-D-400,PD-1 Immunotherapy,50 mg,IV,Twice daily,2022-09-07,2022-12-28,16,True,Lisinopril
+MED-A76C5CB0,P100897,TR-20013,Drug-D-400,PD-1 Immunotherapy,50 mg,Subcutaneous,Weekly,2021-09-08,2021-12-29,16,True,Lisinopril
+MED-F25B712B,P100387,TR-20042,Drug-E-500,Dual-Agent Protocol,100 mg,IV,Weekly,2021-06-18,2021-12-03,24,True,None
+MED-3F577F74,P100111,TR-20023,Drug-D-400,PD-1 Immunotherapy,10 mg,IV,Once daily,2023-06-25,2023-09-17,12,True,Metformin
+MED-FD9CA88A,P100111,TR-20086,Drug-B-200,SGLT-2 Inhibitor,10 mg,IV,Weekly,2023-11-18,2024-02-10,12,True,None
+MED-45E073C5,P100281,TR-20024,Drug-F-600,ACE Inhibitor Variant,25 mg,IV,Twice daily,2021-07-22,2022-01-06,24,True,Atorvastatin
+MED-BDA0F479,P100461,TR-20029,Drug-D-400,PD-1 Immunotherapy,200 mg,Oral,Weekly,2022-06-07,2022-08-30,12,True,Atorvastatin
+MED-10C48F64,P100540,TR-20076,Drug-D-400,PD-1 Immunotherapy,25 mg,Subcutaneous,Weekly,2021-02-22,2021-08-09,24,True,Metformin
+MED-0C8B2FC0,P100795,TR-20038,Drug-E-500,Dual-Agent Protocol,25 mg,Oral,Once daily,2022-08-15,2023-04-24,36,True,Metformin
+MED-F7AAE5A1,P100795,TR-20184,Drug-D-400,PD-1 Immunotherapy,200 mg,Subcutaneous,Weekly,2021-03-02,2021-08-17,24,True,Atorvastatin
+MED-9857EC48,P100358,TR-20189,Drug-F-600,ACE Inhibitor Variant,200 mg,Oral,Twice daily,2021-08-27,2021-12-17,16,True,Atorvastatin
+MED-7E5330F3,P100340,TR-20040,Drug-D-400,PD-1 Immunotherapy,200 mg,Subcutaneous,Twice daily,2021-09-10,2022-05-20,36,True,Atorvastatin
+MED-D1C4DC4D,P100604,TR-20056,Drug-D-400,PD-1 Immunotherapy,10 mg,Oral,Twice daily,2021-06-09,2022-02-16,36,True,Atorvastatin
+MED-94A21242,P100428,TR-20157,Drug-B-200,SGLT-2 Inhibitor,10 mg,Oral,Once daily,2021-12-23,2022-06-09,24,True,Metformin
+MED-22423F5C,P100428,TR-20124,Drug-F-600,ACE Inhibitor Variant,200 mg,Subcutaneous,Weekly,2022-07-05,2022-10-25,16,True,None
+MED-5866F4F5,P100428,TR-20113,Drug-A-100,GLP-1 Agonist Analog,100 mg,Subcutaneous,Once daily,2023-06-16,2023-10-06,16,True,Atorvastatin
+MED-531C5D4A,P100744,TR-20100,Drug-D-400,PD-1 Immunotherapy,10 mg,IV,Twice daily,2021-02-03,2021-07-21,24,True,None
+MED-D8F00376,P100744,TR-20192,Drug-C-300,DPP-4 Inhibitor,50 mg,IV,Once daily,2022-09-16,2023-01-06,16,True,Lisinopril
+MED-A0AB19DF,P100317,TR-20092,Drug-C-300,DPP-4 Inhibitor,25 mg,Oral,Twice daily,2021-12-03,2022-02-25,12,True,None
+MED-A11E6C8F,P100935,TR-20180,Drug-D-400,PD-1 Immunotherapy,50 mg,IV,Twice daily,2023-03-21,2023-09-05,24,True,Metformin
+MED-A6120E13,P100594,TR-20155,Drug-D-400,PD-1 Immunotherapy,200 mg,IV,Once daily,2021-08-14,2021-11-06,12,True,Atorvastatin
+MED-22B2570C,P100533,TR-20058,Drug-B-200,SGLT-2 Inhibitor,10 mg,Subcutaneous,Weekly,2022-03-23,2022-11-30,36,True,Lisinopril
+MED-7291B85D,P100533,TR-20120,Drug-F-600,ACE Inhibitor Variant,50 mg,Subcutaneous,Once daily,2022-11-17,2023-07-27,36,True,Metformin
+MED-18CA48C6,P100352,TR-20044,Drug-D-400,PD-1 Immunotherapy,50 mg,Oral,Twice daily,2023-02-09,2023-10-19,36,True,None
+MED-FEF2372C,P100890,TR-20123,Drug-A-100,GLP-1 Agonist Analog,10 mg,Oral,Weekly,2022-10-25,2023-02-14,16,True,Lisinopril
+MED-361321A6,P100761,TR-20187,Drug-C-300,DPP-4 Inhibitor,50 mg,IV,Weekly,2022-03-03,2022-05-26,12,True,Lisinopril
+MED-4109AA14,P100681,TR-20080,Drug-E-500,Dual-Agent Protocol,25 mg,Oral,Weekly,2023-09-13,2024-05-22,36,True,Metformin
+MED-86864C6D,P100681,TR-20138,Drug-E-500,Dual-Agent Protocol,100 mg,Oral,Once daily,2022-09-08,2022-12-01,12,True,None
+MED-13FCAB06,P100296,TR-20014,Drug-C-300,DPP-4 Inhibitor,100 mg,Subcutaneous,Weekly,2022-07-20,2023-01-04,24,True,None
+MED-703CDFC1,P100684,TR-20187,Drug-C-300,DPP-4 Inhibitor,200 mg,Oral,Once daily,2022-08-22,2023-05-01,36,True,Lisinopril
+MED-45AB3761,P100009,TR-20046,Drug-A-100,GLP-1 Agonist Analog,200 mg,IV,Weekly,2022-06-18,2022-09-10,12,True,Atorvastatin
+MED-14BB1BEE,P100511,TR-20100,Drug-E-500,Dual-Agent Protocol,10 mg,Oral,Weekly,2022-03-14,2022-08-29,24,True,None
+MED-B9756FB3,P100675,TR-20091,Drug-C-300,DPP-4 Inhibitor,50 mg,Oral,Twice daily,2022-10-22,2023-01-14,12,True,Atorvastatin
+MED-43A14AEE,P100478,TR-20048,Drug-F-600,ACE Inhibitor Variant,10 mg,Subcutaneous,Once daily,2023-05-21,2024-01-28,36,True,None
+MED-DE56A47E,P100154,TR-20166,Drug-F-600,ACE Inhibitor Variant,200 mg,Oral,Once daily,2023-02-05,2024-02-04,52,True,None
+MED-17AFCA7A,P100536,TR-20135,Drug-F-600,ACE Inhibitor Variant,25 mg,Oral,Twice daily,2023-09-11,2024-09-09,52,True,Metformin
+MED-9F16FD7A,P100869,TR-20099,Drug-E-500,Dual-Agent Protocol,10 mg,Oral,Twice daily,2022-10-27,2023-01-19,12,True,Metformin
+MED-32776E04,P100776,TR-20147,Drug-D-400,PD-1 Immunotherapy,100 mg,Oral,Weekly,2024-01-01,2024-09-09,36,True,None
+MED-15EE0047,P100656,TR-20114,Drug-A-100,GLP-1 Agonist Analog,200 mg,IV,Once daily,2021-06-08,2022-02-15,36,True,None
+MED-347D3BF6,P100067,TR-20080,Drug-E-500,Dual-Agent Protocol,50 mg,IV,Twice daily,2023-12-11,2024-08-19,36,True,Metformin
+MED-C5AA78F5,P100771,TR-20026,Drug-C-300,DPP-4 Inhibitor,100 mg,Subcutaneous,Weekly,2021-04-19,2021-12-27,36,True,None
+MED-644F3470,P100016,TR-20087,Drug-B-200,SGLT-2 Inhibitor,25 mg,Subcutaneous,Once daily,2022-02-10,2022-10-20,36,True,Lisinopril
+MED-5C60A014,P100016,TR-20169,Drug-C-300,DPP-4 Inhibitor,10 mg,IV,Once daily,2022-02-06,2022-05-29,16,True,None
+MED-2C898839,P100930,TR-20126,Drug-B-200,SGLT-2 Inhibitor,25 mg,Subcutaneous,Twice daily,2021-04-22,2021-08-12,16,True,Lisinopril
+MED-75443CA0,P100223,TR-20134,Drug-F-600,ACE Inhibitor Variant,50 mg,Oral,Once daily,2021-02-08,2021-07-26,24,True,Lisinopril
+MED-F8D90FCC,P100290,TR-20145,Drug-F-600,ACE Inhibitor Variant,50 mg,Oral,Once daily,2021-07-16,2021-10-08,12,True,Atorvastatin
+MED-61600FF2,P100290,TR-20148,Drug-D-400,PD-1 Immunotherapy,10 mg,IV,Once daily,2021-03-17,2021-11-24,36,True,Lisinopril
+MED-21CD4A5D,P100290,TR-20180,Drug-C-300,DPP-4 Inhibitor,10 mg,Oral,Twice daily,2021-10-18,2022-10-17,52,True,Atorvastatin
+MED-A05E5042,P100127,TR-20110,Drug-B-200,SGLT-2 Inhibitor,25 mg,Oral,Once daily,2023-11-30,2024-03-21,16,True,Metformin
+MED-33B7633E,P100127,TR-20104,Drug-C-300,DPP-4 Inhibitor,50 mg,Oral,Weekly,2021-03-06,2021-05-29,12,True,Metformin
+MED-F498AA20,P100127,TR-20112,Drug-B-200,SGLT-2 Inhibitor,50 mg,IV,Once daily,2021-04-07,2021-07-28,16,True,None
+MED-8222AAF8,P100752,TR-20198,Drug-A-100,GLP-1 Agonist Analog,10 mg,Oral,Once daily,2021-04-05,2022-04-04,52,True,Lisinopril
+MED-38FDFE18,P100855,TR-20011,Drug-E-500,Dual-Agent Protocol,25 mg,Subcutaneous,Once daily,2022-03-05,2022-08-20,24,True,Metformin
+MED-1A6B35EB,P100314,TR-20192,Drug-B-200,SGLT-2 Inhibitor,25 mg,Subcutaneous,Twice daily,2023-01-15,2023-05-07,16,True,None
+MED-440F530F,P100927,TR-20078,Drug-B-200,SGLT-2 Inhibitor,200 mg,IV,Twice daily,2022-05-14,2022-09-03,16,True,Atorvastatin
+MED-84E578BC,P100691,TR-20046,Drug-F-600,ACE Inhibitor Variant,25 mg,Oral,Twice daily,2022-11-14,2023-05-01,24,True,Metformin
+MED-25CDCDB1,P100001,TR-20118,Drug-E-500,Dual-Agent Protocol,50 mg,Subcutaneous,Twice daily,2022-09-04,2023-05-14,36,True,Atorvastatin
+MED-31112DFF,P100001,TR-20048,Drug-A-100,GLP-1 Agonist Analog,200 mg,Subcutaneous,Twice daily,2022-06-25,2022-10-15,16,True,Atorvastatin
+MED-B13E2E7C,P100758,TR-20098,Drug-B-200,SGLT-2 Inhibitor,10 mg,Subcutaneous,Weekly,2021-12-23,2022-06-09,24,True,Lisinopril
+MED-F7856703,P100922,TR-20154,Drug-B-200,SGLT-2 Inhibitor,100 mg,Subcutaneous,Once daily,2023-07-19,2024-03-27,36,True,Lisinopril
+MED-31FA9C8F,P100359,TR-20109,Drug-F-600,ACE Inhibitor Variant,25 mg,Subcutaneous,Twice daily,2023-01-09,2024-01-08,52,True,Metformin
+MED-07A6C951,P100359,TR-20175,Drug-C-300,DPP-4 Inhibitor,50 mg,Subcutaneous,Once daily,2021-07-08,2022-03-17,36,True,Atorvastatin
+MED-A11DC518,P100291,TR-20003,Drug-D-400,PD-1 Immunotherapy,200 mg,Oral,Twice daily,2022-11-12,2023-04-29,24,True,Atorvastatin
+MED-3D64D63A,P100575,TR-20161,Drug-D-400,PD-1 Immunotherapy,25 mg,Subcutaneous,Weekly,2023-01-28,2023-05-20,16,True,None
+MED-E856167A,P100159,TR-20177,Drug-E-500,Dual-Agent Protocol,50 mg,Oral,Twice daily,2023-05-03,2024-01-10,36,True,Atorvastatin
+MED-3D2C14FA,P100089,TR-20126,Drug-C-300,DPP-4 Inhibitor,100 mg,Subcutaneous,Weekly,2022-05-26,2022-09-15,16,True,Lisinopril
+MED-A1A534EC,P100278,TR-20190,Drug-B-200,SGLT-2 Inhibitor,50 mg,IV,Twice daily,2023-06-24,2023-12-09,24,True,Lisinopril
+MED-88791F58,P100147,TR-20074,Drug-F-600,ACE Inhibitor Variant,25 mg,Subcutaneous,Weekly,2022-11-24,2023-03-16,16,True,Atorvastatin
+MED-1C559B6D,P100202,TR-20031,Drug-B-200,SGLT-2 Inhibitor,25 mg,Oral,Twice daily,2022-11-26,2023-11-25,52,True,Metformin
+MED-FAD24AA6,P100443,TR-20128,Drug-F-600,ACE Inhibitor Variant,200 mg,Oral,Twice daily,2023-10-09,2024-06-17,36,True,None
+MED-B23C60B6,P100083,TR-20028,Drug-C-300,DPP-4 Inhibitor,25 mg,Subcutaneous,Twice daily,2021-06-17,2022-02-24,36,True,Atorvastatin
+MED-41FD25CA,P100680,TR-20196,Drug-B-200,SGLT-2 Inhibitor,50 mg,IV,Once daily,2022-04-05,2023-04-04,52,True,Lisinopril
+MED-8FC98652,P100754,TR-20095,Drug-D-400,PD-1 Immunotherapy,200 mg,Subcutaneous,Twice daily,2022-11-04,2023-11-03,52,True,Metformin
+MED-B7384F9A,P100033,TR-20011,Drug-F-600,ACE Inhibitor Variant,100 mg,Oral,Twice daily,2021-02-23,2022-02-22,52,True,Metformin
+MED-5DF33144,P100485,TR-20186,Drug-C-300,DPP-4 Inhibitor,200 mg,Subcutaneous,Once daily,2023-08-22,2024-08-20,52,True,None
+MED-1EC0DCB0,P100485,TR-20082,Drug-D-400,PD-1 Immunotherapy,25 mg,Subcutaneous,Weekly,2022-12-27,2023-03-21,12,True,None
+MED-DE6A97F7,P100756,TR-20075,Drug-A-100,GLP-1 Agonist Analog,25 mg,Subcutaneous,Twice daily,2023-11-22,2024-07-31,36,True,None
+MED-1502CAC5,P100396,TR-20086,Drug-A-100,GLP-1 Agonist Analog,100 mg,Oral,Twice daily,2021-02-17,2021-06-09,16,True,Metformin
+MED-7DC78793,P100773,TR-20018,Drug-D-400,PD-1 Immunotherapy,25 mg,Oral,Once daily,2023-08-24,2023-11-16,12,True,Lisinopril
+MED-120989BB,P100773,TR-20063,Drug-E-500,Dual-Agent Protocol,100 mg,Subcutaneous,Weekly,2023-05-18,2024-05-16,52,True,None
+MED-F6E32C73,P100409,TR-20176,Drug-E-500,Dual-Agent Protocol,50 mg,Subcutaneous,Once daily,2023-03-03,2023-06-23,16,True,None
+MED-4F1E8A73,P100778,TR-20185,Drug-B-200,SGLT-2 Inhibitor,100 mg,Oral,Weekly,2022-08-08,2022-10-31,12,True,Lisinopril
+MED-A3B5A1F8,P100268,TR-20027,Drug-D-400,PD-1 Immunotherapy,50 mg,Subcutaneous,Twice daily,2022-01-12,2022-09-21,36,True,Metformin
+MED-D1E43228,P100319,TR-20196,Drug-F-600,ACE Inhibitor Variant,100 mg,Subcutaneous,Twice daily,2021-12-03,2022-12-02,52,True,Lisinopril
+MED-750593E9,P100319,TR-20161,Drug-D-400,PD-1 Immunotherapy,200 mg,Oral,Twice daily,2022-01-27,2022-05-19,16,True,Metformin
+MED-32998E45,P100178,TR-20073,Drug-F-600,ACE Inhibitor Variant,10 mg,Oral,Twice daily,2022-09-08,2023-09-07,52,True,Lisinopril
+MED-9ED07FF9,P100939,TR-20061,Drug-E-500,Dual-Agent Protocol,25 mg,Subcutaneous,Twice daily,2021-08-13,2021-11-05,12,True,Atorvastatin
+MED-31FF7CA2,P100939,TR-20175,Drug-F-600,ACE Inhibitor Variant,10 mg,Subcutaneous,Twice daily,2023-08-01,2024-01-16,24,True,Atorvastatin
+MED-0956CD58,P100939,TR-20126,Drug-F-600,ACE Inhibitor Variant,200 mg,Oral,Once daily,2023-04-24,2023-07-17,12,True,Lisinopril
+MED-92DB21D3,P100945,TR-20095,Drug-B-200,SGLT-2 Inhibitor,10 mg,Oral,Twice daily,2021-08-16,2022-08-15,52,True,None
+MED-7CD75446,P100945,TR-20190,Drug-B-200,SGLT-2 Inhibitor,10 mg,IV,Weekly,2021-02-26,2021-08-13,24,True,Metformin
+MED-46DE1F9E,P100257,TR-20116,Drug-E-500,Dual-Agent Protocol,200 mg,Oral,Once daily,2022-07-12,2023-07-11,52,True,Metformin
+MED-2EF4B160,P100139,TR-20084,Drug-B-200,SGLT-2 Inhibitor,50 mg,Oral,Twice daily,2022-07-12,2022-11-01,16,True,Atorvastatin
+MED-E3E54718,P100928,TR-20187,Drug-D-400,PD-1 Immunotherapy,200 mg,Oral,Twice daily,2022-07-15,2022-11-04,16,True,None
+MED-BD59602B,P100928,TR-20159,Drug-E-500,Dual-Agent Protocol,10 mg,Subcutaneous,Once daily,2022-06-28,2023-06-27,52,True,None
+MED-F66ED536,P100659,TR-20028,Drug-D-400,PD-1 Immunotherapy,10 mg,Oral,Twice daily,2022-03-20,2022-11-27,36,True,None
+MED-406BD445,P100715,TR-20199,Drug-A-100,GLP-1 Agonist Analog,50 mg,Subcutaneous,Weekly,2021-01-22,2021-10-01,36,True,None
+MED-AA23CC7E,P100715,TR-20160,Drug-A-100,GLP-1 Agonist Analog,25 mg,Oral,Once daily,2022-10-01,2022-12-24,12,True,Atorvastatin
+MED-77EBF747,P100088,TR-20007,Drug-D-400,PD-1 Immunotherapy,200 mg,Oral,Weekly,2023-04-08,2023-07-01,12,True,None
+MED-18BDA6C3,P100088,TR-20178,Drug-E-500,Dual-Agent Protocol,25 mg,IV,Once daily,2021-03-23,2022-03-22,52,True,None
+MED-1AF5BBF8,P100305,TR-20051,Drug-B-200,SGLT-2 Inhibitor,50 mg,IV,Weekly,2023-10-25,2024-04-10,24,True,Lisinopril
+MED-86FF263C,P100810,TR-20190,Drug-B-200,SGLT-2 Inhibitor,50 mg,Oral,Once daily,2022-03-06,2022-05-29,12,True,Atorvastatin
+MED-BA0A3499,P100188,TR-20196,Drug-A-100,GLP-1 Agonist Analog,100 mg,Subcutaneous,Once daily,2021-07-16,2022-03-25,36,True,Metformin
+MED-93083640,P100385,TR-20017,Drug-E-500,Dual-Agent Protocol,10 mg,IV,Twice daily,2021-05-01,2022-01-08,36,True,None
+MED-EFF02CAB,P100099,TR-20081,Drug-F-600,ACE Inhibitor Variant,10 mg,Oral,Once daily,2023-10-12,2024-01-04,12,True,None
+MED-356709C5,P100580,TR-20045,Drug-E-500,Dual-Agent Protocol,25 mg,IV,Twice daily,2021-02-03,2021-07-21,24,True,None
+MED-000A5139,P100453,TR-20039,Drug-B-200,SGLT-2 Inhibitor,50 mg,Oral,Once daily,2021-06-30,2022-06-29,52,True,Metformin
+MED-B67DD9FD,P100840,TR-20105,Drug-E-500,Dual-Agent Protocol,50 mg,Oral,Twice daily,2022-09-05,2023-05-15,36,True,None
+MED-8154D6D7,P100840,TR-20041,Drug-E-500,Dual-Agent Protocol,100 mg,Subcutaneous,Twice daily,2023-06-13,2023-10-03,16,True,Atorvastatin
+MED-12749156,P100840,TR-20144,Drug-D-400,PD-1 Immunotherapy,25 mg,Subcutaneous,Once daily,2023-05-28,2023-11-12,24,True,Metformin
+MED-FD31AFB1,P100677,TR-20011,Drug-E-500,Dual-Agent Protocol,100 mg,IV,Weekly,2021-03-18,2021-06-10,12,True,None
+MED-ABEEED7A,P100853,TR-20150,Drug-F-600,ACE Inhibitor Variant,200 mg,IV,Once daily,2021-09-08,2022-05-18,36,True,Metformin
+MED-9B207C44,P100791,TR-20035,Drug-F-600,ACE Inhibitor Variant,50 mg,IV,Once daily,2021-09-01,2021-12-22,16,True,None
+MED-EDD4ABBF,P100438,TR-20051,Drug-F-600,ACE Inhibitor Variant,50 mg,Oral,Twice daily,2021-06-18,2021-10-08,16,True,None
+MED-867B986F,P100606,TR-20152,Drug-D-400,PD-1 Immunotherapy,25 mg,IV,Once daily,2023-06-07,2024-06-05,52,True,Atorvastatin
+MED-5C6761D2,P100431,TR-20050,Drug-E-500,Dual-Agent Protocol,50 mg,Oral,Twice daily,2022-12-07,2023-05-24,24,True,Metformin
+MED-4AE7191C,P100431,TR-20132,Drug-F-600,ACE Inhibitor Variant,10 mg,Oral,Once daily,2022-10-01,2023-06-10,36,True,Lisinopril
+MED-206D60E3,P100649,TR-20180,Drug-C-300,DPP-4 Inhibitor,100 mg,Subcutaneous,Weekly,2021-05-14,2022-01-21,36,True,Lisinopril
+MED-67F6C938,P100029,TR-20086,Drug-E-500,Dual-Agent Protocol,100 mg,IV,Weekly,2023-01-06,2024-01-05,52,True,Lisinopril
+MED-B6C54AC6,P100028,TR-20121,Drug-E-500,Dual-Agent Protocol,10 mg,Oral,Twice daily,2022-03-29,2023-03-28,52,True,None
+MED-C46E19B7,P100936,TR-20142,Drug-E-500,Dual-Agent Protocol,100 mg,IV,Weekly,2023-06-06,2023-11-21,24,True,Atorvastatin
+MED-F24960E3,P100557,TR-20096,Drug-B-200,SGLT-2 Inhibitor,200 mg,IV,Once daily,2023-01-16,2023-07-03,24,True,Metformin
+MED-EA787239,P100131,TR-20028,Drug-D-400,PD-1 Immunotherapy,25 mg,IV,Twice daily,2023-07-23,2023-10-15,12,True,Metformin
+MED-40E9BDD4,P100131,TR-20157,Drug-F-600,ACE Inhibitor Variant,50 mg,Oral,Twice daily,2023-04-10,2023-09-25,24,True,Atorvastatin
+MED-64D7DDCA,P100589,TR-20060,Drug-A-100,GLP-1 Agonist Analog,10 mg,Oral,Twice daily,2021-02-16,2021-10-26,36,True,Lisinopril
+MED-1BE04F7A,P100589,TR-20054,Drug-A-100,GLP-1 Agonist Analog,100 mg,Subcutaneous,Weekly,2021-01-11,2021-05-03,16,True,Atorvastatin
+MED-878331F9,P100129,TR-20074,Drug-B-200,SGLT-2 Inhibitor,200 mg,IV,Once daily,2021-03-24,2021-09-08,24,True,None
+MED-08BD8C38,P100769,TR-20051,Drug-A-100,GLP-1 Agonist Analog,200 mg,Subcutaneous,Once daily,2023-04-18,2023-12-26,36,True,Lisinopril
+MED-72EF8E5A,P100671,TR-20180,Drug-A-100,GLP-1 Agonist Analog,200 mg,Oral,Once daily,2021-10-05,2022-06-14,36,True,Atorvastatin
+MED-A969617D,P100671,TR-20195,Drug-D-400,PD-1 Immunotherapy,200 mg,Subcutaneous,Once daily,2022-01-29,2022-05-21,16,True,None
+MED-28632708,P100722,TR-20130,Drug-C-300,DPP-4 Inhibitor,25 mg,Oral,Weekly,2021-10-14,2022-02-03,16,True,Metformin
+MED-07A211DE,P100414,TR-20175,Drug-B-200,SGLT-2 Inhibitor,50 mg,Oral,Weekly,2021-11-14,2022-03-06,16,True,Lisinopril
+MED-B806B870,P100414,TR-20065,Drug-D-400,PD-1 Immunotherapy,200 mg,Oral,Twice daily,2021-11-15,2022-05-02,24,True,Lisinopril
+MED-8F71DE3D,P100391,TR-20159,Drug-A-100,GLP-1 Agonist Analog,10 mg,Oral,Weekly,2022-07-13,2022-10-05,12,True,Lisinopril
+MED-D28DC293,P100391,TR-20194,Drug-D-400,PD-1 Immunotherapy,25 mg,IV,Once daily,2021-08-26,2022-08-25,52,True,None
+MED-086F4B93,P100539,TR-20017,Drug-B-200,SGLT-2 Inhibitor,50 mg,Oral,Twice daily,2021-03-02,2021-08-17,24,True,Atorvastatin
+MED-30C92676,P100539,TR-20146,Drug-B-200,SGLT-2 Inhibitor,200 mg,Oral,Once daily,2023-12-23,2024-04-13,16,True,Atorvastatin
+MED-91B913E2,P100923,TR-20196,Drug-C-300,DPP-4 Inhibitor,100 mg,Subcutaneous,Once daily,2023-01-07,2023-04-01,12,True,Atorvastatin
+MED-C89A2E75,P100236,TR-20044,Drug-E-500,Dual-Agent Protocol,25 mg,Subcutaneous,Once daily,2021-03-01,2021-06-21,16,True,None
+MED-0D95DCAE,P100430,TR-20119,Drug-A-100,GLP-1 Agonist Analog,200 mg,IV,Weekly,2021-07-29,2022-01-13,24,True,Lisinopril
+MED-926FF6B8,P100524,TR-20119,Drug-B-200,SGLT-2 Inhibitor,200 mg,IV,Once daily,2021-06-08,2021-11-23,24,True,None
+MED-14ACDFA9,P100524,TR-20116,Drug-F-600,ACE Inhibitor Variant,100 mg,Subcutaneous,Twice daily,2022-08-13,2023-01-28,24,True,Atorvastatin
+MED-25777C60,P100044,TR-20098,Drug-C-300,DPP-4 Inhibitor,25 mg,Oral,Weekly,2021-03-16,2021-07-06,16,True,Metformin
+MED-1F3AF575,P100044,TR-20162,Drug-A-100,GLP-1 Agonist Analog,50 mg,IV,Weekly,2022-03-31,2022-12-08,36,True,None
+MED-AA0ACABA,P100525,TR-20048,Drug-F-600,ACE Inhibitor Variant,200 mg,Subcutaneous,Once daily,2023-08-10,2023-11-30,16,True,Metformin
+MED-72B427D7,P100549,TR-20070,Drug-A-100,GLP-1 Agonist Analog,50 mg,Oral,Weekly,2023-06-30,2023-10-20,16,True,Atorvastatin
+MED-7A75713F,P100333,TR-20125,Drug-E-500,Dual-Agent Protocol,50 mg,IV,Weekly,2021-01-29,2022-01-28,52,True,Lisinopril
+MED-99A03201,P100577,TR-20041,Drug-C-300,DPP-4 Inhibitor,200 mg,Subcutaneous,Twice daily,2023-02-02,2023-10-12,36,True,None
+MED-4A372CE1,P100708,TR-20028,Drug-E-500,Dual-Agent Protocol,200 mg,Subcutaneous,Once daily,2022-01-18,2022-07-05,24,True,Atorvastatin
+MED-1A986E4A,P100765,TR-20037,Drug-E-500,Dual-Agent Protocol,50 mg,IV,Once daily,2021-04-11,2021-12-19,36,True,Atorvastatin
+MED-2148A4CA,P100841,TR-20080,Drug-A-100,GLP-1 Agonist Analog,10 mg,IV,Twice daily,2021-05-17,2022-01-24,36,True,Atorvastatin
+MED-19CE49E6,P100149,TR-20136,Drug-D-400,PD-1 Immunotherapy,100 mg,IV,Twice daily,2022-04-24,2022-08-14,16,True,Atorvastatin
+MED-0D26A9AF,P100591,TR-20033,Drug-A-100,GLP-1 Agonist Analog,50 mg,Oral,Twice daily,2023-03-29,2023-06-21,12,True,Atorvastatin
+MED-621B8B7B,P100591,TR-20095,Drug-A-100,GLP-1 Agonist Analog,200 mg,Oral,Twice daily,2023-05-07,2023-08-27,16,True,None
+MED-52385964,P100806,TR-20084,Drug-B-200,SGLT-2 Inhibitor,10 mg,Subcutaneous,Twice daily,2022-03-27,2022-09-11,24,True,Metformin
+MED-C10605C0,P100354,TR-20143,Drug-D-400,PD-1 Immunotherapy,200 mg,IV,Twice daily,2021-11-26,2022-08-05,36,True,Lisinopril
+MED-3EA2DFB6,P100170,TR-20059,Drug-C-300,DPP-4 Inhibitor,25 mg,IV,Once daily,2023-10-19,2024-06-27,36,True,Lisinopril
+MED-ABDD0A22,P100170,TR-20182,Drug-F-600,ACE Inhibitor Variant,25 mg,IV,Once daily,2022-05-08,2022-08-28,16,True,Metformin
+MED-A943AF0A,P100170,TR-20152,Drug-C-300,DPP-4 Inhibitor,10 mg,IV,Once daily,2021-01-10,2022-01-09,52,True,Atorvastatin
+MED-1762FECA,P100969,TR-20160,Drug-F-600,ACE Inhibitor Variant,10 mg,Subcutaneous,Twice daily,2022-09-23,2023-01-13,16,True,Lisinopril
+MED-796E5123,P100969,TR-20083,Drug-B-200,SGLT-2 Inhibitor,50 mg,Subcutaneous,Twice daily,2021-08-10,2022-04-19,36,True,Lisinopril
+MED-2489C0F2,P100063,TR-20016,Drug-D-400,PD-1 Immunotherapy,100 mg,Oral,Twice daily,2021-02-28,2021-08-15,24,True,Atorvastatin
+MED-2492600B,P100380,TR-20159,Drug-A-100,GLP-1 Agonist Analog,25 mg,IV,Twice daily,2022-07-23,2022-11-12,16,True,None
+MED-BC22FFEE,P100300,TR-20155,Drug-B-200,SGLT-2 Inhibitor,25 mg,Subcutaneous,Twice daily,2022-03-30,2022-07-20,16,True,Lisinopril
+MED-D2D8E288,P100262,TR-20053,Drug-C-300,DPP-4 Inhibitor,10 mg,IV,Weekly,2022-04-01,2022-07-22,16,True,Metformin
+MED-80077831,P100852,TR-20196,Drug-E-500,Dual-Agent Protocol,10 mg,IV,Once daily,2022-04-09,2022-12-17,36,True,Metformin
+MED-CAEC5BBF,P100852,TR-20108,Drug-E-500,Dual-Agent Protocol,25 mg,Subcutaneous,Weekly,2023-03-15,2023-11-22,36,True,None
+MED-8F58E189,P100668,TR-20033,Drug-D-400,PD-1 Immunotherapy,100 mg,IV,Once daily,2021-07-23,2021-11-12,16,True,Metformin
+MED-9E3BAE25,P100812,TR-20084,Drug-B-200,SGLT-2 Inhibitor,10 mg,IV,Twice daily,2022-09-11,2022-12-04,12,True,Metformin
+MED-CF6BED05,P100265,TR-20185,Drug-A-100,GLP-1 Agonist Analog,200 mg,Oral,Twice daily,2022-05-09,2022-10-24,24,True,Atorvastatin
+MED-5B6FD725,P100074,TR-20102,Drug-E-500,Dual-Agent Protocol,10 mg,IV,Once daily,2023-08-31,2023-12-21,16,True,Metformin
+MED-4920637B,P100882,TR-20083,Drug-C-300,DPP-4 Inhibitor,10 mg,Oral,Weekly,2022-03-18,2022-06-10,12,True,Metformin
+MED-E714A17F,P100483,TR-20186,Drug-E-500,Dual-Agent Protocol,200 mg,IV,Once daily,2022-09-11,2022-12-04,12,True,Metformin
+MED-CF02E071,P100686,TR-20134,Drug-B-200,SGLT-2 Inhibitor,10 mg,Subcutaneous,Weekly,2023-05-07,2023-07-30,12,True,None
+MED-5C99D138,P100115,TR-20193,Drug-A-100,GLP-1 Agonist Analog,25 mg,Oral,Twice daily,2022-05-06,2023-05-05,52,True,Metformin
+MED-E37500D7,P100459,TR-20107,Drug-D-400,PD-1 Immunotherapy,10 mg,Subcutaneous,Once daily,2023-09-25,2024-09-23,52,True,None
+MED-DD6CBD2E,P100328,TR-20067,Drug-A-100,GLP-1 Agonist Analog,200 mg,Subcutaneous,Twice daily,2022-01-12,2022-04-06,12,True,Atorvastatin
+MED-D955A2D0,P100788,TR-20083,Drug-A-100,GLP-1 Agonist Analog,25 mg,IV,Twice daily,2021-10-27,2022-07-06,36,True,Lisinopril
+MED-13762239,P100322,TR-20196,Drug-F-600,ACE Inhibitor Variant,200 mg,Subcutaneous,Twice daily,2021-05-12,2022-01-19,36,True,Lisinopril
+MED-2075F1EF,P100160,TR-20011,Drug-E-500,Dual-Agent Protocol,100 mg,Subcutaneous,Weekly,2021-01-06,2021-06-23,24,True,Metformin
+MED-E82F24C7,P100640,TR-20126,Drug-B-200,SGLT-2 Inhibitor,50 mg,Subcutaneous,Once daily,2022-08-09,2022-11-01,12,True,Metformin
+MED-0364F36F,P100645,TR-20095,Drug-F-600,ACE Inhibitor Variant,100 mg,Subcutaneous,Weekly,2021-06-19,2021-10-09,16,True,Atorvastatin
+MED-94A31505,P100512,TR-20138,Drug-D-400,PD-1 Immunotherapy,50 mg,IV,Twice daily,2021-06-04,2022-06-03,52,True,Lisinopril
+MED-792F4761,P100519,TR-20096,Drug-D-400,PD-1 Immunotherapy,100 mg,Oral,Weekly,2022-05-17,2022-11-01,24,True,None
+MED-974732E9,P100838,TR-20066,Drug-E-500,Dual-Agent Protocol,25 mg,Subcutaneous,Weekly,2022-12-24,2023-06-10,24,True,None
+MED-38C09D18,P100838,TR-20086,Drug-A-100,GLP-1 Agonist Analog,100 mg,IV,Weekly,2023-10-19,2024-06-27,36,True,Atorvastatin
+MED-6539F0B7,P100673,TR-20053,Drug-C-300,DPP-4 Inhibitor,25 mg,Subcutaneous,Twice daily,2022-12-07,2023-03-01,12,True,Atorvastatin
+MED-BA9B4B71,P100059,TR-20189,Drug-A-100,GLP-1 Agonist Analog,200 mg,Oral,Weekly,2021-02-24,2021-06-16,16,True,None
+MED-164E1415,P100035,TR-20166,Drug-F-600,ACE Inhibitor Variant,200 mg,Oral,Twice daily,2023-09-04,2024-02-19,24,True,None
+MED-49B1E531,P100583,TR-20007,Drug-F-600,ACE Inhibitor Variant,25 mg,Oral,Once daily,2021-05-03,2022-05-02,52,True,None
+MED-C148E702,P100695,TR-20128,Drug-F-600,ACE Inhibitor Variant,100 mg,Subcutaneous,Weekly,2023-03-12,2023-06-04,12,True,Atorvastatin
+MED-D830AF2A,P100520,TR-20126,Drug-A-100,GLP-1 Agonist Analog,100 mg,Oral,Twice daily,2023-09-06,2024-05-15,36,True,Metformin
+MED-C6C82A5E,P100520,TR-20123,Drug-B-200,SGLT-2 Inhibitor,100 mg,Oral,Weekly,2022-02-11,2022-06-03,16,True,Lisinopril
+MED-FB28B6EE,P100858,TR-20013,Drug-E-500,Dual-Agent Protocol,25 mg,IV,Weekly,2021-05-27,2021-09-16,16,True,Lisinopril
+MED-4B0DD0D6,P100267,TR-20025,Drug-F-600,ACE Inhibitor Variant,100 mg,Oral,Twice daily,2023-01-23,2024-01-22,52,True,None
+MED-02B3178F,P100267,TR-20095,Drug-A-100,GLP-1 Agonist Analog,200 mg,IV,Once daily,2021-11-08,2022-04-25,24,True,None
+MED-DD87B88F,P100774,TR-20053,Drug-A-100,GLP-1 Agonist Analog,100 mg,IV,Once daily,2022-05-17,2022-08-09,12,True,Metformin
+MED-F049D19A,P100475,TR-20122,Drug-B-200,SGLT-2 Inhibitor,25 mg,IV,Twice daily,2022-03-01,2022-05-24,12,True,Lisinopril
+MED-46B8C1C5,P100475,TR-20045,Drug-E-500,Dual-Agent Protocol,100 mg,Subcutaneous,Once daily,2023-02-18,2024-02-17,52,True,Metformin
+MED-36B23A24,P100243,TR-20040,Drug-D-400,PD-1 Immunotherapy,10 mg,IV,Weekly,2022-06-13,2023-06-12,52,True,Metformin
+MED-29B1C8EA,P100243,TR-20056,Drug-F-600,ACE Inhibitor Variant,50 mg,Subcutaneous,Once daily,2023-04-26,2024-01-03,36,True,Lisinopril
+MED-51220F15,P100013,TR-20045,Drug-B-200,SGLT-2 Inhibitor,10 mg,Oral,Once daily,2021-10-13,2022-10-12,52,True,Lisinopril
+MED-8B15E7B6,P100548,TR-20052,Drug-F-600,ACE Inhibitor Variant,50 mg,Oral,Weekly,2023-03-06,2023-05-29,12,True,Atorvastatin
+MED-D980280D,P100548,TR-20069,Drug-D-400,PD-1 Immunotherapy,100 mg,IV,Once daily,2022-01-12,2022-06-29,24,True,Lisinopril
+MED-C332AED7,P100259,TR-20012,Drug-A-100,GLP-1 Agonist Analog,25 mg,IV,Twice daily,2023-09-27,2024-01-17,16,True,Lisinopril
+MED-4F7D6F1F,P100259,TR-20112,Drug-B-200,SGLT-2 Inhibitor,50 mg,Subcutaneous,Twice daily,2023-09-29,2024-01-19,16,True,Lisinopril
+MED-98CF8328,P100228,TR-20121,Drug-D-400,PD-1 Immunotherapy,100 mg,IV,Weekly,2023-08-20,2024-08-18,52,True,Atorvastatin
+MED-6D262D98,P100201,TR-20139,Drug-E-500,Dual-Agent Protocol,25 mg,Oral,Twice daily,2023-05-23,2023-11-07,24,True,Lisinopril
+MED-CD5D359B,P100201,TR-20038,Drug-F-600,ACE Inhibitor Variant,10 mg,IV,Twice daily,2021-09-04,2022-02-19,24,True,Metformin
+MED-73EC8C8B,P100891,TR-20093,Drug-C-300,DPP-4 Inhibitor,200 mg,Oral,Weekly,2023-04-27,2023-07-20,12,True,Atorvastatin
+MED-EE8AE8BF,P100824,TR-20139,Drug-C-300,DPP-4 Inhibitor,50 mg,Oral,Once daily,2023-12-30,2024-09-07,36,True,None
+MED-ACDFC1DD,P100248,TR-20036,Drug-D-400,PD-1 Immunotherapy,100 mg,Subcutaneous,Twice daily,2023-07-06,2023-10-26,16,True,Metformin
+MED-7DD5EF67,P100876,TR-20140,Drug-E-500,Dual-Agent Protocol,10 mg,Subcutaneous,Twice daily,2022-10-17,2023-02-06,16,True,Metformin
+MED-3C5D99E7,P100121,TR-20134,Drug-C-300,DPP-4 Inhibitor,10 mg,Oral,Weekly,2021-10-11,2022-03-28,24,True,None
+MED-8AC19E00,P100121,TR-20169,Drug-C-300,DPP-4 Inhibitor,10 mg,Oral,Once daily,2023-01-31,2023-10-10,36,True,Metformin
+MED-1BDC4FE1,P100121,TR-20101,Drug-C-300,DPP-4 Inhibitor,200 mg,Subcutaneous,Weekly,2023-08-04,2024-04-12,36,True,None
+MED-4BB54FAA,P100843,TR-20049,Drug-C-300,DPP-4 Inhibitor,200 mg,IV,Once daily,2023-10-07,2024-03-23,24,True,Lisinopril
+MED-96366D52,P100831,TR-20104,Drug-A-100,GLP-1 Agonist Analog,10 mg,IV,Once daily,2022-08-20,2023-08-19,52,True,Metformin
+MED-09D2B323,P100492,TR-20049,Drug-B-200,SGLT-2 Inhibitor,25 mg,Oral,Twice daily,2023-12-21,2024-12-19,52,True,Atorvastatin
+MED-0E818F3A,P100567,TR-20003,Drug-E-500,Dual-Agent Protocol,25 mg,IV,Weekly,2022-05-13,2022-09-02,16,True,Metformin
+MED-3FADFCF5,P100567,TR-20179,Drug-F-600,ACE Inhibitor Variant,50 mg,Oral,Weekly,2022-07-07,2022-09-29,12,True,Atorvastatin
+MED-3016975E,P100337,TR-20123,Drug-D-400,PD-1 Immunotherapy,10 mg,IV,Once daily,2023-07-01,2024-03-09,36,True,Atorvastatin
+MED-A99D0967,P100316,TR-20009,Drug-F-600,ACE Inhibitor Variant,200 mg,IV,Once daily,2021-10-15,2022-02-04,16,True,None
+MED-38956924,P100064,TR-20109,Drug-A-100,GLP-1 Agonist Analog,25 mg,Oral,Once daily,2021-10-11,2022-01-03,12,True,Lisinopril
+MED-7021ABEA,P100854,TR-20195,Drug-E-500,Dual-Agent Protocol,100 mg,IV,Weekly,2021-09-17,2022-03-04,24,True,Metformin
+MED-318823B4,P100854,TR-20023,Drug-B-200,SGLT-2 Inhibitor,100 mg,Subcutaneous,Weekly,2023-05-17,2023-09-06,16,True,Atorvastatin
+MED-D8D6DAB8,P100854,TR-20122,Drug-A-100,GLP-1 Agonist Analog,200 mg,Subcutaneous,Twice daily,2021-12-07,2022-12-06,52,True,Atorvastatin
+MED-A8BDD9E5,P100075,TR-20121,Drug-F-600,ACE Inhibitor Variant,100 mg,Oral,Twice daily,2022-02-28,2022-05-23,12,True,Lisinopril
+MED-4F8FBF7A,P100326,TR-20116,Drug-E-500,Dual-Agent Protocol,200 mg,Oral,Once daily,2023-06-10,2023-11-25,24,True,Lisinopril
+MED-3F6C2D18,P100326,TR-20056,Drug-D-400,PD-1 Immunotherapy,10 mg,Oral,Once daily,2021-04-17,2021-10-02,24,True,Lisinopril
+MED-5297D030,P100012,TR-20114,Drug-E-500,Dual-Agent Protocol,200 mg,Oral,Twice daily,2021-07-11,2021-12-26,24,True,None
+MED-1BB2D034,P100012,TR-20018,Drug-F-600,ACE Inhibitor Variant,10 mg,IV,Twice daily,2021-06-08,2021-08-31,12,True,Atorvastatin
+MED-37E610F3,P100012,TR-20129,Drug-A-100,GLP-1 Agonist Analog,200 mg,Subcutaneous,Weekly,2022-12-08,2023-08-17,36,True,None
+MED-C7256C11,P100669,TR-20116,Drug-E-500,Dual-Agent Protocol,200 mg,Subcutaneous,Weekly,2022-03-20,2022-06-12,12,True,None
+MED-22C731E7,P100073,TR-20085,Drug-C-300,DPP-4 Inhibitor,10 mg,IV,Once daily,2021-05-20,2021-11-04,24,True,Lisinopril
+MED-550503C3,P100382,TR-20020,Drug-B-200,SGLT-2 Inhibitor,100 mg,IV,Weekly,2022-12-15,2023-03-09,12,True,Lisinopril
+MED-4564EDFF,P100652,TR-20128,Drug-A-100,GLP-1 Agonist Analog,25 mg,Subcutaneous,Weekly,2022-11-08,2023-02-28,16,True,None
+MED-9905E9B0,P100579,TR-20122,Drug-C-300,DPP-4 Inhibitor,100 mg,IV,Twice daily,2022-03-21,2023-03-20,52,True,Lisinopril
+MED-703F17B9,P100700,TR-20018,Drug-C-300,DPP-4 Inhibitor,25 mg,Oral,Weekly,2021-04-13,2022-04-12,52,True,None
+MED-6742D69B,P100700,TR-20017,Drug-A-100,GLP-1 Agonist Analog,50 mg,IV,Twice daily,2023-11-24,2024-08-02,36,True,Atorvastatin
+MED-832E92B9,P100625,TR-20036,Drug-A-100,GLP-1 Agonist Analog,200 mg,IV,Once daily,2023-07-13,2024-03-21,36,True,None
+MED-66753E35,P100625,TR-20031,Drug-E-500,Dual-Agent Protocol,100 mg,Subcutaneous,Once daily,2021-11-13,2022-02-05,12,True,Atorvastatin
+MED-E1A34763,P100625,TR-20007,Drug-E-500,Dual-Agent Protocol,100 mg,Subcutaneous,Once daily,2022-02-23,2023-02-22,52,True,Atorvastatin
+MED-18869BF1,P100244,TR-20169,Drug-A-100,GLP-1 Agonist Analog,200 mg,IV,Twice daily,2023-01-20,2023-04-14,12,True,Atorvastatin
+MED-DB2496C9,P100246,TR-20060,Drug-A-100,GLP-1 Agonist Analog,100 mg,IV,Twice daily,2023-08-21,2023-11-13,12,True,Metformin
+MED-3CD8AE7E,P100491,TR-20101,Drug-F-600,ACE Inhibitor Variant,100 mg,Oral,Twice daily,2021-11-24,2022-03-16,16,True,None
+MED-D43E2CD2,P100491,TR-20003,Drug-F-600,ACE Inhibitor Variant,50 mg,Subcutaneous,Once daily,2021-02-27,2021-08-14,24,True,Lisinopril
+MED-49A42E98,P100626,TR-20003,Drug-B-200,SGLT-2 Inhibitor,200 mg,Oral,Weekly,2023-01-01,2023-06-18,24,True,Lisinopril
+MED-E0C111E6,P100658,TR-20123,Drug-D-400,PD-1 Immunotherapy,25 mg,Subcutaneous,Twice daily,2023-06-20,2023-12-05,24,True,Metformin
+MED-1115FDC0,P100658,TR-20055,Drug-C-300,DPP-4 Inhibitor,200 mg,Subcutaneous,Weekly,2022-05-22,2022-09-11,16,True,Metformin
+MED-819C4AA9,P100658,TR-20049,Drug-C-300,DPP-4 Inhibitor,100 mg,Subcutaneous,Once daily,2023-03-06,2023-06-26,16,True,None
+MED-9C27CA14,P100582,TR-20019,Drug-D-400,PD-1 Immunotherapy,200 mg,Oral,Once daily,2022-11-18,2023-07-28,36,True,Lisinopril
+MED-D8F0BF28,P100596,TR-20019,Drug-E-500,Dual-Agent Protocol,100 mg,Subcutaneous,Twice daily,2023-05-22,2023-11-06,24,True,Metformin
+MED-F16C853C,P100189,TR-20008,Drug-A-100,GLP-1 Agonist Analog,25 mg,Subcutaneous,Twice daily,2021-01-14,2021-05-06,16,True,Metformin
+MED-1863DAC7,P100189,TR-20050,Drug-B-200,SGLT-2 Inhibitor,100 mg,IV,Twice daily,2022-01-02,2022-09-11,36,True,Metformin
+MED-8DB71958,P100141,TR-20134,Drug-C-300,DPP-4 Inhibitor,50 mg,Subcutaneous,Weekly,2021-05-23,2021-11-07,24,True,None
+MED-8D0D16E5,P100436,TR-20107,Drug-B-200,SGLT-2 Inhibitor,200 mg,IV,Twice daily,2021-09-15,2022-03-02,24,True,Atorvastatin
+MED-27351469,P100198,TR-20011,Drug-A-100,GLP-1 Agonist Analog,200 mg,IV,Once daily,2021-01-10,2021-05-02,16,True,None
+MED-D71F7F30,P100198,TR-20095,Drug-E-500,Dual-Agent Protocol,25 mg,Subcutaneous,Once daily,2023-08-25,2024-08-23,52,True,Atorvastatin
+MED-DA39C228,P100912,TR-20084,Drug-B-200,SGLT-2 Inhibitor,100 mg,IV,Twice daily,2021-12-08,2022-12-07,52,True,Atorvastatin
+MED-72A5DD2E,P100655,TR-20175,Drug-F-600,ACE Inhibitor Variant,200 mg,IV,Once daily,2021-09-05,2021-11-28,12,True,Lisinopril
+MED-C45667EA,P100655,TR-20155,Drug-B-200,SGLT-2 Inhibitor,100 mg,Oral,Once daily,2023-10-30,2024-07-08,36,True,None
+MED-0A96BD21,P100238,TR-20137,Drug-A-100,GLP-1 Agonist Analog,25 mg,Oral,Once daily,2021-06-19,2022-02-26,36,True,Metformin
+MED-88B04E8F,P100238,TR-20158,Drug-F-600,ACE Inhibitor Variant,25 mg,IV,Weekly,2021-10-16,2022-04-02,24,True,Lisinopril
+MED-EFB6C589,P100947,TR-20049,Drug-D-400,PD-1 Immunotherapy,50 mg,Subcutaneous,Weekly,2021-04-17,2021-08-07,16,True,Atorvastatin
+MED-A8417F74,P100947,TR-20090,Drug-F-600,ACE Inhibitor Variant,10 mg,Subcutaneous,Weekly,2023-08-20,2024-04-28,36,True,Atorvastatin
+MED-46F74C6E,P100789,TR-20036,Drug-A-100,GLP-1 Agonist Analog,10 mg,IV,Twice daily,2023-08-31,2024-08-29,52,True,Atorvastatin
+MED-1D862986,P100076,TR-20119,Drug-C-300,DPP-4 Inhibitor,100 mg,IV,Twice daily,2023-04-05,2023-12-13,36,True,None
+MED-D974BDC0,P100015,TR-20075,Drug-E-500,Dual-Agent Protocol,200 mg,Oral,Once daily,2023-02-13,2024-02-12,52,True,Lisinopril
+MED-0A8B48FB,P100015,TR-20164,Drug-C-300,DPP-4 Inhibitor,200 mg,Subcutaneous,Twice daily,2021-02-05,2021-04-30,12,True,Metformin
+MED-75647AA9,P100647,TR-20101,Drug-B-200,SGLT-2 Inhibitor,100 mg,Subcutaneous,Weekly,2021-10-11,2022-03-28,24,True,Lisinopril
+MED-9AD20BA2,P100235,TR-20088,Drug-B-200,SGLT-2 Inhibitor,25 mg,Oral,Once daily,2022-02-15,2022-10-25,36,True,None
+MED-1D201FDB,P100200,TR-20071,Drug-C-300,DPP-4 Inhibitor,100 mg,Oral,Twice daily,2021-01-28,2021-05-20,16,True,Lisinopril
+MED-1FE0F56A,P100586,TR-20110,Drug-D-400,PD-1 Immunotherapy,10 mg,Oral,Twice daily,2023-05-13,2023-09-02,16,True,Atorvastatin
+MED-0C9EFB09,P100568,TR-20112,Drug-F-600,ACE Inhibitor Variant,10 mg,IV,Once daily,2021-08-23,2022-08-22,52,True,None
+MED-92E57E98,P100682,TR-20072,Drug-A-100,GLP-1 Agonist Analog,25 mg,IV,Once daily,2023-03-24,2023-06-16,12,True,None
+MED-F463E958,P100553,TR-20170,Drug-E-500,Dual-Agent Protocol,100 mg,IV,Weekly,2021-10-03,2021-12-26,12,True,Metformin
+MED-28B22D3C,P100411,TR-20057,Drug-F-600,ACE Inhibitor Variant,50 mg,Subcutaneous,Twice daily,2023-08-18,2024-02-02,24,True,Metformin
+MED-B829F294,P100318,TR-20091,Drug-B-200,SGLT-2 Inhibitor,200 mg,Subcutaneous,Weekly,2022-08-15,2023-01-30,24,True,Metformin
+MED-8EA29AE8,P100318,TR-20039,Drug-C-300,DPP-4 Inhibitor,200 mg,Oral,Once daily,2021-07-02,2022-03-11,36,True,Lisinopril
+MED-44DD1158,P100670,TR-20024,Drug-E-500,Dual-Agent Protocol,200 mg,Oral,Twice daily,2023-08-25,2024-05-03,36,True,Atorvastatin
+MED-067A00DC,P100670,TR-20147,Drug-B-200,SGLT-2 Inhibitor,100 mg,IV,Weekly,2023-04-27,2024-04-25,52,True,Metformin
+MED-69B27A84,P100670,TR-20190,Drug-B-200,SGLT-2 Inhibitor,10 mg,IV,Weekly,2022-03-02,2022-05-25,12,True,Metformin
+MED-041BF02C,P100651,TR-20057,Drug-F-600,ACE Inhibitor Variant,50 mg,Oral,Weekly,2023-05-17,2024-01-24,36,True,Metformin
+MED-281689C7,P100651,TR-20072,Drug-C-300,DPP-4 Inhibitor,50 mg,Subcutaneous,Once daily,2022-11-14,2023-07-24,36,True,Atorvastatin
+MED-28EFB784,P100697,TR-20060,Drug-F-600,ACE Inhibitor Variant,10 mg,Oral,Once daily,2022-08-18,2022-12-08,16,True,Metformin
+MED-9F223C99,P100740,TR-20039,Drug-A-100,GLP-1 Agonist Analog,10 mg,Oral,Twice daily,2023-03-13,2024-03-11,52,True,Atorvastatin
+MED-1904241F,P100240,TR-20112,Drug-A-100,GLP-1 Agonist Analog,200 mg,Oral,Weekly,2021-06-26,2021-12-11,24,True,Lisinopril
+MED-D494D4CA,P100412,TR-20114,Drug-C-300,DPP-4 Inhibitor,100 mg,Oral,Twice daily,2021-10-21,2022-02-10,16,True,Metformin
+MED-D5166081,P100537,TR-20154,Drug-F-600,ACE Inhibitor Variant,25 mg,IV,Twice daily,2022-02-10,2022-05-05,12,True,Metformin
+MED-E8FFF5C6,P100537,TR-20179,Drug-D-400,PD-1 Immunotherapy,10 mg,Oral,Once daily,2022-02-16,2023-02-15,52,True,None
+MED-C458C93A,P100184,TR-20179,Drug-F-600,ACE Inhibitor Variant,200 mg,Subcutaneous,Weekly,2021-04-18,2021-07-11,12,True,Metformin
+MED-897BC3FA,P100550,TR-20089,Drug-A-100,GLP-1 Agonist Analog,200 mg,Oral,Weekly,2023-06-28,2024-06-26,52,True,None
+MED-0F383D21,P100848,TR-20059,Drug-C-300,DPP-4 Inhibitor,25 mg,Subcutaneous,Weekly,2021-04-02,2022-04-01,52,True,Metformin
+MED-DB1B3D17,P100479,TR-20059,Drug-C-300,DPP-4 Inhibitor,50 mg,Subcutaneous,Weekly,2021-05-13,2021-10-28,24,True,Metformin
+MED-70CE9F33,P100263,TR-20142,Drug-E-500,Dual-Agent Protocol,10 mg,IV,Weekly,2022-04-17,2022-07-10,12,True,Metformin
+MED-9D37A066,P100566,TR-20116,Drug-F-600,ACE Inhibitor Variant,100 mg,Oral,Once daily,2023-05-05,2024-01-12,36,True,Atorvastatin
+MED-7B57240D,P100566,TR-20076,Drug-D-400,PD-1 Immunotherapy,10 mg,Subcutaneous,Once daily,2023-12-30,2024-04-20,16,True,Metformin
+MED-9A340490,P100090,TR-20024,Drug-B-200,SGLT-2 Inhibitor,10 mg,IV,Weekly,2023-12-01,2024-08-09,36,True,Lisinopril
+MED-DDB1B680,P100078,TR-20051,Drug-D-400,PD-1 Immunotherapy,10 mg,IV,Weekly,2023-07-27,2024-01-11,24,True,Metformin
+MED-C75D81B3,P100768,TR-20069,Drug-A-100,GLP-1 Agonist Analog,50 mg,Subcutaneous,Weekly,2021-03-16,2021-06-08,12,True,Metformin
+MED-9EE947AD,P100351,TR-20048,Drug-F-600,ACE Inhibitor Variant,200 mg,IV,Twice daily,2021-01-18,2021-05-10,16,True,Metformin
+MED-613E1F8E,P100787,TR-20197,Drug-E-500,Dual-Agent Protocol,50 mg,Oral,Once daily,2023-10-29,2024-07-07,36,True,None
+MED-ED7157AC,P100787,TR-20070,Drug-F-600,ACE Inhibitor Variant,100 mg,Subcutaneous,Once daily,2021-10-14,2022-03-31,24,True,Atorvastatin
+MED-91C9EEC3,P100174,TR-20013,Drug-D-400,PD-1 Immunotherapy,10 mg,IV,Twice daily,2021-02-28,2021-08-15,24,True,Atorvastatin
+MED-C8D029DC,P100504,TR-20147,Drug-D-400,PD-1 Immunotherapy,100 mg,IV,Twice daily,2023-11-09,2024-02-01,12,True,Metformin
+MED-6AC42F7D,P100618,TR-20042,Drug-F-600,ACE Inhibitor Variant,100 mg,Oral,Twice daily,2022-03-20,2023-03-19,52,True,Lisinopril
+MED-6DC44723,P100914,TR-20186,Drug-A-100,GLP-1 Agonist Analog,25 mg,IV,Twice daily,2023-03-24,2023-06-16,12,True,Metformin
+MED-7DC204C7,P100376,TR-20134,Drug-E-500,Dual-Agent Protocol,100 mg,IV,Twice daily,2022-01-12,2022-05-04,16,True,Atorvastatin
+MED-81F3B28C,P100376,TR-20156,Drug-E-500,Dual-Agent Protocol,200 mg,Subcutaneous,Weekly,2021-01-23,2022-01-22,52,True,Metformin
+MED-5CBCEFB8,P100571,TR-20053,Drug-D-400,PD-1 Immunotherapy,100 mg,IV,Once daily,2021-06-25,2022-03-04,36,True,Metformin
+MED-3070D0F9,P100571,TR-20019,Drug-E-500,Dual-Agent Protocol,100 mg,IV,Weekly,2021-01-02,2022-01-01,52,True,Metformin
+MED-691DE991,P100451,TR-20096,Drug-C-300,DPP-4 Inhibitor,25 mg,IV,Twice daily,2021-08-06,2022-08-05,52,True,Atorvastatin
+MED-F94D2796,P100528,TR-20078,Drug-D-400,PD-1 Immunotherapy,100 mg,IV,Weekly,2021-11-08,2022-07-18,36,True,Atorvastatin
+MED-BB1FD1C4,P100821,TR-20113,Drug-D-400,PD-1 Immunotherapy,200 mg,Oral,Weekly,2021-02-21,2021-08-08,24,True,Lisinopril
+MED-0E46F861,P100821,TR-20065,Drug-F-600,ACE Inhibitor Variant,50 mg,Oral,Once daily,2021-02-20,2022-02-19,52,True,Lisinopril
+MED-892C16E2,P100821,TR-20125,Drug-A-100,GLP-1 Agonist Analog,100 mg,IV,Twice daily,2021-08-12,2022-04-21,36,True,Metformin
+MED-EC3A30AD,P100242,TR-20164,Drug-E-500,Dual-Agent Protocol,200 mg,IV,Twice daily,2021-10-12,2022-01-04,12,True,Lisinopril
+MED-8C90DBC7,P100242,TR-20076,Drug-A-100,GLP-1 Agonist Analog,100 mg,Oral,Weekly,2023-12-28,2024-12-26,52,True,None
+MED-C40059EF,P100600,TR-20142,Drug-C-300,DPP-4 Inhibitor,10 mg,Oral,Weekly,2023-05-28,2024-05-26,52,True,Lisinopril
+MED-7FCF80AF,P100600,TR-20123,Drug-A-100,GLP-1 Agonist Analog,50 mg,IV,Weekly,2022-01-12,2022-04-06,12,True,Metformin
+MED-360A3484,P100093,TR-20043,Drug-E-500,Dual-Agent Protocol,50 mg,Subcutaneous,Twice daily,2023-10-04,2024-06-12,36,True,None
+MED-E1D062C2,P100093,TR-20003,Drug-F-600,ACE Inhibitor Variant,25 mg,Subcutaneous,Once daily,2021-02-04,2021-05-27,16,True,None
+MED-668C0648,P100093,TR-20026,Drug-A-100,GLP-1 Agonist Analog,50 mg,Subcutaneous,Once daily,2021-11-04,2022-01-27,12,True,None
+MED-B549FE56,P100725,TR-20104,Drug-F-600,ACE Inhibitor Variant,10 mg,IV,Twice daily,2023-03-13,2024-03-11,52,True,Metformin
+MED-A48F708C,P100813,TR-20084,Drug-E-500,Dual-Agent Protocol,200 mg,IV,Once daily,2023-04-03,2023-06-26,12,True,Metformin
+MED-FA4D4CD8,P100166,TR-20188,Drug-B-200,SGLT-2 Inhibitor,100 mg,Subcutaneous,Once daily,2022-01-23,2022-05-15,16,True,None
+MED-E9AC0E50,P100397,TR-20071,Drug-F-600,ACE Inhibitor Variant,100 mg,Oral,Once daily,2021-02-02,2022-02-01,52,True,None
+MED-8AF70209,P100377,TR-20035,Drug-D-400,PD-1 Immunotherapy,25 mg,IV,Once daily,2021-02-10,2021-06-02,16,True,Atorvastatin
+MED-DAA0D839,P100357,TR-20039,Drug-F-600,ACE Inhibitor Variant,50 mg,Subcutaneous,Weekly,2021-10-12,2022-06-21,36,True,Atorvastatin
+MED-08F1F2A6,P100982,TR-20054,Drug-C-300,DPP-4 Inhibitor,50 mg,Oral,Weekly,2023-08-20,2023-12-10,16,True,Lisinopril
+MED-A0116854,P100982,TR-20017,Drug-D-400,PD-1 Immunotherapy,50 mg,IV,Weekly,2022-07-22,2022-10-14,12,True,Lisinopril
+MED-55F319C0,P100622,TR-20172,Drug-D-400,PD-1 Immunotherapy,10 mg,Subcutaneous,Twice daily,2022-06-08,2023-02-15,36,True,Atorvastatin
+MED-B18B617F,P100207,TR-20067,Drug-B-200,SGLT-2 Inhibitor,50 mg,IV,Once daily,2022-09-15,2023-03-02,24,True,Lisinopril
+MED-E1CBA32A,P100207,TR-20148,Drug-C-300,DPP-4 Inhibitor,100 mg,Subcutaneous,Twice daily,2022-07-29,2022-10-21,12,True,Atorvastatin
+MED-18E67878,P100024,TR-20153,Drug-C-300,DPP-4 Inhibitor,50 mg,Subcutaneous,Once daily,2022-02-11,2023-02-10,52,True,Lisinopril
+MED-4527B187,P100024,TR-20063,Drug-E-500,Dual-Agent Protocol,200 mg,IV,Weekly,2022-12-25,2023-04-16,16,True,Metformin
+MED-18FC986A,P100660,TR-20066,Drug-D-400,PD-1 Immunotherapy,100 mg,IV,Twice daily,2022-03-19,2022-11-26,36,True,Lisinopril
+MED-2CAFDF80,P100445,TR-20026,Drug-B-200,SGLT-2 Inhibitor,100 mg,IV,Twice daily,2021-03-02,2021-06-22,16,True,Atorvastatin
+MED-841DF861,P100445,TR-20179,Drug-A-100,GLP-1 Agonist Analog,25 mg,Oral,Weekly,2022-08-19,2023-08-18,52,True,Atorvastatin
+MED-74631E7F,P100445,TR-20139,Drug-E-500,Dual-Agent Protocol,50 mg,IV,Once daily,2022-03-24,2023-03-23,52,True,Atorvastatin
+MED-15950DD5,P100909,TR-20170,Drug-E-500,Dual-Agent Protocol,50 mg,Oral,Weekly,2021-03-06,2021-08-21,24,True,Lisinopril
+MED-7C4F1680,P100909,TR-20017,Drug-C-300,DPP-4 Inhibitor,10 mg,Subcutaneous,Once daily,2023-01-10,2023-04-04,12,True,Lisinopril
+MED-9F41E75D,P100909,TR-20199,Drug-D-400,PD-1 Immunotherapy,10 mg,Oral,Twice daily,2021-12-05,2022-08-14,36,True,Metformin
+MED-B985F0F3,P100256,TR-20031,Drug-C-300,DPP-4 Inhibitor,200 mg,Oral,Weekly,2022-02-06,2022-05-29,16,True,Atorvastatin
+MED-F0DF5888,P100256,TR-20079,Drug-D-400,PD-1 Immunotherapy,25 mg,Subcutaneous,Twice daily,2023-10-01,2024-01-21,16,True,Lisinopril
+MED-00018219,P100514,TR-20043,Drug-F-600,ACE Inhibitor Variant,25 mg,Subcutaneous,Once daily,2021-01-10,2021-06-27,24,True,None
+MED-38BF019B,P100900,TR-20022,Drug-D-400,PD-1 Immunotherapy,200 mg,IV,Once daily,2022-11-18,2023-03-10,16,True,Lisinopril
+MED-9C01F592,P100429,TR-20110,Drug-A-100,GLP-1 Agonist Analog,50 mg,IV,Once daily,2021-01-10,2021-05-02,16,True,Metformin
+MED-14B8B6C8,P100968,TR-20001,Drug-E-500,Dual-Agent Protocol,25 mg,IV,Once daily,2022-10-01,2022-12-24,12,True,None
+MED-B65F7644,P100968,TR-20121,Drug-B-200,SGLT-2 Inhibitor,25 mg,Oral,Twice daily,2022-06-27,2023-03-06,36,True,Lisinopril
+MED-72CDE8C7,P100968,TR-20046,Drug-B-200,SGLT-2 Inhibitor,10 mg,Oral,Once daily,2021-07-25,2021-10-17,12,True,Lisinopril
+MED-4C8F985C,P100641,TR-20080,Drug-E-500,Dual-Agent Protocol,25 mg,IV,Twice daily,2022-07-17,2022-10-09,12,True,Metformin
+MED-ADA2B858,P100617,TR-20011,Drug-D-400,PD-1 Immunotherapy,200 mg,IV,Weekly,2021-11-02,2022-04-19,24,True,Atorvastatin
+MED-B3552194,P100197,TR-20126,Drug-B-200,SGLT-2 Inhibitor,10 mg,Subcutaneous,Twice daily,2021-08-16,2022-01-31,24,True,Atorvastatin
+MED-EB56D6FE,P100197,TR-20028,Drug-B-200,SGLT-2 Inhibitor,200 mg,Subcutaneous,Weekly,2022-01-30,2023-01-29,52,True,Lisinopril
+MED-73FB5F03,P100216,TR-20119,Drug-C-300,DPP-4 Inhibitor,10 mg,IV,Weekly,2022-12-02,2023-05-19,24,True,Atorvastatin
+MED-251E7E52,P100454,TR-20180,Drug-A-100,GLP-1 Agonist Analog,200 mg,Oral,Twice daily,2021-06-15,2022-06-14,52,True,None
+MED-B65B2D13,P100565,TR-20073,Drug-A-100,GLP-1 Agonist Analog,50 mg,IV,Twice daily,2022-09-16,2023-05-26,36,True,Metformin
+MED-F3FC1E04,P100513,TR-20092,Drug-F-600,ACE Inhibitor Variant,100 mg,Oral,Twice daily,2021-03-06,2021-11-13,36,True,Metformin
+MED-960217A4,P100781,TR-20061,Drug-E-500,Dual-Agent Protocol,100 mg,Oral,Once daily,2023-05-02,2023-07-25,12,True,Atorvastatin
+MED-41BD4A64,P100781,TR-20080,Drug-C-300,DPP-4 Inhibitor,25 mg,Oral,Weekly,2021-07-15,2022-03-24,36,True,Lisinopril
+MED-63F8025B,P100020,TR-20016,Drug-D-400,PD-1 Immunotherapy,25 mg,IV,Twice daily,2023-05-17,2023-11-01,24,True,None
+MED-D000DB6B,P100992,TR-20115,Drug-B-200,SGLT-2 Inhibitor,200 mg,IV,Weekly,2021-02-28,2021-11-07,36,True,None
+MED-5A5C90F5,P100227,TR-20086,Drug-E-500,Dual-Agent Protocol,25 mg,Oral,Weekly,2023-03-15,2023-11-22,36,True,None
+MED-8EBDB568,P100707,TR-20112,Drug-D-400,PD-1 Immunotherapy,10 mg,Subcutaneous,Twice daily,2022-04-25,2023-04-24,52,True,Metformin
+MED-FD5EFB6C,P100371,TR-20168,Drug-A-100,GLP-1 Agonist Analog,10 mg,IV,Weekly,2022-11-20,2023-03-12,16,True,Atorvastatin
+MED-49B7FCD2,P100371,TR-20009,Drug-A-100,GLP-1 Agonist Analog,10 mg,Subcutaneous,Twice daily,2022-11-19,2023-05-06,24,True,Metformin
+MED-DC8044CF,P100307,TR-20065,Drug-B-200,SGLT-2 Inhibitor,25 mg,Subcutaneous,Once daily,2023-06-22,2024-02-29,36,True,Metformin
+MED-630D9B2A,P100307,TR-20100,Drug-B-200,SGLT-2 Inhibitor,200 mg,Subcutaneous,Weekly,2022-04-15,2022-09-30,24,True,None
+MED-5B7A193B,P100770,TR-20036,Drug-C-300,DPP-4 Inhibitor,10 mg,Subcutaneous,Twice daily,2022-12-06,2023-12-05,52,True,Metformin
+MED-67886D2B,P100069,TR-20052,Drug-A-100,GLP-1 Agonist Analog,200 mg,Oral,Twice daily,2023-01-27,2023-05-19,16,True,Lisinopril
+MED-1BDA1649,P100069,TR-20047,Drug-C-300,DPP-4 Inhibitor,200 mg,Oral,Weekly,2021-10-24,2022-01-16,12,True,Metformin
+MED-DD413417,P100819,TR-20129,Drug-A-100,GLP-1 Agonist Analog,25 mg,IV,Twice daily,2022-06-07,2022-09-27,16,True,Lisinopril
+MED-824E6973,P100819,TR-20052,Drug-D-400,PD-1 Immunotherapy,25 mg,Subcutaneous,Weekly,2023-08-14,2024-04-22,36,True,None
+MED-29D82A9B,P100404,TR-20051,Drug-A-100,GLP-1 Agonist Analog,200 mg,Oral,Weekly,2022-08-23,2023-02-07,24,True,Lisinopril
+MED-F2C8FEF8,P100404,TR-20112,Drug-F-600,ACE Inhibitor Variant,10 mg,Subcutaneous,Weekly,2022-02-02,2022-07-20,24,True,Metformin
+MED-FCE58CA7,P100667,TR-20086,Drug-F-600,ACE Inhibitor Variant,100 mg,Subcutaneous,Twice daily,2022-05-25,2022-11-09,24,True,Metformin
+MED-236316CE,P100602,TR-20068,Drug-A-100,GLP-1 Agonist Analog,200 mg,IV,Twice daily,2021-11-18,2022-02-10,12,True,None
+MED-106CFFCA,P100654,TR-20116,Drug-F-600,ACE Inhibitor Variant,10 mg,IV,Once daily,2022-10-19,2023-01-11,12,True,None
+MED-AA860391,P100569,TR-20140,Drug-F-600,ACE Inhibitor Variant,100 mg,IV,Once daily,2021-09-17,2022-05-27,36,True,Atorvastatin
+MED-C7DDB3BA,P100642,TR-20149,Drug-B-200,SGLT-2 Inhibitor,10 mg,IV,Once daily,2023-11-09,2024-02-29,16,True,None
+MED-6714A2CE,P100823,TR-20046,Drug-F-600,ACE Inhibitor Variant,100 mg,Oral,Weekly,2023-10-29,2024-01-21,12,True,Metformin
+MED-A2873C29,P100823,TR-20140,Drug-B-200,SGLT-2 Inhibitor,100 mg,Subcutaneous,Once daily,2022-05-20,2022-08-12,12,True,Lisinopril
+MED-CCDA1BF1,P100920,TR-20026,Drug-D-400,PD-1 Immunotherapy,100 mg,IV,Once daily,2023-08-02,2023-11-22,16,True,None
+MED-55B96FA9,P100920,TR-20034,Drug-C-300,DPP-4 Inhibitor,100 mg,IV,Once daily,2023-11-19,2024-03-10,16,True,Atorvastatin
+MED-773A38A5,P100690,TR-20195,Drug-F-600,ACE Inhibitor Variant,200 mg,Subcutaneous,Weekly,2022-12-11,2023-05-28,24,True,None
+MED-59905B81,P100375,TR-20124,Drug-C-300,DPP-4 Inhibitor,50 mg,IV,Twice daily,2021-04-26,2021-08-16,16,True,None
+MED-8041978E,P100608,TR-20024,Drug-A-100,GLP-1 Agonist Analog,25 mg,Subcutaneous,Twice daily,2021-01-13,2021-05-05,16,True,Metformin
+MED-657DBEE7,P100185,TR-20042,Drug-E-500,Dual-Agent Protocol,25 mg,Subcutaneous,Twice daily,2021-03-12,2021-11-19,36,True,Lisinopril
+MED-C74356F2,P100185,TR-20038,Drug-A-100,GLP-1 Agonist Analog,200 mg,IV,Twice daily,2022-10-10,2023-01-30,16,True,Atorvastatin
+MED-096B6134,P100185,TR-20088,Drug-A-100,GLP-1 Agonist Analog,50 mg,Oral,Weekly,2021-04-08,2021-07-29,16,True,Metformin
+MED-48DC5923,P100751,TR-20159,Drug-C-300,DPP-4 Inhibitor,50 mg,IV,Weekly,2023-07-30,2024-04-07,36,True,None
+MED-1F76EC29,P100694,TR-20169,Drug-E-500,Dual-Agent Protocol,100 mg,Subcutaneous,Weekly,2022-05-07,2022-08-27,16,True,None
+MED-4CE821E9,P100732,TR-20049,Drug-A-100,GLP-1 Agonist Analog,200 mg,Subcutaneous,Once daily,2022-05-14,2022-08-06,12,True,Atorvastatin
+MED-489CBB08,P100563,TR-20096,Drug-B-200,SGLT-2 Inhibitor,50 mg,Oral,Once daily,2021-04-10,2021-07-03,12,True,Metformin
+MED-486443C2,P100981,TR-20030,Drug-C-300,DPP-4 Inhibitor,10 mg,Subcutaneous,Twice daily,2021-05-04,2022-01-11,36,True,Metformin
+MED-5B37600F,P100423,TR-20015,Drug-B-200,SGLT-2 Inhibitor,25 mg,Subcutaneous,Weekly,2021-07-21,2021-10-13,12,True,Metformin
+MED-0958946C,P100455,TR-20073,Drug-C-300,DPP-4 Inhibitor,10 mg,Subcutaneous,Weekly,2021-12-22,2022-04-13,16,True,Metformin
+MED-8BB518AC,P100610,TR-20135,Drug-F-600,ACE Inhibitor Variant,200 mg,Oral,Weekly,2023-03-04,2023-05-27,12,True,Atorvastatin
+MED-65DFAFF0,P100610,TR-20155,Drug-B-200,SGLT-2 Inhibitor,25 mg,Subcutaneous,Weekly,2021-01-19,2021-09-28,36,True,None
+MED-629042A0,P100809,TR-20032,Drug-F-600,ACE Inhibitor Variant,100 mg,Subcutaneous,Once daily,2022-05-18,2023-01-25,36,True,Atorvastatin
+MED-36EBDB99,P100161,TR-20060,Drug-F-600,ACE Inhibitor Variant,100 mg,IV,Twice daily,2022-09-20,2023-09-19,52,True,Metformin
+MED-5F005ADC,P100674,TR-20140,Drug-A-100,GLP-1 Agonist Analog,50 mg,Oral,Once daily,2021-02-17,2021-05-12,12,True,Lisinopril
+MED-FB816966,P100674,TR-20077,Drug-F-600,ACE Inhibitor Variant,100 mg,Oral,Twice daily,2021-04-14,2021-07-07,12,True,None
+MED-D9A46B52,P100224,TR-20069,Drug-D-400,PD-1 Immunotherapy,200 mg,IV,Once daily,2022-07-05,2022-10-25,16,True,Lisinopril
+MED-68554CD4,P100019,TR-20123,Drug-A-100,GLP-1 Agonist Analog,100 mg,Oral,Weekly,2022-03-20,2022-07-10,16,True,Lisinopril
+MED-39C6A9F0,P100518,TR-20068,Drug-A-100,GLP-1 Agonist Analog,200 mg,IV,Weekly,2021-06-14,2021-09-06,12,True,Lisinopril
+MED-3B54540E,P100021,TR-20044,Drug-C-300,DPP-4 Inhibitor,100 mg,Subcutaneous,Twice daily,2023-01-15,2023-07-02,24,True,Metformin
+MED-BF942CD4,P100873,TR-20005,Drug-E-500,Dual-Agent Protocol,50 mg,IV,Once daily,2022-12-06,2023-08-15,36,True,Metformin
+MED-4924F28F,P100775,TR-20175,Drug-D-400,PD-1 Immunotherapy,10 mg,Oral,Twice daily,2023-10-18,2024-06-26,36,True,Atorvastatin
+MED-6A819A0E,P100329,TR-20148,Drug-F-600,ACE Inhibitor Variant,200 mg,IV,Once daily,2023-10-24,2024-01-16,12,True,Atorvastatin
+MED-28FF1FF0,P100860,TR-20171,Drug-B-200,SGLT-2 Inhibitor,100 mg,Oral,Once daily,2022-12-27,2023-12-26,52,True,Atorvastatin
+MED-5075604E,P100031,TR-20064,Drug-D-400,PD-1 Immunotherapy,10 mg,IV,Twice daily,2022-03-25,2022-12-02,36,True,Atorvastatin
+MED-29AEB76F,P100128,TR-20155,Drug-B-200,SGLT-2 Inhibitor,25 mg,Subcutaneous,Weekly,2021-07-21,2022-03-30,36,True,Atorvastatin
+MED-67E46338,P100060,TR-20192,Drug-F-600,ACE Inhibitor Variant,25 mg,Subcutaneous,Once daily,2021-04-06,2021-09-21,24,True,Metformin
+MED-0A4BF8A2,P100985,TR-20165,Drug-F-600,ACE Inhibitor Variant,10 mg,IV,Twice daily,2023-02-19,2023-08-06,24,True,Atorvastatin
+MED-1CE52ED7,P100561,TR-20011,Drug-D-400,PD-1 Immunotherapy,100 mg,Oral,Weekly,2023-10-10,2024-01-30,16,True,Metformin
+MED-C18A296F,P100896,TR-20176,Drug-A-100,GLP-1 Agonist Analog,10 mg,IV,Twice daily,2021-08-15,2022-01-30,24,True,None
+MED-DFE8C78D,P100895,TR-20029,Drug-F-600,ACE Inhibitor Variant,10 mg,IV,Once daily,2021-12-23,2022-06-09,24,True,Lisinopril
+MED-80B269F3,P100931,TR-20186,Drug-E-500,Dual-Agent Protocol,200 mg,IV,Weekly,2021-08-19,2021-12-09,16,True,Atorvastatin
+MED-19A3ECC2,P100058,TR-20106,Drug-B-200,SGLT-2 Inhibitor,100 mg,Oral,Twice daily,2022-06-21,2023-02-28,36,True,Atorvastatin
+MED-C3F264C7,P100213,TR-20071,Drug-C-300,DPP-4 Inhibitor,200 mg,Subcutaneous,Twice daily,2023-03-05,2023-11-12,36,True,None
+MED-0D69270C,P100065,TR-20041,Drug-B-200,SGLT-2 Inhibitor,10 mg,Oral,Twice daily,2022-04-19,2022-12-27,36,True,Metformin
+MED-C5C96D60,P100100,TR-20053,Drug-D-400,PD-1 Immunotherapy,100 mg,Subcutaneous,Once daily,2022-04-12,2023-04-11,52,True,None
+MED-7C93DF55,P100530,TR-20046,Drug-C-300,DPP-4 Inhibitor,25 mg,Subcutaneous,Weekly,2022-01-06,2023-01-05,52,True,None
+MED-17579583,P100977,TR-20136,Drug-F-600,ACE Inhibitor Variant,10 mg,IV,Twice daily,2023-09-16,2024-01-06,16,True,Metformin
+MED-032AF49B,P100977,TR-20017,Drug-C-300,DPP-4 Inhibitor,50 mg,Oral,Twice daily,2021-03-31,2021-06-23,12,True,Metformin
+MED-CC6D3485,P100629,TR-20123,Drug-E-500,Dual-Agent Protocol,200 mg,IV,Once daily,2021-06-17,2021-09-09,12,True,Metformin
+MED-786DE93C,P100643,TR-20061,Drug-E-500,Dual-Agent Protocol,100 mg,Oral,Weekly,2022-07-30,2022-11-19,16,True,Metformin
+MED-2DD1809F,P100284,TR-20165,Drug-A-100,GLP-1 Agonist Analog,100 mg,Subcutaneous,Weekly,2021-08-22,2021-11-14,12,True,Atorvastatin
+MED-CEBBC856,P100987,TR-20192,Drug-F-600,ACE Inhibitor Variant,50 mg,Subcutaneous,Twice daily,2023-09-11,2023-12-04,12,True,Lisinopril
+MED-C61A390C,P100987,TR-20104,Drug-E-500,Dual-Agent Protocol,200 mg,Subcutaneous,Twice daily,2022-08-07,2023-04-16,36,True,None
+MED-EB722C1C,P100711,TR-20136,Drug-C-300,DPP-4 Inhibitor,10 mg,IV,Once daily,2021-10-04,2022-01-24,16,True,None
+MED-46ACFE3C,P100137,TR-20198,Drug-C-300,DPP-4 Inhibitor,50 mg,IV,Twice daily,2023-04-19,2024-04-17,52,True,None
+MED-AB8FE7D3,P100137,TR-20142,Drug-E-500,Dual-Agent Protocol,10 mg,Oral,Twice daily,2023-12-31,2024-12-29,52,True,None
+MED-EB9D2CA2,P100148,TR-20185,Drug-D-400,PD-1 Immunotherapy,100 mg,Oral,Once daily,2022-10-04,2023-01-24,16,True,Atorvastatin
+MED-D7F59530,P100148,TR-20196,Drug-B-200,SGLT-2 Inhibitor,200 mg,IV,Twice daily,2021-12-11,2022-03-05,12,True,Lisinopril
+MED-997C7AB4,P100381,TR-20155,Drug-D-400,PD-1 Immunotherapy,10 mg,IV,Weekly,2023-04-29,2023-08-19,16,True,Lisinopril
+MED-9CEFCF02,P100381,TR-20145,Drug-E-500,Dual-Agent Protocol,100 mg,Subcutaneous,Weekly,2022-03-23,2022-11-30,36,True,None
+MED-0CB0578F,P100713,TR-20087,Drug-A-100,GLP-1 Agonist Analog,200 mg,Subcutaneous,Weekly,2022-03-09,2023-03-08,52,True,None
+MED-A37352B3,P100157,TR-20059,Drug-D-400,PD-1 Immunotherapy,10 mg,Oral,Once daily,2021-12-08,2022-12-07,52,True,None
+MED-5D0D7510,P100463,TR-20190,Drug-D-400,PD-1 Immunotherapy,100 mg,IV,Once daily,2023-05-23,2023-08-15,12,True,Metformin
+MED-6A43D0AF,P100921,TR-20035,Drug-A-100,GLP-1 Agonist Analog,25 mg,IV,Once daily,2022-03-31,2022-12-08,36,True,Metformin
+MED-DB17259E,P100576,TR-20010,Drug-A-100,GLP-1 Agonist Analog,50 mg,IV,Weekly,2023-12-16,2024-08-24,36,True,None
+MED-E9C2DFE7,P100384,TR-20072,Drug-A-100,GLP-1 Agonist Analog,25 mg,IV,Weekly,2021-04-26,2021-10-11,24,True,Metformin
+MED-AE091B1F,P100140,TR-20061,Drug-E-500,Dual-Agent Protocol,50 mg,Subcutaneous,Twice daily,2022-08-29,2023-02-13,24,True,Metformin
+MED-5D0C8DD1,P100324,TR-20138,Drug-C-300,DPP-4 Inhibitor,200 mg,Subcutaneous,Weekly,2022-04-26,2023-01-03,36,True,None
+MED-0DBB40FC,P100324,TR-20192,Drug-B-200,SGLT-2 Inhibitor,25 mg,Subcutaneous,Weekly,2022-07-25,2023-04-03,36,True,Metformin
+MED-0AA41311,P100435,TR-20194,Drug-B-200,SGLT-2 Inhibitor,10 mg,IV,Twice daily,2022-12-02,2023-05-19,24,True,None
+MED-D6D54A79,P100150,TR-20106,Drug-E-500,Dual-Agent Protocol,200 mg,Oral,Weekly,2022-10-23,2023-02-12,16,True,Lisinopril
+MED-2438828B,P100624,TR-20110,Drug-D-400,PD-1 Immunotherapy,10 mg,Subcutaneous,Once daily,2022-01-03,2022-09-12,36,True,Metformin
+MED-7C98C190,P100747,TR-20043,Drug-D-400,PD-1 Immunotherapy,200 mg,IV,Once daily,2021-09-06,2021-11-29,12,True,Lisinopril
+MED-C9DC1AA4,P100168,TR-20071,Drug-C-300,DPP-4 Inhibitor,25 mg,Subcutaneous,Weekly,2021-07-20,2022-01-04,24,True,Lisinopril
+MED-2462838D,P100008,TR-20188,Drug-C-300,DPP-4 Inhibitor,50 mg,IV,Once daily,2021-07-12,2021-11-01,16,True,None
+MED-A78E661C,P100008,TR-20046,Drug-E-500,Dual-Agent Protocol,100 mg,Subcutaneous,Twice daily,2021-01-18,2021-05-10,16,True,Lisinopril
+MED-A5023107,P100692,TR-20058,Drug-E-500,Dual-Agent Protocol,50 mg,IV,Weekly,2023-05-28,2023-08-20,12,True,Atorvastatin
+MED-2EC76A2A,P100692,TR-20159,Drug-B-200,SGLT-2 Inhibitor,200 mg,Subcutaneous,Weekly,2021-03-07,2021-08-22,24,True,Metformin
+MED-05828679,P100390,TR-20044,Drug-F-600,ACE Inhibitor Variant,100 mg,Subcutaneous,Once daily,2023-08-02,2023-10-25,12,True,Lisinopril
+MED-818CF583,P100619,TR-20108,Drug-F-600,ACE Inhibitor Variant,100 mg,Subcutaneous,Once daily,2023-05-08,2023-07-31,12,True,None
+MED-F9A6B0D2,P100619,TR-20028,Drug-B-200,SGLT-2 Inhibitor,25 mg,IV,Twice daily,2023-08-22,2023-12-12,16,True,None
+MED-CECE4DF1,P100621,TR-20153,Drug-D-400,PD-1 Immunotherapy,100 mg,Subcutaneous,Once daily,2021-09-05,2021-12-26,16,True,Lisinopril
+MED-21671114,P100621,TR-20137,Drug-A-100,GLP-1 Agonist Analog,25 mg,Subcutaneous,Once daily,2022-09-18,2023-01-08,16,True,Metformin
+MED-5A7A335D,P100689,TR-20067,Drug-F-600,ACE Inhibitor Variant,200 mg,Subcutaneous,Weekly,2021-07-12,2021-12-27,24,True,Metformin
+MED-DC1771E2,P100036,TR-20076,Drug-A-100,GLP-1 Agonist Analog,25 mg,Subcutaneous,Once daily,2022-05-19,2023-01-26,36,True,Atorvastatin
+MED-B1EA2067,P100053,TR-20149,Drug-C-300,DPP-4 Inhibitor,10 mg,Subcutaneous,Once daily,2021-01-30,2021-07-17,24,True,Lisinopril
+MED-5EA73877,P100053,TR-20178,Drug-C-300,DPP-4 Inhibitor,50 mg,Subcutaneous,Twice daily,2021-12-11,2022-05-28,24,True,Metformin
+MED-7181547C,P100393,TR-20035,Drug-F-600,ACE Inhibitor Variant,50 mg,Oral,Twice daily,2021-11-19,2022-02-11,12,True,None
+MED-8C79D257,P100842,TR-20156,Drug-F-600,ACE Inhibitor Variant,100 mg,IV,Twice daily,2022-09-23,2023-09-22,52,True,None
+MED-FD626408,P100345,TR-20022,Drug-A-100,GLP-1 Agonist Analog,10 mg,IV,Twice daily,2023-05-23,2024-05-21,52,True,Lisinopril
+MED-7CC56234,P100487,TR-20086,Drug-A-100,GLP-1 Agonist Analog,10 mg,IV,Twice daily,2022-08-07,2023-08-06,52,True,Lisinopril
+MED-E3DD6D9E,P100195,TR-20053,Drug-B-200,SGLT-2 Inhibitor,25 mg,IV,Once daily,2021-05-14,2022-05-13,52,True,Lisinopril
+MED-EBC8F0F7,P100061,TR-20160,Drug-C-300,DPP-4 Inhibitor,50 mg,Oral,Weekly,2022-09-07,2022-12-28,16,True,None
+MED-77132A7D,P100615,TR-20195,Drug-E-500,Dual-Agent Protocol,10 mg,Subcutaneous,Once daily,2023-03-01,2023-06-21,16,True,None
+MED-0F0A074E,P100250,TR-20009,Drug-F-600,ACE Inhibitor Variant,100 mg,IV,Weekly,2022-10-14,2023-02-03,16,True,Lisinopril
+MED-8893962F,P100145,TR-20177,Drug-B-200,SGLT-2 Inhibitor,10 mg,Subcutaneous,Once daily,2021-12-26,2022-12-25,52,True,Metformin
+MED-0B39BB33,P100494,TR-20138,Drug-D-400,PD-1 Immunotherapy,100 mg,Subcutaneous,Weekly,2023-02-21,2023-10-31,36,True,Atorvastatin
+MED-12EBD172,P100494,TR-20166,Drug-E-500,Dual-Agent Protocol,200 mg,IV,Once daily,2021-12-10,2022-04-01,16,True,Metformin
+MED-4CDD0CC2,P100630,TR-20173,Drug-E-500,Dual-Agent Protocol,200 mg,IV,Once daily,2021-07-11,2022-03-20,36,True,None
+MED-F62F9878,P100693,TR-20067,Drug-F-600,ACE Inhibitor Variant,200 mg,Subcutaneous,Once daily,2022-01-28,2023-01-27,52,True,Metformin
+MED-0F1DD499,P100693,TR-20041,Drug-C-300,DPP-4 Inhibitor,25 mg,IV,Once daily,2022-07-29,2022-11-18,16,True,Atorvastatin
+MED-42E91065,P100612,TR-20196,Drug-D-400,PD-1 Immunotherapy,25 mg,IV,Twice daily,2023-11-16,2024-03-07,16,True,Metformin
+MED-2A378AD6,P100408,TR-20121,Drug-B-200,SGLT-2 Inhibitor,200 mg,Subcutaneous,Once daily,2023-11-26,2024-05-12,24,True,Metformin
+MED-3437FB4E,P100388,TR-20154,Drug-C-300,DPP-4 Inhibitor,50 mg,Oral,Weekly,2023-08-26,2023-12-16,16,True,Atorvastatin
+MED-5637FC41,P100406,TR-20097,Drug-D-400,PD-1 Immunotherapy,10 mg,Subcutaneous,Twice daily,2022-06-06,2023-06-05,52,True,Lisinopril
+MED-ABF594C5,P100372,TR-20097,Drug-C-300,DPP-4 Inhibitor,25 mg,Subcutaneous,Weekly,2022-08-06,2022-11-26,16,True,Metformin
+MED-B74BEC16,P100793,TR-20069,Drug-D-400,PD-1 Immunotherapy,200 mg,IV,Twice daily,2021-10-01,2022-09-30,52,True,None
+MED-CC72A614,P100034,TR-20014,Drug-D-400,PD-1 Immunotherapy,50 mg,Oral,Weekly,2022-02-23,2022-08-10,24,True,Lisinopril
+MED-F848C30B,P100469,TR-20158,Drug-B-200,SGLT-2 Inhibitor,200 mg,IV,Weekly,2023-12-08,2024-12-06,52,True,Lisinopril
+MED-23FAC32F,P100946,TR-20005,Drug-D-400,PD-1 Immunotherapy,200 mg,IV,Weekly,2022-05-25,2022-08-17,12,True,Atorvastatin
+MED-84CD6085,P100946,TR-20198,Drug-C-300,DPP-4 Inhibitor,50 mg,Subcutaneous,Once daily,2022-03-06,2022-08-21,24,True,Atorvastatin
+MED-61F19D1E,P100370,TR-20143,Drug-D-400,PD-1 Immunotherapy,50 mg,IV,Once daily,2021-04-02,2021-09-17,24,True,Metformin
+MED-0FDE3E34,P100241,TR-20046,Drug-A-100,GLP-1 Agonist Analog,50 mg,Oral,Weekly,2022-11-28,2023-02-20,12,True,Atorvastatin
+MED-A65B48A4,P100241,TR-20141,Drug-B-200,SGLT-2 Inhibitor,200 mg,Subcutaneous,Twice daily,2022-08-07,2023-01-22,24,True,Atorvastatin
+MED-F025C32A,P100286,TR-20040,Drug-E-500,Dual-Agent Protocol,100 mg,Subcutaneous,Weekly,2023-05-31,2024-02-07,36,True,Lisinopril
+MED-37BD1707,P100350,TR-20065,Drug-D-400,PD-1 Immunotherapy,10 mg,IV,Weekly,2023-04-17,2023-07-10,12,True,None
+MED-59025660,P100534,TR-20162,Drug-D-400,PD-1 Immunotherapy,10 mg,IV,Weekly,2021-04-16,2022-04-15,52,True,Atorvastatin
+MED-F7CB4F0F,P100365,TR-20011,Drug-A-100,GLP-1 Agonist Analog,25 mg,Subcutaneous,Twice daily,2021-02-23,2021-05-18,12,True,Atorvastatin
+MED-EB3A55D1,P100365,TR-20048,Drug-A-100,GLP-1 Agonist Analog,100 mg,IV,Twice daily,2023-03-15,2023-08-30,24,True,Atorvastatin
+MED-340D1787,P100233,TR-20187,Drug-F-600,ACE Inhibitor Variant,50 mg,Oral,Weekly,2021-01-01,2021-06-18,24,True,Atorvastatin
+MED-C0ACB2D6,P100777,TR-20136,Drug-A-100,GLP-1 Agonist Analog,100 mg,Subcutaneous,Twice daily,2023-02-27,2023-05-22,12,True,Lisinopril
+MED-ECC6AAB2,P100220,TR-20095,Drug-E-500,Dual-Agent Protocol,50 mg,Subcutaneous,Once daily,2022-02-23,2022-06-15,16,True,Lisinopril
+MED-0517FE23,P100220,TR-20062,Drug-E-500,Dual-Agent Protocol,50 mg,Oral,Twice daily,2023-11-26,2024-08-04,36,True,Lisinopril
+MED-A2664C6A,P100800,TR-20035,Drug-A-100,GLP-1 Agonist Analog,100 mg,Subcutaneous,Weekly,2023-04-18,2023-10-03,24,True,Metformin
+MED-000DE3E7,P100800,TR-20120,Drug-D-400,PD-1 Immunotherapy,10 mg,Oral,Weekly,2022-09-29,2023-03-16,24,True,Lisinopril
+MED-9982C021,P100957,TR-20164,Drug-B-200,SGLT-2 Inhibitor,10 mg,IV,Weekly,2023-06-10,2024-06-08,52,True,Metformin
+MED-36397BBA,P100614,TR-20056,Drug-C-300,DPP-4 Inhibitor,50 mg,Oral,Once daily,2021-09-12,2022-05-22,36,True,Lisinopril
+MED-B2731BCF,P100979,TR-20066,Drug-A-100,GLP-1 Agonist Analog,100 mg,IV,Weekly,2022-10-25,2023-02-14,16,True,Metformin
+MED-07294ECD,P100979,TR-20151,Drug-D-400,PD-1 Immunotherapy,10 mg,Subcutaneous,Twice daily,2023-11-20,2024-05-06,24,True,Metformin
+MED-5BD1A3EF,P100239,TR-20025,Drug-E-500,Dual-Agent Protocol,100 mg,Subcutaneous,Once daily,2022-05-16,2022-10-31,24,True,Atorvastatin
+MED-97B30810,P100229,TR-20051,Drug-B-200,SGLT-2 Inhibitor,50 mg,Oral,Once daily,2023-11-15,2024-05-01,24,True,None
+MED-2D625A4A,P100347,TR-20035,Drug-A-100,GLP-1 Agonist Analog,100 mg,Subcutaneous,Weekly,2021-10-17,2022-01-09,12,True,Atorvastatin
+MED-4CD149D1,P100163,TR-20193,Drug-E-500,Dual-Agent Protocol,200 mg,Subcutaneous,Once daily,2021-06-22,2021-12-07,24,True,None
+MED-8536EEB1,P100163,TR-20157,Drug-C-300,DPP-4 Inhibitor,25 mg,Subcutaneous,Twice daily,2023-01-26,2024-01-25,52,True,Atorvastatin
+MED-8A36B18C,P100757,TR-20003,Drug-C-300,DPP-4 Inhibitor,100 mg,Oral,Once daily,2023-02-10,2024-02-09,52,True,Atorvastatin
+MED-7BF23388,P100757,TR-20048,Drug-C-300,DPP-4 Inhibitor,10 mg,Oral,Weekly,2021-10-28,2022-07-07,36,True,Atorvastatin
+MED-6A892DB1,P100578,TR-20097,Drug-B-200,SGLT-2 Inhibitor,50 mg,Oral,Weekly,2022-09-15,2023-03-02,24,True,Lisinopril
+MED-AE469FD0,P100666,TR-20107,Drug-D-400,PD-1 Immunotherapy,25 mg,Oral,Once daily,2023-02-13,2024-02-12,52,True,None
+MED-F6334ED2,P100666,TR-20001,Drug-F-600,ACE Inhibitor Variant,25 mg,IV,Twice daily,2022-02-06,2022-05-29,16,True,Atorvastatin
+MED-65C1FDC9,P100474,TR-20139,Drug-A-100,GLP-1 Agonist Analog,100 mg,Oral,Once daily,2021-04-08,2021-12-16,36,True,Atorvastatin
+MED-32227718,P100802,TR-20105,Drug-C-300,DPP-4 Inhibitor,100 mg,IV,Twice daily,2023-01-02,2023-06-19,24,True,Metformin
+MED-636788A6,P100560,TR-20019,Drug-F-600,ACE Inhibitor Variant,100 mg,Oral,Twice daily,2021-10-06,2022-06-15,36,True,Atorvastatin
+MED-F03D843F,P100760,TR-20020,Drug-E-500,Dual-Agent Protocol,200 mg,Subcutaneous,Weekly,2021-03-26,2021-09-10,24,True,Atorvastatin
+MED-5F49916D,P100845,TR-20138,Drug-D-400,PD-1 Immunotherapy,50 mg,Subcutaneous,Twice daily,2023-10-13,2024-03-29,24,True,Lisinopril
+MED-0F8C347A,P100187,TR-20006,Drug-F-600,ACE Inhibitor Variant,200 mg,Subcutaneous,Twice daily,2022-08-08,2022-11-28,16,True,Metformin
+MED-884776D5,P100646,TR-20191,Drug-E-500,Dual-Agent Protocol,100 mg,Subcutaneous,Twice daily,2022-01-25,2022-07-12,24,True,Lisinopril
+MED-4F72FED8,P100556,TR-20033,Drug-A-100,GLP-1 Agonist Analog,100 mg,IV,Twice daily,2023-09-03,2023-12-24,16,True,Atorvastatin
+MED-64AF341D,P100881,TR-20015,Drug-C-300,DPP-4 Inhibitor,25 mg,Oral,Twice daily,2022-06-28,2022-09-20,12,True,Atorvastatin
+MED-66DD74CF,P100881,TR-20134,Drug-D-400,PD-1 Immunotherapy,50 mg,Subcutaneous,Twice daily,2021-06-14,2021-11-29,24,True,Lisinopril
+MED-720D106C,P100881,TR-20053,Drug-B-200,SGLT-2 Inhibitor,10 mg,IV,Twice daily,2021-06-30,2021-12-15,24,True,Metformin
+MED-01C4D0F1,P100460,TR-20191,Drug-F-600,ACE Inhibitor Variant,200 mg,Subcutaneous,Once daily,2021-05-02,2021-08-22,16,True,None
+MED-D675A7D8,P100951,TR-20088,Drug-F-600,ACE Inhibitor Variant,10 mg,IV,Twice daily,2022-07-23,2022-10-15,12,True,Atorvastatin
+MED-BD8447D5,P100096,TR-20112,Drug-C-300,DPP-4 Inhibitor,25 mg,Subcutaneous,Twice daily,2021-11-04,2022-11-03,52,True,Lisinopril
+MED-E4F7F00E,P100219,TR-20144,Drug-C-300,DPP-4 Inhibitor,50 mg,Subcutaneous,Weekly,2023-12-12,2024-04-02,16,True,Atorvastatin
+MED-5D27FE46,P100755,TR-20075,Drug-C-300,DPP-4 Inhibitor,25 mg,Oral,Weekly,2022-12-02,2023-03-24,16,True,Metformin
+MED-579F8AE4,P100634,TR-20061,Drug-D-400,PD-1 Immunotherapy,10 mg,Oral,Twice daily,2021-03-07,2021-11-14,36,True,Atorvastatin
+MED-D0A3164A,P100102,TR-20136,Drug-A-100,GLP-1 Agonist Analog,10 mg,Oral,Weekly,2021-06-11,2022-06-10,52,True,Metformin
+MED-D2DAD3E0,P100102,TR-20035,Drug-C-300,DPP-4 Inhibitor,100 mg,Oral,Once daily,2023-01-11,2024-01-10,52,True,Atorvastatin
+MED-A0184837,P100885,TR-20171,Drug-C-300,DPP-4 Inhibitor,200 mg,Oral,Weekly,2021-06-27,2021-09-19,12,True,Lisinopril
+MED-46B9F2AB,P100457,TR-20013,Drug-E-500,Dual-Agent Protocol,50 mg,IV,Twice daily,2023-07-07,2023-10-27,16,True,None
+MED-8A7E0F8F,P100639,TR-20075,Drug-C-300,DPP-4 Inhibitor,100 mg,IV,Once daily,2023-08-22,2024-02-06,24,True,Atorvastatin
+MED-98CBFA6C,P100996,TR-20191,Drug-E-500,Dual-Agent Protocol,50 mg,Subcutaneous,Twice daily,2021-01-01,2021-09-10,36,True,Atorvastatin
+MED-FC4D82E8,P100497,TR-20094,Drug-D-400,PD-1 Immunotherapy,200 mg,Oral,Weekly,2021-10-29,2022-07-08,36,True,Lisinopril
+MED-C7EDC9B8,P100303,TR-20085,Drug-F-600,ACE Inhibitor Variant,100 mg,IV,Weekly,2023-01-26,2023-05-18,16,True,Lisinopril
+MED-8417FF42,P100879,TR-20080,Drug-A-100,GLP-1 Agonist Analog,50 mg,Subcutaneous,Once daily,2021-05-19,2022-05-18,52,True,Metformin
+MED-AFF80E23,P100203,TR-20076,Drug-F-600,ACE Inhibitor Variant,25 mg,Subcutaneous,Weekly,2021-01-08,2021-04-30,16,True,Metformin
+MED-EDB0E55E,P100784,TR-20031,Drug-D-400,PD-1 Immunotherapy,10 mg,IV,Twice daily,2022-08-09,2023-04-18,36,True,Atorvastatin
+MED-546454F0,P100057,TR-20186,Drug-F-600,ACE Inhibitor Variant,100 mg,Oral,Once daily,2024-01-01,2024-04-22,16,True,None
+MED-E7E0DDC2,P100833,TR-20144,Drug-C-300,DPP-4 Inhibitor,10 mg,Oral,Once daily,2022-12-28,2023-03-22,12,True,Atorvastatin
+MED-AFE5342A,P100446,TR-20178,Drug-D-400,PD-1 Immunotherapy,100 mg,IV,Twice daily,2022-09-24,2022-12-17,12,True,Metformin
+MED-BEBB4EC9,P100446,TR-20157,Drug-B-200,SGLT-2 Inhibitor,50 mg,IV,Weekly,2021-07-04,2022-07-03,52,True,Lisinopril
+MED-EA0A6026,P100120,TR-20112,Drug-B-200,SGLT-2 Inhibitor,50 mg,IV,Once daily,2023-07-22,2024-01-06,24,True,None
+MED-1E242B82,P100120,TR-20170,Drug-B-200,SGLT-2 Inhibitor,50 mg,Oral,Once daily,2022-06-22,2022-12-07,24,True,Metformin
+MED-502AB0C4,P100279,TR-20056,Drug-F-600,ACE Inhibitor Variant,100 mg,Subcutaneous,Once daily,2023-10-31,2024-02-20,16,True,Lisinopril
+MED-60656157,P100084,TR-20199,Drug-A-100,GLP-1 Agonist Analog,100 mg,IV,Twice daily,2023-04-13,2024-04-11,52,True,Atorvastatin
+MED-C93561CE,P100084,TR-20069,Drug-C-300,DPP-4 Inhibitor,10 mg,Oral,Twice daily,2022-02-22,2022-05-17,12,True,None
+MED-68DD486A,P100299,TR-20001,Drug-E-500,Dual-Agent Protocol,25 mg,IV,Weekly,2021-01-18,2021-05-10,16,True,Lisinopril
+MED-665DE7E2,P100299,TR-20002,Drug-B-200,SGLT-2 Inhibitor,50 mg,Subcutaneous,Once daily,2023-05-07,2023-10-22,24,True,Lisinopril

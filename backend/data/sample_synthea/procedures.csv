@@ -1,0 +1,3 @@
+DATE,PATIENT,ENCOUNTER,CODE,DESCRIPTION
+2026-06-01,p-001,enc-001,443497002,Annual diabetic eye exam
+2026-04-10,p-006,enc-006,443497002,Diagnostic imaging - CT scan

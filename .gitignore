@@ -1,0 +1,32 @@
+# Python & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+venv/
+.venv/
+env/
+.env
+
+# Credentials (never commit secrets)
+*.pem
+*.key
+firebase-service-account.json
+backend/.env
+backend/firebase-service-account.json
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

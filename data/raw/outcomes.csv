@@ -1,0 +1,915 @@
+outcome_id,patient_id,trial_id,outcome_type,unit,baseline_value,followup_value,change,change_pct,measurement_date,response_status,adverse_events,treatment_completed
+OUT-P1024-001,P001024,TR-02045,HbA1c,%,9.1,7.2,-1.9,-20.9,2024-07-15,Moderate Response,Mild nausea,True
+OUT-B54CE723,P100934,TR-20102,HbA1c,%,7.2,7.8,0.6,9.0,2023-02-18,Worsened,None,True
+OUT-BB70CEF8,P100473,TR-20140,HbA1c,%,10.2,10.0,-0.2,-1.7,2022-02-22,No Response,None,True
+OUT-862251B2,P100292,TR-20114,HbA1c,%,8.6,6.0,-2.6,-30.3,2022-06-14,Strong Response,Fatigue,True
+OUT-4DF56BCB,P100135,TR-20069,Tumor Size,mm,19.0,17.2,-1.8,-9.6,2024-04-15,Minimal Response,Mild nausea,True
+OUT-CD1A43CF,P100413,TR-20142,Tumor Size,mm,32.4,26.5,-5.9,-18.4,2024-04-22,Moderate Response,Mild nausea,True
+OUT-CED34372,P100038,TR-20061,HbA1c,%,10.5,6.7,-3.8,-35.8,2022-02-04,Strong Response,Headache,True
+OUT-5D17B4AD,P100918,TR-20006,PHQ-9,score,15.0,9.4,-5.6,-37.6,2024-07-08,Strong Response,Mild nausea,True
+OUT-7B48C008,P100918,TR-20128,PHQ-9,score,21.9,16.9,-5.0,-23.0,2022-10-08,Moderate Response,Fatigue,True
+OUT-75630A62,P100918,TR-20009,HbA1c,%,9.6,7.0,-2.6,-26.9,2024-08-29,Strong Response,Headache,True
+OUT-3D19BB99,P100547,TR-20098,HbA1c,%,11.9,10.6,-1.3,-11.0,2022-05-17,Moderate Response,Fatigue,True
+OUT-450C5F13,P100941,TR-20048,HbA1c,%,8.7,7.2,-1.5,-17.0,2022-05-18,Moderate Response,Mild nausea,True
+OUT-657B5417,P100661,TR-20185,Systolic BP,mmHg,133.0,98.5,-34.5,-25.9,2023-10-06,Strong Response,Fatigue,True
+OUT-44F39872,P100017,TR-20098,Systolic BP,mmHg,133.0,131.7,-1.3,-1.0,2024-08-14,No Response,Dizziness,True
+OUT-EAF19348,P100072,TR-20072,HbA1c,%,9.1,6.8,-2.3,-25.1,2022-12-03,Strong Response,None,True
+OUT-5E78A4EC,P100072,TR-20175,HbA1c,%,9.9,6.1,-3.8,-38.3,2024-05-14,Strong Response,Mild nausea,True
+OUT-26A5261A,P100072,TR-20071,Tumor Size,mm,117.8,96.6,-21.2,-18.0,2023-12-08,Moderate Response,Headache,True
+OUT-C3E7D4B7,P100098,TR-20146,HbA1c,%,7.6,6.7,-0.9,-11.6,2023-08-31,Moderate Response,Fatigue,True
+OUT-3A68555D,P100850,TR-20005,FEV1,L,2.8,2.6,-0.2,-8.7,2023-10-24,Minimal Response,None,True
+OUT-E9821715,P100822,TR-20123,Systolic BP,mmHg,172.0,104.3,-67.7,-39.4,2022-07-13,Strong Response,Headache,True
+OUT-F7AC9C72,P100822,TR-20143,FEV1,L,1.9,1.3,-0.6,-33.2,2023-05-28,Strong Response,None,True
+OUT-F2FB4D1B,P100741,TR-20162,PHQ-9,score,15.6,9.7,-5.9,-37.9,2024-08-06,Strong Response,Headache,True
+OUT-FCA82504,P100309,TR-20168,Tumor Size,mm,29.6,17.8,-11.8,-39.8,2022-11-27,Strong Response,None,True
+OUT-122E9958,P100282,TR-20149,PHQ-9,score,24.7,21.6,-3.1,-12.6,2022-07-29,Moderate Response,Mild nausea,True
+OUT-655540F5,P100282,TR-20082,FEV1,L,2.6,2.7,0.1,5.1,2023-11-28,Worsened,Headache,True
+OUT-63A9CBFB,P100325,TR-20005,Tumor Size,mm,58.7,56.9,-1.8,-3.1,2023-04-20,Minimal Response,Dizziness,True
+OUT-C465705C,P100325,TR-20174,Systolic BP,mmHg,172.7,167.1,-5.6,-3.2,2023-10-15,No Response,Headache,True
+OUT-7C20FD7A,P100325,TR-20091,HbA1c,%,8.4,6.9,-1.5,-18.3,2022-02-16,Moderate Response,Headache,True
+OUT-86459E71,P100772,TR-20053,Tumor Size,mm,70.4,65.6,-4.8,-6.8,2022-09-01,Minimal Response,Headache,True
+OUT-D9DDF954,P100410,TR-20093,PHQ-9,score,20.6,18.3,-2.3,-10.9,2023-04-29,Moderate Response,Headache,True
+OUT-8FD1FCC0,P100082,TR-20076,Tumor Size,mm,96.0,69.0,-27.0,-28.1,2024-01-18,Strong Response,None,True
+OUT-8ECEC988,P100794,TR-20081,PHQ-9,score,17.1,12.4,-4.7,-27.4,2023-01-05,Strong Response,Mild nausea,True
+OUT-0A870F74,P100321,TR-20089,FEV1,L,2.1,1.6,-0.5,-25.1,2024-01-20,Strong Response,None,True
+OUT-D505FC65,P100506,TR-20167,FEV1,L,2.7,2.1,-0.6,-23.4,2023-06-27,Moderate Response,Headache,True
+OUT-D2877FC2,P100628,TR-20148,Tumor Size,mm,27.4,19.1,-8.3,-30.2,2022-12-23,Strong Response,None,True
+OUT-AF692A55,P100403,TR-20169,Tumor Size,mm,26.1,23.4,-2.7,-10.5,2022-03-22,Moderate Response,Dizziness,True
+OUT-D0DDD2C0,P100306,TR-20148,Tumor Size,mm,69.2,63.6,-5.6,-8.1,2023-08-15,Minimal Response,Dizziness,True
+OUT-45A0F3B4,P100466,TR-20030,HbA1c,%,11.7,8.6,-3.1,-26.2,2023-11-09,Strong Response,None,True
+OUT-87F62231,P100966,TR-20091,Tumor Size,mm,86.4,62.7,-23.7,-27.4,2024-06-06,Strong Response,Dizziness,True
+OUT-DC303725,P100870,TR-20155,FEV1,L,2.6,1.6,-1.0,-38.1,2023-11-23,Strong Response,Dizziness,True
+OUT-E1A7748D,P100870,TR-20059,Tumor Size,mm,71.3,43.7,-27.6,-38.7,2023-12-12,Strong Response,Headache,True
+OUT-B6CAA2D7,P100657,TR-20105,Tumor Size,mm,66.3,76.6,10.3,15.5,2022-03-15,Worsened,Headache,True
+OUT-E714F249,P100933,TR-20074,HbA1c,%,8.5,6.2,-2.3,-26.6,2024-04-02,Strong Response,Headache,True
+OUT-63D2ADFC,P100864,TR-20198,PHQ-9,score,15.8,14.2,-1.6,-10.4,2023-01-18,Moderate Response,None,True
+OUT-EA31C186,P100383,TR-20031,Tumor Size,mm,60.3,45.9,-14.4,-23.8,2022-05-11,Moderate Response,Headache,True
+OUT-5820B380,P100106,TR-20100,PHQ-9,score,18.6,15.5,-3.1,-16.9,2024-06-12,Moderate Response,Dizziness,True
+OUT-84C1DB1E,P100106,TR-20109,PHQ-9,score,20.9,15.2,-5.7,-27.5,2023-10-18,Strong Response,Dizziness,True
+OUT-578CFD08,P100030,TR-20087,Tumor Size,mm,32.4,33.3,0.9,2.7,2023-10-14,Worsened,Dizziness,True
+OUT-6BCC3B29,P100230,TR-20019,HbA1c,%,8.8,6.1,-2.7,-30.6,2023-05-02,Strong Response,Fatigue,True
+OUT-51FB0BFF,P100230,TR-20190,HbA1c,%,10.4,10.6,0.2,1.6,2024-01-09,No Response,Headache,True
+OUT-B5DB497A,P100964,TR-20186,PHQ-9,score,21.1,17.3,-3.8,-18.2,2022-03-20,Moderate Response,None,True
+OUT-9DB82DED,P100964,TR-20197,HbA1c,%,7.5,7.3,-0.2,-3.2,2023-12-03,No Response,Fatigue,True
+OUT-EB7B4F4A,P100846,TR-20173,FEV1,L,1.8,2.0,0.2,9.1,2024-03-18,Worsened,Mild nausea,True
+OUT-75A2152F,P100143,TR-20127,Systolic BP,mmHg,141.8,138.9,-2.9,-2.1,2023-05-21,No Response,Mild nausea,True
+OUT-17E4030C,P100108,TR-20131,Tumor Size,mm,91.6,94.3,2.7,2.9,2023-04-01,No Response,Mild nausea,True
+OUT-8FE8083B,P100331,TR-20011,Tumor Size,mm,115.7,120.7,5.0,4.3,2023-11-28,No Response,Headache,True
+OUT-72DAE72A,P100331,TR-20189,Systolic BP,mmHg,136.4,132.8,-3.6,-2.7,2023-01-18,Minimal Response,Dizziness,True
+OUT-2773710C,P100331,TR-20188,FEV1,L,3.2,3.4,0.2,5.2,2023-12-05,Worsened,Headache,True
+OUT-4F945F5B,P100883,TR-20071,Systolic BP,mmHg,178.1,132.1,-46.0,-25.8,2023-03-30,Strong Response,Mild nausea,True
+OUT-7520DD5A,P100742,TR-20037,FEV1,L,2.6,2.6,0.0,-1.3,2023-04-03,No Response,Dizziness,True
+OUT-4A75E6CB,P100742,TR-20025,HbA1c,%,9.6,7.7,-1.9,-19.5,2024-09-29,Moderate Response,Dizziness,True
+OUT-CB3B9EA7,P100447,TR-20050,FEV1,L,3.9,4.4,0.5,12.1,2022-02-02,Worsened,Dizziness,True
+OUT-BC3470A3,P100232,TR-20147,FEV1,L,3.3,3.0,-0.3,-7.7,2023-06-20,Minimal Response,Mild nausea,True
+OUT-A447D532,P100175,TR-20117,HbA1c,%,7.6,6.9,-0.7,-9.0,2024-11-15,Minimal Response,Dizziness,True
+OUT-9ADCF541,P100091,TR-20111,HbA1c,%,11.6,7.8,-3.8,-32.8,2024-09-18,Strong Response,Mild nausea,True
+OUT-5F51B1B3,P100196,TR-20030,HbA1c,%,7.7,7.6,-0.1,-1.7,2023-04-29,No Response,Fatigue,True
+OUT-75652CB8,P100940,TR-20132,HbA1c,%,7.1,5.7,-1.4,-19.1,2022-06-30,Moderate Response,Fatigue,True
+OUT-5E252362,P100924,TR-20010,FEV1,L,2.4,1.9,-0.5,-20.1,2022-08-08,Moderate Response,Mild nausea,True
+OUT-2B0EC05A,P100924,TR-20111,Systolic BP,mmHg,142.6,147.1,4.5,3.2,2024-09-01,No Response,Dizziness,True
+OUT-94A63637,P100832,TR-20161,HbA1c,%,7.9,6.9,-1.0,-12.2,2022-04-04,Moderate Response,None,True
+OUT-AE8BF625,P100832,TR-20003,Tumor Size,mm,40.0,40.8,0.8,2.0,2022-08-12,No Response,Fatigue,True
+OUT-1FAA654A,P100832,TR-20063,HbA1c,%,6.8,5.6,-1.2,-18.2,2022-09-07,Moderate Response,Dizziness,True
+OUT-D41EABE4,P100378,TR-20051,Tumor Size,mm,62.5,44.4,-18.1,-29.0,2022-09-27,Strong Response,Headache,True
+OUT-B8364179,P100836,TR-20192,HbA1c,%,8.1,5.9,-2.2,-27.3,2023-12-15,Strong Response,Headache,True
+OUT-F0987038,P100836,TR-20055,Systolic BP,mmHg,173.5,194.4,20.9,12.0,2024-05-26,Worsened,Headache,True
+OUT-29A61123,P100925,TR-20177,HbA1c,%,11.8,11.9,0.1,0.8,2024-04-30,No Response,Headache,True
+OUT-BDD499AC,P100551,TR-20090,Tumor Size,mm,59.2,37.0,-22.2,-37.5,2024-10-06,Strong Response,Fatigue,True
+OUT-27C0EA8C,P100006,TR-20060,Tumor Size,mm,47.8,45.6,-2.2,-4.6,2023-11-27,Minimal Response,Dizziness,True
+OUT-13E54977,P100006,TR-20075,PHQ-9,score,26.2,25.7,-0.5,-1.8,2023-08-13,No Response,Mild nausea,True
+OUT-55986E01,P100989,TR-20057,Tumor Size,mm,25.0,29.6,4.6,18.4,2022-06-19,Worsened,Headache,True
+OUT-2DE56797,P100889,TR-20084,FEV1,L,1.2,1.2,0.0,2.1,2022-03-22,Worsened,None,True
+OUT-21EA44BF,P100889,TR-20170,Systolic BP,mmHg,168.3,132.0,-36.3,-21.6,2023-04-21,Moderate Response,None,True
+OUT-64FF7B25,P100054,TR-20124,Systolic BP,mmHg,128.7,133.6,4.9,3.8,2022-08-26,No Response,Fatigue,True
+OUT-C17BB29B,P100054,TR-20126,FEV1,L,1.3,0.8,-0.5,-34.9,2022-03-11,Strong Response,Dizziness,True
+OUT-B54325F5,P100266,TR-20105,Systolic BP,mmHg,158.4,136.3,-22.1,-13.9,2022-07-25,Moderate Response,Fatigue,True
+OUT-E64CFBF5,P100905,TR-20101,FEV1,L,1.9,1.6,-0.3,-15.7,2024-03-01,Moderate Response,Dizziness,True
+OUT-133F6CB3,P100804,TR-20057,Tumor Size,mm,119.5,98.6,-20.9,-17.5,2023-03-31,Moderate Response,Headache,True
+OUT-D169C0A6,P100045,TR-20057,PHQ-9,score,24.8,25.3,0.5,2.2,2023-08-23,No Response,Headache,True
+OUT-BDBC6451,P100114,TR-20161,Systolic BP,mmHg,165.1,120.0,-45.1,-27.3,2022-12-10,Strong Response,Fatigue,True
+OUT-35B868B4,P100050,TR-20139,FEV1,L,1.7,1.9,0.2,11.5,2022-12-21,Worsened,Dizziness,True
+OUT-749F497B,P100312,TR-20024,HbA1c,%,10.6,6.5,-4.1,-39.1,2023-02-14,Strong Response,Dizziness,True
+OUT-F17CAB03,P100312,TR-20181,Systolic BP,mmHg,172.8,164.2,-8.6,-5.0,2022-07-09,Minimal Response,None,True
+OUT-94C8E97D,P100077,TR-20138,PHQ-9,score,21.4,21.4,0.0,0.2,2024-04-30,No Response,Fatigue,True
+OUT-6E56726C,P100271,TR-20184,PHQ-9,score,8.9,8.3,-0.6,-6.3,2022-02-19,Minimal Response,Dizziness,True
+OUT-06983150,P100338,TR-20056,Systolic BP,mmHg,166.2,142.3,-23.9,-14.4,2024-07-22,Moderate Response,Mild nausea,True
+OUT-BB000084,P100965,TR-20125,Systolic BP,mmHg,174.1,139.0,-35.1,-20.2,2024-01-14,Moderate Response,Dizziness,True
+OUT-A5BC4423,P100142,TR-20083,FEV1,L,2.5,2.2,-0.3,-12.1,2022-03-08,Moderate Response,Fatigue,True
+OUT-21204FA7,P100142,TR-20109,Systolic BP,mmHg,157.5,136.4,-21.1,-13.4,2024-07-17,Moderate Response,Headache,True
+OUT-1FE5A556,P100598,TR-20168,Tumor Size,mm,37.3,22.7,-14.6,-39.2,2023-01-08,Strong Response,Headache,True
+OUT-CF581438,P100123,TR-20180,HbA1c,%,10.1,6.8,-3.3,-33.1,2023-03-17,Strong Response,Mild nausea,True
+OUT-14FABA79,P100327,TR-20116,PHQ-9,score,22.4,21.8,-0.6,-2.6,2023-01-17,Minimal Response,None,True
+OUT-ACAB7878,P100942,TR-20028,FEV1,L,1.6,1.2,-0.4,-25.7,2023-03-15,Strong Response,Headache,True
+OUT-57516C67,P100152,TR-20022,Systolic BP,mmHg,177.4,171.0,-6.4,-3.6,2022-06-04,Minimal Response,Fatigue,True
+OUT-AE289AC3,P100152,TR-20025,Systolic BP,mmHg,153.6,112.8,-40.8,-26.5,2023-10-28,Strong Response,Fatigue,True
+OUT-E20F4122,P100973,TR-20122,Systolic BP,mmHg,167.6,168.3,0.7,0.4,2023-10-18,No Response,Dizziness,True
+OUT-3D5CBC84,P100599,TR-20127,FEV1,L,1.9,1.3,-0.6,-29.1,2024-08-06,Strong Response,Headache,True
+OUT-85F42B1E,P100871,TR-20010,Systolic BP,mmHg,130.5,102.7,-27.8,-21.3,2022-02-10,Moderate Response,Dizziness,True
+OUT-864CE8A1,P100424,TR-20126,FEV1,L,1.9,1.4,-0.5,-27.8,2024-10-17,Strong Response,Dizziness,True
+OUT-E974615E,P100424,TR-20140,HbA1c,%,7.6,6.6,-1.0,-12.6,2024-06-17,Moderate Response,None,True
+OUT-DFBF9021,P100458,TR-20020,Systolic BP,mmHg,154.7,119.8,-34.9,-22.6,2023-11-10,Moderate Response,Mild nausea,True
+OUT-8EC25A86,P100685,TR-20032,Tumor Size,mm,62.1,51.2,-10.9,-17.5,2022-08-19,Moderate Response,Mild nausea,True
+OUT-23577A73,P100126,TR-20109,PHQ-9,score,20.7,20.0,-0.7,-3.6,2024-11-28,No Response,Mild nausea,True
+OUT-2B58CF57,P100988,TR-20031,Systolic BP,mmHg,129.8,133.1,3.3,2.5,2022-07-21,No Response,Mild nausea,True
+OUT-7394A6D4,P100592,TR-20134,FEV1,L,2.3,2.4,0.1,3.6,2023-01-21,No Response,Mild nausea,True
+OUT-8F163ED9,P100490,TR-20065,HbA1c,%,11.4,7.8,-3.6,-31.7,2024-08-11,Strong Response,Dizziness,True
+OUT-2CF24427,P100678,TR-20185,Tumor Size,mm,66.1,53.0,-13.1,-19.8,2023-03-08,Moderate Response,Fatigue,True
+OUT-47D70248,P100678,TR-20035,Tumor Size,mm,50.0,34.0,-16.0,-32.0,2022-05-05,Strong Response,None,True
+OUT-B406063B,P100678,TR-20043,Systolic BP,mmHg,122.0,129.6,7.6,6.3,2024-03-05,Worsened,None,True
+OUT-7B325973,P100502,TR-20052,Tumor Size,mm,104.2,79.9,-24.3,-23.4,2022-05-17,Moderate Response,Fatigue,True
+OUT-392BAF59,P100502,TR-20178,Systolic BP,mmHg,177.3,178.6,1.3,0.7,2022-07-11,No Response,None,True
+OUT-BC047EA3,P100288,TR-20018,Systolic BP,mmHg,158.9,117.4,-41.5,-26.1,2023-12-15,Strong Response,None,True
+OUT-80B61E5A,P100749,TR-20052,HbA1c,%,8.2,7.0,-1.2,-15.2,2024-11-13,Moderate Response,Mild nausea,True
+OUT-33635D02,P100495,TR-20072,HbA1c,%,9.9,5.9,-4.0,-39.9,2024-05-01,Strong Response,Headache,True
+OUT-D3A98D52,P100095,TR-20158,HbA1c,%,7.7,5.9,-1.8,-23.6,2022-08-24,Moderate Response,Mild nausea,True
+OUT-8FF42537,P100095,TR-20172,PHQ-9,score,6.5,4.0,-2.5,-37.7,2023-03-01,Strong Response,Mild nausea,True
+OUT-6686B1DB,P100785,TR-20014,HbA1c,%,11.3,11.8,0.5,4.6,2024-04-19,No Response,Headache,True
+OUT-46005D4D,P100785,TR-20036,Systolic BP,mmHg,124.2,119.2,-5.0,-4.0,2022-07-02,Minimal Response,None,True
+OUT-F9CC4BFF,P100304,TR-20031,HbA1c,%,8.7,6.4,-2.3,-26.3,2022-03-27,Strong Response,None,True
+OUT-4FDD8F1C,P100729,TR-20181,Tumor Size,mm,89.7,77.0,-12.7,-14.2,2024-06-15,Moderate Response,Mild nausea,True
+OUT-87D76ADF,P100729,TR-20122,Systolic BP,mmHg,175.6,161.0,-14.6,-8.3,2023-08-25,Minimal Response,Dizziness,True
+OUT-834540B0,P100085,TR-20163,Systolic BP,mmHg,146.5,121.7,-24.8,-17.0,2023-01-02,Moderate Response,Headache,True
+OUT-9D3B13BF,P100085,TR-20072,FEV1,L,3.4,2.4,-1.0,-28.5,2023-08-01,Strong Response,Mild nausea,True
+OUT-F12408FE,P100085,TR-20183,HbA1c,%,7.1,4.9,-2.2,-31.6,2024-03-19,Strong Response,Dizziness,True
+OUT-277027A8,P100572,TR-20049,Systolic BP,mmHg,175.4,176.7,1.3,0.8,2023-10-31,No Response,Mild nausea,True
+OUT-39A36818,P100572,TR-20098,Systolic BP,mmHg,156.2,117.6,-38.6,-24.7,2023-02-01,Moderate Response,Fatigue,True
+OUT-12D1FFF6,P100856,TR-20151,FEV1,L,3.2,3.1,-0.1,-4.3,2022-01-03,No Response,Mild nausea,True
+OUT-39984DC9,P100249,TR-20129,Tumor Size,mm,76.0,53.5,-22.5,-29.6,2024-10-13,Strong Response,None,True
+OUT-2306BC0B,P100249,TR-20004,HbA1c,%,7.8,6.0,-1.8,-22.9,2023-01-26,Moderate Response,Headache,True
+OUT-0109E280,P100663,TR-20162,FEV1,L,2.7,2.2,-0.5,-19.2,2022-09-24,Moderate Response,Mild nausea,True
+OUT-B0FAADCD,P100663,TR-20126,HbA1c,%,8.0,5.7,-2.3,-28.9,2022-11-16,Strong Response,None,True
+OUT-DFE870E0,P100753,TR-20046,Systolic BP,mmHg,179.4,196.6,17.2,9.6,2024-01-12,Worsened,Dizziness,True
+OUT-28025A36,P100753,TR-20034,Systolic BP,mmHg,149.3,118.2,-31.1,-20.8,2022-12-07,Moderate Response,Dizziness,True
+OUT-3A783FF8,P100211,TR-20140,Tumor Size,mm,17.7,17.3,-0.4,-2.3,2024-06-02,Minimal Response,Headache,True
+OUT-31C0F627,P100080,TR-20151,Tumor Size,mm,13.4,8.3,-5.1,-38.1,2023-07-31,Strong Response,Dizziness,True
+OUT-29DB593D,P100080,TR-20185,HbA1c,%,8.4,6.1,-2.3,-27.0,2022-01-16,Strong Response,Mild nausea,True
+OUT-D00E22BD,P100080,TR-20094,FEV1,L,1.2,0.7,-0.5,-39.7,2024-01-14,Strong Response,Headache,True
+OUT-1BBD38E6,P100916,TR-20022,PHQ-9,score,17.6,16.5,-1.1,-6.4,2024-05-16,Minimal Response,Fatigue,True
+OUT-58E10C6F,P100916,TR-20045,Tumor Size,mm,18.1,15.4,-2.7,-14.8,2023-12-14,Moderate Response,Fatigue,True
+OUT-1C50D7D6,P100062,TR-20090,FEV1,L,2.3,1.5,-0.8,-36.3,2024-09-09,Strong Response,None,True
+OUT-BED2CDBC,P100014,TR-20152,Systolic BP,mmHg,170.4,113.3,-57.1,-33.5,2022-08-15,Strong Response,None,True
+OUT-BCC4C97B,P100687,TR-20056,Tumor Size,mm,17.5,12.6,-4.9,-28.2,2022-09-09,Strong Response,None,True
+OUT-BC806D72,P100687,TR-20164,Systolic BP,mmHg,122.6,126.2,3.6,2.9,2023-04-16,No Response,None,True
+OUT-3A21081E,P100222,TR-20189,PHQ-9,score,14.1,12.8,-1.3,-9.3,2022-11-28,Minimal Response,Headache,True
+OUT-F17E5A42,P100222,TR-20034,Tumor Size,mm,15.6,9.6,-6.0,-38.5,2024-01-21,Strong Response,Headache,True
+OUT-3C0CEA86,P100839,TR-20076,HbA1c,%,7.4,5.2,-2.2,-29.2,2023-12-03,Strong Response,None,True
+OUT-F2B21733,P100395,TR-20091,PHQ-9,score,7.3,5.9,-1.4,-18.9,2022-07-28,Moderate Response,Mild nausea,True
+OUT-7489126F,P100193,TR-20162,HbA1c,%,9.1,5.6,-3.5,-38.8,2022-04-08,Strong Response,Fatigue,True
+OUT-26A81F1E,P100500,TR-20150,FEV1,L,3.9,4.3,0.4,10.9,2023-02-13,Worsened,Headache,True
+OUT-F65BA1E4,P100500,TR-20099,Systolic BP,mmHg,127.7,77.0,-50.7,-39.7,2024-06-10,Strong Response,Mild nausea,True
+OUT-A29FEB96,P100500,TR-20040,FEV1,L,2.6,2.1,-0.5,-19.7,2024-05-22,Moderate Response,Headache,True
+OUT-75B230AD,P100349,TR-20067,Tumor Size,mm,38.7,23.9,-14.8,-38.2,2022-01-12,Strong Response,Fatigue,True
+OUT-28AD5B6C,P100349,TR-20056,Systolic BP,mmHg,180.0,185.0,5.0,2.8,2024-04-04,No Response,Mild nausea,True
+OUT-A4AD9D6F,P100214,TR-20120,PHQ-9,score,25.3,26.3,1.0,3.9,2024-06-13,No Response,Mild nausea,True
+OUT-CAF7381B,P100605,TR-20003,HbA1c,%,8.5,5.4,-3.1,-36.4,2022-10-11,Strong Response,Headache,True
+OUT-CCB84131,P100780,TR-20026,HbA1c,%,6.8,7.4,0.6,9.3,2024-05-21,Worsened,None,True
+OUT-2241AACB,P100888,TR-20140,FEV1,L,3.9,3.5,-0.4,-9.8,2022-05-19,Minimal Response,None,True
+OUT-42E01BF1,P100527,TR-20117,HbA1c,%,9.0,7.4,-1.6,-18.0,2023-06-01,Moderate Response,None,True
+OUT-4EFFC071,P100527,TR-20152,HbA1c,%,10.6,6.7,-3.9,-36.5,2022-05-20,Strong Response,Dizziness,True
+OUT-A49BF7BA,P100967,TR-20154,FEV1,L,2.8,2.4,-0.4,-15.0,2022-05-15,Moderate Response,Fatigue,True
+OUT-47348AAC,P100967,TR-20087,Systolic BP,mmHg,123.5,116.1,-7.4,-6.0,2023-09-02,Minimal Response,Dizziness,True
+OUT-F28430F7,P100320,TR-20042,PHQ-9,score,25.5,21.4,-4.1,-15.9,2024-10-06,Moderate Response,Mild nausea,True
+OUT-DF0F957C,P100726,TR-20146,HbA1c,%,7.7,6.6,-1.1,-14.7,2024-04-29,Moderate Response,Headache,True
+OUT-BE9962EA,P100465,TR-20043,Tumor Size,mm,71.7,47.4,-24.3,-33.8,2024-02-22,Strong Response,None,True
+OUT-03CC3EF0,P100672,TR-20045,Systolic BP,mmHg,133.8,81.3,-52.5,-39.3,2024-09-09,Strong Response,Dizziness,True
+OUT-DEFF93A4,P100158,TR-20053,FEV1,L,1.8,1.8,0.0,2.6,2024-06-13,No Response,Mild nausea,True
+OUT-C1E9C007,P100109,TR-20089,Systolic BP,mmHg,164.5,187.6,23.1,14.1,2023-08-16,Worsened,Dizziness,True
+OUT-95C789B6,P100134,TR-20121,Tumor Size,mm,110.4,121.5,11.1,10.0,2022-01-31,Worsened,None,True
+OUT-F392A6CF,P100373,TR-20187,FEV1,L,1.6,1.4,-0.2,-10.2,2022-10-13,Moderate Response,None,True
+OUT-2A9B53EC,P100851,TR-20151,Systolic BP,mmHg,148.6,129.7,-18.9,-12.7,2022-12-18,Moderate Response,None,True
+OUT-D313F2A5,P100464,TR-20001,HbA1c,%,8.8,8.9,0.1,1.6,2022-02-26,No Response,Fatigue,True
+OUT-444CFC32,P100636,TR-20036,HbA1c,%,11.2,11.3,0.1,0.5,2022-06-21,No Response,Mild nausea,True
+OUT-11FCB2E2,P100526,TR-20024,FEV1,L,3.1,2.9,-0.2,-5.4,2024-10-30,Minimal Response,Dizziness,True
+OUT-30FF74B6,P100208,TR-20073,PHQ-9,score,24.9,23.9,-1.0,-4.2,2024-06-29,No Response,None,True
+OUT-95025887,P100799,TR-20108,Tumor Size,mm,65.9,52.3,-13.6,-20.7,2024-11-06,Moderate Response,None,True
+OUT-5B84FB3D,P100971,TR-20120,HbA1c,%,11.8,12.3,0.5,3.9,2023-09-15,No Response,Dizziness,True
+OUT-E8EF1D29,P100971,TR-20022,Systolic BP,mmHg,130.5,96.8,-33.7,-25.8,2023-12-31,Strong Response,Dizziness,True
+OUT-FE83CF38,P100980,TR-20033,Tumor Size,mm,91.4,68.3,-23.1,-25.3,2024-11-04,Strong Response,Fatigue,True
+OUT-11F13F9E,P100285,TR-20078,PHQ-9,score,25.5,19.4,-6.1,-24.1,2022-02-22,Moderate Response,Fatigue,True
+OUT-4F11FDF4,P100285,TR-20109,Tumor Size,mm,16.1,13.2,-2.9,-17.9,2022-07-11,Moderate Response,Mild nausea,True
+OUT-32818ACF,P100703,TR-20021,Systolic BP,mmHg,143.4,98.9,-44.5,-31.1,2022-07-07,Strong Response,None,True
+OUT-AE01EFC2,P100703,TR-20039,Systolic BP,mmHg,151.1,131.8,-19.3,-12.7,2023-07-08,Moderate Response,Mild nausea,True
+OUT-B5B701C5,P100315,TR-20119,Tumor Size,mm,84.1,69.4,-14.7,-17.4,2024-08-06,Moderate Response,Headache,True
+OUT-F7BC352E,P100664,TR-20087,Tumor Size,mm,113.8,110.1,-3.7,-3.2,2022-04-13,Minimal Response,Fatigue,True
+OUT-87C32E41,P100105,TR-20076,HbA1c,%,9.8,6.1,-3.7,-38.2,2022-07-01,Strong Response,Dizziness,True
+OUT-066AF7BC,P100151,TR-20163,PHQ-9,score,7.9,6.5,-1.4,-17.6,2023-05-24,Moderate Response,Mild nausea,True
+OUT-120A6EB0,P100998,TR-20137,PHQ-9,score,11.6,11.8,0.2,1.9,2023-04-05,No Response,Fatigue,True
+OUT-D49E3B9F,P100998,TR-20190,PHQ-9,score,13.1,12.3,-0.8,-6.3,2024-03-26,Minimal Response,Mild nausea,True
+OUT-D6FE02CA,P100763,TR-20188,FEV1,L,3.0,3.1,0.1,4.3,2023-08-03,No Response,Dizziness,True
+OUT-77098BD1,P100887,TR-20186,PHQ-9,score,13.8,8.8,-5.0,-36.0,2024-05-29,Strong Response,None,True
+OUT-172A8CFE,P100984,TR-20006,FEV1,L,2.4,1.8,-0.6,-24.0,2022-01-24,Moderate Response,Mild nausea,True
+OUT-4D7F20A9,P100192,TR-20132,Tumor Size,mm,47.8,37.0,-10.8,-22.6,2023-12-30,Moderate Response,Dizziness,True
+OUT-FA92376E,P100274,TR-20048,Systolic BP,mmHg,169.7,141.1,-28.6,-16.9,2022-09-14,Moderate Response,None,True
+OUT-7C569B31,P100274,TR-20071,Tumor Size,mm,116.5,135.2,18.7,16.0,2023-06-29,Worsened,Dizziness,True
+OUT-08F3A4D9,P100950,TR-20105,PHQ-9,score,17.0,14.3,-2.7,-15.8,2024-06-11,Moderate Response,Mild nausea,True
+OUT-8A9FC8FD,P100488,TR-20119,FEV1,L,2.2,1.6,-0.6,-25.2,2024-06-30,Strong Response,Dizziness,True
+OUT-3FDB1B20,P100884,TR-20058,Tumor Size,mm,18.4,13.3,-5.1,-27.5,2022-07-02,Strong Response,Fatigue,True
+OUT-EA258B87,P100827,TR-20163,HbA1c,%,7.8,7.9,0.1,0.9,2023-05-24,No Response,Fatigue,True
+OUT-C254D57F,P100361,TR-20143,Tumor Size,mm,80.8,58.4,-22.4,-27.7,2023-02-23,Strong Response,Headache,True
+OUT-FB67BCFC,P100272,TR-20114,HbA1c,%,7.9,6.4,-1.5,-18.9,2022-01-01,Moderate Response,Fatigue,True
+OUT-701D180E,P100122,TR-20179,Systolic BP,mmHg,178.9,114.2,-64.7,-36.2,2024-11-12,Strong Response,None,True
+OUT-D65BF0C7,P100087,TR-20089,PHQ-9,score,12.6,12.0,-0.6,-4.8,2022-12-06,No Response,Fatigue,True
+OUT-F766C867,P100442,TR-20160,FEV1,L,3.3,2.6,-0.7,-21.1,2022-07-19,Moderate Response,Headache,True
+OUT-CC9C7C1F,P100342,TR-20198,FEV1,L,3.0,3.1,0.1,2.0,2023-07-15,No Response,None,True
+OUT-E2D85D3D,P100055,TR-20137,Tumor Size,mm,56.4,56.2,-0.2,-0.3,2024-09-18,No Response,None,True
+OUT-F0D1613C,P100452,TR-20074,Tumor Size,mm,24.8,16.9,-7.9,-31.9,2022-03-27,Strong Response,Dizziness,True
+OUT-F27F5D59,P100452,TR-20116,Tumor Size,mm,115.3,111.8,-3.5,-3.1,2024-08-03,Minimal Response,Dizziness,True
+OUT-F812B663,P100280,TR-20168,Systolic BP,mmHg,126.7,81.2,-45.5,-35.9,2024-11-24,Strong Response,None,True
+OUT-872F96A4,P100280,TR-20045,Systolic BP,mmHg,170.5,166.0,-4.5,-2.6,2024-02-11,Minimal Response,Fatigue,True
+OUT-4B0C5B54,P100379,TR-20163,Tumor Size,mm,57.0,54.1,-2.9,-5.1,2023-05-25,Minimal Response,Dizziness,True
+OUT-CCED16A4,P100051,TR-20006,PHQ-9,score,20.5,16.3,-4.2,-20.3,2024-11-03,Moderate Response,Headache,True
+OUT-A6BA97BA,P100051,TR-20084,Tumor Size,mm,45.0,43.2,-1.8,-4.1,2023-11-28,No Response,Dizziness,True
+OUT-72F72D96,P100665,TR-20191,FEV1,L,3.9,3.7,-0.2,-4.5,2022-09-12,No Response,Dizziness,True
+OUT-3954E838,P100665,TR-20154,Systolic BP,mmHg,163.6,148.0,-15.6,-9.5,2024-09-05,Minimal Response,Fatigue,True
+OUT-8917BB7A,P100750,TR-20008,Systolic BP,mmHg,162.1,138.5,-23.6,-14.6,2023-12-21,Moderate Response,None,True
+OUT-66C249AB,P100433,TR-20155,HbA1c,%,9.2,7.9,-1.3,-14.1,2023-04-11,Moderate Response,Dizziness,True
+OUT-C2C04873,P100199,TR-20165,Tumor Size,mm,93.0,75.3,-17.7,-19.1,2024-05-12,Moderate Response,Fatigue,True
+OUT-2050176E,P100199,TR-20029,Systolic BP,mmHg,145.2,132.1,-13.1,-9.0,2024-11-20,Minimal Response,Dizziness,True
+OUT-81DDE5D3,P100302,TR-20121,FEV1,L,2.1,1.7,-0.4,-19.3,2022-01-16,Moderate Response,None,True
+OUT-8CB2E5F1,P100194,TR-20166,HbA1c,%,9.8,9.1,-0.7,-7.6,2022-10-06,Minimal Response,Fatigue,True
+OUT-78A1A6B4,P100609,TR-20032,Tumor Size,mm,116.9,71.0,-45.9,-39.3,2024-02-10,Strong Response,Headache,True
+OUT-4E84800F,P100283,TR-20029,FEV1,L,3.4,3.2,-0.2,-5.5,2024-06-09,Minimal Response,Headache,True
+OUT-1BB251EF,P100283,TR-20185,PHQ-9,score,14.3,11.7,-2.6,-18.5,2022-11-28,Moderate Response,None,True
+OUT-E48744D3,P100543,TR-20025,FEV1,L,2.0,2.0,0.0,-0.1,2024-06-26,No Response,Fatigue,True
+OUT-06A17890,P100623,TR-20182,Tumor Size,mm,108.3,93.9,-14.4,-13.3,2023-09-24,Moderate Response,Fatigue,True
+OUT-07674B18,P100959,TR-20177,Systolic BP,mmHg,132.3,111.3,-21.0,-15.9,2024-05-20,Moderate Response,Mild nausea,True
+OUT-F2B9306A,P100532,TR-20153,Systolic BP,mmHg,171.6,149.3,-22.3,-13.0,2024-02-20,Moderate Response,Mild nausea,True
+OUT-AD293D96,P100444,TR-20007,Systolic BP,mmHg,166.5,132.1,-34.4,-20.7,2022-08-11,Moderate Response,Headache,True
+OUT-DF7DA62C,P100112,TR-20075,FEV1,L,2.9,2.6,-0.3,-11.1,2022-01-19,Moderate Response,Headache,True
+OUT-A56838D8,P100698,TR-20079,Systolic BP,mmHg,171.5,106.8,-64.7,-37.7,2023-01-06,Strong Response,Headache,True
+OUT-7D0A0D4C,P100052,TR-20178,PHQ-9,score,26.2,22.2,-4.0,-15.2,2023-09-29,Moderate Response,Headache,True
+OUT-72AD8191,P100662,TR-20066,Systolic BP,mmHg,166.1,154.7,-11.4,-6.9,2022-08-01,Minimal Response,None,True
+OUT-921F5453,P100662,TR-20164,Systolic BP,mmHg,137.6,142.6,5.0,3.7,2024-10-27,Worsened,Fatigue,True
+OUT-58DFED52,P100255,TR-20185,Tumor Size,mm,97.9,95.9,-2.0,-2.1,2022-01-13,Minimal Response,Dizziness,True
+OUT-60A61FDC,P100830,TR-20129,HbA1c,%,7.2,6.5,-0.7,-10.3,2024-09-12,Moderate Response,Headache,True
+OUT-437EECE7,P100118,TR-20125,Tumor Size,mm,24.9,24.1,-0.8,-3.3,2024-01-04,No Response,Headache,True
+OUT-95BFCF3F,P100118,TR-20166,HbA1c,%,11.6,7.2,-4.4,-38.0,2024-04-16,Strong Response,Fatigue,True
+OUT-5BBB5214,P100782,TR-20017,Systolic BP,mmHg,158.7,122.5,-36.2,-22.8,2022-08-16,Moderate Response,Mild nausea,True
+OUT-D3C8BAB4,P100782,TR-20088,HbA1c,%,7.7,5.5,-2.2,-29.0,2024-09-07,Strong Response,Fatigue,True
+OUT-EB82EBDC,P100037,TR-20092,Systolic BP,mmHg,146.4,140.3,-6.1,-4.2,2022-04-09,Minimal Response,Headache,True
+OUT-E20E946E,P100590,TR-20059,Tumor Size,mm,49.2,47.6,-1.6,-3.3,2023-06-27,No Response,Dizziness,True
+OUT-C257D4FE,P100273,TR-20070,Systolic BP,mmHg,139.3,95.2,-44.1,-31.6,2023-04-22,Strong Response,Dizziness,True
+OUT-DBF1E110,P100245,TR-20015,FEV1,L,3.6,3.1,-0.5,-13.7,2023-07-04,Moderate Response,None,True
+OUT-CD9A3AB4,P100245,TR-20115,HbA1c,%,10.2,8.1,-2.1,-20.4,2024-01-23,Moderate Response,Fatigue,True
+OUT-B2D5C4A3,P100068,TR-20167,PHQ-9,score,12.8,8.1,-4.7,-37.0,2022-06-07,Strong Response,None,True
+OUT-2573DE13,P100068,TR-20063,Systolic BP,mmHg,176.7,124.9,-51.8,-29.3,2024-07-05,Strong Response,Fatigue,True
+OUT-612C3E1E,P100104,TR-20034,Tumor Size,mm,78.0,76.3,-1.7,-2.2,2022-06-23,Minimal Response,Headache,True
+OUT-1A02DE82,P100104,TR-20134,PHQ-9,score,24.9,19.4,-5.5,-21.9,2023-08-25,Moderate Response,Mild nausea,True
+OUT-FCF0B4E2,P100104,TR-20078,PHQ-9,score,9.1,6.6,-2.5,-27.5,2024-02-17,Strong Response,Mild nausea,True
+OUT-2CD14DE6,P100766,TR-20163,HbA1c,%,11.4,8.6,-2.8,-24.8,2022-05-05,Moderate Response,None,True
+OUT-59DE8298,P100877,TR-20122,Tumor Size,mm,96.5,112.8,16.3,16.9,2023-06-07,Worsened,Fatigue,True
+OUT-FDED1DE1,P100826,TR-20125,Systolic BP,mmHg,123.0,118.5,-4.5,-3.7,2023-04-16,Minimal Response,Fatigue,True
+OUT-1DED9C7A,P100734,TR-20163,Tumor Size,mm,65.8,45.6,-20.2,-30.6,2023-04-15,Strong Response,Fatigue,True
+OUT-807EAE07,P100415,TR-20105,Systolic BP,mmHg,173.0,126.1,-46.9,-27.1,2022-08-01,Strong Response,Dizziness,True
+OUT-F151B770,P100402,TR-20124,HbA1c,%,10.5,8.6,-1.9,-17.9,2023-08-10,Moderate Response,Dizziness,True
+OUT-381915B1,P100963,TR-20137,HbA1c,%,11.1,8.6,-2.5,-22.4,2023-06-05,Moderate Response,Fatigue,True
+OUT-37EB36A0,P100745,TR-20161,FEV1,L,1.9,1.7,-0.2,-12.6,2023-03-07,Moderate Response,Dizziness,True
+OUT-8340BC44,P100226,TR-20131,FEV1,L,3.1,2.6,-0.5,-15.7,2024-07-11,Moderate Response,Dizziness,True
+OUT-B3F9151D,P100709,TR-20111,HbA1c,%,6.7,6.4,-0.3,-4.0,2023-10-19,Minimal Response,Mild nausea,True
+OUT-C169D263,P100275,TR-20176,Tumor Size,mm,24.4,21.8,-2.6,-10.6,2024-11-15,Moderate Response,Fatigue,True
+OUT-4BA35992,P100508,TR-20196,Tumor Size,mm,91.2,91.8,0.6,0.7,2024-05-21,No Response,Dizziness,True
+OUT-6010BD24,P100508,TR-20060,Tumor Size,mm,67.1,49.2,-17.9,-26.7,2022-05-05,Strong Response,Fatigue,True
+OUT-13B41BDC,P100176,TR-20083,FEV1,L,2.5,2.4,-0.1,-3.3,2022-08-03,Minimal Response,Fatigue,True
+OUT-36BE3922,P100356,TR-20186,PHQ-9,score,20.1,12.8,-7.3,-36.5,2022-07-03,Strong Response,Dizziness,True
+OUT-940A92BE,P100295,TR-20109,Tumor Size,mm,92.5,72.9,-19.6,-21.2,2023-07-03,Moderate Response,Mild nausea,True
+OUT-4F6AE037,P100611,TR-20052,Systolic BP,mmHg,170.1,161.2,-8.9,-5.3,2022-11-30,Minimal Response,Dizziness,True
+OUT-44C4AA33,P100837,TR-20098,Systolic BP,mmHg,135.1,130.4,-4.7,-3.5,2022-08-19,No Response,Dizziness,True
+OUT-D3270686,P100004,TR-20159,PHQ-9,score,6.1,5.9,-0.2,-3.4,2023-03-07,No Response,Mild nausea,True
+OUT-3DF0CE70,P100004,TR-20129,Tumor Size,mm,105.5,107.7,2.2,2.1,2023-03-11,No Response,Mild nausea,True
+OUT-BC18EAD7,P100097,TR-20185,Systolic BP,mmHg,128.1,121.9,-6.2,-4.9,2023-04-17,No Response,Mild nausea,True
+OUT-39802D4C,P100097,TR-20152,HbA1c,%,6.7,6.2,-0.5,-6.9,2024-06-07,Minimal Response,Headache,True
+OUT-803F2EE7,P100190,TR-20156,HbA1c,%,6.8,4.9,-1.9,-27.4,2024-09-11,Strong Response,Headache,True
+OUT-18BECABF,P100516,TR-20088,HbA1c,%,6.7,4.3,-2.4,-35.6,2024-02-03,Strong Response,Headache,True
+OUT-39FF8888,P100638,TR-20052,HbA1c,%,8.2,8.0,-0.2,-2.6,2023-08-16,No Response,Fatigue,True
+OUT-39FABA17,P100313,TR-20075,Systolic BP,mmHg,158.8,107.4,-51.4,-32.3,2022-04-08,Strong Response,Headache,True
+OUT-0F4E1950,P100748,TR-20059,FEV1,L,2.3,2.2,-0.1,-3.2,2022-10-11,Minimal Response,Mild nausea,True
+OUT-68F4F504,P100906,TR-20181,FEV1,L,2.0,2.0,0.0,0.9,2022-07-20,No Response,None,True
+OUT-B9C5DAF6,P100906,TR-20067,HbA1c,%,7.7,6.9,-0.8,-9.9,2024-04-07,Minimal Response,Mild nausea,True
+OUT-F8B65A86,P100759,TR-20132,HbA1c,%,8.6,9.0,0.4,4.4,2024-02-16,No Response,Headache,True
+OUT-FC86804F,P100759,TR-20005,HbA1c,%,8.4,8.0,-0.4,-4.5,2024-06-05,No Response,Headache,True
+OUT-FB3315B5,P100983,TR-20189,PHQ-9,score,11.3,8.3,-3.0,-26.4,2024-03-15,Strong Response,Fatigue,True
+OUT-67275484,P100803,TR-20197,FEV1,L,3.6,3.4,-0.2,-4.4,2023-04-06,Minimal Response,Fatigue,True
+OUT-E9E43F03,P100803,TR-20176,HbA1c,%,11.0,8.4,-2.6,-23.5,2023-07-05,Moderate Response,Dizziness,True
+OUT-679E5CE5,P100341,TR-20019,PHQ-9,score,6.4,5.9,-0.5,-7.1,2023-02-03,Minimal Response,Headache,True
+OUT-525A4E87,P100341,TR-20047,PHQ-9,score,17.3,10.7,-6.6,-37.9,2024-04-09,Strong Response,Mild nausea,True
+OUT-D930D4AE,P100467,TR-20103,PHQ-9,score,18.5,18.6,0.1,0.3,2024-06-06,No Response,Dizziness,True
+OUT-BC76C316,P100467,TR-20148,Tumor Size,mm,67.7,61.6,-6.1,-9.1,2024-09-20,Minimal Response,Dizziness,True
+OUT-F10EF6D9,P100868,TR-20168,HbA1c,%,8.6,7.2,-1.4,-16.1,2023-01-05,Moderate Response,Fatigue,True
+OUT-E2E547EC,P100683,TR-20184,PHQ-9,score,23.6,20.9,-2.7,-11.5,2022-02-17,Moderate Response,Dizziness,True
+OUT-4F7F4C60,P100683,TR-20148,Systolic BP,mmHg,128.5,134.1,5.6,4.4,2024-01-05,Worsened,Headache,True
+OUT-FC8D5ACC,P100439,TR-20084,Tumor Size,mm,73.9,71.6,-2.3,-3.1,2022-01-31,No Response,Fatigue,True
+OUT-9E9664FF,P100439,TR-20081,HbA1c,%,9.6,7.1,-2.5,-25.8,2024-01-25,Strong Response,Mild nausea,True
+OUT-CC7BEE80,P100343,TR-20113,HbA1c,%,10.8,8.9,-1.9,-17.3,2022-08-30,Moderate Response,Headache,True
+OUT-99FE1B4E,P100182,TR-20113,PHQ-9,score,15.3,14.6,-0.7,-4.6,2022-10-10,Minimal Response,Headache,True
+OUT-34B18E60,P100875,TR-20032,FEV1,L,2.2,1.3,-0.9,-38.9,2022-10-24,Strong Response,Fatigue,True
+OUT-7C20E33A,P100079,TR-20186,HbA1c,%,9.9,8.8,-1.1,-10.9,2024-06-11,Moderate Response,Fatigue,True
+OUT-56DC017A,P100079,TR-20032,Systolic BP,mmHg,130.6,122.5,-8.1,-6.2,2024-11-15,Minimal Response,Dizziness,True
+OUT-BCE98EA9,P100767,TR-20108,HbA1c,%,9.0,9.3,0.3,3.8,2023-06-26,No Response,Fatigue,True
+OUT-7D4C33E5,P100701,TR-20180,FEV1,L,3.8,2.6,-1.2,-31.7,2023-08-25,Strong Response,Fatigue,True
+OUT-97939BB9,P100904,TR-20071,PHQ-9,score,23.4,15.6,-7.8,-33.5,2024-11-01,Strong Response,Mild nausea,True
+OUT-672798B4,P100002,TR-20033,HbA1c,%,11.2,8.1,-3.1,-27.3,2024-01-22,Strong Response,Headache,True
+OUT-65BD1AA4,P100501,TR-20153,HbA1c,%,10.4,7.4,-3.0,-29.0,2022-05-10,Strong Response,Headache,True
+OUT-88C1CE5A,P100807,TR-20104,Systolic BP,mmHg,175.6,174.0,-1.6,-0.9,2022-04-19,No Response,Headache,True
+OUT-E5E880CC,P100047,TR-20007,Systolic BP,mmHg,133.5,97.1,-36.4,-27.3,2024-08-20,Strong Response,Mild nausea,True
+OUT-E5C5F8EA,P100018,TR-20037,Tumor Size,mm,28.8,23.0,-5.8,-20.1,2023-07-28,Moderate Response,None,True
+OUT-2FA7655C,P100298,TR-20122,HbA1c,%,7.1,6.3,-0.8,-10.8,2024-11-24,Moderate Response,Mild nausea,True
+OUT-637A388B,P100298,TR-20119,Systolic BP,mmHg,161.6,148.5,-13.1,-8.1,2022-10-07,Minimal Response,Headache,True
+OUT-40249985,P100234,TR-20169,HbA1c,%,8.7,10.3,1.6,18.6,2024-02-04,Worsened,None,True
+OUT-0D8AE668,P100719,TR-20132,PHQ-9,score,6.9,7.2,0.3,4.4,2022-05-01,No Response,None,True
+OUT-2F4518A7,P100172,TR-20025,HbA1c,%,9.7,11.0,1.3,13.0,2024-08-07,Worsened,None,True
+OUT-AE2B2B19,P100911,TR-20085,HbA1c,%,8.3,7.2,-1.1,-13.8,2022-03-31,Moderate Response,Fatigue,True
+OUT-3B00B5D6,P100721,TR-20034,Systolic BP,mmHg,176.9,175.8,-1.1,-0.6,2022-10-06,No Response,Mild nausea,True
+OUT-91162693,P100721,TR-20084,HbA1c,%,6.8,4.5,-2.3,-33.5,2023-10-05,Strong Response,None,True
+OUT-ECB17C44,P100917,TR-20061,HbA1c,%,11.8,8.3,-3.5,-29.5,2022-06-27,Strong Response,Dizziness,True
+OUT-86902444,P100797,TR-20055,Tumor Size,mm,96.6,77.2,-19.4,-20.1,2023-08-24,Moderate Response,Mild nausea,True
+OUT-15997407,P100503,TR-20191,Systolic BP,mmHg,168.0,136.4,-31.6,-18.8,2023-03-13,Moderate Response,Headache,True
+OUT-A6676FC3,P100360,TR-20048,FEV1,L,1.5,1.1,-0.4,-25.7,2022-08-25,Strong Response,Headache,True
+OUT-335F708D,P100559,TR-20025,HbA1c,%,11.8,11.8,0.0,0.1,2022-10-17,No Response,Headache,True
+OUT-365B2436,P100264,TR-20094,Systolic BP,mmHg,168.5,161.5,-7.0,-4.2,2022-05-25,No Response,None,True
+OUT-DBAD1BFD,P100260,TR-20076,FEV1,L,2.1,1.5,-0.6,-28.4,2024-04-05,Strong Response,Mild nausea,True
+OUT-4AA73216,P100470,TR-20131,Systolic BP,mmHg,125.1,121.5,-3.6,-2.9,2024-01-08,No Response,Headache,True
+OUT-FA4AC3C6,P100958,TR-20137,FEV1,L,2.6,2.5,-0.1,-2.6,2022-11-07,No Response,Headache,True
+OUT-314B504D,P100976,TR-20041,Tumor Size,mm,17.6,18.4,0.8,4.8,2024-06-10,No Response,None,True
+OUT-BA004A4C,P100783,TR-20193,PHQ-9,score,15.1,11.8,-3.3,-21.7,2023-05-30,Moderate Response,Fatigue,True
+OUT-788263E7,P100531,TR-20076,Tumor Size,mm,65.9,59.0,-6.9,-10.5,2023-10-14,Moderate Response,Mild nausea,True
+OUT-5CBF21AC,P100531,TR-20100,PHQ-9,score,25.3,25.6,0.3,1.3,2023-09-03,No Response,Headache,True
+OUT-2C3B9224,P100724,TR-20054,Systolic BP,mmHg,152.9,115.9,-37.0,-24.2,2024-06-28,Moderate Response,Fatigue,True
+OUT-C4B61C51,P100116,TR-20166,HbA1c,%,8.7,7.0,-1.7,-20.0,2022-06-13,Moderate Response,Fatigue,True
+OUT-E1ADB216,P100908,TR-20071,PHQ-9,score,8.9,7.6,-1.3,-14.1,2022-01-20,Moderate Response,Dizziness,True
+OUT-B09AA9D7,P100908,TR-20103,HbA1c,%,9.5,8.2,-1.3,-13.5,2022-08-08,Moderate Response,None,True
+OUT-48CB88D6,P100762,TR-20003,PHQ-9,score,19.0,14.3,-4.7,-24.6,2022-07-28,Moderate Response,Mild nausea,True
+OUT-9AD843C3,P100762,TR-20164,HbA1c,%,11.7,12.9,1.2,10.3,2024-11-05,Worsened,Headache,True
+OUT-0A04446E,P100710,TR-20170,HbA1c,%,9.8,8.9,-0.9,-8.9,2023-08-28,Minimal Response,Headache,True
+OUT-9EE406F2,P100898,TR-20117,PHQ-9,score,6.7,6.1,-0.6,-8.7,2022-02-18,Minimal Response,Headache,True
+OUT-2BD70A60,P100421,TR-20066,Tumor Size,mm,51.4,37.1,-14.3,-27.7,2023-07-03,Strong Response,None,True
+OUT-4CA7CA7F,P100421,TR-20029,Systolic BP,mmHg,179.9,182.9,3.0,1.7,2023-01-09,No Response,Headache,True
+OUT-2D1821D3,P100735,TR-20058,FEV1,L,3.4,3.4,0.0,-1.4,2022-05-02,No Response,None,True
+OUT-FC3D6A2C,P100704,TR-20127,Systolic BP,mmHg,171.7,164.1,-7.6,-4.4,2022-04-14,Minimal Response,None,True
+OUT-9D1D7F70,P100366,TR-20071,FEV1,L,1.4,1.0,-0.4,-29.2,2023-01-10,Strong Response,Fatigue,True
+OUT-D7FDDBC0,P100510,TR-20004,Tumor Size,mm,39.3,37.3,-2.0,-5.1,2022-03-07,Minimal Response,Headache,True
+OUT-D3DF6BE5,P100510,TR-20026,FEV1,L,1.2,1.2,0.0,-4.0,2024-06-26,No Response,Mild nausea,True
+OUT-88593CD8,P100032,TR-20182,Systolic BP,mmHg,148.4,132.0,-16.4,-11.0,2024-01-20,Moderate Response,None,True
+OUT-BDD8C92D,P100032,TR-20125,Systolic BP,mmHg,160.3,153.1,-7.2,-4.5,2024-03-15,No Response,Fatigue,True
+OUT-16EA73C4,P100032,TR-20144,Tumor Size,mm,34.6,29.7,-4.9,-14.2,2023-02-21,Moderate Response,Dizziness,True
+OUT-7337EE0B,P100251,TR-20165,HbA1c,%,6.6,5.9,-0.7,-10.9,2023-03-16,Moderate Response,Headache,True
+OUT-79C36634,P100251,TR-20026,HbA1c,%,9.3,8.9,-0.4,-3.9,2022-05-12,Minimal Response,None,True
+OUT-8DAD9F4A,P100212,TR-20007,Tumor Size,mm,43.7,39.7,-4.0,-9.2,2023-03-30,Minimal Response,Fatigue,True
+OUT-312EA519,P100212,TR-20056,Tumor Size,mm,78.2,53.3,-24.9,-31.8,2023-12-10,Strong Response,Mild nausea,True
+OUT-2F974254,P100897,TR-20013,FEV1,L,3.1,2.3,-0.8,-24.3,2024-03-05,Moderate Response,None,True
+OUT-3022CB07,P100387,TR-20042,HbA1c,%,6.9,7.7,0.8,12.2,2022-01-27,Worsened,None,True
+OUT-59B653D9,P100111,TR-20023,PHQ-9,score,17.8,21.1,3.3,18.4,2022-05-01,Worsened,None,True
+OUT-D2256F07,P100111,TR-20086,Tumor Size,mm,53.2,42.0,-11.2,-21.1,2023-05-10,Moderate Response,Headache,True
+OUT-805D2279,P100281,TR-20024,Tumor Size,mm,40.1,38.4,-1.7,-4.3,2023-03-23,Minimal Response,Mild nausea,True
+OUT-5A1F82BF,P100461,TR-20029,Tumor Size,mm,103.5,88.5,-15.0,-14.5,2024-02-07,Moderate Response,Mild nausea,True
+OUT-1A526B25,P100540,TR-20076,HbA1c,%,6.6,5.3,-1.3,-19.3,2022-11-18,Moderate Response,Fatigue,True
+OUT-90FF78A8,P100795,TR-20038,FEV1,L,1.1,0.7,-0.4,-34.8,2022-01-23,Strong Response,None,True
+OUT-31D17BD9,P100795,TR-20184,PHQ-9,score,10.1,8.0,-2.1,-21.2,2024-03-12,Moderate Response,Mild nausea,True
+OUT-B2EB5456,P100358,TR-20189,FEV1,L,1.4,1.1,-0.3,-22.2,2022-05-06,Moderate Response,Mild nausea,True
+OUT-54ADBF78,P100340,TR-20040,Tumor Size,mm,87.6,62.9,-24.7,-28.2,2023-09-23,Strong Response,Fatigue,True
+OUT-96453CF8,P100604,TR-20056,HbA1c,%,7.0,6.3,-0.7,-9.7,2022-03-23,Minimal Response,Headache,True
+OUT-D9599A6E,P100428,TR-20157,HbA1c,%,8.5,6.1,-2.4,-28.5,2024-04-27,Strong Response,Dizziness,True
+OUT-AC589E70,P100428,TR-20124,FEV1,L,1.8,1.3,-0.5,-26.5,2022-07-01,Strong Response,Headache,True
+OUT-1E05CBEE,P100428,TR-20113,PHQ-9,score,15.0,15.2,0.2,1.2,2022-01-14,No Response,Fatigue,True
+OUT-94A7E007,P100744,TR-20100,FEV1,L,3.9,3.9,0.0,-0.4,2024-07-12,No Response,Fatigue,True
+OUT-8ADCB720,P100744,TR-20192,Tumor Size,mm,104.8,72.2,-32.6,-31.1,2024-05-17,Strong Response,Fatigue,True
+OUT-21E94624,P100317,TR-20092,Systolic BP,mmHg,144.3,104.8,-39.5,-27.4,2024-05-08,Strong Response,Mild nausea,True
+OUT-0D82FB99,P100935,TR-20180,HbA1c,%,11.4,7.5,-3.9,-34.4,2023-01-18,Strong Response,None,True
+OUT-CC9C0FA7,P100594,TR-20155,FEV1,L,2.4,1.8,-0.6,-24.6,2022-09-16,Moderate Response,None,True
+OUT-9C5BA148,P100533,TR-20058,PHQ-9,score,8.0,8.3,0.3,3.4,2023-04-08,No Response,Dizziness,True
+OUT-990FDCF3,P100533,TR-20120,HbA1c,%,7.6,6.8,-0.8,-10.6,2022-07-22,Moderate Response,Dizziness,True
+OUT-72FB9577,P100352,TR-20044,Systolic BP,mmHg,125.0,125.3,0.3,0.2,2022-09-12,No Response,Dizziness,True
+OUT-23F90220,P100890,TR-20123,Tumor Size,mm,110.2,105.2,-5.0,-4.5,2022-07-13,Minimal Response,Headache,True
+OUT-F43785EF,P100761,TR-20187,HbA1c,%,10.8,8.4,-2.4,-21.8,2024-01-31,Moderate Response,Fatigue,True
+OUT-6EC14062,P100681,TR-20080,Tumor Size,mm,71.0,68.9,-2.1,-3.0,2024-08-07,Minimal Response,Headache,True
+OUT-9C9D3540,P100681,TR-20138,Systolic BP,mmHg,162.5,111.1,-51.4,-31.7,2022-04-02,Strong Response,None,True
+OUT-7D18EDED,P100296,TR-20014,FEV1,L,3.8,3.3,-0.5,-13.5,2023-03-19,Moderate Response,None,True
+OUT-1316B4AD,P100684,TR-20187,Tumor Size,mm,117.7,107.4,-10.3,-8.8,2024-09-09,Minimal Response,Mild nausea,True
+OUT-1657C854,P100009,TR-20046,Tumor Size,mm,41.1,44.2,3.1,7.6,2022-04-20,Worsened,None,True
+OUT-7598786B,P100511,TR-20100,Tumor Size,mm,26.1,24.5,-1.6,-6.2,2022-01-03,Minimal Response,None,True
+OUT-E887E73B,P100675,TR-20091,Systolic BP,mmHg,153.5,144.7,-8.8,-5.7,2023-04-14,Minimal Response,Mild nausea,True
+OUT-1D4103CE,P100478,TR-20048,Systolic BP,mmHg,124.5,79.9,-44.6,-35.8,2023-07-25,Strong Response,Mild nausea,True
+OUT-C390BD6B,P100154,TR-20166,Systolic BP,mmHg,175.5,179.8,4.3,2.5,2022-05-16,No Response,Headache,True
+OUT-2873DA07,P100536,TR-20135,FEV1,L,2.8,2.7,-0.1,-4.4,2022-09-17,Minimal Response,None,True
+OUT-CCEC52B4,P100869,TR-20099,Systolic BP,mmHg,123.1,74.8,-48.3,-39.2,2022-11-02,Strong Response,Mild nausea,True
+OUT-7D0A9A32,P100776,TR-20147,Systolic BP,mmHg,128.7,103.5,-25.2,-19.6,2022-09-18,Moderate Response,None,True
+OUT-8BA824F4,P100656,TR-20114,Systolic BP,mmHg,143.0,105.1,-37.9,-26.5,2022-09-25,Strong Response,Dizziness,True
+OUT-E5534BEF,P100067,TR-20080,HbA1c,%,8.9,8.8,-0.1,-0.9,2024-03-21,No Response,Mild nausea,True
+OUT-CE9AECCF,P100771,TR-20026,HbA1c,%,10.3,10.1,-0.2,-1.6,2023-04-18,No Response,Headache,True
+OUT-87433C2B,P100016,TR-20087,PHQ-9,score,15.4,12.9,-2.5,-16.2,2023-04-05,Moderate Response,Mild nausea,True
+OUT-39DF8BAB,P100016,TR-20169,HbA1c,%,10.3,10.1,-0.2,-2.1,2022-07-03,Minimal Response,Headache,True
+OUT-81C6096F,P100930,TR-20126,HbA1c,%,9.1,7.7,-1.4,-15.9,2022-11-22,Moderate Response,Dizziness,True
+OUT-467EA214,P100223,TR-20134,Tumor Size,mm,34.8,35.7,0.9,2.5,2023-05-23,Worsened,Dizziness,True
+OUT-C6CCEF20,P100290,TR-20145,FEV1,L,1.3,1.0,-0.3,-22.6,2022-06-16,Moderate Response,Mild nausea,True
+OUT-ED552192,P100290,TR-20148,HbA1c,%,8.9,5.4,-3.5,-39.2,2024-04-11,Strong Response,Dizziness,True
+OUT-899D6F55,P100290,TR-20180,FEV1,L,3.9,3.5,-0.4,-10.5,2024-03-16,Moderate Response,Headache,True
+OUT-153966FA,P100127,TR-20110,HbA1c,%,8.7,8.5,-0.2,-2.6,2022-06-22,Minimal Response,Dizziness,True
+OUT-D1C0C6B5,P100127,TR-20104,Tumor Size,mm,98.7,74.9,-23.8,-24.1,2023-08-11,Moderate Response,Fatigue,True
+OUT-A2A96BBA,P100127,TR-20112,FEV1,L,3.0,2.4,-0.6,-18.5,2023-02-07,Moderate Response,Fatigue,True
+OUT-09FF37D0,P100752,TR-20198,Tumor Size,mm,95.0,89.8,-5.2,-5.5,2023-12-06,Minimal Response,None,True
+OUT-8EF41529,P100855,TR-20011,FEV1,L,3.0,2.5,-0.5,-18.2,2022-09-23,Moderate Response,Mild nausea,True
+OUT-F937B6CB,P100314,TR-20192,PHQ-9,score,8.4,8.1,-0.3,-3.8,2023-08-29,No Response,Mild nausea,True
+OUT-3CF369B0,P100927,TR-20078,FEV1,L,1.7,1.3,-0.4,-22.9,2023-12-05,Moderate Response,Dizziness,True
+OUT-E030B32F,P100691,TR-20046,FEV1,L,1.9,1.3,-0.6,-29.8,2024-11-17,Strong Response,None,True
+OUT-17ED7BA3,P100001,TR-20118,Tumor Size,mm,91.1,102.7,11.6,12.7,2022-07-20,Worsened,Dizziness,True
+OUT-AE79C7F3,P100001,TR-20048,PHQ-9,score,8.7,5.6,-3.1,-35.3,2022-06-23,Strong Response,Dizziness,True
+OUT-66E8B8D0,P100758,TR-20098,Tumor Size,mm,85.4,53.8,-31.6,-37.0,2023-11-25,Strong Response,Mild nausea,True
+OUT-BCBE37E7,P100922,TR-20154,Systolic BP,mmHg,163.5,175.1,11.6,7.1,2024-08-01,Worsened,Mild nausea,True
+OUT-80CDDFF9,P100359,TR-20109,FEV1,L,3.0,2.4,-0.6,-21.5,2023-05-18,Moderate Response,Fatigue,True
+OUT-43C6856A,P100359,TR-20175,Systolic BP,mmHg,177.0,124.5,-52.5,-29.7,2022-06-08,Strong Response,None,True
+OUT-63926F27,P100291,TR-20003,FEV1,L,3.6,2.9,-0.7,-18.9,2024-02-05,Moderate Response,Fatigue,True
+OUT-0FE6185B,P100575,TR-20161,FEV1,L,3.6,3.4,-0.2,-6.9,2023-07-05,Minimal Response,Headache,True
+OUT-4FBDE0CB,P100159,TR-20177,FEV1,L,3.4,2.9,-0.5,-14.3,2023-07-04,Moderate Response,Fatigue,True
+OUT-3B587159,P100089,TR-20126,Systolic BP,mmHg,142.3,93.3,-49.0,-34.4,2024-08-25,Strong Response,Fatigue,True
+OUT-4CCCD0F6,P100278,TR-20190,PHQ-9,score,13.8,13.3,-0.5,-3.8,2024-02-22,Minimal Response,None,True
+OUT-6A79364F,P100147,TR-20074,PHQ-9,score,10.0,6.1,-3.9,-38.8,2023-12-04,Strong Response,Fatigue,True
+OUT-C0BBBD60,P100202,TR-20031,FEV1,L,1.2,1.1,-0.1,-9.9,2023-11-12,Minimal Response,Dizziness,True
+OUT-95C084C2,P100443,TR-20128,FEV1,L,2.6,2.5,-0.1,-3.1,2024-03-28,No Response,Dizziness,True
+OUT-9B3FE08B,P100083,TR-20028,Systolic BP,mmHg,140.1,157.4,17.3,12.4,2024-03-24,Worsened,Fatigue,True
+OUT-EFC55234,P100680,TR-20196,PHQ-9,score,9.4,9.2,-0.2,-2.6,2024-07-17,No Response,Fatigue,True
+OUT-5A50D9E5,P100754,TR-20095,Systolic BP,mmHg,135.1,128.0,-7.1,-5.3,2022-09-01,Minimal Response,Fatigue,True
+OUT-419C9437,P100033,TR-20011,Systolic BP,mmHg,143.7,154.0,10.3,7.1,2023-06-27,Worsened,Dizziness,True
+OUT-06EB2EBB,P100485,TR-20186,Tumor Size,mm,32.3,31.2,-1.1,-3.4,2024-04-30,No Response,None,True
+OUT-8EC66D11,P100485,TR-20082,FEV1,L,3.4,3.3,-0.1,-2.9,2022-04-25,No Response,Headache,True
+OUT-1D8B2736,P100756,TR-20075,Tumor Size,mm,56.0,52.5,-3.5,-6.3,2022-08-02,Minimal Response,None,True
+OUT-3D802D65,P100396,TR-20086,HbA1c,%,9.5,8.6,-0.9,-9.0,2023-12-31,Minimal Response,Mild nausea,True
+OUT-0B757C3E,P100773,TR-20018,Systolic BP,mmHg,176.0,124.9,-51.1,-29.1,2024-07-03,Strong Response,None,True
+OUT-5737D45F,P100773,TR-20063,Tumor Size,mm,41.6,27.2,-14.4,-34.6,2023-07-27,Strong Response,Mild nausea,True
+OUT-BB2475D1,P100409,TR-20176,PHQ-9,score,24.6,20.1,-4.5,-18.1,2023-07-01,Moderate Response,Headache,True
+OUT-C8CCC899,P100778,TR-20185,HbA1c,%,7.2,5.4,-1.8,-25.5,2022-02-21,Strong Response,Dizziness,True
+OUT-A176D248,P100268,TR-20027,PHQ-9,score,22.6,23.3,0.7,3.2,2023-04-01,No Response,Headache,True
+OUT-42E97025,P100319,TR-20196,PHQ-9,score,15.2,12.3,-2.9,-19.0,2023-10-26,Moderate Response,Headache,True
+OUT-B20497AD,P100319,TR-20161,Systolic BP,mmHg,132.5,85.0,-47.5,-35.8,2022-05-07,Strong Response,None,True
+OUT-F11AF162,P100178,TR-20073,FEV1,L,3.5,3.7,0.2,4.3,2022-05-09,No Response,None,True
+OUT-4209B5A4,P100939,TR-20061,FEV1,L,2.0,1.8,-0.2,-10.2,2022-03-16,Moderate Response,None,True
+OUT-2C24DA35,P100939,TR-20175,Systolic BP,mmHg,149.5,143.3,-6.2,-4.2,2022-05-15,Minimal Response,Fatigue,True
+OUT-3D5B781A,P100939,TR-20126,Systolic BP,mmHg,139.9,136.5,-3.4,-2.4,2022-09-03,Minimal Response,Headache,True
+OUT-439ABADE,P100945,TR-20095,HbA1c,%,9.9,6.8,-3.1,-31.4,2022-09-10,Strong Response,Mild nausea,True
+OUT-8E5DBEEE,P100945,TR-20190,PHQ-9,score,16.9,15.3,-1.6,-9.3,2022-12-03,Minimal Response,None,True
+OUT-C6B68755,P100257,TR-20116,Systolic BP,mmHg,128.2,102.8,-25.4,-19.8,2022-11-12,Moderate Response,Dizziness,True
+OUT-CC98029D,P100139,TR-20084,PHQ-9,score,9.3,8.8,-0.5,-5.2,2023-01-17,Minimal Response,Dizziness,True
+OUT-C2D4F898,P100928,TR-20187,PHQ-9,score,22.4,19.2,-3.2,-14.2,2023-12-23,Moderate Response,Mild nausea,True
+OUT-8B6D591B,P100928,TR-20159,Systolic BP,mmHg,129.8,91.4,-38.4,-29.6,2024-06-25,Strong Response,Mild nausea,True
+OUT-39DB5FEB,P100659,TR-20028,Tumor Size,mm,31.7,26.7,-5.0,-15.9,2022-01-03,Moderate Response,Fatigue,True
+OUT-CFE537FB,P100715,TR-20199,FEV1,L,3.6,3.5,-0.1,-3.4,2023-03-31,Minimal Response,Fatigue,True
+OUT-6922C689,P100715,TR-20160,Systolic BP,mmHg,128.6,98.1,-30.5,-23.7,2023-12-18,Moderate Response,None,True
+OUT-03B97B17,P100088,TR-20007,PHQ-9,score,14.0,14.1,0.1,0.5,2024-07-29,No Response,None,True
+OUT-4B277BA9,P100088,TR-20178,Tumor Size,mm,31.4,30.2,-1.2,-3.7,2022-09-05,Minimal Response,Dizziness,True
+OUT-15ECD027,P100305,TR-20051,Systolic BP,mmHg,170.0,103.0,-67.0,-39.4,2022-01-29,Strong Response,Headache,True
+OUT-5DE87000,P100810,TR-20190,HbA1c,%,7.4,5.2,-2.2,-30.3,2023-04-01,Strong Response,Dizziness,True
+OUT-C38C7E3B,P100188,TR-20196,Tumor Size,mm,79.9,49.0,-30.9,-38.7,2024-10-06,Strong Response,Headache,True
+OUT-EC1274DD,P100385,TR-20017,FEV1,L,2.6,1.7,-0.9,-34.0,2023-02-15,Strong Response,Fatigue,True
+OUT-19497A36,P100099,TR-20081,PHQ-9,score,21.7,13.7,-8.0,-36.9,2023-03-20,Strong Response,Mild nausea,True
+OUT-A8174D69,P100580,TR-20045,Systolic BP,mmHg,177.2,177.3,0.1,0.1,2022-08-06,No Response,Dizziness,True
+OUT-C70290BB,P100453,TR-20039,FEV1,L,1.8,1.2,-0.6,-31.6,2022-11-12,Strong Response,Mild nausea,True
+OUT-DC46E726,P100840,TR-20105,Systolic BP,mmHg,164.3,124.6,-39.7,-24.1,2023-01-10,Moderate Response,Dizziness,True
+OUT-5DBAA237,P100840,TR-20041,FEV1,L,1.7,1.7,0.0,-2.8,2023-05-12,Minimal Response,Headache,True
+OUT-3670C3ED,P100840,TR-20144,Systolic BP,mmHg,124.9,117.7,-7.2,-5.7,2023-07-11,Minimal Response,Headache,True
+OUT-9A575FFC,P100677,TR-20011,PHQ-9,score,11.4,10.8,-0.6,-4.9,2023-10-08,No Response,Mild nausea,True
+OUT-6D61EB87,P100853,TR-20150,Tumor Size,mm,114.5,109.0,-5.5,-4.8,2023-10-26,Minimal Response,Mild nausea,True
+OUT-65600870,P100791,TR-20035,HbA1c,%,11.4,8.2,-3.2,-28.4,2022-12-24,Strong Response,Headache,True
+OUT-D7F26E88,P100438,TR-20051,HbA1c,%,9.3,6.1,-3.2,-34.0,2024-08-27,Strong Response,Fatigue,True
+OUT-24351536,P100606,TR-20152,PHQ-9,score,6.9,6.6,-0.3,-3.7,2022-04-03,Minimal Response,Fatigue,True
+OUT-2BDBB092,P100431,TR-20050,FEV1,L,1.8,1.1,-0.7,-37.4,2022-05-18,Strong Response,Fatigue,True
+OUT-51E33F13,P100431,TR-20132,HbA1c,%,8.9,8.1,-0.8,-9.4,2023-12-02,Minimal Response,Fatigue,True
+OUT-D52CA1F5,P100649,TR-20180,PHQ-9,score,11.3,9.6,-1.7,-14.9,2024-02-09,Moderate Response,Dizziness,True
+OUT-667FA4CE,P100029,TR-20086,Systolic BP,mmHg,155.9,128.5,-27.4,-17.6,2023-01-14,Moderate Response,None,True
+OUT-FD54F64A,P100028,TR-20121,PHQ-9,score,22.8,21.7,-1.1,-4.8,2022-12-12,No Response,Headache,True
+OUT-E45DB338,P100936,TR-20142,Systolic BP,mmHg,160.3,117.0,-43.3,-27.0,2024-10-13,Strong Response,None,True
+OUT-3E3EDE1E,P100557,TR-20096,Systolic BP,mmHg,164.0,106.0,-58.0,-35.4,2023-02-18,Strong Response,Dizziness,True
+OUT-37C3DD39,P100131,TR-20028,Systolic BP,mmHg,165.4,147.5,-17.9,-10.8,2024-04-06,Moderate Response,Headache,True
+OUT-E228B033,P100131,TR-20157,Tumor Size,mm,72.8,55.0,-17.8,-24.5,2024-08-29,Moderate Response,Mild nausea,True
+OUT-1B56A3A1,P100589,TR-20060,HbA1c,%,7.5,6.2,-1.3,-17.7,2022-06-13,Moderate Response,Dizziness,True
+OUT-0FBDB6E4,P100589,TR-20054,Systolic BP,mmHg,128.8,122.9,-5.9,-4.6,2022-02-27,Minimal Response,Headache,True
+OUT-57D60ED6,P100129,TR-20074,FEV1,L,3.1,3.5,0.4,11.6,2024-08-31,Worsened,Dizziness,True
+OUT-57E2F487,P100769,TR-20051,PHQ-9,score,13.1,13.7,0.6,4.4,2023-09-25,No Response,Mild nausea,True
+OUT-16CED0F1,P100671,TR-20180,HbA1c,%,9.9,9.2,-0.7,-6.9,2023-09-25,Minimal Response,Mild nausea,True
+OUT-A55F0D7E,P100671,TR-20195,HbA1c,%,11.8,11.4,-0.4,-3.7,2023-11-17,Minimal Response,Mild nausea,True
+OUT-BDFA9CB0,P100722,TR-20130,Systolic BP,mmHg,128.4,79.4,-49.0,-38.2,2022-05-22,Strong Response,Fatigue,True
+OUT-22E2AFB9,P100414,TR-20175,HbA1c,%,10.8,8.7,-2.1,-19.3,2023-08-03,Moderate Response,Dizziness,True
+OUT-218F344A,P100414,TR-20065,PHQ-9,score,22.7,13.6,-9.1,-39.9,2022-04-13,Strong Response,None,True
+OUT-07EF54B4,P100391,TR-20159,Systolic BP,mmHg,145.8,118.0,-27.8,-19.1,2023-09-26,Moderate Response,Dizziness,True
+OUT-8515E390,P100391,TR-20194,PHQ-9,score,16.2,10.8,-5.4,-33.3,2024-07-10,Strong Response,Fatigue,True
+OUT-27730A68,P100539,TR-20017,HbA1c,%,8.9,6.5,-2.4,-26.6,2024-05-23,Strong Response,None,True
+OUT-AC749995,P100539,TR-20146,FEV1,L,3.6,2.4,-1.2,-33.9,2023-12-24,Strong Response,Fatigue,True
+OUT-E977D2EF,P100923,TR-20196,Systolic BP,mmHg,148.7,105.7,-43.0,-28.9,2023-07-12,Strong Response,Dizziness,True
+OUT-0825F19D,P100236,TR-20044,PHQ-9,score,18.8,20.7,1.9,9.9,2022-08-14,Worsened,Dizziness,True
+OUT-E151A9F3,P100430,TR-20119,FEV1,L,1.5,1.4,-0.1,-8.2,2023-02-26,Minimal Response,None,True
+OUT-52E2B679,P100524,TR-20119,FEV1,L,2.8,2.6,-0.2,-8.6,2023-12-18,Minimal Response,None,True
+OUT-540D6506,P100524,TR-20116,Systolic BP,mmHg,152.2,129.5,-22.7,-14.9,2024-05-23,Moderate Response,Fatigue,True
+OUT-109EB764,P100044,TR-20098,Systolic BP,mmHg,179.3,181.3,2.0,1.1,2023-11-18,No Response,Dizziness,True
+OUT-54F46562,P100044,TR-20162,PHQ-9,score,13.0,9.1,-3.9,-30.1,2023-05-23,Strong Response,Fatigue,True
+OUT-10B6AE64,P100525,TR-20048,FEV1,L,3.3,3.4,0.1,4.4,2023-08-22,No Response,Mild nausea,True
+OUT-94F1E3F2,P100549,TR-20070,FEV1,L,3.2,3.3,0.1,2.9,2023-09-18,No Response,Dizziness,True
+OUT-98F3FB33,P100333,TR-20125,HbA1c,%,8.7,8.8,0.1,0.9,2023-05-12,No Response,Fatigue,True
+OUT-5A4E6AC0,P100577,TR-20041,FEV1,L,2.8,1.9,-0.9,-31.4,2023-07-07,Strong Response,Headache,True
+OUT-C8270EFE,P100708,TR-20028,FEV1,L,1.1,1.1,0.0,-3.3,2022-12-17,Minimal Response,Mild nausea,True
+OUT-F084B97D,P100765,TR-20037,Systolic BP,mmHg,123.8,100.7,-23.1,-18.7,2024-09-03,Moderate Response,Mild nausea,True
+OUT-17C1FFB9,P100841,TR-20080,Tumor Size,mm,83.9,72.6,-11.3,-13.4,2023-07-07,Moderate Response,None,True
+OUT-0A6396A4,P100149,TR-20136,Systolic BP,mmHg,130.3,156.3,26.0,20.0,2024-07-01,Worsened,Mild nausea,True
+OUT-21B4778C,P100591,TR-20033,HbA1c,%,10.3,6.9,-3.4,-32.8,2022-03-30,Strong Response,Headache,True
+OUT-73125E71,P100591,TR-20095,FEV1,L,2.0,2.0,0.0,-1.5,2023-08-11,No Response,Headache,True
+OUT-3D590111,P100806,TR-20084,FEV1,L,2.1,2.0,-0.1,-3.7,2022-09-15,No Response,None,True
+OUT-AA55B33B,P100354,TR-20143,Systolic BP,mmHg,121.6,101.5,-20.1,-16.5,2023-09-16,Moderate Response,Headache,True
+OUT-7430CA67,P100170,TR-20059,HbA1c,%,7.4,7.0,-0.4,-5.5,2022-02-26,Minimal Response,Mild nausea,True
+OUT-ED20AC6F,P100170,TR-20182,FEV1,L,1.4,1.3,-0.1,-8.4,2024-08-03,Minimal Response,Fatigue,True
+OUT-10005F26,P100170,TR-20152,PHQ-9,score,24.1,20.2,-3.9,-16.1,2023-01-25,Moderate Response,Fatigue,True
+OUT-FA8030F2,P100969,TR-20160,Tumor Size,mm,47.8,44.8,-3.0,-6.2,2022-01-05,Minimal Response,Dizziness,True
+OUT-A88252B9,P100969,TR-20083,PHQ-9,score,26.4,18.1,-8.3,-31.4,2023-03-24,Strong Response,None,True
+OUT-9F9A2B54,P100063,TR-20016,FEV1,L,3.1,2.4,-0.7,-22.2,2023-11-02,Moderate Response,Headache,True
+OUT-8091BF7C,P100380,TR-20159,PHQ-9,score,10.3,7.6,-2.7,-26.0,2024-01-30,Strong Response,None,True
+OUT-E0C47BD1,P100300,TR-20155,Systolic BP,mmHg,138.5,100.3,-38.2,-27.6,2022-11-19,Strong Response,Mild nausea,True
+OUT-12D9704A,P100262,TR-20053,HbA1c,%,11.2,7.5,-3.7,-33.1,2023-01-11,Strong Response,Fatigue,True
+OUT-8A5B2A18,P100852,TR-20196,PHQ-9,score,10.0,6.5,-3.5,-35.5,2024-07-12,Strong Response,Dizziness,True
+OUT-4C6F637F,P100852,TR-20108,PHQ-9,score,16.3,15.7,-0.6,-3.6,2024-03-22,Minimal Response,Dizziness,True
+OUT-835E86D2,P100668,TR-20033,HbA1c,%,6.8,7.1,0.3,4.9,2023-10-05,No Response,Mild nausea,True
+OUT-7E79510F,P100812,TR-20084,Tumor Size,mm,104.8,87.8,-17.0,-16.3,2022-04-13,Moderate Response,Mild nausea,True
+OUT-60A485E5,P100265,TR-20185,HbA1c,%,10.1,11.1,1.0,9.9,2023-08-09,Worsened,None,True
+OUT-F98CE717,P100074,TR-20102,PHQ-9,score,11.2,12.0,0.8,7.4,2023-10-15,Worsened,None,True
+OUT-89245A30,P100882,TR-20083,Systolic BP,mmHg,134.5,139.0,4.5,3.3,2022-04-07,No Response,Mild nausea,True
+OUT-8C98E2D6,P100483,TR-20186,Systolic BP,mmHg,169.1,156.0,-13.1,-7.8,2024-03-11,Minimal Response,Fatigue,True
+OUT-7B4A52E1,P100686,TR-20134,Systolic BP,mmHg,147.5,129.9,-17.6,-11.9,2022-11-23,Moderate Response,Mild nausea,True
+OUT-E8EB670C,P100115,TR-20193,Systolic BP,mmHg,128.9,145.9,17.0,13.2,2023-04-24,Worsened,None,True
+OUT-E8A57E88,P100459,TR-20107,Systolic BP,mmHg,122.0,102.0,-20.0,-16.4,2022-08-09,Moderate Response,Mild nausea,True
+OUT-71004BBC,P100328,TR-20067,Systolic BP,mmHg,172.8,109.4,-63.4,-36.7,2023-06-04,Strong Response,Headache,True
+OUT-D3376BB8,P100788,TR-20083,PHQ-9,score,15.0,13.6,-1.4,-9.0,2024-05-26,Minimal Response,Headache,True
+OUT-3491C554,P100322,TR-20196,FEV1,L,3.8,2.8,-1.0,-27.2,2022-10-18,Strong Response,Headache,True
+OUT-7A6CB3E1,P100160,TR-20011,Tumor Size,mm,77.5,71.7,-5.8,-7.5,2022-04-27,Minimal Response,Mild nausea,True
+OUT-2B736171,P100640,TR-20126,FEV1,L,3.0,1.8,-1.2,-38.8,2022-12-21,Strong Response,Mild nausea,True
+OUT-1C778B57,P100645,TR-20095,Tumor Size,mm,71.6,48.2,-23.4,-32.7,2023-04-27,Strong Response,None,True
+OUT-89AAF7E4,P100512,TR-20138,Systolic BP,mmHg,137.0,141.0,4.0,2.9,2022-04-06,No Response,Mild nausea,True
+OUT-2B2813E3,P100519,TR-20096,Tumor Size,mm,43.3,32.3,-11.0,-25.4,2022-02-03,Strong Response,None,True
+OUT-161C1D9B,P100838,TR-20066,PHQ-9,score,20.9,23.8,2.9,13.9,2022-09-29,Worsened,Fatigue,True
+OUT-46C98D2A,P100838,TR-20086,HbA1c,%,11.4,8.2,-3.2,-27.8,2024-04-27,Strong Response,Fatigue,True
+OUT-23BA20AD,P100673,TR-20053,Tumor Size,mm,61.4,55.8,-5.6,-9.2,2024-09-02,Minimal Response,Headache,True
+OUT-74EA5171,P100059,TR-20189,FEV1,L,3.5,3.0,-0.5,-15.7,2023-01-10,Moderate Response,Fatigue,True
+OUT-BD54808F,P100035,TR-20166,HbA1c,%,8.7,8.0,-0.7,-8.2,2024-06-21,Minimal Response,Mild nausea,True
+OUT-0F89E182,P100583,TR-20007,PHQ-9,score,19.0,16.7,-2.3,-11.9,2022-05-12,Moderate Response,Mild nausea,True
+OUT-DEC186C7,P100695,TR-20128,Systolic BP,mmHg,139.7,103.8,-35.9,-25.7,2023-12-04,Strong Response,Headache,True
+OUT-D24585E5,P100520,TR-20126,PHQ-9,score,21.8,13.9,-7.9,-36.2,2024-11-04,Strong Response,Mild nausea,True
+OUT-5208968F,P100520,TR-20123,Systolic BP,mmHg,149.6,140.0,-9.6,-6.4,2022-06-06,Minimal Response,Mild nausea,True
+OUT-2A2A5923,P100858,TR-20013,HbA1c,%,7.3,4.4,-2.9,-39.3,2024-07-26,Strong Response,Dizziness,True
+OUT-CEAFC770,P100267,TR-20025,HbA1c,%,7.9,6.7,-1.2,-14.7,2024-05-01,Moderate Response,Dizziness,True
+OUT-F6A9A37F,P100267,TR-20095,HbA1c,%,10.2,10.6,0.4,4.0,2024-07-19,No Response,None,True
+OUT-38980BF6,P100774,TR-20053,PHQ-9,score,11.8,8.2,-3.6,-30.6,2023-04-07,Strong Response,Dizziness,True
+OUT-1F837E39,P100475,TR-20122,Systolic BP,mmHg,141.8,119.5,-22.3,-15.7,2023-05-31,Moderate Response,Fatigue,True
+OUT-B339E0C0,P100475,TR-20045,Systolic BP,mmHg,156.3,151.9,-4.4,-2.8,2022-08-13,Minimal Response,Headache,True
+OUT-BA1D63AE,P100243,TR-20040,HbA1c,%,7.5,5.1,-2.4,-32.6,2024-03-05,Strong Response,Fatigue,True
+OUT-8C164ACB,P100243,TR-20056,Systolic BP,mmHg,134.0,103.8,-30.2,-22.5,2024-01-09,Moderate Response,Fatigue,True
+OUT-6D40F61E,P100013,TR-20045,Systolic BP,mmHg,129.5,104.4,-25.1,-19.3,2023-10-19,Moderate Response,Fatigue,True
+OUT-B60B7BE5,P100548,TR-20052,Tumor Size,mm,106.8,95.4,-11.4,-10.6,2023-02-04,Moderate Response,None,True
+OUT-44FB48CB,P100548,TR-20069,Tumor Size,mm,100.0,64.3,-35.7,-35.7,2023-09-11,Strong Response,Headache,True
+OUT-32D78439,P100259,TR-20012,HbA1c,%,8.2,8.2,0.0,-0.0,2023-11-09,No Response,None,True
+OUT-B48B70D9,P100259,TR-20112,FEV1,L,2.4,2.3,-0.1,-4.9,2024-02-06,No Response,Dizziness,True
+OUT-8B2E0A98,P100228,TR-20121,PHQ-9,score,22.0,19.9,-2.1,-9.4,2023-10-04,Minimal Response,Mild nausea,True
+OUT-B55EFAFD,P100201,TR-20139,PHQ-9,score,16.2,15.8,-0.4,-2.8,2024-03-24,Minimal Response,Headache,True
+OUT-D27E2EF2,P100201,TR-20038,Systolic BP,mmHg,130.4,133.5,3.1,2.4,2024-04-28,No Response,Mild nausea,True
+OUT-940A2797,P100891,TR-20093,FEV1,L,1.6,1.6,0.0,-0.3,2022-12-16,No Response,Mild nausea,True
+OUT-80EE6F0C,P100824,TR-20139,FEV1,L,2.7,1.7,-1.0,-38.8,2024-03-28,Strong Response,Fatigue,True
+OUT-DCFEDC4B,P100248,TR-20036,Tumor Size,mm,20.1,19.4,-0.7,-3.7,2024-01-26,No Response,Dizziness,True
+OUT-15FD483E,P100876,TR-20140,Systolic BP,mmHg,129.9,79.3,-50.6,-38.9,2024-04-20,Strong Response,Mild nausea,True
+OUT-121C5C52,P100121,TR-20134,HbA1c,%,7.4,6.4,-1.0,-13.6,2024-04-03,Moderate Response,Mild nausea,True
+OUT-6081AD59,P100121,TR-20169,PHQ-9,score,10.8,10.4,-0.4,-3.5,2024-04-16,Minimal Response,Mild nausea,True
+OUT-E15D40F9,P100121,TR-20101,Tumor Size,mm,89.8,87.7,-2.1,-2.4,2022-03-29,Minimal Response,Headache,True
+OUT-D127E10B,P100843,TR-20049,PHQ-9,score,7.1,6.7,-0.4,-5.0,2022-02-25,Minimal Response,Dizziness,True
+OUT-9E6DB589,P100831,TR-20104,FEV1,L,1.4,0.9,-0.5,-38.4,2022-03-24,Strong Response,None,True
+OUT-FF575DB9,P100492,TR-20049,FEV1,L,2.8,2.7,-0.1,-2.8,2022-11-18,No Response,None,True
+OUT-81F44D1E,P100567,TR-20003,HbA1c,%,7.6,5.6,-2.0,-25.8,2022-12-21,Strong Response,None,True
+OUT-BAB3393B,P100567,TR-20179,FEV1,L,3.3,2.9,-0.4,-11.3,2022-08-19,Moderate Response,Fatigue,True
+OUT-A872C7B8,P100337,TR-20123,Tumor Size,mm,27.7,22.5,-5.2,-18.7,2024-10-19,Moderate Response,Headache,True
+OUT-628D220C,P100316,TR-20009,FEV1,L,3.7,2.5,-1.2,-31.3,2023-11-01,Strong Response,Fatigue,True
+OUT-CE1BF739,P100064,TR-20109,Tumor Size,mm,69.6,62.5,-7.1,-10.2,2022-10-01,Moderate Response,None,True
+OUT-7747283C,P100854,TR-20195,HbA1c,%,10.9,8.1,-2.8,-26.1,2024-10-16,Strong Response,Headache,True
+OUT-870ECA16,P100854,TR-20023,Tumor Size,mm,63.4,63.5,0.1,0.2,2024-03-05,No Response,Headache,True
+OUT-E82C7BFA,P100854,TR-20122,FEV1,L,3.8,3.0,-0.8,-20.3,2022-09-01,Moderate Response,Dizziness,True
+OUT-84F09234,P100075,TR-20121,PHQ-9,score,21.1,14.7,-6.4,-30.1,2022-08-17,Strong Response,Dizziness,True
+OUT-C5C278AD,P100326,TR-20116,Systolic BP,mmHg,163.2,125.9,-37.3,-22.8,2022-06-03,Moderate Response,Mild nausea,True
+OUT-B730E7B4,P100326,TR-20056,Systolic BP,mmHg,122.0,110.2,-11.8,-9.6,2022-12-01,Minimal Response,Dizziness,True
+OUT-9914023F,P100012,TR-20114,FEV1,L,2.6,2.5,-0.1,-3.9,2024-09-21,No Response,Dizziness,True
+OUT-E0627BFB,P100012,TR-20018,Tumor Size,mm,95.2,86.5,-8.7,-9.1,2024-08-22,Minimal Response,Dizziness,True
+OUT-92DDAD2B,P100012,TR-20129,PHQ-9,score,8.8,8.3,-0.5,-5.3,2023-07-23,Minimal Response,Dizziness,True
+OUT-9C4B0280,P100669,TR-20116,Tumor Size,mm,21.5,15.2,-6.3,-29.5,2022-08-16,Strong Response,Dizziness,True
+OUT-6022999E,P100073,TR-20085,HbA1c,%,6.9,6.8,-0.1,-0.8,2022-02-12,No Response,Mild nausea,True
+OUT-2BF5B04B,P100382,TR-20020,HbA1c,%,6.9,5.4,-1.5,-22.0,2022-11-27,Moderate Response,Dizziness,True
+OUT-1D764634,P100652,TR-20128,FEV1,L,1.7,1.5,-0.2,-11.9,2022-01-08,Moderate Response,Fatigue,True
+OUT-B91CC76A,P100579,TR-20122,HbA1c,%,8.4,5.3,-3.1,-36.3,2023-04-27,Strong Response,Dizziness,True
+OUT-2CBC177F,P100700,TR-20018,HbA1c,%,11.7,9.1,-2.6,-22.6,2024-05-05,Moderate Response,Dizziness,True
+OUT-C78D55C6,P100700,TR-20017,Systolic BP,mmHg,159.9,134.6,-25.3,-15.8,2022-05-03,Moderate Response,Headache,True
+OUT-3575CFAF,P100625,TR-20036,PHQ-9,score,17.0,14.8,-2.2,-12.7,2024-06-12,Moderate Response,Mild nausea,True
+OUT-FF7AB694,P100625,TR-20031,Systolic BP,mmHg,131.5,116.2,-15.3,-11.7,2024-10-24,Moderate Response,Dizziness,True
+OUT-40EF975C,P100625,TR-20007,PHQ-9,score,20.0,19.4,-0.6,-3.0,2024-09-17,No Response,Headache,True
+OUT-4FC8BD43,P100244,TR-20169,HbA1c,%,9.3,9.0,-0.3,-2.9,2024-04-04,Minimal Response,Mild nausea,True
+OUT-4A8F43CD,P100246,TR-20060,PHQ-9,score,15.3,10.4,-4.9,-31.7,2022-08-11,Strong Response,None,True
+OUT-563E4F2B,P100491,TR-20101,HbA1c,%,7.6,7.3,-0.3,-3.7,2023-02-16,Minimal Response,Mild nausea,True
+OUT-77852792,P100491,TR-20003,Tumor Size,mm,27.6,26.7,-0.9,-3.2,2023-04-04,Minimal Response,Fatigue,True
+OUT-B3B16847,P100626,TR-20003,Systolic BP,mmHg,148.2,143.5,-4.7,-3.2,2024-09-03,Minimal Response,Fatigue,True
+OUT-25C58B96,P100658,TR-20123,HbA1c,%,8.8,8.8,0.0,-0.1,2022-07-14,No Response,None,True
+OUT-9AFA0FF6,P100658,TR-20055,PHQ-9,score,21.7,21.0,-0.7,-3.4,2022-12-09,Minimal Response,None,True
+OUT-7E8C7338,P100658,TR-20049,Tumor Size,mm,68.0,70.1,2.1,3.1,2023-05-22,No Response,None,True
+OUT-1A3790B0,P100582,TR-20019,Tumor Size,mm,24.9,24.3,-0.6,-2.3,2022-08-28,Minimal Response,Headache,True
+OUT-34633FC1,P100596,TR-20019,Tumor Size,mm,86.7,72.7,-14.0,-16.1,2023-05-21,Moderate Response,Dizziness,True
+OUT-7C080B5C,P100189,TR-20008,FEV1,L,2.1,1.8,-0.3,-14.0,2022-02-04,Moderate Response,Mild nausea,True
+OUT-839C9F36,P100189,TR-20050,PHQ-9,score,13.6,13.1,-0.5,-3.4,2024-02-27,Minimal Response,Mild nausea,True
+OUT-8BD198D3,P100141,TR-20134,Tumor Size,mm,105.8,80.8,-25.0,-23.6,2023-10-25,Moderate Response,Headache,True
+OUT-56B83000,P100436,TR-20107,Systolic BP,mmHg,139.2,116.2,-23.0,-16.5,2022-11-29,Moderate Response,Fatigue,True
+OUT-DAA1183F,P100198,TR-20011,FEV1,L,1.7,1.1,-0.6,-33.5,2022-01-19,Strong Response,Headache,True
+OUT-81916D2B,P100198,TR-20095,FEV1,L,3.7,3.1,-0.6,-15.9,2024-06-30,Moderate Response,Fatigue,True
+OUT-B469FA16,P100912,TR-20084,PHQ-9,score,8.6,8.0,-0.6,-6.6,2023-09-16,Minimal Response,None,True
+OUT-D194CA65,P100655,TR-20175,PHQ-9,score,17.8,13.4,-4.4,-24.7,2022-01-08,Moderate Response,Dizziness,True
+OUT-5FF886CE,P100655,TR-20155,Tumor Size,mm,60.8,57.1,-3.7,-6.0,2023-12-22,Minimal Response,Dizziness,True
+OUT-994F14FF,P100238,TR-20137,Tumor Size,mm,42.0,31.2,-10.8,-25.7,2023-02-01,Strong Response,Dizziness,True
+OUT-A8737F5C,P100238,TR-20158,Tumor Size,mm,103.3,69.1,-34.2,-33.1,2023-08-15,Strong Response,Headache,True
+OUT-2FD5BDCC,P100947,TR-20049,Tumor Size,mm,113.9,92.2,-21.7,-19.0,2022-08-07,Moderate Response,Headache,True
+OUT-F3E6D8E6,P100947,TR-20090,FEV1,L,3.4,2.7,-0.7,-21.0,2023-10-10,Moderate Response,None,True
+OUT-6ED0BC72,P100789,TR-20036,Tumor Size,mm,29.2,28.2,-1.0,-3.6,2022-01-21,Minimal Response,Fatigue,True
+OUT-8420F9EC,P100076,TR-20119,Systolic BP,mmHg,128.0,122.0,-6.0,-4.7,2024-03-27,No Response,Mild nausea,True
+OUT-1CAE28F3,P100015,TR-20075,PHQ-9,score,6.3,5.2,-1.1,-16.7,2022-05-06,Moderate Response,None,True
+OUT-A84B5E92,P100015,TR-20164,Tumor Size,mm,30.5,24.0,-6.5,-21.2,2024-12-01,Moderate Response,None,True
+OUT-ACA33365,P100647,TR-20101,Systolic BP,mmHg,121.0,121.9,0.9,0.7,2023-01-25,No Response,None,True
+OUT-DA23674C,P100235,TR-20088,FEV1,L,2.5,2.4,-0.1,-5.7,2023-05-01,Minimal Response,Dizziness,True
+OUT-8051BE64,P100200,TR-20071,Tumor Size,mm,91.3,66.5,-24.8,-27.2,2022-08-06,Strong Response,Dizziness,True
+OUT-FB7F7A75,P100586,TR-20110,FEV1,L,2.3,2.2,-0.1,-4.9,2024-07-04,No Response,Fatigue,True
+OUT-AA9669DF,P100568,TR-20112,HbA1c,%,6.9,4.8,-2.1,-29.8,2024-03-10,Strong Response,Headache,True
+OUT-1D3A228D,P100682,TR-20072,HbA1c,%,9.8,9.9,0.1,1.0,2023-02-21,No Response,None,True
+OUT-59DDD149,P100553,TR-20170,FEV1,L,2.2,1.4,-0.8,-36.1,2023-01-28,Strong Response,Headache,True
+OUT-B35BAC45,P100411,TR-20057,Tumor Size,mm,83.5,81.8,-1.7,-2.1,2024-07-08,No Response,Dizziness,True
+OUT-29E62784,P100318,TR-20091,HbA1c,%,9.3,8.0,-1.3,-14.2,2022-02-09,Moderate Response,None,True
+OUT-96C2B61C,P100318,TR-20039,Tumor Size,mm,62.5,52.9,-9.6,-15.4,2022-03-13,Moderate Response,None,True
+OUT-173962A1,P100670,TR-20024,HbA1c,%,10.0,6.6,-3.4,-34.4,2022-09-09,Strong Response,None,True
+OUT-341503CA,P100670,TR-20147,Systolic BP,mmHg,137.0,101.7,-35.3,-25.8,2023-06-01,Strong Response,Mild nausea,True
+OUT-9A696ED3,P100670,TR-20190,Tumor Size,mm,75.9,51.0,-24.9,-32.7,2023-12-04,Strong Response,Headache,True
+OUT-3C711A00,P100651,TR-20057,Tumor Size,mm,109.4,97.1,-12.3,-11.3,2022-12-04,Moderate Response,Fatigue,True
+OUT-8E1B8327,P100651,TR-20072,HbA1c,%,8.6,8.3,-0.3,-3.7,2023-10-25,No Response,Fatigue,True
+OUT-46624433,P100697,TR-20060,Tumor Size,mm,76.1,73.3,-2.8,-3.6,2024-05-21,No Response,Mild nausea,True
+OUT-1F4E316E,P100740,TR-20039,Systolic BP,mmHg,176.4,122.0,-54.4,-30.9,2023-11-11,Strong Response,Mild nausea,True
+OUT-7CB75240,P100240,TR-20112,Systolic BP,mmHg,176.0,162.6,-13.4,-7.6,2022-03-02,Minimal Response,Fatigue,True
+OUT-D2C8B0E5,P100412,TR-20114,PHQ-9,score,12.1,11.9,-0.2,-2.0,2023-08-14,No Response,Fatigue,True
+OUT-50F0F799,P100537,TR-20154,FEV1,L,2.8,2.6,-0.2,-7.4,2022-07-17,Minimal Response,Mild nausea,True
+OUT-F08BF718,P100537,TR-20179,Tumor Size,mm,35.5,25.7,-9.8,-27.5,2022-10-08,Strong Response,Fatigue,True
+OUT-D84C2165,P100184,TR-20179,FEV1,L,3.2,2.0,-1.2,-37.5,2022-04-26,Strong Response,None,True
+OUT-59FA20FE,P100550,TR-20089,Systolic BP,mmHg,144.3,140.8,-3.5,-2.4,2022-05-20,Minimal Response,Headache,True
+OUT-A36F6EF4,P100848,TR-20059,Systolic BP,mmHg,175.5,166.8,-8.7,-4.9,2024-08-06,Minimal Response,Headache,True
+OUT-B41F4E54,P100479,TR-20059,Systolic BP,mmHg,146.1,101.7,-44.4,-30.4,2023-05-20,Strong Response,Dizziness,True
+OUT-1D9C9699,P100263,TR-20142,FEV1,L,2.7,2.5,-0.2,-7.4,2023-10-28,Minimal Response,Mild nausea,True
+OUT-7618298E,P100566,TR-20116,Systolic BP,mmHg,155.5,132.5,-23.0,-14.8,2023-12-11,Moderate Response,Mild nausea,True
+OUT-0D205FF2,P100566,TR-20076,FEV1,L,1.4,0.9,-0.5,-32.5,2024-09-28,Strong Response,Fatigue,True
+OUT-F6EBD001,P100090,TR-20024,Tumor Size,mm,20.2,13.1,-7.1,-35.0,2022-04-17,Strong Response,Dizziness,True
+OUT-46CC507F,P100078,TR-20051,HbA1c,%,8.6,6.8,-1.8,-21.1,2024-07-19,Moderate Response,Fatigue,True
+OUT-F63416EF,P100768,TR-20069,FEV1,L,2.5,2.4,-0.1,-4.9,2024-01-01,Minimal Response,Mild nausea,True
+OUT-C7479106,P100351,TR-20048,FEV1,L,2.4,2.1,-0.3,-13.8,2023-08-29,Moderate Response,None,True
+OUT-46F6DE2D,P100787,TR-20197,PHQ-9,score,8.1,6.9,-1.2,-14.5,2024-07-29,Moderate Response,Mild nausea,True
+OUT-93F6D5A7,P100787,TR-20070,FEV1,L,1.9,1.8,-0.1,-3.0,2023-11-14,No Response,Mild nausea,True
+OUT-E2CB9550,P100174,TR-20013,PHQ-9,score,16.5,10.4,-6.1,-37.1,2023-03-22,Strong Response,Headache,True
+OUT-696252AE,P100504,TR-20147,HbA1c,%,11.3,7.1,-4.2,-37.0,2023-01-09,Strong Response,Headache,True
+OUT-FEC9F3B4,P100618,TR-20042,HbA1c,%,9.4,8.3,-1.1,-11.7,2022-05-20,Moderate Response,Fatigue,True
+OUT-C7E6A376,P100914,TR-20186,Systolic BP,mmHg,149.3,112.2,-37.1,-24.9,2024-06-09,Moderate Response,Mild nausea,True
+OUT-6BF92E1D,P100376,TR-20134,FEV1,L,3.1,2.4,-0.7,-23.2,2023-09-19,Moderate Response,Headache,True
+OUT-9742D0A2,P100376,TR-20156,FEV1,L,3.5,2.3,-1.2,-35.1,2023-04-09,Strong Response,Headache,True
+OUT-E5649236,P100571,TR-20053,Tumor Size,mm,16.5,14.5,-2.0,-12.0,2023-12-31,Moderate Response,Headache,True
+OUT-14F62618,P100571,TR-20019,PHQ-9,score,9.5,6.2,-3.3,-34.3,2022-06-29,Strong Response,Headache,True
+OUT-1567E16C,P100451,TR-20096,PHQ-9,score,21.5,24.2,2.7,12.7,2024-03-25,Worsened,Dizziness,True
+OUT-FDCAB652,P100528,TR-20078,HbA1c,%,11.9,8.6,-3.3,-27.8,2022-10-07,Strong Response,Dizziness,True
+OUT-B44F58D7,P100821,TR-20113,Tumor Size,mm,73.7,74.7,1.0,1.3,2024-05-30,No Response,Fatigue,True
+OUT-D6CEF6EF,P100821,TR-20065,FEV1,L,1.3,1.1,-0.2,-16.2,2022-03-01,Moderate Response,None,True
+OUT-CAD2DD02,P100821,TR-20125,HbA1c,%,6.9,5.5,-1.4,-19.9,2023-04-12,Moderate Response,Dizziness,True
+OUT-53E00826,P100242,TR-20164,HbA1c,%,9.5,7.0,-2.5,-26.0,2023-11-29,Strong Response,Mild nausea,True
+OUT-73D40DC8,P100242,TR-20076,HbA1c,%,10.4,8.4,-2.0,-18.9,2023-08-18,Moderate Response,Fatigue,True
+OUT-A5EF36A2,P100600,TR-20142,Systolic BP,mmHg,159.4,137.2,-22.2,-14.0,2024-11-19,Moderate Response,Dizziness,True
+OUT-A22AAF55,P100600,TR-20123,FEV1,L,2.9,3.4,0.5,17.1,2024-07-26,Worsened,Dizziness,True
+OUT-2ADFD913,P100093,TR-20043,FEV1,L,2.4,2.1,-0.3,-11.8,2024-10-01,Moderate Response,Fatigue,True
+OUT-DF3C8BBB,P100093,TR-20003,Tumor Size,mm,49.0,43.7,-5.3,-10.8,2022-08-16,Moderate Response,Dizziness,True
+OUT-6BBD7397,P100093,TR-20026,HbA1c,%,7.6,5.4,-2.2,-28.8,2024-08-05,Strong Response,Dizziness,True
+OUT-E79D4583,P100725,TR-20104,Tumor Size,mm,83.0,78.9,-4.1,-5.0,2022-06-01,Minimal Response,Mild nausea,True
+OUT-4E402137,P100813,TR-20084,FEV1,L,2.6,1.8,-0.8,-30.9,2024-07-14,Strong Response,None,True
+OUT-85601052,P100166,TR-20188,PHQ-9,score,5.8,4.9,-0.9,-16.3,2023-09-05,Moderate Response,Fatigue,True
+OUT-8A26BD68,P100397,TR-20071,FEV1,L,3.5,3.6,0.1,2.9,2023-02-27,No Response,Headache,True
+OUT-B6669ADA,P100377,TR-20035,PHQ-9,score,21.9,16.4,-5.5,-25.1,2022-08-03,Strong Response,None,True
+OUT-75D6A47D,P100357,TR-20039,Systolic BP,mmHg,163.8,150.2,-13.6,-8.3,2024-10-26,Minimal Response,Fatigue,True
+OUT-0CB3FE55,P100982,TR-20054,PHQ-9,score,23.8,14.6,-9.2,-38.8,2023-05-19,Strong Response,Dizziness,True
+OUT-195CB595,P100982,TR-20017,PHQ-9,score,23.4,17.4,-6.0,-25.8,2023-11-21,Strong Response,Dizziness,True
+OUT-3707F35B,P100622,TR-20172,HbA1c,%,11.4,8.2,-3.2,-28.1,2022-12-08,Strong Response,None,True
+OUT-1B3B956E,P100207,TR-20067,PHQ-9,score,15.6,10.1,-5.5,-35.3,2024-05-20,Strong Response,Headache,True
+OUT-CC272D79,P100207,TR-20148,Tumor Size,mm,33.6,33.2,-0.4,-1.3,2023-10-04,No Response,Dizziness,True
+OUT-7D8C1CA3,P100024,TR-20153,Tumor Size,mm,92.8,87.0,-5.8,-6.3,2022-01-25,Minimal Response,Fatigue,True
+OUT-5204377E,P100024,TR-20063,Systolic BP,mmHg,128.5,110.8,-17.7,-13.8,2022-09-06,Moderate Response,None,True
+OUT-80BE48CF,P100660,TR-20066,Tumor Size,mm,37.3,28.0,-9.3,-24.8,2022-09-15,Moderate Response,Dizziness,True
+OUT-513E42DC,P100445,TR-20026,PHQ-9,score,12.1,11.2,-0.9,-7.5,2022-09-06,Minimal Response,Mild nausea,True
+OUT-8FBC64BE,P100445,TR-20179,PHQ-9,score,6.4,4.3,-2.1,-32.0,2022-07-26,Strong Response,Dizziness,True
+OUT-5CA87BB6,P100445,TR-20139,HbA1c,%,6.8,6.0,-0.8,-11.8,2023-09-06,Moderate Response,Mild nausea,True
+OUT-94DF5CC4,P100909,TR-20170,PHQ-9,score,9.9,6.4,-3.5,-34.9,2024-10-13,Strong Response,Mild nausea,True
+OUT-5837A5B8,P100909,TR-20017,PHQ-9,score,21.8,14.5,-7.3,-33.4,2023-03-21,Strong Response,Fatigue,True
+OUT-F08CC04C,P100909,TR-20199,Tumor Size,mm,89.5,70.4,-19.1,-21.3,2023-12-25,Moderate Response,Mild nausea,True
+OUT-34BA48F4,P100256,TR-20031,Tumor Size,mm,17.6,11.4,-6.2,-35.0,2023-10-21,Strong Response,Headache,True
+OUT-637277BF,P100256,TR-20079,HbA1c,%,8.6,9.5,0.9,10.1,2023-05-20,Worsened,None,True
+OUT-71621DB4,P100514,TR-20043,FEV1,L,3.6,3.5,-0.1,-2.6,2024-09-25,No Response,Dizziness,True
+OUT-D61A5955,P100900,TR-20022,Systolic BP,mmHg,142.1,136.6,-5.5,-3.8,2024-02-17,No Response,Fatigue,True
+OUT-266D5BA0,P100429,TR-20110,Systolic BP,mmHg,144.2,130.3,-13.9,-9.7,2022-10-02,Minimal Response,Dizziness,True
+OUT-A87C12CE,P100968,TR-20001,Systolic BP,mmHg,148.8,89.9,-58.9,-39.6,2022-11-21,Strong Response,Dizziness,True
+OUT-F56DFE48,P100968,TR-20121,Tumor Size,mm,57.0,53.0,-4.0,-7.0,2022-01-10,Minimal Response,Fatigue,True
+OUT-93AACE8C,P100968,TR-20046,Systolic BP,mmHg,138.4,111.6,-26.8,-19.3,2023-06-07,Moderate Response,Fatigue,True
+OUT-FC9E7028,P100641,TR-20080,HbA1c,%,11.0,10.0,-1.0,-9.4,2022-08-03,Minimal Response,Dizziness,True
+OUT-0D1E6D15,P100617,TR-20011,PHQ-9,score,26.1,23.1,-3.0,-11.6,2023-11-17,Moderate Response,Dizziness,True
+OUT-433147DF,P100197,TR-20126,FEV1,L,2.3,1.7,-0.6,-25.4,2022-09-12,Strong Response,None,True
+OUT-410A27D3,P100197,TR-20028,Systolic BP,mmHg,160.5,123.6,-36.9,-23.0,2023-03-15,Moderate Response,None,True
+OUT-A26DFD3E,P100216,TR-20119,FEV1,L,1.5,1.2,-0.3,-18.7,2024-11-08,Moderate Response,None,True
+OUT-4CBD3580,P100454,TR-20180,FEV1,L,2.9,2.7,-0.2,-6.4,2023-04-16,Minimal Response,Dizziness,True
+OUT-9224165D,P100565,TR-20073,FEV1,L,3.4,3.4,0.0,0.8,2022-04-02,No Response,Headache,True
+OUT-CFBA9162,P100513,TR-20092,PHQ-9,score,14.1,13.7,-0.4,-3.1,2022-01-08,Minimal Response,Dizziness,True
+OUT-F9296825,P100781,TR-20061,Systolic BP,mmHg,131.2,115.3,-15.9,-12.1,2024-11-08,Moderate Response,Headache,True
+OUT-EDAAB8DE,P100781,TR-20080,FEV1,L,3.6,3.3,-0.3,-7.2,2023-05-01,Minimal Response,Fatigue,True
+OUT-33588438,P100020,TR-20016,Tumor Size,mm,92.6,81.2,-11.4,-12.3,2022-09-10,Moderate Response,Headache,True
+OUT-FB02D882,P100992,TR-20115,FEV1,L,3.7,2.8,-0.9,-25.5,2022-09-03,Strong Response,None,True
+OUT-D8CAE15F,P100227,TR-20086,PHQ-9,score,23.5,24.1,0.6,2.8,2022-03-13,No Response,Mild nausea,True
+OUT-C186F434,P100707,TR-20112,FEV1,L,3.8,3.3,-0.5,-13.6,2022-05-14,Moderate Response,Dizziness,True
+OUT-0B93D434,P100371,TR-20168,PHQ-9,score,9.9,8.4,-1.5,-15.2,2024-01-06,Moderate Response,Dizziness,True
+OUT-1FAD96A5,P100371,TR-20009,Systolic BP,mmHg,164.2,105.5,-58.7,-35.7,2024-08-30,Strong Response,Headache,True
+OUT-4BC890ED,P100307,TR-20065,HbA1c,%,11.1,7.9,-3.2,-29.2,2022-01-26,Strong Response,Dizziness,True
+OUT-7FCE4377,P100307,TR-20100,HbA1c,%,11.7,9.7,-2.0,-17.3,2024-05-08,Moderate Response,None,True
+OUT-4A4F088A,P100770,TR-20036,Systolic BP,mmHg,153.2,122.9,-30.3,-19.8,2022-12-08,Moderate Response,None,True
+OUT-F098EE6A,P100069,TR-20052,FEV1,L,1.3,1.3,0.0,3.6,2023-04-22,No Response,None,True
+OUT-9A348134,P100069,TR-20047,Tumor Size,mm,14.8,13.9,-0.9,-6.4,2022-10-02,Minimal Response,None,True
+OUT-1C486F04,P100819,TR-20129,FEV1,L,3.3,2.0,-1.3,-39.2,2024-10-10,Strong Response,Dizziness,True
+OUT-835CFB39,P100819,TR-20052,FEV1,L,1.4,0.9,-0.5,-35.9,2023-05-07,Strong Response,Dizziness,True
+OUT-B910ED77,P100404,TR-20051,HbA1c,%,6.9,5.8,-1.1,-15.8,2022-07-22,Moderate Response,Mild nausea,True
+OUT-538DB5CE,P100404,TR-20112,Systolic BP,mmHg,165.3,135.5,-29.8,-18.0,2024-08-30,Moderate Response,Mild nausea,True
+OUT-F1076D8B,P100667,TR-20086,PHQ-9,score,26.6,26.8,0.2,0.7,2023-02-24,No Response,Mild nausea,True
+OUT-BE029053,P100602,TR-20068,Systolic BP,mmHg,143.0,167.5,24.5,17.2,2022-10-23,Worsened,Mild nausea,True
+OUT-A19E7857,P100654,TR-20116,FEV1,L,1.1,1.1,0.0,1.9,2023-03-15,No Response,Mild nausea,True
+OUT-D362256B,P100569,TR-20140,PHQ-9,score,7.6,6.4,-1.2,-15.7,2022-03-14,Moderate Response,Mild nausea,True
+OUT-F3ED44D5,P100642,TR-20149,FEV1,L,2.2,1.9,-0.3,-14.7,2023-03-17,Moderate Response,None,True
+OUT-42CC4BEA,P100823,TR-20046,PHQ-9,score,5.8,4.7,-1.1,-18.3,2022-12-14,Moderate Response,None,True
+OUT-0E66D45C,P100823,TR-20140,Systolic BP,mmHg,167.0,108.6,-58.4,-35.0,2023-04-30,Strong Response,Headache,True
+OUT-C98938AC,P100920,TR-20026,PHQ-9,score,21.0,13.7,-7.3,-34.6,2024-04-18,Strong Response,Dizziness,True
+OUT-200DB2A1,P100920,TR-20034,Tumor Size,mm,14.4,11.8,-2.6,-17.9,2023-10-04,Moderate Response,None,True
+OUT-F240FB26,P100690,TR-20195,HbA1c,%,7.1,4.6,-2.5,-35.0,2022-01-26,Strong Response,None,True
+OUT-1D6487C6,P100375,TR-20124,PHQ-9,score,10.1,7.9,-2.2,-22.2,2022-03-12,Moderate Response,Headache,True
+OUT-A1F29C4E,P100608,TR-20024,Systolic BP,mmHg,130.5,88.9,-41.6,-31.9,2024-02-19,Strong Response,Dizziness,True
+OUT-A3E4F9CD,P100185,TR-20042,HbA1c,%,10.6,8.1,-2.5,-23.9,2024-03-09,Moderate Response,Headache,True
+OUT-3FCD33D1,P100185,TR-20038,Systolic BP,mmHg,132.0,95.5,-36.5,-27.6,2023-10-10,Strong Response,Fatigue,True
+OUT-FB6DDD1A,P100185,TR-20088,PHQ-9,score,22.5,23.4,0.9,4.0,2022-12-09,Worsened,Dizziness,True
+OUT-87F88680,P100751,TR-20159,HbA1c,%,9.2,5.9,-3.3,-36.1,2023-05-17,Strong Response,Headache,True
+OUT-32CEA39D,P100694,TR-20169,HbA1c,%,11.9,7.5,-4.4,-36.6,2023-09-10,Strong Response,Fatigue,True
+OUT-C6B56FF1,P100732,TR-20049,Systolic BP,mmHg,131.8,91.9,-39.9,-30.3,2022-02-01,Strong Response,Mild nausea,True
+OUT-317C0EE4,P100563,TR-20096,FEV1,L,1.6,1.6,0.0,-2.3,2022-06-18,No Response,Mild nausea,True
+OUT-FBF56DE7,P100981,TR-20030,HbA1c,%,9.8,8.6,-1.2,-12.7,2024-08-29,Moderate Response,Mild nausea,True
+OUT-0CDE4A75,P100423,TR-20015,PHQ-9,score,18.8,11.8,-7.0,-37.3,2023-12-25,Strong Response,Fatigue,True
+OUT-D84E6569,P100455,TR-20073,HbA1c,%,7.8,5.2,-2.6,-33.9,2024-08-11,Strong Response,Dizziness,True
+OUT-604F2A16,P100610,TR-20135,FEV1,L,3.2,2.4,-0.8,-25.4,2022-10-02,Strong Response,Fatigue,True
+OUT-1E858BD6,P100610,TR-20155,FEV1,L,3.5,2.9,-0.6,-16.9,2022-08-18,Moderate Response,Headache,True
+OUT-E9844109,P100809,TR-20032,HbA1c,%,7.3,5.1,-2.2,-30.0,2023-10-17,Strong Response,Dizziness,True
+OUT-9EC6ED46,P100161,TR-20060,Tumor Size,mm,111.5,80.4,-31.1,-27.9,2024-04-08,Strong Response,Fatigue,True
+OUT-C30B7AC0,P100674,TR-20140,Tumor Size,mm,98.5,96.1,-2.4,-2.4,2024-05-26,No Response,Dizziness,True
+OUT-13C30BE5,P100674,TR-20077,PHQ-9,score,8.2,7.4,-0.8,-10.0,2022-01-20,Moderate Response,Dizziness,True
+OUT-69B02CDD,P100224,TR-20069,Tumor Size,mm,40.3,30.4,-9.9,-24.6,2023-04-18,Moderate Response,Headache,True
+OUT-F1A0DDD9,P100019,TR-20123,Tumor Size,mm,117.4,122.1,4.7,4.0,2022-03-08,Worsened,Headache,True
+OUT-2FD5586A,P100518,TR-20068,FEV1,L,2.9,2.2,-0.7,-23.7,2023-09-08,Moderate Response,None,True
+OUT-038FDF60,P100021,TR-20044,HbA1c,%,8.8,8.5,-0.3,-3.9,2023-02-17,Minimal Response,Headache,True
+OUT-282AFAAE,P100873,TR-20005,Tumor Size,mm,115.9,112.0,-3.9,-3.3,2023-10-30,Minimal Response,Mild nausea,True
+OUT-A48EE303,P100775,TR-20175,FEV1,L,2.7,2.1,-0.6,-20.9,2022-03-22,Moderate Response,Dizziness,True
+OUT-ABC4D383,P100329,TR-20148,Systolic BP,mmHg,127.9,106.1,-21.8,-17.1,2023-10-15,Moderate Response,Fatigue,True
+OUT-F27D0F8E,P100860,TR-20171,PHQ-9,score,9.5,8.6,-0.9,-9.9,2022-05-16,Minimal Response,Mild nausea,True
+OUT-3118AF5B,P100031,TR-20064,Systolic BP,mmHg,164.9,146.9,-18.0,-10.9,2022-10-31,Moderate Response,None,True
+OUT-CDF2A58B,P100128,TR-20155,FEV1,L,3.7,2.3,-1.4,-36.9,2023-03-23,Strong Response,None,True
+OUT-C218EB01,P100060,TR-20192,HbA1c,%,6.7,5.4,-1.3,-19.3,2023-08-21,Moderate Response,Headache,True
+OUT-FE3F5847,P100985,TR-20165,PHQ-9,score,10.6,6.4,-4.2,-39.9,2024-11-23,Strong Response,Dizziness,True
+OUT-E48AAF4C,P100561,TR-20011,Tumor Size,mm,94.7,72.3,-22.4,-23.7,2023-06-01,Moderate Response,None,True
+OUT-69CF228E,P100896,TR-20176,PHQ-9,score,22.7,16.9,-5.8,-25.7,2022-07-09,Strong Response,Headache,True
+OUT-69BDF66A,P100895,TR-20029,Tumor Size,mm,93.1,89.9,-3.2,-3.4,2022-10-12,Minimal Response,Headache,True
+OUT-DBA3A460,P100931,TR-20186,Systolic BP,mmHg,176.1,166.7,-9.4,-5.3,2024-07-30,Minimal Response,Dizziness,True
+OUT-3E993C8D,P100058,TR-20106,HbA1c,%,8.7,7.5,-1.2,-14.0,2023-09-07,Moderate Response,Dizziness,True
+OUT-C3622E49,P100213,TR-20071,HbA1c,%,11.7,11.8,0.1,0.5,2024-09-10,No Response,Fatigue,True
+OUT-2DC4590D,P100065,TR-20041,PHQ-9,score,10.8,8.0,-2.8,-26.2,2024-11-20,Strong Response,Fatigue,True
+OUT-4524F2D4,P100100,TR-20053,Systolic BP,mmHg,135.7,83.4,-52.3,-38.5,2023-05-16,Strong Response,Headache,True
+OUT-FEA26BD6,P100530,TR-20046,HbA1c,%,11.6,8.8,-2.8,-23.7,2022-07-09,Moderate Response,Dizziness,True
+OUT-2741A467,P100977,TR-20136,Tumor Size,mm,81.4,75.4,-6.0,-7.4,2022-10-17,Minimal Response,Dizziness,True
+OUT-979D3EA8,P100977,TR-20017,FEV1,L,1.5,1.0,-0.5,-30.5,2022-01-25,Strong Response,None,True
+OUT-F0F3E3D3,P100629,TR-20123,FEV1,L,1.7,1.6,-0.1,-7.8,2024-04-21,Minimal Response,None,True
+OUT-1D7EDC5C,P100643,TR-20061,PHQ-9,score,12.4,14.0,1.6,12.9,2023-05-28,Worsened,Fatigue,True
+OUT-FE297428,P100284,TR-20165,Tumor Size,mm,108.1,71.4,-36.7,-33.9,2024-06-23,Strong Response,Mild nausea,True
+OUT-73EB0D7C,P100987,TR-20192,HbA1c,%,7.1,5.6,-1.5,-21.0,2022-02-02,Moderate Response,Mild nausea,True
+OUT-E611BCCC,P100987,TR-20104,Tumor Size,mm,110.2,100.5,-9.7,-8.8,2022-10-10,Minimal Response,Mild nausea,True
+OUT-AF76E0B8,P100711,TR-20136,Tumor Size,mm,59.7,58.4,-1.3,-2.1,2022-01-03,No Response,Mild nausea,True
+OUT-A071B5FF,P100137,TR-20198,PHQ-9,score,8.5,7.0,-1.5,-17.5,2022-05-24,Moderate Response,Headache,True
+OUT-48F6E42A,P100137,TR-20142,FEV1,L,3.1,3.1,0.0,-0.3,2024-01-05,No Response,Mild nausea,True
+OUT-BFCB496E,P100148,TR-20185,PHQ-9,score,12.2,12.9,0.7,6.0,2024-07-19,Worsened,None,True
+OUT-753120CF,P100148,TR-20196,HbA1c,%,8.2,5.0,-3.2,-38.6,2022-10-13,Strong Response,Dizziness,True
+OUT-E6788921,P100381,TR-20155,FEV1,L,1.4,0.9,-0.5,-33.7,2022-05-23,Strong Response,Mild nausea,True
+OUT-F579E2A0,P100381,TR-20145,FEV1,L,2.1,1.5,-0.6,-30.0,2024-03-25,Strong Response,None,True
+OUT-E46FF1ED,P100713,TR-20087,HbA1c,%,6.9,6.3,-0.6,-8.2,2023-06-26,Minimal Response,Headache,True
+OUT-14B5E707,P100157,TR-20059,PHQ-9,score,6.0,4.1,-1.9,-31.6,2022-10-21,Strong Response,Headache,True
+OUT-5DCFE722,P100463,TR-20190,HbA1c,%,6.8,6.5,-0.3,-4.0,2022-12-26,Minimal Response,Mild nausea,True
+OUT-A48864D8,P100921,TR-20035,Systolic BP,mmHg,154.5,175.0,20.5,13.3,2022-05-21,Worsened,Fatigue,True
+OUT-59F2E231,P100576,TR-20010,HbA1c,%,7.3,6.7,-0.6,-7.9,2024-02-06,Minimal Response,None,True
+OUT-853D59A7,P100384,TR-20072,PHQ-9,score,21.3,17.0,-4.3,-20.1,2023-06-14,Moderate Response,Fatigue,True
+OUT-ED38EA10,P100140,TR-20061,PHQ-9,score,21.1,22.7,1.6,7.5,2022-12-30,Worsened,Mild nausea,True
+OUT-7AAD91D9,P100324,TR-20138,PHQ-9,score,14.5,10.1,-4.4,-30.5,2024-02-24,Strong Response,None,True
+OUT-FED2514F,P100324,TR-20192,HbA1c,%,10.0,7.5,-2.5,-24.9,2024-10-19,Moderate Response,Mild nausea,True
+OUT-DAC7E9A9,P100435,TR-20194,FEV1,L,2.5,1.6,-0.9,-36.5,2024-05-13,Strong Response,None,True
+OUT-39A3F501,P100150,TR-20106,PHQ-9,score,27.0,20.9,-6.1,-22.6,2023-10-13,Moderate Response,None,True
+OUT-18D5AE0E,P100624,TR-20110,Systolic BP,mmHg,169.7,155.2,-14.5,-8.5,2024-07-16,Minimal Response,None,True
+OUT-0E589C57,P100747,TR-20043,Tumor Size,mm,53.7,46.8,-6.9,-12.9,2023-12-21,Moderate Response,Headache,True
+OUT-3669C4CC,P100168,TR-20071,Systolic BP,mmHg,171.5,104.9,-66.6,-38.9,2024-06-24,Strong Response,Headache,True
+OUT-2D59DA67,P100008,TR-20188,Tumor Size,mm,59.2,57.8,-1.4,-2.3,2023-08-24,No Response,Headache,True
+OUT-51B6C4AF,P100008,TR-20046,PHQ-9,score,23.3,22.0,-1.3,-5.4,2023-03-02,Minimal Response,Fatigue,True
+OUT-8C683CDC,P100692,TR-20058,HbA1c,%,6.8,7.1,0.3,4.0,2024-11-11,Worsened,Fatigue,True
+OUT-020B0FF2,P100692,TR-20159,Tumor Size,mm,72.7,86.9,14.2,19.5,2022-09-15,Worsened,Mild nausea,True
+OUT-E10838E8,P100390,TR-20044,FEV1,L,3.6,3.5,-0.1,-1.9,2023-09-22,No Response,Headache,True
+OUT-98D5A78E,P100619,TR-20108,PHQ-9,score,17.3,18.1,0.8,4.7,2023-11-20,Worsened,Headache,True
+OUT-CBF9AC67,P100619,TR-20028,FEV1,L,2.9,2.6,-0.3,-8.7,2023-06-10,Minimal Response,Dizziness,True
+OUT-7E6BBE6A,P100621,TR-20153,Systolic BP,mmHg,122.0,104.1,-17.9,-14.6,2023-08-03,Moderate Response,None,True
+OUT-774BB94B,P100621,TR-20137,HbA1c,%,7.1,6.7,-0.4,-6.1,2023-02-05,Minimal Response,Dizziness,True
+OUT-653AC1D9,P100689,TR-20067,Tumor Size,mm,19.8,12.6,-7.2,-36.3,2024-05-28,Strong Response,Mild nausea,True
+OUT-4A1B54E8,P100036,TR-20076,FEV1,L,1.8,1.7,-0.1,-3.7,2024-10-21,Minimal Response,Dizziness,True
+OUT-02045EC4,P100053,TR-20149,Systolic BP,mmHg,163.7,129.6,-34.1,-20.8,2024-05-09,Moderate Response,Dizziness,True
+OUT-C874866C,P100053,TR-20178,HbA1c,%,12.0,10.6,-1.4,-12.0,2022-02-07,Moderate Response,Fatigue,True
+OUT-E5CD2CE6,P100393,TR-20035,HbA1c,%,11.0,11.6,0.6,5.3,2022-11-26,Worsened,Fatigue,True
+OUT-6D2F7EAC,P100842,TR-20156,FEV1,L,1.7,1.5,-0.2,-9.3,2023-01-17,Minimal Response,Mild nausea,True
+OUT-AECCED7B,P100345,TR-20022,HbA1c,%,7.2,5.7,-1.5,-20.3,2024-05-18,Moderate Response,None,True
+OUT-4A13D828,P100487,TR-20086,Systolic BP,mmHg,150.3,106.6,-43.7,-29.1,2024-10-31,Strong Response,Headache,True
+OUT-E795ACC1,P100195,TR-20053,HbA1c,%,11.9,7.3,-4.6,-39.1,2023-02-17,Strong Response,None,True
+OUT-BB8ACFC9,P100061,TR-20160,Tumor Size,mm,59.7,60.4,0.7,1.2,2022-04-12,No Response,None,True
+OUT-0726D334,P100615,TR-20195,HbA1c,%,11.0,6.6,-4.4,-39.8,2023-09-02,Strong Response,Headache,True
+OUT-E89D40A5,P100250,TR-20009,HbA1c,%,7.9,7.4,-0.5,-6.0,2022-07-22,Minimal Response,Dizziness,True
+OUT-A866A1E9,P100145,TR-20177,PHQ-9,score,21.9,16.6,-5.3,-24.3,2022-08-03,Moderate Response,Headache,True
+OUT-BE5A5958,P100494,TR-20138,Systolic BP,mmHg,165.9,189.6,23.7,14.3,2022-04-15,Worsened,Dizziness,True
+OUT-22DA0649,P100494,TR-20166,FEV1,L,1.4,1.4,0.0,-3.2,2024-08-13,Minimal Response,Dizziness,True
+OUT-C2358E20,P100630,TR-20173,FEV1,L,3.6,3.6,0.0,1.3,2022-06-07,No Response,Mild nausea,True
+OUT-75236DE3,P100693,TR-20067,PHQ-9,score,12.8,9.9,-2.9,-22.5,2022-09-02,Moderate Response,None,True
+OUT-0AB0EE01,P100693,TR-20041,PHQ-9,score,25.3,21.5,-3.8,-14.9,2024-06-27,Moderate Response,Dizziness,True
+OUT-71B62DE0,P100612,TR-20196,HbA1c,%,9.1,8.6,-0.5,-5.2,2022-04-26,Minimal Response,Mild nausea,True
+OUT-401CC28A,P100408,TR-20121,PHQ-9,score,7.9,6.4,-1.5,-18.6,2024-11-14,Moderate Response,None,True
+OUT-4A9C99CC,P100388,TR-20154,Tumor Size,mm,62.2,59.9,-2.3,-3.7,2023-02-20,No Response,Dizziness,True
+OUT-6F659037,P100406,TR-20097,Tumor Size,mm,80.1,65.9,-14.2,-17.8,2022-09-05,Moderate Response,Dizziness,True
+OUT-7C863857,P100372,TR-20097,Systolic BP,mmHg,149.6,142.7,-6.9,-4.6,2024-05-08,No Response,Dizziness,True
+OUT-0FFB9643,P100793,TR-20069,HbA1c,%,11.5,8.3,-3.2,-28.0,2022-01-31,Strong Response,Dizziness,True
+OUT-A77AC421,P100034,TR-20014,FEV1,L,3.4,3.0,-0.4,-10.4,2022-03-06,Moderate Response,None,True
+OUT-F9D3B7CE,P100469,TR-20158,Systolic BP,mmHg,159.4,147.2,-12.2,-7.7,2022-10-04,Minimal Response,Mild nausea,True
+OUT-8E288796,P100946,TR-20005,PHQ-9,score,26.2,19.0,-7.2,-27.6,2024-03-11,Strong Response,Dizziness,True
+OUT-AD0F4DFC,P100946,TR-20198,HbA1c,%,10.9,9.3,-1.6,-15.0,2024-02-23,Moderate Response,Dizziness,True
+OUT-B8E859D6,P100370,TR-20143,FEV1,L,3.6,2.5,-1.1,-30.0,2022-02-10,Strong Response,Headache,True
+OUT-ACCB187E,P100241,TR-20046,PHQ-9,score,20.2,16.5,-3.7,-18.4,2022-08-31,Moderate Response,Mild nausea,True
+OUT-C73BAD4C,P100241,TR-20141,Tumor Size,mm,103.6,102.2,-1.4,-1.4,2022-10-18,No Response,None,True
+OUT-7916C456,P100286,TR-20040,FEV1,L,1.3,0.9,-0.4,-33.9,2023-09-03,Strong Response,Mild nausea,True
+OUT-903E8FDD,P100350,TR-20065,PHQ-9,score,7.1,5.3,-1.8,-24.9,2023-02-09,Moderate Response,Fatigue,True
+OUT-601C3CBE,P100534,TR-20162,HbA1c,%,11.9,13.5,1.6,13.7,2023-06-13,Worsened,Mild nausea,True
+OUT-82418964,P100365,TR-20011,FEV1,L,3.6,3.4,-0.2,-4.4,2023-03-31,Minimal Response,Dizziness,True
+OUT-70BE0DA8,P100365,TR-20048,Systolic BP,mmHg,138.0,138.0,0.0,0.0,2023-03-28,No Response,None,True
+OUT-CF0D1F58,P100233,TR-20187,HbA1c,%,8.2,5.4,-2.8,-33.6,2022-06-02,Strong Response,None,True
+OUT-09BFC91F,P100777,TR-20136,FEV1,L,3.6,2.2,-1.4,-38.5,2022-05-26,Strong Response,Headache,True
+OUT-8FDDB937,P100220,TR-20095,PHQ-9,score,21.0,20.1,-0.9,-4.3,2024-03-05,Minimal Response,Fatigue,True
+OUT-911503BA,P100220,TR-20062,PHQ-9,score,20.8,14.6,-6.2,-30.0,2023-11-07,Strong Response,Mild nausea,True
+OUT-635D1BAE,P100800,TR-20035,FEV1,L,2.7,1.8,-0.9,-35.1,2022-08-31,Strong Response,Fatigue,True
+OUT-4FB20A99,P100800,TR-20120,PHQ-9,score,14.5,13.2,-1.3,-8.8,2024-11-01,Minimal Response,Dizziness,True
+OUT-DF935B2B,P100957,TR-20164,PHQ-9,score,23.9,16.0,-7.9,-32.9,2023-11-22,Strong Response,Fatigue,True
+OUT-22356D12,P100614,TR-20056,HbA1c,%,7.3,7.1,-0.2,-2.8,2024-10-06,Minimal Response,Fatigue,True
+OUT-DD2EBCB4,P100979,TR-20066,HbA1c,%,7.3,6.3,-1.0,-13.5,2024-10-16,Moderate Response,Dizziness,True
+OUT-7A07BB69,P100979,TR-20151,HbA1c,%,8.4,5.5,-2.9,-34.4,2022-04-04,Strong Response,Dizziness,True
+OUT-91CD8A1A,P100239,TR-20025,PHQ-9,score,9.0,8.1,-0.9,-9.8,2023-08-29,Minimal Response,Fatigue,True
+OUT-7D7B3566,P100229,TR-20051,PHQ-9,score,21.8,21.5,-0.3,-1.3,2023-07-28,No Response,Headache,True
+OUT-6B4CFD3A,P100347,TR-20035,PHQ-9,score,15.6,9.5,-6.1,-39.0,2022-07-28,Strong Response,None,True
+OUT-69CF56E2,P100163,TR-20193,PHQ-9,score,9.9,9.9,0.0,-0.4,2024-01-11,No Response,Headache,True
+OUT-4035BEC9,P100163,TR-20157,FEV1,L,3.3,3.0,-0.3,-10.1,2023-04-16,Moderate Response,Headache,True
+OUT-75818735,P100757,TR-20003,HbA1c,%,7.8,6.2,-1.6,-20.4,2023-04-13,Moderate Response,Dizziness,True
+OUT-ECB36A42,P100757,TR-20048,HbA1c,%,10.8,10.6,-0.2,-2.0,2022-05-30,No Response,Fatigue,True
+OUT-1F668745,P100578,TR-20097,Tumor Size,mm,103.3,98.5,-4.8,-4.6,2024-02-25,Minimal Response,None,True
+OUT-84F46144,P100666,TR-20107,Systolic BP,mmHg,154.2,133.5,-20.7,-13.4,2024-03-18,Moderate Response,Dizziness,True
+OUT-2A8E5575,P100666,TR-20001,PHQ-9,score,26.6,25.8,-0.8,-3.1,2024-11-23,No Response,Fatigue,True
+OUT-AB45A0CA,P100474,TR-20139,HbA1c,%,9.0,6.9,-2.1,-23.0,2024-07-01,Moderate Response,Headache,True
+OUT-F161A75D,P100802,TR-20105,Systolic BP,mmHg,129.5,152.1,22.6,17.5,2023-02-27,Worsened,Fatigue,True
+OUT-D0101113,P100560,TR-20019,Systolic BP,mmHg,163.9,179.0,15.1,9.2,2024-05-05,Worsened,Mild nausea,True
+OUT-BCDAD377,P100760,TR-20020,FEV1,L,2.9,2.0,-0.9,-32.1,2024-10-29,Strong Response,Headache,True
+OUT-7A0D6D90,P100845,TR-20138,Tumor Size,mm,16.7,17.0,0.3,1.9,2023-06-24,No Response,Dizziness,True
+OUT-082E94EF,P100187,TR-20006,Tumor Size,mm,119.3,93.7,-25.6,-21.5,2022-04-28,Moderate Response,Fatigue,True
+OUT-DE1FB40B,P100646,TR-20191,FEV1,L,3.4,2.2,-1.2,-34.8,2022-02-22,Strong Response,Dizziness,True
+OUT-050F202D,P100556,TR-20033,Tumor Size,mm,95.1,79.6,-15.5,-16.3,2022-06-21,Moderate Response,Fatigue,True
+OUT-CFF4097E,P100881,TR-20015,Tumor Size,mm,104.1,82.1,-22.0,-21.1,2022-01-19,Moderate Response,Fatigue,True
+OUT-23B7253B,P100881,TR-20134,Systolic BP,mmHg,161.2,150.4,-10.8,-6.7,2022-04-29,Minimal Response,Headache,True
+OUT-8EAF0246,P100881,TR-20053,Tumor Size,mm,75.9,65.0,-10.9,-14.3,2023-12-07,Moderate Response,Fatigue,True
+OUT-3C9AA534,P100460,TR-20191,Systolic BP,mmHg,146.7,103.5,-43.2,-29.4,2022-02-26,Strong Response,Mild nausea,True
+OUT-B206A4A7,P100951,TR-20088,Tumor Size,mm,39.3,39.2,-0.1,-0.2,2024-04-04,No Response,Mild nausea,True
+OUT-13CCAFD1,P100096,TR-20112,PHQ-9,score,21.2,15.0,-6.2,-29.4,2022-12-26,Strong Response,Mild nausea,True
+OUT-9D7679CD,P100219,TR-20144,PHQ-9,score,7.7,7.4,-0.3,-3.3,2024-01-30,Minimal Response,Headache,True
+OUT-F7BF4A4E,P100755,TR-20075,PHQ-9,score,18.5,19.2,0.7,3.9,2022-12-03,Worsened,None,True
+OUT-669D8EBA,P100634,TR-20061,FEV1,L,1.6,1.6,0.0,-1.3,2023-08-15,No Response,Fatigue,True
+OUT-4A0EF931,P100102,TR-20136,Tumor Size,mm,55.1,41.6,-13.5,-24.5,2022-12-26,Moderate Response,None,True
+OUT-5AFC5767,P100102,TR-20035,PHQ-9,score,26.0,17.9,-8.1,-31.2,2023-01-02,Strong Response,Mild nausea,True
+OUT-89C37619,P100885,TR-20171,HbA1c,%,11.5,11.3,-0.2,-2.0,2022-01-29,Minimal Response,None,True
+OUT-B8B2D677,P100457,TR-20013,FEV1,L,1.6,1.3,-0.3,-17.6,2022-06-08,Moderate Response,None,True
+OUT-CB2C3296,P100639,TR-20075,PHQ-9,score,17.2,17.1,-0.1,-0.5,2022-02-09,No Response,Mild nausea,True
+OUT-223497C6,P100996,TR-20191,HbA1c,%,8.8,6.5,-2.3,-26.7,2022-03-22,Strong Response,Fatigue,True
+OUT-7DA28953,P100497,TR-20094,HbA1c,%,11.7,7.4,-4.3,-37.0,2023-01-14,Strong Response,Headache,True
+OUT-7CDA24A9,P100303,TR-20085,PHQ-9,score,9.4,9.3,-0.1,-1.2,2023-04-04,No Response,None,True
+OUT-3D45D4CD,P100879,TR-20080,PHQ-9,score,8.9,5.9,-3.0,-33.3,2023-05-10,Strong Response,Dizziness,True
+OUT-6495353C,P100203,TR-20076,HbA1c,%,9.5,9.7,0.2,2.6,2024-03-25,Worsened,Fatigue,True
+OUT-70FFE6C0,P100784,TR-20031,FEV1,L,1.3,1.3,0.0,1.2,2023-10-28,No Response,None,True
+OUT-2D3B88C1,P100057,TR-20186,Tumor Size,mm,34.9,31.8,-3.1,-9.0,2022-11-20,Minimal Response,Headache,True
+OUT-91BB7D7E,P100833,TR-20144,Systolic BP,mmHg,152.9,112.3,-40.6,-26.6,2022-08-30,Strong Response,Headache,True
+OUT-C1B7DCC7,P100446,TR-20178,Systolic BP,mmHg,141.5,105.6,-35.9,-25.4,2024-05-29,Strong Response,None,True
+OUT-30C49F86,P100446,TR-20157,Systolic BP,mmHg,170.0,159.2,-10.8,-6.4,2023-11-10,Minimal Response,Mild nausea,True
+OUT-040F0CF2,P100120,TR-20112,PHQ-9,score,24.1,19.2,-4.9,-20.4,2023-02-25,Moderate Response,Dizziness,True
+OUT-F1E58B2E,P100120,TR-20170,PHQ-9,score,11.2,10.6,-0.6,-5.3,2022-02-17,Minimal Response,Headache,True
+OUT-D0B7A87E,P100279,TR-20056,HbA1c,%,9.3,7.4,-1.9,-20.5,2022-01-06,Moderate Response,Headache,True
+OUT-C1378317,P100084,TR-20199,PHQ-9,score,26.9,26.0,-0.9,-3.2,2022-02-14,Minimal Response,Mild nausea,True
+OUT-1C9E1A32,P100084,TR-20069,HbA1c,%,9.5,9.3,-0.2,-2.6,2022-12-18,Minimal Response,Dizziness,True
+OUT-62AA6B42,P100299,TR-20001,HbA1c,%,7.5,7.3,-0.2,-2.8,2023-09-05,Minimal Response,Mild nausea,True
+OUT-2A08925F,P100299,TR-20002,Tumor Size,mm,14.6,10.0,-4.6,-31.4,2022-03-12,Strong Response,Dizziness,True

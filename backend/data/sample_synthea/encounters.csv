@@ -1,0 +1,9 @@
+Id,START,STOP,PATIENT,ENCOUNTERCLASS,CODE,DESCRIPTION
+enc-001,2026-06-01,2026-06-01,p-001,ambulatory,185349003,Encounter for check up
+enc-002,2026-06-01,2026-06-01,p-002,ambulatory,185349003,Encounter for check up
+enc-003,2026-05-01,2026-05-01,p-003,ambulatory,185349003,Encounter for check up
+enc-004,2026-05-15,2026-05-15,p-004,ambulatory,185349003,Encounter for check up
+enc-005,2026-05-20,2026-05-20,p-005,ambulatory,185349003,Encounter for check up
+enc-006,2026-04-10,2026-04-10,p-006,ambulatory,185349003,Encounter for check up
+enc-007,2026-03-01,2026-03-01,p-007,wellness,185349003,General wellness visit
+enc-008,2026-06-10,2026-06-10,p-008,ambulatory,185349003,Encounter for check up

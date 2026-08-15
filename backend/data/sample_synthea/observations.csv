@@ -1,0 +1,11 @@
+DATE,PATIENT,ENCOUNTER,CATEGORY,CODE,DESCRIPTION,VALUE,UNITS,TYPE
+2026-06-01,p-001,enc-001,laboratory,4548-4,HbA1c,8.2,%,numeric
+2026-06-01,p-001,enc-001,vital-signs,39156-5,BMI,28.4,kg/m2,numeric
+2026-06-01,p-002,enc-002,laboratory,4548-4,HbA1c,6.1,%,numeric
+2026-06-01,p-002,enc-002,vital-signs,39156-5,BMI,24.1,kg/m2,numeric
+2026-05-15,p-004,enc-004,vital-signs,8480-6,Systolic Blood Pressure,148,mmHg,numeric
+2026-05-15,p-004,enc-004,vital-signs,8462-4,Diastolic Blood Pressure,92,mmHg,numeric
+2026-05-20,p-005,enc-005,vital-signs,8480-6,Systolic Blood Pressure,138,mmHg,numeric
+2026-04-10,p-006,enc-006,laboratory,2039-6,Tumor Marker Level,45,U/mL,numeric
+2026-06-10,p-008,enc-008,laboratory,4548-4,HbA1c,7.9,%,numeric
+2026-06-10,p-008,enc-008,laboratory,2160-0,Creatinine,1.8,mg/dL,numeric
