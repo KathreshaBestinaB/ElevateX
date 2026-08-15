@@ -30,3 +30,11 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+
+# SQLite runtime databases & test artifacts
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+data/mutations_test_dummies.json
+

@@ -30,7 +30,7 @@ export default function SimilarPatients({ patientId = 'P001024', onNavigate }) {
         <div>
           <span className="badge badge-purple">High-Dimensional Vector Search</span>
           <h2>Similar Patient Cohort Search Engine</h2>
-          <p>Scans 100,000 synthetic patient records using multi-parametric clinical distance vectors.</p>
+          <p>Scans patient records across the clinical lakehouse using multi-parametric distance vectors.</p>
         </div>
         <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
           <label className="text-sm text-muted">Target Patient:</label>
@@ -48,7 +48,7 @@ export default function SimilarPatients({ patientId = 'P001024', onNavigate }) {
       </div>
 
       {loading ? (
-        <div className="loading-state">Querying 100,000 patient feature matrix across analytical cluster...</div>
+        <div className="loading-state">Querying clinical feature matrix across analytical cluster...</div>
       ) : data ? (
         <>
           {/* Query Patient Snapshot */}
@@ -72,7 +72,7 @@ export default function SimilarPatients({ patientId = 'P001024', onNavigate }) {
               </div>
               <div>
                 <span className="text-muted text-xs">Search Space</span>
-                <div className="font-bold text-purple text-md">100,000 Patients Audited</div>
+                <div className="font-bold text-purple text-md">{data.search_space?.patients_analyzed?.toLocaleString() || '1,000'} Patients Audited</div>
               </div>
             </div>
           </div>

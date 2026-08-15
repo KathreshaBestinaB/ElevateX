@@ -77,7 +77,50 @@ class BaseRepository(Generic[ModelT]):
                 break
 
         self._local_store[store_key] = data
+        
+        # Merge any persistent local mutations from disk
+        mutations_file = DATA_DIR / f"mutations_{self.collection_name}.json"
+        if mutations_file.exists():
+            try:
+                import json
+                with open(mutations_file, "r", encoding="utf-8") as f:
+                    mutations = json.load(f)
+                    for k, v in mutations.get("upserts", {}).items():
+                        data[k] = v
+                    for k in mutations.get("deletes", []):
+                        data.pop(k, None)
+            except Exception as e:
+                logger.warning("Could not read local mutations for %s: %s", self.collection_name, e)
+
         return data
+
+    def _persist_mutation(self, action: str, doc_id: str, payload: Optional[dict] = None) -> None:
+        """Persist local mutations to disk so CRUD changes survive server restarts."""
+        mutations_file = DATA_DIR / f"mutations_{self.collection_name}.json"
+        mutations = {"upserts": {}, "deletes": []}
+        if mutations_file.exists():
+            try:
+                import json
+                with open(mutations_file, "r", encoding="utf-8") as f:
+                    mutations = json.load(f)
+            except Exception:
+                pass
+        
+        if action == "upsert" and payload is not None:
+            mutations.setdefault("upserts", {})[doc_id] = payload
+            if doc_id in mutations.get("deletes", []):
+                mutations["deletes"].remove(doc_id)
+        elif action == "delete":
+            mutations.setdefault("deletes", []).append(doc_id)
+            mutations.get("upserts", {}).pop(doc_id, None)
+
+        try:
+            import json
+            mutations_file.parent.mkdir(parents=True, exist_ok=True)
+            with open(mutations_file, "w", encoding="utf-8") as f:
+                json.dump(mutations, f, indent=2, default=str)
+        except Exception as e:
+            logger.error("Failed to persist local mutation for %s: %s", self.collection_name, e)
 
     def create(self, data: dict) -> ModelT:
         doc_id = str(data.get(self.id_field) or uuid.uuid4())
@@ -90,9 +133,11 @@ class BaseRepository(Generic[ModelT]):
                 logger.warning("Firestore create failed, saving locally: %s", e)
                 local = self._load_local_data()
                 local[doc_id] = data
+                self._persist_mutation("upsert", doc_id, data)
         else:
             local = self._load_local_data()
             local[doc_id] = data
+            self._persist_mutation("upsert", doc_id, data)
         return self.model_cls(**data)
 
     def get(self, doc_id: str) -> Optional[ModelT]:
@@ -143,6 +188,7 @@ class BaseRepository(Generic[ModelT]):
         if doc_id not in local:
             return None
         local[doc_id].update(updates)
+        self._persist_mutation("upsert", doc_id, local[doc_id])
         return self.get(doc_id)
 
     def delete(self, doc_id: str) -> bool:
@@ -157,5 +203,6 @@ class BaseRepository(Generic[ModelT]):
         local = self._load_local_data()
         if doc_id in local:
             del local[doc_id]
+            self._persist_mutation("delete", doc_id)
             return True
         return False

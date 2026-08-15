@@ -147,8 +147,9 @@ export default function DocumentIntelligence() {
               </div>
 
               {/* Conditions & Medications tags */}
+              {/* Conditions & Negated Conditions */}
               <div style={{ marginTop: '1rem' }}>
-                <h4 className="text-xs text-muted uppercase font-bold">Identified Conditions</h4>
+                <h4 className="text-xs text-muted uppercase font-bold">Affirmed Diagnoses</h4>
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem', marginTop: '0.3rem' }}>
                   {result.extracted_entities?.conditions?.map((c, i) => (
                     <span key={i} className="badge badge-teal">{c}</span>
@@ -156,12 +157,32 @@ export default function DocumentIntelligence() {
                 </div>
               </div>
 
+              {result.extracted_entities?.negated_conditions?.length > 0 && (
+                <div style={{ marginTop: '0.8rem' }}>
+                  <h4 className="text-xs text-red uppercase font-bold">Ruled-Out / Negated Conditions</h4>
+                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem', marginTop: '0.3rem' }}>
+                    {result.extracted_entities.negated_conditions.map((c, i) => (
+                      <span key={i} className="badge badge-danger" style={{ background: 'rgba(239,68,68,0.15)', color: '#F87171', border: '1px solid rgba(239,68,68,0.3)' }}>
+                        ✕ {c} (Negated)
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+
               <div style={{ marginTop: '1rem' }}>
-                <h4 className="text-xs text-muted uppercase font-bold">Interventions & Dosages (with Provenance)</h4>
+                <h4 className="text-xs text-muted uppercase font-bold">Interventions, Dosages & Dosing Schedules</h4>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem', marginTop: '0.4rem' }}>
                   {result.extracted_entities?.medications?.map((m, i) => (
-                    <div key={i} style={{ padding: '0.5rem 0.75rem', background: 'rgba(255,255,255,0.03)', borderRadius: '6px', fontSize: '0.85rem', display: 'flex', justifyContent: 'space-between' }}>
-                      <span className="font-semibold text-white">{m.medication} • <span className="text-teal">{m.dose}</span></span>
+                    <div key={i} style={{ padding: '0.5rem 0.75rem', background: 'rgba(255,255,255,0.03)', borderRadius: '6px', fontSize: '0.85rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                      <span className="font-semibold text-white">
+                        {m.medication} • <span className="text-teal">{m.dose}</span>
+                        {m.route_frequency && m.route_frequency !== 'Unspecified' && (
+                          <span className="badge badge-blue" style={{ marginLeft: '0.5rem', fontSize: '0.75rem' }}>
+                            ⏱ {m.route_frequency}
+                          </span>
+                        )}
+                      </span>
                       <span className="text-xs text-muted">Confidence: {(m.provenance?.confidence * 100).toFixed(0)}%</span>
                     </div>
                   ))}

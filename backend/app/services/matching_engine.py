@@ -158,12 +158,130 @@ def _evaluate_criterion(
             source_text=criterion.source_text,
         )
 
-    # Unstructured — requires manual review
+    # Unstructured / Natural Language Criteria — Evaluated via Biomedical NLP Rule Engine
+    return _evaluate_unstructured_criterion(patient, criterion)
+
+
+def _evaluate_unstructured_criterion(patient: Patient, criterion) -> CriterionMatch:
+    """
+    Biomedical NLP parser for unstructured natural language eligibility criteria.
+    Extracts structured constraints (age limits, lab thresholds, medication exclusions,
+    comorbidities) and evaluates them against the patient profile.
+    """
+    import re
+    raw_text = (getattr(criterion, "source_text", None) or getattr(criterion, "name", "") or "").strip()
+    lower = raw_text.lower()
+
+    # 1. Age extraction (e.g., "age >= 18", "aged 18 to 75", "18-65 years old")
+    age_match = re.search(r"(?:age|aged)\s*(?:>=|>|between|from)?\s*(\d{1,2})\s*(?:to|-|and)?\s*(\d{1,2})?", lower)
+    if age_match:
+        min_age = int(age_match.group(1))
+        max_age = int(age_match.group(2)) if age_match.group(2) else None
+        if max_age:
+            met = min_age <= patient.age <= max_age
+            req_str = f"{min_age} - {max_age} years"
+        else:
+            met = patient.age >= min_age
+            req_str = f">= {min_age} years"
+        return CriterionMatch(
+            criterion_type="age_nlp",
+            name="NLP Age Requirement",
+            status="met" if met else "failed",
+            patient_value=patient.age,
+            required_value=req_str,
+            source_text=raw_text,
+            note=f"Extracted via Biomedical NLP parser",
+        )
+
+    # 2. Lab / Biomarker extraction (e.g., "HbA1c >= 7.5%", "eGFR < 60", "BMI > 30")
+    lab_match = re.search(r"(hba1c|egfr|bmi|systolic|creatinine|alt|ast|ldl|glucose)\s*([><=]+|greater than|less than|at least)?\s*(\d+(?:\.\d+)?)", lower)
+    if lab_match:
+        lab_name = lab_match.group(1).upper()
+        op_raw = lab_match.group(2) or ">="
+        op = ">=" if "least" in op_raw or ">=" in op_raw else ("<=" if "<=" in op_raw else (">" if ">" in op_raw or "greater" in op_raw else ("<" if "<" in op_raw or "less" in op_raw else "==")))
+        thresh = float(lab_match.group(3))
+
+        obs_val = _patient_observation(patient, lab_name)
+        if obs_val is None:
+            return CriterionMatch(
+                criterion_type="lab_nlp",
+                name=f"NLP Lab {lab_name}",
+                status="missing",
+                patient_value=None,
+                required_value=f"{op} {thresh}",
+                source_text=raw_text,
+                note=f"Extracted requirement for {lab_name}; no measurement recorded",
+            )
+        met = _compare(obs_val, op, thresh)
+        return CriterionMatch(
+            criterion_type="lab_nlp",
+            name=f"NLP Lab {lab_name}",
+            status="met" if met else "failed",
+            patient_value=obs_val,
+            required_value=f"{op} {thresh}",
+            source_text=raw_text,
+            note=f"Parsed from protocol narrative with NLP extraction",
+        )
+
+    # 3. Negation / Exclusion of conditions or therapies
+    is_negation = any(neg in lower for neg in ["no history of", "excluding", "without documented", "free from", "absence of", "negative for", "not diagnosed"])
+
+    for cond in ["diabetes", "hypertension", "heart failure", "kidney disease", "renal impairment", "cancer", "copd", "asthma", "stroke", "hepatitis"]:
+        if cond in lower:
+            has_c = any(cond in pc.lower() for pc in patient.conditions)
+            if is_negation:
+                met = not has_c
+                return CriterionMatch(
+                    criterion_type="condition_nlp_exclusion",
+                    name=f"NLP Exclusion: {cond.title()}",
+                    status="met" if met else "failed",
+                    patient_value="Present" if has_c else "Absent",
+                    required_value="Excluded",
+                    source_text=raw_text,
+                )
+            else:
+                met = has_c
+                return CriterionMatch(
+                    criterion_type="condition_nlp_inclusion",
+                    name=f"NLP Inclusion: {cond.title()}",
+                    status="met" if met else "failed",
+                    patient_value="Present" if has_c else "Absent",
+                    required_value="Required",
+                    source_text=raw_text,
+                )
+
+    # 4. Medication inclusion / exclusion
+    for med in ["metformin", "lisinopril", "insulin", "glp-1", "sglt2", "atorvastatin", "aspirin", "steroid"]:
+        if med in lower:
+            on_med = any(med in pm.lower() for pm in patient.medications)
+            if is_negation:
+                met = not on_med
+                return CriterionMatch(
+                    criterion_type="medication_nlp_exclusion",
+                    name=f"NLP Exclusion: {med.title()}",
+                    status="met" if met else "failed",
+                    patient_value="On medication" if on_med else "Not on medication",
+                    required_value="Excluded",
+                    source_text=raw_text,
+                )
+            else:
+                met = on_med
+                return CriterionMatch(
+                    criterion_type="medication_nlp_inclusion",
+                    name=f"NLP Inclusion: {med.title()}",
+                    status="met" if met else "failed",
+                    patient_value="On medication" if on_med else "Not on medication",
+                    required_value="Required",
+                    source_text=raw_text,
+                )
+
+    # Fallback to manual review warning
     return CriterionMatch(
-        criterion_type="requires_manual_review", name=criterion.name,
+        criterion_type="requires_manual_review",
+        name=getattr(criterion, "name", "Clinical Criterion"),
         status="warning",
-        source_text=criterion.source_text,
-        note="This criterion could not be automatically evaluated. Manual review required.",
+        source_text=raw_text,
+        note="Complex clinical narrative requiring researcher evaluation.",
     )
 
 

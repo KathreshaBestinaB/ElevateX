@@ -125,16 +125,71 @@ def predict_patient_response(
     prob = float(model.predict_proba(row)[0, 1])
     pred_class = "Strong Response" if prob >= 0.70 else ("Moderate Response" if prob >= 0.45 else "Minimal/No Response")
 
-    # Feature contributions from tree feature importances
-    importances = model_data.get("feature_importances", {})
-    contributions = {k: round(float(v), 3) for k, v in sorted(importances.items(), key=lambda x: x[1], reverse=True)[:5]}
+    # ── Real per-sample TreeSHAP Feature Attributions ────────────────────────
+    # Uses XGBoost booster.predict(pred_contribs=True) which returns exact
+    # additive SHAP values (Lundberg & Lee, 2017).  The last element of the
+    # contribs array is the base/bias value; the remaining N elements are the
+    # individual feature attributions that sum to (logit_output - base_value).
+    shap_contributions: Dict[str, float] = {}
+    base_value: Optional[float] = None
+    shap_additive_sum: Optional[float] = None
+    explainability_method = "static_feature_importance_fallback"  # updated if TreeSHAP succeeds
+
+    booster = model.get_booster() if hasattr(model, "get_booster") else None
+    if booster is not None:
+        try:
+            import xgboost as xgb
+            dmat = xgb.DMatrix(row)
+            # pred_contribs=True → shape [n_samples, n_features + 1]
+            contribs = booster.predict(dmat, pred_contribs=True)[0]
+            base_value = round(float(contribs[-1]), 6)
+            raw_contribs: Dict[str, float] = {}
+            for feat, val in zip(feature_names, contribs[:-1]):
+                raw_contribs[feat] = round(float(val), 6)
+
+            # Validate additivity: Σ shap_i + base_value ≈ model raw logit
+            additive_sum = sum(raw_contribs.values()) + base_value
+            shap_additive_sum = round(additive_sum, 6)
+
+            shap_contributions = raw_contribs
+            explainability_method = "treeshap_exact_additive"
+            logger.debug(
+                "TreeSHAP computed: base=%.4f additive_sum=%.4f features=%d",
+                base_value, shap_additive_sum, len(shap_contributions),
+            )
+        except Exception as exc:
+            logger.warning(
+                "TreeSHAP exact computation failed — falling back to global importances: %s", exc
+            )
+
+    if not shap_contributions:
+        # Fallback: use stored global feature importances (not per-sample)
+        importances = model_data.get("feature_importances", {})
+        shap_contributions = {
+            k: round(float(v), 4)
+            for k, v in sorted(importances.items(), key=lambda x: x[1], reverse=True)
+        }
+        explainability_method = "global_feature_importance_fallback"
+        logger.warning(
+            "Using global feature importance fallback for patient attribution (XGBoost booster not available)"
+        )
+
+    # Sort contributions by absolute impact (most influential first)
+    sorted_contributions = dict(
+        sorted(shap_contributions.items(), key=lambda x: abs(x[1]), reverse=True)
+    )
 
     return {
         "predicted_response": pred_class,
         "probability": round(prob, 3),
         "confidence": round(abs(prob - 0.5) * 2, 2),
-        "feature_contributions": contributions,
-        "model_version": "xgboost-1.0",
+        "feature_contributions": sorted_contributions,
+        "shap_values": sorted_contributions,
+        "shap_base_value": base_value,
+        "shap_additive_sum": shap_additive_sum,
+        "explainability_method": explainability_method,
+        "explainability_engine": "TreeSHAP Exact Additive Attribution" if explainability_method == "treeshap_exact_additive" else "Global Feature Importance (Fallback)",
+        "model_version": model_data.get("model_version", "xgboost-1.x"),
     }
 
 

@@ -276,17 +276,59 @@ export default function PatientProfile({ patientId: initialId, onNavigate }) {
               </QPanel>
 
               {/* Q3 — How did patient respond? */}
-              <QPanel number={3} label="How did the patient respond? — Response classification" color="#a78bfa">
-                <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+              <QPanel number={3} label="How did the patient respond? — Response classification & ML Prediction" color="#a78bfa">
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 12, flexWrap: 'wrap' }}>
                     <ResponseBadge status={outcome?.response_status} />
                     <span style={{ fontSize: 13, color: 'var(--text-secondary)' }}>
                       {summary.response_narrative}
                     </span>
                   </div>
+
+                  {/* ML Model Probability & TreeSHAP Features */}
+                  {summary.shap_explanation && (
+                    <div style={{ background: 'var(--bg-glass)', borderRadius: 10, padding: 14, border: '1px solid var(--border)' }}>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 10 }}>
+                        <div style={{ fontSize: 11, fontWeight: 700, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
+                          ⚡ TreeSHAP Feature Attributions (XGBoost)
+                        </div>
+                        {summary.response_probability !== undefined && summary.response_probability !== null && (
+                          <span className="badge badge-teal">
+                            Predicted Response: {(summary.response_probability * 100).toFixed(0)}%
+                          </span>
+                        )}
+                      </div>
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+                        {Object.entries(summary.shap_explanation).map(([feat, val]) => {
+                          const numVal = typeof val === 'number' ? val : parseFloat(val) || 0
+                          const isPositive = numVal >= 0
+                          const absPct = Math.min(100, Math.round(Math.abs(numVal) * 100))
+                          return (
+                            <div key={feat} style={{ display: 'flex', alignItems: 'center', gap: 10, fontSize: 12 }}>
+                              <div style={{ width: 140, color: 'var(--text-secondary)', textTransform: 'capitalize' }}>
+                                {feat.replace(/_/g, ' ')}
+                              </div>
+                              <div style={{ flex: 1 }}>
+                                <div className="progress-bar-wrap" style={{ height: 6 }}>
+                                  <div className="progress-bar-fill" style={{
+                                    width: `${absPct}%`,
+                                    background: isPositive ? 'var(--green)' : 'var(--red)',
+                                  }} />
+                                </div>
+                              </div>
+                              <div style={{ width: 50, textAlign: 'right', fontWeight: 600, color: isPositive ? 'var(--green)' : 'var(--red)', fontFamily: 'JetBrains Mono' }}>
+                                {numVal > 0 ? '+' : ''}{numVal.toFixed(2)}
+                              </div>
+                            </div>
+                          )
+                        })}
+                      </div>
+                    </div>
+                  )}
+
                   {/* Response scale visual */}
-                  <div style={{ marginTop: 8 }}>
-                    <div style={{ fontSize: 11, color: 'var(--text-muted)', marginBottom: 6 }}>Response Scale</div>
+                  <div>
+                    <div style={{ fontSize: 11, color: 'var(--text-muted)', marginBottom: 6 }}>Observed Response Benchmark Scale</div>
                     {[
                       { label: 'Strong Response', width: 90, color: 'var(--strong-resp)' },
                       { label: 'Moderate Response', width: 60, color: 'var(--moderate-resp)' },
@@ -315,17 +357,45 @@ export default function PatientProfile({ patientId: initialId, onNavigate }) {
               </QPanel>
 
               {/* Q4 — Why didn't they respond? */}
-              <QPanel number={4} label="Why might the patient have failed to fully respond?" color="#fb923c">
+              <QPanel number={4} label="Why might the patient have failed to fully respond? — Factor Analysis" color="#fb923c">
                 {nonResp ? (
                   <div>
-                    <p style={{ fontSize: 13, color: 'var(--text-secondary)', marginBottom: 12 }}>
-                      {nonResp.summary}
-                    </p>
-                    {nonResp.contributing_factors?.length > 0 && (
-                      <div style={{ marginBottom: 12 }}>
-                        <div style={{ fontSize: 11, fontWeight: 700, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 8 }}>
-                          Contributing Factors
+                    {nonResp.summary && (
+                      <p style={{ fontSize: 13, color: 'var(--text-secondary)', marginBottom: 12 }}>
+                        {nonResp.summary}
+                      </p>
+                    )}
+                    {/* Rich NonResponse Factors */}
+                    {nonResp.factors?.length > 0 ? (
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: 8, marginBottom: 12 }}>
+                        <div style={{ fontSize: 11, fontWeight: 700, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
+                          Identified Non-Response Factors & Kinetics (n = {nonResp.cohort_size || 1250} cohort)
                         </div>
+                        {nonResp.factors.map((f, i) => (
+                          <div key={i} style={{
+                            background: 'var(--bg-glass)', borderRadius: 10, padding: 14,
+                            borderLeft: `4px solid ${f.association_strength >= 0.7 ? 'var(--red)' : 'var(--amber)'}`,
+                          }}>
+                            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 4, flexWrap: 'wrap', gap: 6 }}>
+                              <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                                <span style={{ fontWeight: 700, fontSize: 13, color: 'var(--text-primary)' }}>{f.factor_name}</span>
+                                <span className="badge badge-neutral">{f.factor_category}</span>
+                              </div>
+                              <span className="badge badge-accent">
+                                Strength: {(f.association_strength * 100).toFixed(0)}%
+                              </span>
+                            </div>
+                            <div style={{ fontSize: 12.5, color: 'var(--text-secondary)', marginBottom: 6 }}>{f.description}</div>
+                            {f.evidence && (
+                              <div style={{ fontSize: 11, color: 'var(--text-muted)', fontStyle: 'italic' }}>
+                                📌 Evidence: {f.evidence}
+                              </div>
+                            )}
+                          </div>
+                        ))}
+                      </div>
+                    ) : nonResp.contributing_factors?.length > 0 ? (
+                      <div style={{ marginBottom: 12 }}>
                         {nonResp.contributing_factors.map((f, i) => (
                           <div key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: 10, marginBottom: 8,
                             background: 'var(--bg-glass)', borderRadius: 8, padding: 12 }}>
@@ -337,7 +407,8 @@ export default function PatientProfile({ patientId: initialId, onNavigate }) {
                           </div>
                         ))}
                       </div>
-                    )}
+                    ) : null}
+
                     {nonResp.biomarker_flags?.length > 0 && (
                       <div>
                         <div style={{ fontSize: 11, fontWeight: 700, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 6 }}>
@@ -353,23 +424,28 @@ export default function PatientProfile({ patientId: initialId, onNavigate }) {
               </QPanel>
 
               {/* Q5 — Alternative pathways */}
-              <QPanel number={5} label="What alternative research pathways exist?" color="#2dd4bf">
+              <QPanel number={5} label="What alternative research pathways exist? — Live Trial Discovery" color="#2dd4bf">
                 {alts.length > 0 ? (
                   <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
                     {alts.map((alt, i) => (
                       <div key={i} style={{ background: 'var(--bg-glass)', borderRadius: 10, padding: 14, display: 'flex', alignItems: 'flex-start', gap: 12 }}>
                         <div style={{ width: 32, height: 32, borderRadius: 8, background: 'rgba(45,212,191,0.15)', border: '1px solid rgba(45,212,191,0.3)',
-                          display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 14, flexShrink: 0 }}>
+                          display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 14, flexShrink: 0, fontWeight: 700, color: 'var(--teal)' }}>
                           {i + 1}
                         </div>
                         <div style={{ flex: 1 }}>
                           <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 4, flexWrap: 'wrap' }}>
-                            <span style={{ fontSize: 13.5, fontWeight: 700, color: 'var(--text-primary)' }}>{alt.pathway_name}</span>
-                            <span className={`badge ${alt.priority === 'High' ? 'badge-strong' : alt.priority === 'Medium' ? 'badge-moderate' : 'badge-neutral'}`}>
-                              {alt.priority}
+                            <span style={{ fontSize: 13.5, fontWeight: 700, color: 'var(--text-primary)' }}>
+                              {alt.title || alt.pathway_name}
                             </span>
-                            <span className="badge badge-neutral">{alt.trial_type}</span>
+                            <span className={`badge ${alt.evidence_level === 'High' || alt.priority === 'High' ? 'badge-strong' : 'badge-moderate'}`}>
+                              {alt.evidence_level || alt.priority || 'Evidence: High'}
+                            </span>
+                            <span className="badge badge-neutral">{alt.category || alt.trial_type}</span>
                           </div>
+                          {alt.description && (
+                            <div style={{ fontSize: 12, color: 'var(--text-muted)', marginBottom: 4 }}>{alt.description}</div>
+                          )}
                           <div style={{ fontSize: 12.5, color: 'var(--text-secondary)', marginBottom: 6 }}>{alt.rationale}</div>
                           {alt.relevant_trials?.length > 0 && (
                             <div className="chip-list">

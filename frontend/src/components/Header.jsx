@@ -77,7 +77,7 @@ export default function Header({
           </div>
           <div className="status-pill online" title="Apache Spark Lakehouse (Bronze/Silver/Gold)">
             <span className="status-dot"></span>
-            <span className="status-text">Spark 100k</span>
+            <span className="status-text">Lakehouse Active</span>
           </div>
         </div>
 
