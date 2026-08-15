@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { fetchPopulationAnalytics, fetchSparkStatus } from '../services/api.js'
+import { fetchPopulationAnalytics, fetchSparkStatus, fetchEnrollmentTrend } from '../services/api.js'
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid,
   PieChart, Pie, Cell, Legend, AreaChart, Area,
@@ -23,28 +23,19 @@ const PHASE_DATA = [
   { phase: 'Phase 4', pct: 18.0, count: 1800 },
 ]
 
-// Simulated time-series enrolment trend
-const TREND_DATA = Array.from({ length: 24 }, (_, i) => {
-  const d = new Date(2023, i % 12, 1)
-  const base = 800 + Math.sin(i * 0.5) * 200 + i * 30
-  return {
-    month: d.toLocaleDateString('en-US', { month: 'short', year: '2-digit' }),
-    enrollments: Math.round(base + Math.random() * 150),
-    outcomes: Math.round(base * 0.75 + Math.random() * 100),
-  }
-})
-
 export default function PopulationAnalytics({ onNavigate }) {
   const [analytics, setAnalytics] = useState(null)
   const [spark,     setSpark]     = useState(null)
+  const [trendData, setTrendData] = useState([])
   const [tab,       setTab]       = useState('overview')
   const [loading,   setLoading]   = useState(true)
 
   useEffect(() => {
-    Promise.allSettled([fetchPopulationAnalytics(), fetchSparkStatus()])
-      .then(([a, s]) => {
+    Promise.allSettled([fetchPopulationAnalytics(), fetchSparkStatus(), fetchEnrollmentTrend()])
+      .then(([a, s, t]) => {
         if (a.status === 'fulfilled') setAnalytics(a.value)
         if (s.status === 'fulfilled') setSpark(s.value)
+        if (t.status === 'fulfilled') setTrendData(t.value?.trend || [])
         setLoading(false)
       })
   }, [])
@@ -142,7 +133,7 @@ export default function PopulationAnalytics({ onNavigate }) {
                   <div className="card-title">📈 Enrollment Trend (24 months)</div>
                 </div>
                 <ResponsiveContainer width="100%" height={200}>
-                  <AreaChart data={TREND_DATA}>
+                  <AreaChart data={trendData}>
                     <defs>
                       <linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
                         <stop offset="0%" stopColor="#38bdf8" stopOpacity={0.3} />

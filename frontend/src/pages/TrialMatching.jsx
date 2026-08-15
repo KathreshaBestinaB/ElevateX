@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { runMatching } from '../services/api.js'
 
 function ScoreMeter({ score }) {
@@ -38,6 +38,18 @@ export default function TrialMatching({ patientId: initialId, onNavigate }) {
   const [error,     setError]     = useState(null)
   const [minScore,  setMinScore]  = useState(0)
   const [expanded,  setExpanded]  = useState(null)
+
+  useEffect(() => {
+    const target = initialId || patientId || 'P001024'
+    setPatientId(target)
+    setInputId(target)
+    setLoading(true)
+    setError(null)
+    runMatching(target, minScore, 30)
+      .then(setResults)
+      .catch(e => setError(e.message))
+      .finally(() => setLoading(false))
+  }, [initialId])
 
   function handleRun() {
     setLoading(true)

@@ -1,5 +1,27 @@
 [
   {
+    "log_id": "AUD-0011",
+    "timestamp": "2026-08-15T21:44:29.751178+00:00",
+    "user": "airflow.scheduler",
+    "role": "Data Orchestration",
+    "action": "AIRFLOW_DAG_RUN",
+    "resource": "DAG: daily_patient_data_pipeline / Run: manual__20260815T214429_daily_",
+    "status": "APPROVED",
+    "model_version": "airflow-2.8.1",
+    "details": "Executed 3 tasks in 171.2ms with state SUCCESS."
+  },
+  {
+    "log_id": "AUD-0010",
+    "timestamp": "2026-08-15T21:44:24.917962+00:00",
+    "user": "system.stream",
+    "role": "Streaming Pipeline",
+    "action": "STREAM_EVENT_INGEST",
+    "resource": "Patient P001024 / lab.results",
+    "status": "APPROVED",
+    "model_version": "event-stream-v2.0",
+    "details": "Stream event ingested for HbA1c=7.0% (Partition 0, Offset 1003). Recalculated response: Strong Response."
+  },
+  {
     "log_id": "AUD-0009",
     "timestamp": "2026-08-15T20:45:14.771085+00:00",
     "user": "airflow.scheduler",

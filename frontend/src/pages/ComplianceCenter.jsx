@@ -7,16 +7,19 @@ export default function ComplianceCenter() {
   const [reviewNotes, setReviewNotes] = useState('Reviewed 24-week outcome delta and approved AI response analysis.')
   const [reviewSuccess, setReviewSuccess] = useState(false)
 
+  const loadDashboard = async () => {
+    try {
+      const res = await fetchComplianceDashboard()
+      setData(res)
+    } catch (err) {
+      console.error(err)
+    } finally {
+      setLoading(false)
+    }
+  }
+
   useEffect(() => {
-    fetchComplianceDashboard()
-      .then(res => {
-        setData(res)
-        setLoading(false)
-      })
-      .catch(err => {
-        console.error(err)
-        setLoading(false)
-      })
+    loadDashboard()
   }, [])
 
   async function handleApprove() {
@@ -29,10 +32,22 @@ export default function ComplianceCenter() {
         notes: reviewNotes,
       })
       setReviewSuccess(true)
+      await loadDashboard()
       setTimeout(() => setReviewSuccess(false), 4000)
     } catch (err) {
       console.error(err)
     }
+  }
+
+  function handleExportAudit() {
+    if (!data?.recent_audit_logs) return
+    const blob = new Blob([JSON.stringify(data.recent_audit_logs, null, 2)], { type: 'application/json' })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = `audit_trail_export_${new Date().toISOString().slice(0, 10)}.json`
+    a.click()
+    URL.revokeObjectURL(url)
   }
 
   return (
@@ -42,6 +57,11 @@ export default function ComplianceCenter() {
           <span className="badge badge-teal">FDA 21 CFR Part 11 & GCP ICH E6</span>
           <h2>Compliance, Data Quality & Audit Center</h2>
           <p>Continuous clinical data validation, algorithmic model governance, and human-in-the-loop sign-off.</p>
+        </div>
+        <div style={{ display: 'flex', gap: '0.75rem' }}>
+          <button className="btn btn-outline" onClick={handleExportAudit}>
+            📥 Export Audit Trail (JSON)
+          </button>
         </div>
       </div>
 

@@ -51,28 +51,42 @@ export default function MedicationEffectiveness() {
       </div>
 
       {loading ? (
-        <div className="loading-state">Analyzing drug response across 100,000 patient lakehouse...</div>
+        <div className="loading-state">Analyzing drug response across patient lakehouse...</div>
       ) : (
         <>
           <div className="metrics-grid">
             <div className="metric-card">
               <span className="metric-label">Highest Response Class</span>
-              <span className="metric-value text-teal">GLP-1 Agonists</span>
-              <span className="metric-sub">74.2% positive response rate</span>
+              <span className="metric-value text-teal">
+                {data.length > 0 ? [...data].sort((a, b) => b.response_rate - a.response_rate)[0]?.drug_class?.split('(')[0] : 'GLP-1 Agonists'}
+              </span>
+              <span className="metric-sub">
+                {data.length > 0 ? `${[...data].sort((a, b) => b.response_rate - a.response_rate)[0]?.response_rate}% positive response rate` : '74.2%'}
+              </span>
             </div>
             <div className="metric-card">
-              <span className="metric-label">Investigational Agent (Drug-X)</span>
-              <span className="metric-value text-blue">68.4%</span>
-              <span className="metric-sub">Avg HbA1c reduction: -1.85%</span>
+              <span className="metric-label">Leading Intervention</span>
+              <span className="metric-value text-blue">
+                {data.length > 0 ? `${data[0]?.response_rate}%` : '68.4%'}
+              </span>
+              <span className="metric-sub">
+                Avg delta: {data.length > 0 ? `${data[0]?.avg_hba1c_reduction}%` : '-1.85%'}
+              </span>
             </div>
             <div className="metric-card">
-              <span className="metric-label">Highest Completion Rate</span>
-              <span className="metric-value text-green">ACE Inhibitors</span>
-              <span className="metric-sub">94.0% trial protocol adherence</span>
+              <span className="metric-label">Highest Adherence Rate</span>
+              <span className="metric-value text-green">
+                {data.length > 0 ? [...data].sort((a, b) => b.completion_rate - a.completion_rate)[0]?.drug_class?.split('(')[0] : 'ACE Inhibitors'}
+              </span>
+              <span className="metric-sub">
+                {data.length > 0 ? `${[...data].sort((a, b) => b.completion_rate - a.completion_rate)[0]?.completion_rate}% protocol adherence` : '94.0%'}
+              </span>
             </div>
             <div className="metric-card">
-              <span className="metric-label">Total Sample Size Audited</span>
-              <span className="metric-value text-purple">33,000+</span>
+              <span className="metric-label">Total Lakehouse Records Audited</span>
+              <span className="metric-value text-purple">
+                {data.reduce((sum, d) => sum + (d.sample_size || 0), 0).toLocaleString()}
+              </span>
               <span className="metric-sub">Longitudinal trial participants</span>
             </div>
           </div>
