@@ -79,3 +79,6 @@ export const recordReviewAction       = (payload) => post('/api/compliance/revie
 // ── Pipeline & Kafka Streaming ─────────────────────────────
 export const fetchPipelineStatus = () => get('/api/pipeline/status')
 export const publishStreamEvent  = (eventPayload) => post('/api/pipeline/publish-event', eventPayload)
+export const runPipelineDag      = (dagId) => post(`/api/pipeline/run-dag/${dagId}`, {})
+export const fetchStreamEvents   = (topic, limit = 30) => get(`/api/pipeline/stream-events?${topic ? `topic=${encodeURIComponent(topic)}&` : ''}limit=${limit}`)
+

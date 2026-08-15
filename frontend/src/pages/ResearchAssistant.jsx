@@ -2,17 +2,18 @@ import { useState } from 'react'
 import { askResearchQuestion } from '../services/api.js'
 
 const SUGGESTIONS = [
-  'Why did patients in the treatment-resistant cohort have a low response rate?',
+  'What is the response rate for patients with Diabetes and HbA1c > 8.0?',
+  'Evaluate outcomes and safety for GLP-1 receptor agonists',
   'Which medication classes had the highest response rate across all trials?',
-  'Which trials had the highest completion and lowest dropout rates?',
-  'What clinical factors were most correlated with adverse events in Phase 3 trials?',
+  'Why did high disease severity patients fail to respond?',
+  'What are the trial completion rates across Phase 1 to Phase 4?',
 ]
 
 export default function ResearchAssistant() {
   const [messages, setMessages] = useState([
     {
       role: 'assistant',
-      text: 'Welcome to the TrialForge AI Research Assistant. I provide evidence-based analytical summaries from the 100,000 patient lakehouse. Ask any question regarding treatment response, non-response factor associations, drug effectiveness, or cohort characteristics.',
+      text: 'Welcome to the TrialForge AI Research Assistant. I compute live observational analytics directly from the Parquet lakehouse. Ask any clinical inquiry regarding treatment response, non-response factor associations, drug effectiveness, or targeted cohort slices (e.g. "Diabetes with HbA1c > 8.0").',
       findings: null,
       disclaimer: 'Observational research decision-support only. Not autonomous medical diagnosis or prescriptive directives.',
       timestamp: new Date().toLocaleTimeString(),
@@ -43,6 +44,7 @@ export default function ResearchAssistant() {
         disclaimer: res.disclaimer,
         cohortSize: res.cohort_size,
         evidenceLevel: res.evidence_level,
+        category: res.question_category,
         timestamp: new Date().toLocaleTimeString(),
       }
       setMessages(prev => [...prev, assistantMsg])
@@ -66,7 +68,7 @@ export default function ResearchAssistant() {
         <div>
           <span className="badge badge-purple">Safe Analytical Query Engine</span>
           <h2>AI Clinical Research Assistant</h2>
-          <p>Natural language research inquiry backed by 100,000 synthetic patient longitudinal lakehouse records.</p>
+          <p>Natural language research inquiry backed by patient longitudinal lakehouse records.</p>
         </div>
       </div>
 
@@ -126,21 +128,28 @@ export default function ResearchAssistant() {
               </p>
 
               {/* Evidence findings table if present */}
-              {m.findings && (
+              {m.findings && m.findings.length > 0 && (
                 <div style={{ marginTop: '1rem', padding: '0.75rem', background: 'rgba(0,0,0,0.3)', borderRadius: '8px' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem' }}>
-                    <span className="text-xs font-bold text-teal uppercase">Supporting Dataset Evidence ({m.cohortSize?.toLocaleString()} Records Analyzed)</span>
-                    <span className="badge badge-purple text-xs">Evidence: {m.evidenceLevel}</span>
+                    <span className="text-xs font-bold text-teal uppercase">
+                      {m.category || 'Dataset Evidence'} ({m.cohortSize?.toLocaleString()} Records Analyzed)
+                    </span>
+                    <span className="badge badge-purple text-xs">Evidence: {m.evidenceLevel || 'High'}</span>
                   </div>
                   <table className="data-table" style={{ fontSize: '0.82rem' }}>
                     <tbody>
-                      {m.findings.map((f, fIdx) => (
-                        <tr key={fIdx}>
-                          <td className="font-semibold text-white">{f.factor || f.medication || f.trial_type}</td>
-                          <td><span className="badge badge-teal">{f.association || f.response_rate || f.completion_rate}</span></td>
-                          <td className="text-muted text-xs">{f.note || (f.sample_size ? `${f.sample_size} patients` : '')}</td>
-                        </tr>
-                      ))}
+                      {m.findings.map((f, fIdx) => {
+                        const label = f.dimension || f.factor || f.drug_class || f.trial_phase || f.metric || f.condition || 'Finding'
+                        const value = f.value || f.response_rate || f.completion_rate || f.association || ''
+                        const detail = f.significance || f.note || (f.sample_size ? `${f.sample_size} sample` : '') || (f.patients_affected ? `${f.patients_affected} patients` : '')
+                        return (
+                          <tr key={fIdx}>
+                            <td className="font-semibold text-white">{label}</td>
+                            <td><span className="badge badge-teal">{value}</span></td>
+                            <td className="text-muted text-xs">{detail}</td>
+                          </tr>
+                        )
+                      })}
                     </tbody>
                   </table>
                 </div>
