@@ -2,7 +2,7 @@
 
 > **An AI-Powered Big Data Platform for Clinical Trial Matching, Longitudinal Post-Trial Treatment Response Intelligence, and Population-Scale Cohort Discovery.**
 
-[![Build & Tests](https://img.shields.io/badge/pytest-38%2F38%20passing-brightgreen)](backend/tests)
+[![Build & Tests](https://img.shields.io/badge/pytest-57%20passed%2C%201%20skipped-brightgreen)](backend/tests)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115-teal)](https://fastapi.tiangolo.com/)
 [![Apache Spark](https://img.shields.io/badge/Apache%20Spark-3.5%20PySpark-orange)](https://spark.apache.org/)
@@ -135,7 +135,7 @@ clinical-trial-intelligence/
 │   │   ├── models/          # Domain Pydantic models (patient, trial, outcome, analytics)
 │   │   ├── repositories/    # Data access layer
 │   │   └── services/        # Business logic (outcome_analyzer, matching_engine, document_service, compliance_service)
-│   └── tests/               # 38 comprehensive pytest test cases
+│   └── tests/               # 58 pytest test cases (57 passing, 1 skipped)
 ├── frontend/
 │   ├── src/
 │   │   ├── components/      # Sidebar, KPI cards, timeline widgets

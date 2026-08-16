@@ -1,5 +1,33 @@
 [
   {
+    "run_id": "manual__20260816T082357_daily_",
+    "dag_id": "daily_patient_data_pipeline",
+    "execution_date": "2026-08-16T08:23:57.540325+00:00",
+    "state": "SUCCESS",
+    "duration_ms": 11.0,
+    "tasks_executed": 3,
+    "tasks": [
+      {
+        "task_id": "extract_synthea_patients",
+        "status": "SUCCESS",
+        "records": 1000,
+        "duration_ms": 0.0
+      },
+      {
+        "task_id": "validate_fhir_schema",
+        "status": "SUCCESS",
+        "null_violations": 0,
+        "duration_ms": 0.85
+      },
+      {
+        "task_id": "load_bronze_parquet",
+        "status": "SUCCESS",
+        "output_path": "data\\bronze\\patients.parquet",
+        "duration_ms": 0.02
+      }
+    ]
+  },
+  {
     "run_id": "manual__20260815T214429_daily_",
     "dag_id": "daily_patient_data_pipeline",
     "execution_date": "2026-08-15T21:44:29.691092+00:00",

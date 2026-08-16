@@ -1,5 +1,5 @@
 patient_id,external_id,gender,birth_date,age,conditions,medications,source
-P001024,P001024,Male,1959-01-24,65,COPD|Rheumatoid Arthritis|Obesity,Lisinopril|Levothyroxine|Albuterol,synthetic
+P001024,P001024,Male,1980-01-24,46,Type 2 Diabetes|Hypertension|Obesity,Metformin|Lisinopril,synthetic
 P100001,P100001,Male,1965-10-14,59,Type 2 Diabetes,Omeprazole,synthetic
 P100002,P100002,Male,1985-09-07,39,COPD|Heart Failure|Depression|Chronic Kidney Disease,Atorvastatin,synthetic
 P100003,P100003,Female,1955-06-09,69,COPD|Asthma,Lisinopril,synthetic

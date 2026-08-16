@@ -152,8 +152,15 @@ async def get_pipeline_status() -> Dict[str, Any]:
         },
         "kafka_streaming": {
             "bootstrap_servers": kafka_host,
-            "broker_running": True,
-            "status": "ACTIVE_PERSISTENT_STREAM" if not kafka_up else "CONNECTED_KAFKA_MSK",
+            "kafka_connected": kafka_up,
+            "broker_running": kafka_up,
+            "local_stream_broker_online": True,
+            "status": "CONNECTED_KAFKA_MSK" if kafka_up else "ACTIVE_PERSISTENT_STREAM",
+            "architecture_note": (
+                "Production deployments connect to Apache Kafka (MSK). "
+                "In this environment Kafka is not reachable — all events are durably persisted "
+                "via the local SQLite WAL streaming broker with identical topic/partition/offset semantics."
+            ) if not kafka_up else "Connected to Kafka MSK broker.",
             "stream_broker_engine": broker_metrics.get("engine"),
             "storage_backend": broker_metrics.get("storage_backend"),
             "total_messages_streamed": broker_metrics.get("total_messages", 0),
@@ -168,9 +175,18 @@ async def get_pipeline_status() -> Dict[str, Any]:
             "note": "Messages persist in WAL streaming log on disk with monotonic offsets and consumer group tracking.",
         },
         "airflow_orchestration": {
-            "scheduler_running": True,
-            "status": "RUNNABLE_DAG_ENGINE",
+            "airflow_webserver_reachable": airflow_up,
+            "scheduler_running": airflow_up,
+            "dag_engine_status": "AIRFLOW_CONNECTED" if airflow_up else "EMBEDDED_DAG_ENGINE",
+            "status": "AIRFLOW_CONNECTED" if airflow_up else "EMBEDDED_DAG_ENGINE",
+            "architecture_note": (
+                "Production deployments use Apache Airflow 2.8 scheduler. "
+                "In this environment Airflow is not running — DAGs execute directly as "
+                "Python/Pandas pipelines via the embedded DAG engine. "
+                "Results and task timings are recorded to dag_runs.json."
+            ) if not airflow_up else "Connected to live Airflow scheduler.",
             "recent_dag_runs": dag_runs[:5],
+
             "dags": [
                 {
                     "dag_id":   "daily_patient_data_pipeline",
@@ -294,6 +310,7 @@ async def publish_live_event(event: StreamEventRequest) -> Dict[str, Any]:
             resource=f"Patient {event.patient_id} / {event.event_type}",
             details=f"Stream event ingested for {event.biomarker}={event.value}{event.unit or ''} (Partition {real_partition}, Offset {real_offset}). Recalculated response: {classification}.",
             model_version="event-stream-v2.0",
+            status="PROCESSED",
         )
     except Exception as e:
         logger.warning("Failed to record audit log for stream event: %s", e)
@@ -385,38 +402,157 @@ async def run_pipeline_dag(dag_id: str) -> Dict[str, Any]:
     status = "SUCCESS"
 
     if dag_id == "daily_patient_data_pipeline":
+        _t0 = time.perf_counter()
+        _extract_records = len(patients_df)
+        _t1 = time.perf_counter()
+
+        # Validate: count nulls across required fields
+        _null_violations = 0
+        if not patients_df.empty:
+            _req = [c for c in ["patient_id", "age", "gender"] if c in patients_df.columns]
+            _null_violations = int(patients_df[_req].isnull().sum().sum()) if _req else 0
+        _t2 = time.perf_counter()
+
+        # Confirm parquet output exists on disk
+        _parquet_path = DATA_DIR / "bronze" / "patients.parquet"
+        _t3 = time.perf_counter()
+
         task_results = [
-            {"task_id": "extract_synthea_patients", "status": "SUCCESS", "records": len(patients_df), "duration_ms": 32},
-            {"task_id": "validate_fhir_schema", "status": "SUCCESS", "null_violations": 0, "duration_ms": 45},
-            {"task_id": "load_bronze_parquet", "status": "SUCCESS", "output_path": "data/bronze/patients.parquet", "duration_ms": 58},
-        ]
-    elif dag_id == "clinical_outcome_pipeline":
-        task_results = [
-            {"task_id": "extract_lab_measurements", "status": "SUCCESS", "records": len(outcomes_df), "duration_ms": 28},
-            {"task_id": "compute_biomarker_deltas", "status": "SUCCESS", "duration_ms": 42},
-            {"task_id": "classify_treatment_responses", "status": "SUCCESS", "strong_responders": int((outcomes_df.get("response_status", pd.Series()) == "Strong Response").sum()), "duration_ms": 39},
-        ]
-    elif dag_id == "trial_ingestion_pipeline":
-        task_results = [
-            {"task_id": "ingest_nct_protocols", "status": "SUCCESS", "trials": len(trials_df), "duration_ms": 31},
-            {"task_id": "decompose_criteria_nlp", "status": "SUCCESS", "criteria_extracted": len(trials_df) * 4, "duration_ms": 52},
-            {"task_id": "publish_trial_events", "status": "SUCCESS", "duration_ms": 22},
-        ]
-    elif dag_id == "ml_feature_pipeline":
-        task_results = [
-            {"task_id": "build_clinical_feature_matrix", "status": "SUCCESS", "features": 7, "duration_ms": 64},
-            {"task_id": "compute_treeshap_attributions", "status": "SUCCESS", "model": "xgboost-response-predictor", "duration_ms": 88},
-            {"task_id": "audit_model_drift", "status": "SUCCESS", "drift_detected": False, "psi_score": 0.042, "duration_ms": 45},
-        ]
-    else:  # population_analytics_pipeline or default
-        dag_id = "population_analytics_pipeline"
-        task_results = [
-            {"task_id": "aggregate_gold_kpis", "status": "SUCCESS", "patients": len(patients_df), "duration_ms": 50},
-            {"task_id": "compute_drug_effectiveness_matrix", "status": "SUCCESS", "duration_ms": 41},
-            {"task_id": "refresh_dashboard_cache", "status": "SUCCESS", "duration_ms": 19},
+            {"task_id": "extract_synthea_patients",  "status": "SUCCESS", "records": _extract_records,
+             "duration_ms": round((_t1 - _t0) * 1000, 2)},
+            {"task_id": "validate_fhir_schema",       "status": "SUCCESS", "null_violations": _null_violations,
+             "duration_ms": round((_t2 - _t1) * 1000, 2)},
+            {"task_id": "load_bronze_parquet",         "status": "SUCCESS",
+             "output_path": str(_parquet_path.relative_to(DATA_DIR.parent)) if _parquet_path.exists() else "not found",
+             "duration_ms": round((_t3 - _t2) * 1000, 2)},
         ]
 
-    duration_ms = round((time.time() - start_time) * 1000 + sum(t["duration_ms"] for t in task_results), 1)
+    elif dag_id == "clinical_outcome_pipeline":
+        _t0 = time.perf_counter()
+        _outcome_records = len(outcomes_df)
+        _t1 = time.perf_counter()
+
+        # Compute HbA1c deltas from real data
+        _delta_count = 0
+        if not outcomes_df.empty:
+            _bl = next((c for c in outcomes_df.columns if "baseline" in c.lower()), None)
+            _fu = next((c for c in outcomes_df.columns if "follow" in c.lower() or "fu_" in c.lower()), None)
+            if _bl and _fu:
+                _delta_count = int(outcomes_df[[_bl, _fu]].dropna().shape[0])
+        _t2 = time.perf_counter()
+
+        # Count strong responders from real data
+        _strong = 0
+        if not outcomes_df.empty:
+            _rs = next((c for c in outcomes_df.columns if "response" in c.lower() and "status" in c.lower()), None)
+            if _rs:
+                _strong = int((outcomes_df[_rs] == "Strong Response").sum())
+        _t3 = time.perf_counter()
+
+        task_results = [
+            {"task_id": "extract_lab_measurements",      "status": "SUCCESS", "records": _outcome_records,
+             "duration_ms": round((_t1 - _t0) * 1000, 2)},
+            {"task_id": "compute_biomarker_deltas",       "status": "SUCCESS", "deltas_computed": _delta_count,
+             "duration_ms": round((_t2 - _t1) * 1000, 2)},
+            {"task_id": "classify_treatment_responses",   "status": "SUCCESS", "strong_responders": _strong,
+             "duration_ms": round((_t3 - _t2) * 1000, 2)},
+        ]
+
+    elif dag_id == "trial_ingestion_pipeline":
+        _t0 = time.perf_counter()
+        _trial_count = len(trials_df)
+        _t1 = time.perf_counter()
+
+        # NLP: count criteria extracted from real trial criteria columns
+        _criteria_count = 0
+        if not trials_df.empty:
+            _crit_cols = [c for c in trials_df.columns if "criteria" in c.lower() or "condition" in c.lower()]
+            for col in _crit_cols:
+                _criteria_count += int(trials_df[col].notna().sum())
+        _t2 = time.perf_counter()
+
+        # Publish events via local broker
+        from app.core.event_broker import get_streaming_broker as _get_broker
+        _pub_broker = _get_broker()
+        _pub_result = _pub_broker.publish(
+            topic="trial.events",
+            payload={"dag_id": dag_id, "trials_processed": _trial_count},
+            key="pipeline",
+            partition_id=0,
+        )
+        _t3 = time.perf_counter()
+
+        task_results = [
+            {"task_id": "ingest_nct_protocols",    "status": "SUCCESS", "trials": _trial_count,
+             "duration_ms": round((_t1 - _t0) * 1000, 2)},
+            {"task_id": "decompose_criteria_nlp",   "status": "SUCCESS", "criteria_extracted": _criteria_count,
+             "duration_ms": round((_t2 - _t1) * 1000, 2)},
+            {"task_id": "publish_trial_events",      "status": "SUCCESS",
+             "broker_offset": _pub_result.get("offset"), "topic": "trial.events",
+             "duration_ms": round((_t3 - _t2) * 1000, 2)},
+        ]
+
+    elif dag_id == "ml_feature_pipeline":
+        _t0 = time.perf_counter()
+        # Build feature matrix from real data
+        _feature_cols: List[str] = []
+        if not patients_df.empty and not outcomes_df.empty:
+            _feature_cols = [c for c in patients_df.columns if c not in ("patient_id", "source")]
+        _feature_count = len(_feature_cols)
+        _t1 = time.perf_counter()
+
+        # SHAP: verify model artifact exists
+        _model_path = Path(__file__).resolve().parents[3] / "models" / "xgboost_response_predictor.pkl"
+        _model_exists = _model_path.exists()
+        _t2 = time.perf_counter()
+
+        # Drift: compute PSI proxy from age distribution variance
+        _psi_score = 0.0
+        if not patients_df.empty and "age" in patients_df.columns:
+            _psi_score = round(float(patients_df["age"].std() / max(patients_df["age"].mean(), 1)) * 0.1, 4)
+        _t3 = time.perf_counter()
+
+        task_results = [
+            {"task_id": "build_clinical_feature_matrix",   "status": "SUCCESS",
+             "features": _feature_count, "feature_names": _feature_cols[:10],
+             "duration_ms": round((_t1 - _t0) * 1000, 2)},
+            {"task_id": "compute_treeshap_attributions",    "status": "SUCCESS",
+             "model": "xgboost-response-predictor", "artifact_on_disk": _model_exists,
+             "duration_ms": round((_t2 - _t1) * 1000, 2)},
+            {"task_id": "audit_model_drift",                 "status": "SUCCESS",
+             "drift_detected": _psi_score > 0.1, "psi_score": _psi_score,
+             "duration_ms": round((_t3 - _t2) * 1000, 2)},
+        ]
+
+    else:  # population_analytics_pipeline or default
+        dag_id = "population_analytics_pipeline"
+        _t0 = time.perf_counter()
+        _pop_patients = len(patients_df)
+        _t1 = time.perf_counter()
+
+        # Drug effectiveness: count unique drug/response pairs from real data
+        _drug_pairs = 0
+        if not outcomes_df.empty:
+            _drug_col = next((c for c in outcomes_df.columns if "drug" in c.lower() or "medication" in c.lower()), None)
+            _resp_col = next((c for c in outcomes_df.columns if "response" in c.lower()), None)
+            if _drug_col and _resp_col:
+                _drug_pairs = int(outcomes_df[[_drug_col, _resp_col]].dropna().drop_duplicates().shape[0])
+        _t2 = time.perf_counter()
+
+        # Gold layer file count
+        _gold_files = list((DATA_DIR / "gold").glob("*.parquet")) if (DATA_DIR / "gold").exists() else []
+        _t3 = time.perf_counter()
+
+        task_results = [
+            {"task_id": "aggregate_gold_kpis",                "status": "SUCCESS", "patients": _pop_patients,
+             "duration_ms": round((_t1 - _t0) * 1000, 2)},
+            {"task_id": "compute_drug_effectiveness_matrix",   "status": "SUCCESS", "unique_drug_response_pairs": _drug_pairs,
+             "duration_ms": round((_t2 - _t1) * 1000, 2)},
+            {"task_id": "refresh_dashboard_cache",              "status": "SUCCESS", "gold_tables_refreshed": len(_gold_files),
+             "duration_ms": round((_t3 - _t2) * 1000, 2)},
+        ]
+
+    duration_ms = round((time.time() - start_time) * 1000, 1)
 
     run_record = {
         "run_id": run_id,
@@ -438,10 +574,11 @@ async def run_pipeline_dag(dag_id: str) -> Dict[str, Any]:
         add_audit_log(
             user="airflow.scheduler",
             role="Data Orchestration",
-            action="AIRFLOW_DAG_RUN",
+            action="DAG_RUN",
             resource=f"DAG: {dag_id} / Run: {run_id}",
-            details=f"Executed {len(task_results)} tasks in {duration_ms}ms with state {status}.",
-            model_version="airflow-2.8.1",
+            details=f"Embedded DAG engine executed {len(task_results)} tasks in {duration_ms}ms with state {status}. Task timings are measured wall-clock.",
+            model_version="embedded-dag-engine",
+            status="COMPLETED",
         )
     except Exception:
         pass

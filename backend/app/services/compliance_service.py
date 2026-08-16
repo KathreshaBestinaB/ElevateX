@@ -22,50 +22,58 @@ logger = logging.getLogger(__name__)
 DATA_DIR = Path(__file__).resolve().parents[3] / "data"
 _AUDIT_FILE = DATA_DIR / "audit_trail.json"
 
+# These are static demo/seed records used to populate an empty audit trail.
+# They represent realistic examples of the event types the platform generates.
+# Runtime-generated entries are appended above these when actions are performed.
+# entry_type: "seed" distinguishes them from live runtime audit records.
 _SEED_LOGS = [
     {
-        "log_id":        "AUD-001",
+        "log_id":        "AUD-0001",
         "timestamp":     "2026-08-15T10:14:22Z",
         "user":          "dr.researcher@trialforge.ai",
         "role":          "Principal Investigator",
         "action":        "OUTCOME_REVIEW",
         "resource":      "Patient P001024 / Trial TR-02045",
         "status":        "APPROVED",
+        "entry_type":    "seed",
         "model_version": "xgboost-1.0",
-        "details":       "Clinician confirmed 24-week HbA1c reduction from 9.1% to 7.2% and approved Moderate Responder classification.",
+        "details":       "Demo record: Clinician confirmed 24-week HbA1c reduction from 9.1% to 7.2% and approved Moderate Responder classification.",
     },
     {
-        "log_id":        "AUD-002",
+        "log_id":        "AUD-0002",
         "timestamp":     "2026-08-15T11:05:10Z",
         "user":          "data.engineer@trialforge.ai",
         "role":          "Data Engineer",
-        "action":        "SPARK_PIPELINE_RUN",
+        "action":        "PIPELINE_RUN",
         "resource":      "Lakehouse Gold Aggregations",
         "status":        "COMPLETED",
-        "model_version": "spark-3.5.x",
-        "details":       "Refreshed drug_effectiveness & population_kpis Parquet tables from bronze layer.",
+        "entry_type":    "seed",
+        "model_version": "embedded-dag-engine",
+        "details":       "Demo record: Refreshed drug_effectiveness & population_kpis Parquet tables from bronze layer.",
     },
     {
-        "log_id":        "AUD-003",
+        "log_id":        "AUD-0003",
         "timestamp":     "2026-08-15T12:30:45Z",
-        "user":          "system.kafka",
+        "user":          "system.stream",
         "role":          "Streaming Engine",
-        "action":        "KAFKA_STREAM_INGEST",
-        "resource":      "Topic: lab.results",
+        "action":        "STREAM_EVENT_INGEST",
+        "resource":      "Topic: lab.results / Patient P001024",
         "status":        "PROCESSED",
-        "model_version": "kafka-2.8",
-        "details":       "Stream event consumed for Patient P001024 (HbA1c=7.2%). Eligibility re-evaluated.",
+        "entry_type":    "seed",
+        "model_version": "event-stream-v2.0",
+        "details":       "Demo record: Stream event processed for Patient P001024 (HbA1c=7.2%) via local SQLite WAL broker. Eligibility re-evaluated.",
     },
     {
-        "log_id":        "AUD-004",
+        "log_id":        "AUD-0004",
         "timestamp":     "2026-08-15T13:45:00Z",
         "user":          "dr.clinical_lead@hospital.org",
         "role":          "Clinical Researcher",
         "action":        "MATCHING_REVIEW",
         "resource":      "Trial TR-02045 Criteria Evaluation",
         "status":        "VERIFIED",
+        "entry_type":    "seed",
         "model_version": "hybrid-matcher-v2",
-        "details":       "Verified deterministic eligibility rule matches. 6/6 criteria met.",
+        "details":       "Demo record: Verified deterministic eligibility rule matches. 6/6 criteria met.",
     },
 ]
 
@@ -279,24 +287,42 @@ def get_audit_logs(limit: int = 50) -> List[Dict[str, Any]]:
 def add_audit_log(
     user: str, role: str, action: str, resource: str,
     details: str, model_version: str = "v1.0",
+    status: str = "RECORDED",
 ) -> Dict[str, Any]:
-    """Append a new audit log entry and persist to disk."""
-    trail  = _load_audit_trail()
-    log_id = f"AUD-{len(trail) + 1:04d}"
-    entry  = {
+    """Append a new runtime audit log entry and persist to disk.
+
+    IDs use zero-padded AUD-XXXX format (same as seeds) with the sequence
+    continuing from the highest existing numeric ID to avoid collisions.
+    """
+    trail = _load_audit_trail()
+
+    # Derive next ID from the highest existing numeric suffix (avoids
+    # collision between seed AUD-0001..0004 and earlier free-running counter)
+    max_num = 0
+    for entry in trail:
+        raw = entry.get("log_id", "")
+        suffix = raw.lstrip("AUD-").lstrip("0") or "0"
+        try:
+            max_num = max(max_num, int(suffix))
+        except ValueError:
+            pass
+    log_id = f"AUD-{max_num + 1:04d}"
+
+    new_entry = {
         "log_id":        log_id,
         "timestamp":     datetime.now(timezone.utc).isoformat(),
         "user":          user,
         "role":          role,
         "action":        action,
         "resource":      resource,
-        "status":        "APPROVED",
+        "status":        status,
+        "entry_type":    "runtime",
         "model_version": model_version,
         "details":       details,
     }
-    trail.insert(0, entry)
+    trail.insert(0, new_entry)
     _save_audit_trail(trail)
-    return entry
+    return new_entry
 
 
 def get_model_registry() -> List[Dict[str, Any]]:
