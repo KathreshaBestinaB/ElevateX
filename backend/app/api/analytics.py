@@ -145,6 +145,7 @@ async def get_population_analytics() -> Dict[str, Any]:
 
     # ── Enrollment by phase (from trials) ───────────────────────────────────
     enrollment_by_phase: Dict[str, float] = {}
+    phase_data_list: List[Dict] = []
     if not trials.empty:
         phase_col = next((c for c in trials.columns if "phase" in c.lower()), None)
         if phase_col:
@@ -154,6 +155,10 @@ async def get_population_analytics() -> Dict[str, Any]:
                 str(k): round((v / total_tr) * 100, 1)
                 for k, v in phase_counts.items()
             }
+            phase_data_list = [
+                {"phase": str(k), "pct": round((v / total_tr) * 100, 1), "count": int(v)}
+                for k, v in phase_counts.items()
+            ]
 
     return {
         "summary": {
@@ -167,6 +172,7 @@ async def get_population_analytics() -> Dict[str, Any]:
         },
         "response_distribution": resp_dist,
         "enrollment_by_phase":   enrollment_by_phase,
+        "phase_data":            phase_data_list,
         "top_conditions":        top_conditions,
         "treatment_effectiveness": drug_effectiveness,
     }

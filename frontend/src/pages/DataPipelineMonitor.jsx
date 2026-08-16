@@ -156,7 +156,9 @@ export default function DataPipelineMonitor() {
                 <h3 style={{ marginTop: '0.3rem' }}>Live Patient Event Publishing & Streaming Log</h3>
               </div>
               <div style={{ display: 'flex', gap: '0.5rem' }}>
-                <span className="badge badge-green">Stream Active</span>
+                <span className={`badge ${pipeline.kafka_streaming?.local_stream_broker_online ? 'badge-green' : 'badge-amber'}`}>
+                  {pipeline.kafka_streaming?.local_stream_broker_online ? 'Stream Active' : 'Stream Offline'}
+                </span>
                 <span className="badge badge-blue">{pipeline.kafka_streaming?.stream_broker_engine || 'SQLite WAL'}</span>
               </div>
             </div>
@@ -248,7 +250,9 @@ export default function DataPipelineMonitor() {
                 <span className="badge badge-blue">Pipeline Orchestration</span>
                 <h3 style={{ marginTop: '0.3rem' }}>Apache Airflow / ETL Pipeline DAGs</h3>
               </div>
-              <span className="badge badge-green">Engine Online</span>
+              <span className={`badge ${pipeline.airflow_orchestration?.scheduler_running ? 'badge-green' : 'badge-amber'}`}>
+                {pipeline.airflow_orchestration?.scheduler_running ? 'Airflow Online' : 'Embedded Engine'}
+              </span>
             </div>
 
             <p className="text-sm text-muted" style={{ marginTop: '0.5rem' }}>

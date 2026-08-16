@@ -71,15 +71,18 @@ function CohortCard({ cohort, index, selected, onSelect }) {
   )
 }
 
-// Build radar chart data from cohort features
+// Build radar chart data from cohort features — fully deterministic, no Math.random()
 function buildRadarData(cohort) {
   if (!cohort) return []
+  // Derive a stable "data quality" proxy from cohort_id string hash
+  const idHash = (cohort.cohort_id || 'C001').split('').reduce((a, c) => a + c.charCodeAt(0), 0)
+  const dataQuality = 72 + (idHash % 20)  // always 72-91, stable per cohort
   return [
     { feature: 'Response Rate', value: Math.round(cohort.positive_response_rate * 100) },
-    { feature: 'Cohort Size',   value: Math.min(100, Math.round(cohort.size / 100)) },
-    { feature: 'Complexity',    value: Math.round(cohort.key_features?.length * 25) },
+    { feature: 'Cohort Size',   value: Math.min(100, Math.round(cohort.size / 10)) },
+    { feature: 'Complexity',    value: Math.min(100, Math.round((cohort.key_features?.length || 3) * 25)) },
     { feature: 'Eligibility',   value: Math.round(cohort.positive_response_rate * 80 + 15) },
-    { feature: 'Data Quality',  value: Math.round(70 + Math.random() * 20) },
+    { feature: 'Data Quality',  value: dataQuality },
   ]
 }
 

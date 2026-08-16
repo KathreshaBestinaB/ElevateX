@@ -16,13 +16,6 @@ const TOOLTIP_STYLE = {
 
 const PIE_COLORS = ['#34d399', '#38bdf8', '#fbbf24', '#f87171', '#ef4444', '#94a3b8']
 
-const PHASE_DATA = [
-  { phase: 'Phase 1', pct: 8.2,  count: 820 },
-  { phase: 'Phase 2', pct: 22.5, count: 2250 },
-  { phase: 'Phase 3', pct: 51.3, count: 5130 },
-  { phase: 'Phase 4', pct: 18.0, count: 1800 },
-]
-
 export default function PopulationAnalytics({ onNavigate }) {
   const [analytics, setAnalytics] = useState(null)
   const [spark,     setSpark]     = useState(null)
@@ -44,6 +37,7 @@ export default function PopulationAnalytics({ onNavigate }) {
   const respDist  = analytics?.response_distribution || {}
   const topConds  = analytics?.top_conditions || []
   const drugEff   = analytics?.treatment_effectiveness || []
+  const phaseData = analytics?.phase_data || []
 
   const pieData = Object.entries(respDist).map(([name, value]) => ({ name, value }))
 
@@ -109,7 +103,7 @@ export default function PopulationAnalytics({ onNavigate }) {
                   <div className="card-title">🔬 Enrollment by Phase</div>
                 </div>
                 <ResponsiveContainer width="100%" height={240}>
-                  <BarChart data={PHASE_DATA}>
+                  <BarChart data={phaseData}>
                     <CartesianGrid stroke="rgba(148,163,184,0.07)" vertical={false} />
                     <XAxis dataKey="phase" tick={{ fill: '#94a3b8', fontSize: 11 }} axisLine={false} tickLine={false} />
                     <YAxis tick={{ fill: '#475569', fontSize: 11 }} axisLine={false} tickLine={false} tickFormatter={v => `${v}%`} />
